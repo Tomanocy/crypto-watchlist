@@ -1,0 +1,58 @@
+name: Refresh public numeric data
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: crypto-pages-main
+  cancel-in-progress: false
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Record editorial checksum
+        run: sha256sum data/page-data.json > /tmp/editorial.sha256
+      - name: Refresh public numeric sources only
+        run: python scripts/refresh_numeric.py
+      - name: Validate curation was not overwritten
+        run: |
+          sha256sum -c /tmp/editorial.sha256
+          python scripts/validate.py
+          test -z "$(git diff --name-only -- . ':!data/numeric-data.json')"
+      - name: Commit numeric JSON only, if changed
+        run: |
+          if ! git diff --quiet -- data/numeric-data.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add data/numeric-data.json
+            git commit -m 'Refresh public numeric observations'
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN pushes do not trigger another push workflow. Deploy explicitly.
+      - name: Prepare public artifact only
+        run: |
+          mkdir -p _site/data
+          cp index.html styles.css app.js .nojekyll _site/
+          cp data/*.json _site/data/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy updated snapshot directly
+        id: deployment
+        uses: actions/deploy-pages@v4
