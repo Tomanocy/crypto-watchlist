@@ -24,5 +24,6 @@ for s in [a['symbol'] for a in seed['assets']]+['ETH','GOLD','TSLA','NVDA','GOOG
   if s in hidx:
     h=json.loads((root/f'data/history/{s}.json').read_text());c=h['closes'];assert c and h['source'] and h['asOf']==c[-1][0]
     assert all(c[i][0]<c[i+1][0] for i in range(len(c)-1)) and all(x[1]>0 for x in c)
+assert all(r in cj for r in ["['2Y',730]","['3Y',1095]","['5Y',1825]"])
 assert not re.search(r'\b(RSI|MACD|Bollinger|moving average|price target)\b',cj,re.I)
 print('Validated: 16 focus coins + BTC, curated/numeric separation, public-safe export, news tags, local asset paths and disclaimers.')

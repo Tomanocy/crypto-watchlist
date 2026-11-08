@@ -2,7 +2,7 @@
 /* Full-screen coin chart overlay. Plain SVG, no libraries. Neutral price context only:
    no indicators, signals or predictions. Pure helpers are exported for node tests. */
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.CoinChart=api;})(typeof self!=='undefined'?self:this,function(){
- const RANGES=[['7D',7],['1M',30],['3M',90],['6M',180],['1Y',365],['Max',Infinity]];
+ const RANGES=[['7D',7],['1M',30],['3M',90],['6M',180],['1Y',365],['2Y',730],['3Y',1095],['5Y',1825],['Max',Infinity]];
  const BENCH=[['BTC','Bitcoin','#F7931A','8 4'],['ETH','Ethereum','#A5B4FC','2 4'],['GOLD','Gold','#D4A017','10 3 2 3'],['TSLA','Tesla','#F87171','4 3'],['NVDA','Nvidia','#84CC16','1 3'],['GOOGL','Alphabet (Google)','#60A5FA','12 4']];
  const COIN_COLOR='#14B8A6';
  const DAY=86400000;
@@ -15,8 +15,11 @@
  function align(dates,rows){const out=[];let j=0,last=null;for(const d of dates){while(j<rows.length&&rows[j][0]<=d){last=rows[j][1];j++;}out.push([d,last]);}return out;}
  function ratio(a,b){const al=align(a.map(r=>r[0]),b);return a.map(([d,v],i)=>[d,al[i][1]>0?v/al[i][1]:null]);}
  function perf(rows,days,end){const s=sliceRange(rows,days,end).filter(r=>r[1]!=null);if(s.length<2)return null;return (s[s.length-1][1]/s[0][1]-1)*100;}
+ /* True when a series covers the full range ending at end (weekly points beyond 1Y: allow 7-day slack). */
+ function covers(rows,days,end){if(!rows||!rows.length)return false;if(days===Infinity)return true;return toDay(rows[0][0])<=toDay(shift(end,days))+7*DAY;}
+ function perfFrom(rows,start,end){const s=rows.filter(r=>r[0]>=start&&r[0]<=end&&r[1]!=null);if(s.length<2)return null;return (s[s.length-1][1]/s[0][1]-1)*100;}
  function parseHash(h){const m=/^#coin=([A-Za-z0-9]{1,12})$/.exec(h||'');return m?m[1].toUpperCase():null;}
- const api={RANGES,BENCH,sliceRange,rebase,align,ratio,perf,parseHash,shift};
+ const api={RANGES,BENCH,sliceRange,rebase,align,ratio,perf,perfFrom,covers,parseHash,shift};
  if(typeof document==='undefined')return api;
 
  const $=id=>document.getElementById(id);
@@ -57,13 +60,14 @@
   draw();return true;}
  function close(){const o=$('coin-overlay');if(!o||o.hidden)return;o.hidden=true;$('co-tip').hidden=true;document.body.classList.remove('co-open');if(parseHash(location.hash))history.replaceState(null,'',location.pathname+location.search);if(lastFocus&&lastFocus.isConnected)lastFocus.focus();}
  const days=k=>RANGES.find(r=>r[0]===k)[1];
- function draw(){if(!st||st.loading)return;const c=st.data[st.sym];document.querySelectorAll('#co-ranges [data-range]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.range===st.range)));
+ function draw(){if(!st||st.loading)return;const c=st.data[st.sym];const cr=c?c.closes:null,ce=cr?cr[cr.length-1][0]:null;if(cr&&!covers(cr,days(st.range),ce))st.range='Max';
+  document.querySelectorAll('#co-ranges [data-range]').forEach(b=>{const k=b.dataset.range,ok=!cr||covers(cr,days(k),ce);b.disabled=!ok;b.title=ok?(k==='Max'&&cr?'Since '+fmtDate(cr[0][0]):''):'Not available: history since launch starts '+fmtDate(cr[0][0]);if(k==='Max'&&cr)b.textContent='Max · since '+new Date(toDay(cr[0][0])).toLocaleDateString('en-US',{month:'short',year:'numeric',timeZone:'UTC'});b.setAttribute('aria-pressed',String(k===st.range));});
   document.querySelectorAll('#co-bench [data-bench]').forEach(b=>{b.setAttribute('aria-pressed',String(st.bench.has(b.dataset.bench)));b.disabled=b.dataset.bench===st.sym;});
   document.querySelectorAll('#co-ratio [data-ratio]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.ratio===st.ratio));b.disabled=b.dataset.ratio===st.sym;});
   if(!c){$('co-sub').textContent='';$('co-chart').innerHTML='<p class="co-na">Data unavailable — price history for this coin could not be loaded. Nothing is estimated.</p>';$('co-legend').innerHTML='';$('co-ratio-chart').innerHTML='<p class="co-na">Data unavailable</p>';$('co-perf').innerHTML='';sources();return;}
   const rows=c.closes,end=rows[rows.length-1][0],sl=sliceRange(rows,days(st.range),end);const last=rows[rows.length-1][1];
-  $('co-sub').innerHTML=`Last ${usd(last)} · ${fmtDate(end)} · Available history: ${fmtDate(rows[0][0])} – ${fmtDate(end)} (${rows.length} daily points; Max = full available range)`;
-  $('co-range-note').textContent=`${st.range}: ${fmtDate(sl[0][0])} – ${fmtDate(end)}${st.range==='Max'||days(st.range)>=rows.length?' · limited to available history':''}`;
+  $('co-sub').innerHTML=`Last ${usd(last)} · ${fmtDate(end)} · Available history: ${fmtDate(rows[0][0])} – ${fmtDate(end)} (${rows.length} points: daily for the last ~13 months, weekly before; longer ranges are disabled when history is shorter)`;
+  $('co-range-note').textContent=`${st.range}: ${fmtDate(sl[0][0])} – ${fmtDate(end)}${st.range==='Max'?' · full available history (since launch / first listed date)':''}${days(st.range)>365?' · weekly points before the last year':''}`;
   const dates=sl.map(r=>r[0]);const benches=[...st.bench].filter(k=>k!==st.sym);let lines,mode;
   if(benches.length){mode='pct';lines=[{k:st.sym,label:st.sym,color:COIN_COLOR,dash:'',pts:rebase(sl)}];for(const k of benches){const b=BENCH.find(x=>x[0]===k),s=st.data[k];if(!s){lines.push({k,label:b[1],color:b[2],dash:b[3],pts:null});continue;}const al=align(dates,s.closes);const startIdx=al.findIndex(r=>r[1]!=null);const base=startIdx<0?null:al[startIdx][1];lines.push({k,label:b[1],color:b[2],dash:b[3],pts:base?al.map(([d,v])=>[d,v==null?null:(v/base-1)*100]):null});}}
   else{mode='usd';lines=[{k:st.sym,label:st.sym+' (USD)',color:COIN_COLOR,dash:'',pts:sl}];}
@@ -75,7 +79,7 @@
   else if(!den)$('co-ratio-chart').innerHTML='<p class="co-na">Data unavailable</p>';
   else svgChart($('co-ratio-chart'),[{k:'r',label:`${st.sym} in ${rlab}`,color:'#D4A017',dash:'',pts:ratio(sl,den.closes)}],'ratio',{h:240,unit:rlab});
   const cols=[[st.sym,c],...BENCH.filter(b=>b[0]!==st.sym).map(b=>[b[0]==='GOLD'?'Gold':b[0],st.data[b[0]]])];
-  $('co-perf').innerHTML=`<table class="co-table"><caption class="sr-only">Percent change over each range, ending ${esc(fmtDate(end))}</caption><thead><tr><th scope="col">Range</th>${cols.map(([n])=>`<th scope="col">${esc(n)}</th>`).join('')}</tr></thead><tbody>${RANGES.map(([k,d])=>`<tr${k===st.range?' class="cur"':''}><th scope="row">${k}</th>${cols.map(([n,s])=>{if(!s)return '<td class="muted">Data unavailable</td>';const v=perf(s.closes,d,end);const avail=d===Infinity||toDay(s.closes[0][0])<=toDay(shift(end,d));return `<td class="${v>0?'up':v<0?'down':''}">${pct(v)}${avail||v==null?'':'<sup title="Shorter than range: from first available day">*</sup>'}</td>`;}).join('')}</tr>`).join('')}</tbody></table><p class="caption">All ranges end ${esc(fmtDate(end))}. * = series history shorter than the range. Benchmarks use their latest close on or before each date.</p>`;
+  $('co-perf').innerHTML=`<table class="co-table"><caption class="sr-only">Percent change over each range, ending ${esc(fmtDate(end))}</caption><thead><tr><th scope="col">Range</th>${cols.map(([n])=>`<th scope="col">${esc(n)}</th>`).join('')}</tr></thead><tbody>${RANGES.map(([k,d])=>`<tr${k===st.range?' class="cur"':''}><th scope="row">${k}</th>${cols.map(([n,s])=>{if(!s)return '<td class="muted">Data unavailable</td>';const start=d===Infinity?rows[0][0]:shift(end,d);const ok=covers(s.closes,d===Infinity?(toDay(end)-toDay(start))/DAY:d,end)&&covers(rows,d,end);const v=ok?perfFrom(s.closes,start,end):null;return v==null?'<td class="muted" title="History too short for this range">—</td>':`<td class="${v>0?'up':v<0?'down':''}">${pct(v)}</td>`;}).join('')}</tr>`).join('')}</tbody></table><p class="caption">All ranges end ${esc(fmtDate(end))}. Max starts at ${esc(st.sym)}'s first available date (${esc(fmtDate(rows[0][0]))}) for every column. — = history too short for that range. Beyond 1Y, points are weekly, so range starts can differ by up to 6 days. Benchmarks use their latest close on or before each date.</p>`;
   sources();}
  function sources(){const ks=[st.sym,...BENCH.map(b=>b[0]).filter(k=>k!==st.sym)];$('co-src').innerHTML='<ul class="co-srclist">'+ks.map(k=>{const s=st.data[k];if(!s)return `<li><strong>${esc(k)}</strong>: Data unavailable</li>`;const u=safe(s.sourceUrl);return `<li><strong>${esc(k==='GOLD'?'Gold':k)}</strong>: ${u?`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(s.source)}</a>`:esc(s.source)} · as of ${esc(fmtDate(s.asOf))} · ${s.days} days from ${esc(fmtDate(s.first))}${s.ffill?' · weekends forward-filled':''}</li>`;}).join('')+'</ul>';}
  function svgChart(el,lines,mode,{h,unit}){const W=1000,H=h,P={l:mode==='usd'||mode==='ratio'?92:64,r:20,t:16,b:34};const all=lines.filter(l=>l.pts).flatMap(l=>l.pts.map(p=>p[1]).filter(isN));if(!all.length){el.innerHTML='<p class="co-na">Data unavailable</p>';return;}

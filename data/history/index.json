@@ -1,304 +1,402 @@
 {
- "generatedAt": "2026-11-08T03:20:58+00:00",
+ "generatedAt": "2026-11-08T04:01:02+00:00",
  "series": {
   "ALGO": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/algorand",
+   "source": "Yahoo Finance ALGO-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/ALGO-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2019-06-23",
+   "days": 728,
+   "ffill": false,
+   "dailyDays": 400
   },
   "AXL": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/axelar",
+   "source": "Yahoo Finance AXL17799-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/AXL17799-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2022-10-02",
+   "days": 557,
+   "ffill": false,
+   "dailyDays": 400
   },
   "BNKR": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/bankercoin-2",
+   "source": "Yahoo Finance BNKR37545-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/BNKR37545-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2025-08-10",
+   "days": 408,
+   "ffill": false,
+   "dailyDays": 400
   },
   "BTC": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/bitcoin",
+   "source": "Yahoo Finance BTC-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/BTC-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2014-09-21",
+   "days": 976,
+   "ffill": false,
+   "dailyDays": 400
   },
   "DOT": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/polkadot",
+   "source": "Yahoo Finance DOT-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/DOT-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2020-08-23",
+   "days": 667,
+   "ffill": false,
+   "dailyDays": 400
   },
   "ETH": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/ethereum",
+   "source": "Yahoo Finance ETH-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/ETH-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2017-11-12",
+   "days": 812,
+   "ffill": false,
+   "dailyDays": 400
   },
   "FLR": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/flare-networks",
+   "source": "Yahoo Finance FLR-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/FLR-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2023-01-15",
+   "days": 542,
+   "ffill": false,
+   "dailyDays": 400
   },
   "GOLD": {
    "kind": "traditional",
    "source": "Gold futures front month (Yahoo GC=F)",
    "sourceUrl": "https://finance.yahoo.com/quote/GC=F",
    "asOf": "2026-11-07",
-   "first": "2024-11-07",
-   "days": 731,
-   "ffill": true
+   "first": "2000-09-02",
+   "days": 1710,
+   "ffill": true,
+   "dailyDays": 400
   },
   "GOOGL": {
    "kind": "traditional",
    "source": "Alphabet Class A (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/GOOGL",
    "asOf": "2026-11-07",
-   "first": "2024-11-07",
-   "days": 731,
-   "ffill": true
+   "first": "2004-08-21",
+   "days": 1503,
+   "ffill": true,
+   "dailyDays": 400
   },
   "HBAR": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/hedera-hashgraph",
+   "source": "Yahoo Finance HBAR-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/HBAR-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2019-09-22",
+   "days": 715,
+   "ffill": false,
+   "dailyDays": 400
   },
   "ICP": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/internet-computer",
+   "source": "Yahoo Finance ICP-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/ICP-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2021-05-16",
+   "days": 629,
+   "ffill": false,
+   "dailyDays": 400
   },
   "NEAR": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/near",
+   "source": "Yahoo Finance NEAR-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/NEAR-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2020-10-18",
+   "days": 659,
+   "ffill": false,
+   "dailyDays": 400
   },
   "NVDA": {
    "kind": "traditional",
    "source": "Nvidia (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/NVDA",
    "asOf": "2026-11-07",
-   "first": "2024-11-07",
-   "days": 731,
-   "ffill": true
+   "first": "1999-01-23",
+   "days": 1794,
+   "ffill": true,
+   "dailyDays": 400
   },
   "ONDO": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/ondo-finance",
+   "source": "Yahoo Finance ONDO-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/ONDO-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2024-01-21",
+   "days": 489,
+   "ffill": false,
+   "dailyDays": 400
   },
   "QNT": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/quant-network",
+   "source": "Yahoo Finance QNT-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/QNT-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2018-08-12",
+   "days": 773,
+   "ffill": false,
+   "dailyDays": 400
   },
   "RENDER": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/render-token",
+   "source": "Yahoo Finance RENDER-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/RENDER-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2020-06-14",
+   "days": 676,
+   "ffill": false,
+   "dailyDays": 400
   },
   "SOL": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/solana",
+   "source": "Yahoo Finance SOL-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/SOL-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2020-04-12",
+   "days": 686,
+   "ffill": false,
+   "dailyDays": 400
   },
   "SUI": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/sui",
+   "source": "Yahoo Finance SUI20947-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/SUI20947-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2023-05-07",
+   "days": 526,
+   "ffill": false,
+   "dailyDays": 400
   },
   "TAO": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/bittensor",
+   "source": "Yahoo Finance TAO22974-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/TAO22974-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2023-03-05",
+   "days": 535,
+   "ffill": false,
+   "dailyDays": 400
   },
   "TSLA": {
    "kind": "traditional",
    "source": "Tesla (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/TSLA",
    "asOf": "2026-11-07",
-   "first": "2024-11-07",
-   "days": 731,
-   "ffill": true
+   "first": "2010-07-03",
+   "days": 1197,
+   "ffill": true,
+   "dailyDays": 400
   },
   "XLM": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/stellar",
+   "source": "Yahoo Finance XLM-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/XLM-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2017-11-12",
+   "days": 812,
+   "ffill": false,
+   "dailyDays": 400
   },
   "XRP": {
    "kind": "crypto",
-   "source": "CoinGecko market_chart (daily, USD)",
-   "sourceUrl": "https://www.coingecko.com/en/coins/ripple",
+   "source": "Yahoo Finance XRP-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/XRP-USD",
    "asOf": "2026-11-08",
-   "first": "2025-11-09",
-   "days": 365,
-   "ffill": false
+   "first": "2017-11-12",
+   "days": 812,
+   "ffill": false,
+   "dailyDays": 400
   }
  },
  "status": {
   "HBAR": {
    "ok": true,
-   "days": 365
+   "first": "2019-09-17",
+   "source": "Yahoo Finance HBAR-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 1.85%"
+   ]
   },
   "XRP": {
    "ok": true,
-   "days": 365
+   "first": "2017-11-09",
+   "source": "Yahoo Finance XRP-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 1.57%"
+   ]
   },
   "XLM": {
    "ok": true,
-   "days": 365
+   "first": "2017-11-09",
+   "source": "Yahoo Finance XLM-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.06%"
+   ]
   },
   "QNT": {
    "ok": true,
-   "days": 365
+   "first": "2018-08-10",
+   "source": "Yahoo Finance QNT-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.38%"
+   ]
   },
   "ICP": {
    "ok": true,
-   "days": 365
+   "first": "2021-05-10",
+   "source": "Yahoo Finance ICP-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.21%"
+   ]
   },
   "DOT": {
    "ok": true,
-   "days": 365
+   "first": "2020-08-20",
+   "source": "Yahoo Finance DOT-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.14%"
+   ]
   },
   "BNKR": {
    "ok": true,
-   "days": 365
+   "first": "2025-08-09",
+   "source": "Yahoo Finance BNKR37545-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 4.10%"
+   ]
   },
   "TAO": {
    "ok": true,
-   "days": 365
+   "first": "2023-03-05",
+   "source": "Yahoo Finance TAO22974-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.53%"
+   ]
   },
   "ONDO": {
    "ok": true,
-   "days": 365
+   "first": "2024-01-18",
+   "source": "Yahoo Finance ONDO-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.80%"
+   ]
   },
   "ALGO": {
    "ok": true,
-   "days": 365
+   "first": "2019-06-21",
+   "source": "Yahoo Finance ALGO-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.36%"
+   ]
   },
   "SUI": {
    "ok": true,
-   "days": 365
+   "first": "2023-05-03",
+   "source": "Yahoo Finance SUI20947-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.47%"
+   ]
   },
   "RENDER": {
    "ok": true,
-   "days": 365
+   "first": "2020-06-11",
+   "source": "Yahoo Finance RENDER-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.69%"
+   ]
   },
   "AXL": {
    "ok": true,
-   "days": 365
+   "first": "2022-09-28",
+   "source": "Yahoo Finance AXL17799-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.76%"
+   ]
   },
   "NEAR": {
    "ok": true,
-   "days": 365
+   "first": "2020-10-14",
+   "source": "Yahoo Finance NEAR-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.59%"
+   ]
   },
   "SOL": {
    "ok": true,
-   "days": 365
+   "first": "2020-04-10",
+   "source": "Yahoo Finance SOL-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 1.64%"
+   ]
   },
   "FLR": {
    "ok": true,
-   "days": 365
+   "first": "2023-01-10",
+   "source": "Yahoo Finance FLR-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.02%"
+   ]
   },
   "BTC": {
    "ok": true,
-   "days": 365
+   "first": "2014-09-17",
+   "source": "Yahoo Finance BTC-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 1.10%"
+   ]
   },
   "ETH": {
    "ok": true,
-   "days": 365
+   "first": "2017-11-09",
+   "source": "Yahoo Finance ETH-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 1.33%"
+   ]
   },
   "GOLD": {
    "ok": true,
-   "days": 503,
+   "first": "2000-08-30",
+   "source": "Gold futures front month (Yahoo GC=F)",
    "notes": [
-    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
    ]
   },
   "TSLA": {
    "ok": true,
-   "days": 501,
+   "first": "2010-06-29",
+   "source": "Tesla (Yahoo Finance)",
    "notes": [
-    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
    ]
   },
   "NVDA": {
    "ok": true,
-   "days": 501,
+   "first": "1999-01-22",
+   "source": "Nvidia (Yahoo Finance)",
    "notes": [
-    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
    ]
   },
   "GOOGL": {
    "ok": true,
-   "days": 501,
+   "first": "2004-08-19",
+   "source": "Alphabet Class A (Yahoo Finance)",
    "notes": [
-    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
    ]
   }
  }

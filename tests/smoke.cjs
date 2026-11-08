@@ -42,13 +42,17 @@ const {JSDOM,VirtualConsole}=require('jsdom');
  d.getElementById('co-close').click();assert.equal(d.getElementById('coin-overlay').hidden,true);assert.equal(w.location.hash,'');
  d.querySelector('.tile-main[data-coin="SOL"]').click();await until(()=>w.CoinChart.state()?.sym==='SOL'&&d.querySelector('#co-chart svg path'),'tile open');assert.equal(w.location.hash,'#coin=SOL');
  assert.equal(d.activeElement.id,'co-close');
- for(const r of ['7D','1M','3M','6M','1Y','Max']){d.querySelector(`[data-range="${r}"]`).click();assert.equal(d.querySelector(`[data-range="${r}"]`).getAttribute('aria-pressed'),'true');assert.ok(d.querySelector('#co-chart svg path'));}
+ for(const r of ['7D','1M','3M','6M','1Y','2Y','3Y','5Y','Max']){d.querySelector(`[data-range="${r}"]`).click();assert.equal(d.querySelector(`[data-range="${r}"]`).getAttribute('aria-pressed'),'true');assert.ok(d.querySelector('#co-chart svg path'));}
  for(const b of ['BTC','ETH','GOLD','TSLA','NVDA','GOOGL']){d.querySelector(`[data-bench="${b}"]`).click();}
  assert.match(d.getElementById('co-chart-title').textContent,/rebased/);assert.equal(d.querySelectorAll('#co-chart svg path').length,7);assert.equal(d.querySelectorAll('#co-legend .lg').length,7);
  d.querySelector('[data-bench="TSLA"]').click();assert.equal(d.querySelectorAll('#co-chart svg path').length,6);
- d.querySelector('[data-ratio="GOLD"]').click();assert.ok(d.querySelector('#co-ratio-chart svg path'));assert.equal(d.querySelectorAll('#co-perf tbody tr').length,6);
+ d.querySelector('[data-ratio="GOLD"]').click();assert.ok(d.querySelector('#co-ratio-chart svg path'));assert.equal(d.querySelectorAll('#co-perf tbody tr').length,9);
  assert.match(d.getElementById('co-side').textContent,/Risk flags/);assert.match(d.getElementById('coin-overlay').textContent,/Not financial advice/);
+ /* short history: ONDO launched 2024 -> 3Y/5Y disabled, dashes in table */
+ w.CoinChart.open('ONDO');await until(()=>w.CoinChart.state()?.sym==='ONDO'&&!w.CoinChart.state().loading,'ondo');
+ assert.equal(d.querySelector('[data-range="5Y"]').disabled,true);assert.equal(d.querySelector('[data-range="3Y"]').disabled,true);assert.equal(d.querySelector('[data-range="1Y"]').disabled,false);assert.match(d.querySelector('[data-range="Max"]').textContent,/since Jan 2024/);
+ assert.match([...d.querySelectorAll('#co-perf tbody tr')][7].textContent,/—/);d.querySelector('[data-range="Max"]').click();d.querySelector('[data-bench="BTC"]').click();assert.ok(d.querySelector('#co-chart svg path'));
  d.getElementById('coin-overlay').dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert.equal(d.getElementById('coin-overlay').hidden,true);
  d.querySelector('#compare-table [data-coin]').click();await until(()=>!d.getElementById('coin-overlay').hidden,'table open');
- assert.deepEqual(errors,[]);console.log('PASS overlay: hash open, tile/table open, close+Esc, 6 ranges, 6 benchmarks, ratio, perf table, side panel; zero console errors.');w.close();
+ assert.deepEqual(errors,[]);console.log('PASS overlay: hash open, tile/table open, close+Esc, 9 ranges incl 2Y/3Y/5Y, ONDO short-history disabling + dashes, 6 benchmarks, ratio, perf table, side panel; zero console errors.');w.close();
 })().catch(e=>{console.error(e);process.exitCode=1;});

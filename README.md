@@ -188,4 +188,4 @@ References: [custom Pages workflows](https://docs.github.com/en/pages/getting-st
 
 ## Full-screen coin charts
 
-Click a glance tile, a coin in the comparison table, or the single-coin header (or open `#coin=XRP`). `chart.js` lazy-loads `data/history/<SYMBOL>.json` (from `scripts/refresh_history.py`) and draws plain-SVG price, %-change-vs-benchmark (BTC, ETH, Gold, TSLA, NVDA, GOOGL), ratio and performance views. Neutral context only; see /workspace/crypto-health/README.md for sources and forward-fill rules.
+Click a glance tile, a coin in the comparison table, or the single-coin header (or open `#coin=XRP`). `chart.js` lazy-loads `data/history/<SYMBOL>.json` (from `scripts/refresh_history.py`) and draws plain-SVG price (7D–5Y and Max; 5+ years via Yahoo Finance, weekly points beyond ~13 months), %-change-vs-benchmark (BTC, ETH, Gold, TSLA, NVDA, GOOGL), ratio and performance views. Neutral context only; see /workspace/crypto-health/README.md for sources and forward-fill rules.
