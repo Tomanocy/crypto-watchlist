@@ -1,7 +1,7 @@
 {
   "asOf": "Nov 07, 2026, 09:41 AM CST",
   "asOfISO": "2026-11-07T09:41:05.187188-06:00",
-  "statusAsOf": "2026-11-07T19:55:12.221647-06:00",
+  "statusAsOf": "2026-11-07T20:23:18.935785-06:00",
   "glance": [
     {
       "symbol": "HBAR",
@@ -13,31 +13,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -53,31 +53,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -94,31 +94,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -134,7 +134,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -174,19 +174,19 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -215,7 +215,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -233,13 +233,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -257,7 +257,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -275,13 +275,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -297,7 +297,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -337,7 +337,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -355,13 +355,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -377,31 +377,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -418,31 +418,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -458,7 +458,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -498,7 +498,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -538,31 +538,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -578,31 +578,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -618,25 +618,25 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -671,31 +671,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -821,7 +821,7 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": []
       },
       "researchSummary": "No dated, tagged news in the last 7 days; this is a coverage gap, not a negative verdict.",
@@ -1436,31 +1436,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -1575,7 +1575,7 @@
         },
         "storyCount": 3,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection",
           "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover",
@@ -2197,31 +2197,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -2301,7 +2301,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://centrifuge.io/blog/schroders-centrifuge",
           "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
@@ -2920,7 +2920,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -3011,7 +3011,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://quant.network/news",
           "https://quant.network/press-releases/the-clearing-house-partners-with-quant-to-advance-the-on-chain-money-initiative"
@@ -3084,19 +3084,19 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -3192,7 +3192,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://dashboard.internetcomputer.org/proposal/144741",
           "https://ic-api.internetcomputer.org/api/v3/proposals/144741"
@@ -3560,7 +3560,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -3578,13 +3578,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -3663,7 +3663,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://forum.polkadot.network/t/polkadot-socials-daily-digest-2026-11-06/19284"
         ]
@@ -4030,7 +4030,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -4048,13 +4048,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -4135,7 +4135,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://x.com/CoinbaseDev/status/2118810403740504305",
           "https://x.com/bankrbot/status/2118495853933711382",
@@ -4504,7 +4504,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -4608,7 +4608,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
           "https://x.com/opentensor/status/2118654269947785444"
@@ -4681,7 +4681,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -4699,13 +4699,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -4797,7 +4797,7 @@
         },
         "storyCount": 2,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://centrifuge.io/blog/schroders-centrifuge",
           "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
@@ -5167,31 +5167,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -5269,7 +5269,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://algorand.co/blog/algorand-community-update"
         ]
@@ -5886,31 +5886,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -6020,7 +6020,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://x.com/binance/status/2118541594358104469",
           "https://x.com/binance/status/2118657118014496819"
@@ -6638,7 +6638,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -6751,7 +6751,7 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": []
       },
       "researchSummary": "No dated, tagged news in the last 7 days; this is a coverage gap, not a negative verdict.",
@@ -6821,7 +6821,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -6929,7 +6929,7 @@
         },
         "storyCount": 2,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://axelar.valopers.com/proposals/511",
           "https://x.com/binance/status/2118541594358104469",
@@ -7003,31 +7003,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -7121,7 +7121,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://x.com/binance/status/2118541594358104469",
           "https://x.com/binance/status/2118657118014496819"
@@ -7739,31 +7739,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -7849,7 +7849,7 @@
         },
         "storyCount": 3,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://centrifuge.io/blog/schroders-centrifuge",
           "https://lstradar.com/epochs",
@@ -8471,25 +8471,25 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -8598,7 +8598,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "asOf": "2026-11-07T20:23:18.935785-06:00",
         "sources": [
           "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection",
           "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover"
@@ -9091,13 +9091,13 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -9109,13 +9109,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -9622,7 +9622,8 @@
       "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyFees",
       "new": true,
       "tag": "Yikes",
-      "tagReason": "Paid activity or the provider-defined fee share declined; one-offs and token-holder linkage remain caveats."
+      "tagReason": "Paid activity or the provider-defined fee share declined; one-offs and token-holder linkage remain caveats.",
+      "scope": "watchlist"
     },
     {
       "id": "BNKR:revenue7d",
@@ -9635,7 +9636,8 @@
       "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyRevenue",
       "new": true,
       "tag": "Yikes",
-      "tagReason": "Paid activity or the provider-defined fee share declined; one-offs and token-holder linkage remain caveats."
+      "tagReason": "Paid activity or the provider-defined fee share declined; one-offs and token-holder linkage remain caveats.",
+      "scope": "watchlist"
     },
     {
       "id": "SUI:stables7d",
@@ -9648,9 +9650,39 @@
       "source": "https://stablecoins.llama.fi/stablecoincharts/Sui",
       "new": true,
       "tag": "Rocket",
-      "tagReason": "Measured settlement liquidity increased; origin, retention and token-value effects are unverified."
+      "tagReason": "Measured settlement liquidity increased; origin, retention and token-value effects are unverified.",
+      "scope": "watchlist"
     }
   ],
+  "marketAlerts": [
+    {
+      "id": "market:keplr-web3auth-social-login-drain-2026-11-07",
+      "asset": "Market-wide",
+      "scope": "market",
+      "rule": "market-event",
+      "severity": "Medium",
+      "time": "2026-11-06T22:38:00-06:00",
+      "change": "Keplr social-login wallets drained after Web3Auth key exposure",
+      "summary": "Keplr confirmed unauthorized transactions from wallets created with Google or Apple login after Web3Auth reported a security issue and paused its embedded-wallet service. Bitquery traced at least 44,041 Cosmos-chain wallets and 7,603 Injective wallets swept to two addresses holding about $6.0M (estimate). Recovery-phrase and hardware wallets were reported unaffected; Keplr paused social login.",
+      "why": "A shared wallet-infrastructure provider failure hit tens of thousands of users across several chains at once. Estimated losses (~$6.0M) are below the ~$10M High threshold, so this is Medium; breadth and an ongoing drain at review time make it worth knowing.",
+      "source": "https://bitquery.io/investigations/keplr-wallet-hack",
+      "new": true
+    },
+    {
+      "id": "market:canary-staked-inj-etf-launch-2026-11-05",
+      "asset": "Market-wide",
+      "scope": "market",
+      "rule": "market-event",
+      "severity": "Medium",
+      "time": "2026-11-05T08:30:00-06:00",
+      "change": "First U.S. spot staked INJ ETF (INJC) begins trading on Nasdaq",
+      "summary": "Canary Capital's Staked INJ ETF began trading on Nasdaq on Nov 5, holding spot INJ and staking part of it, with net rewards reflected in NAV. Nasdaq's trader notice confirms the listing date.",
+      "why": "Another U.S. spot product with built-in staking widens regulated access beyond BTC/ETH; a precedent for staking-enabled funds on other proof-of-stake networks. Not a price signal.",
+      "source": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETP2026-179",
+      "new": true
+    }
+  ],
+  "marketAlertsReviewedAt": "2026-11-07T20:30:00-06:00",
   "resolvedAlerts": [],
   "events": [
     {
@@ -10744,7 +10776,7 @@
       "Not enough data": 2
     },
     "windowDays": 7,
-    "asOf": "2026-11-07T19:55:12.221647-06:00",
+    "asOf": "2026-11-07T20:23:18.935785-06:00",
     "disclaimer": "Not financial advice. Editorial fundamentals news only, not measured social sentiment or a price signal."
   },
   "brand": {

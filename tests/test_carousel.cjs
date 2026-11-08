@@ -1,0 +1,17 @@
+'use strict';
+const test=require('node:test');const assert=require('node:assert/strict');
+const AC=require('../carousel.js');
+const A=(id,severity,time,scope='watchlist')=>({id,severity,time,scope});
+const list=[A('i1','Info','2026-11-07T10:00:00Z'),A('m-old','Medium','2026-11-05T10:00:00Z','market'),A('h-old','High','2026-11-05T09:00:00Z'),A('m-new','Medium','2026-11-07T09:00:00Z'),A('h-new','High','2026-11-07T08:00:00Z','market')];
+test('orders High, Medium, Info; newest first within severity',()=>{assert.deepEqual(AC.order(list).map(a=>a.id),['h-new','h-old','m-new','m-old','i1']);});
+test('order does not mutate input',()=>{const before=list.map(a=>a.id);AC.order(list);assert.deepEqual(list.map(a=>a.id),before);});
+test('rotation wraps both directions',()=>{assert.equal(AC.wrap(5,5),0);assert.equal(AC.wrap(-1,5),4);assert.equal(AC.wrap(7,5),2);assert.equal(AC.wrap(3,0),0);});
+test('stack caps at 3 and wraps around',()=>{const o=AC.order(list);assert.equal(AC.STACK_CAP,3);assert.deepEqual(AC.stack(o,0).map(a=>a.id),['h-old','m-new','m-old']);assert.deepEqual(AC.stack(o,3).map(a=>a.id),['i1','h-new','h-old']);});
+test('stack never repeats featured for small lists',()=>{assert.deepEqual(AC.stack([A('x','High','2026-11-07')],0),[]);assert.equal(AC.stack(AC.order(list).slice(0,2),0).length,1);});
+test('scope filter',()=>{assert.equal(AC.filterScope(list,'market').length,2);assert.equal(AC.filterScope(list,'watchlist').length,3);assert.equal(AC.filterScope(list,'all').length,5);assert.equal(AC.filterScope([{id:'n',severity:'Info'}],'watchlist').length,1);});
+const many=['High','High','Medium','Medium','Info','Info','Info','High'].map((s,k)=>A('a'+k,s,`2026-11-0${1+(k%7)}T00:00:00Z`,k%2?'market':'watchlist'));
+test('carousel holds at most 6, by priority across scopes',()=>{const c=AC.carouselList(many);assert.equal(AC.MAX,6);assert.equal(c.length,6);assert.deepEqual(c.map(a=>a.severity),['High','High','High','Medium','Medium','Info']);assert.ok(c.some(a=>a.scope==='market')&&c.some(a=>a.scope==='watchlist'));});
+test('first batch is featured + 2 stacked',()=>{const c=AC.carouselList(many);assert.equal(AC.BATCH,3);assert.deepEqual(AC.batchStack(c,0),[c[1],c[2]]);assert.deepEqual(AC.batchStack(c,2),[]);});
+test('after 3 clicks, next 3 load with cue',()=>{const c=AC.carouselList(many);let i=0,r;for(let k=0;k<3;k++){r=AC.step(i,1,c.length);i=r.index;}assert.equal(i,3);assert.equal(r.loadedMore,true);assert.equal(AC.batchOf(3),1);assert.deepEqual(AC.batchStack(c,3),[c[4],c[5]]);assert.equal(AC.step(3,1,6).loadedMore,false);});
+test('after the 6th, wraps to the first; never a 7th',()=>{const r=AC.step(5,1,6);assert.equal(r.index,0);assert.equal(r.loadedMore,false);assert.equal(AC.step(0,-1,6).index,5);});
+test('fewer than 3 alerts: single short batch',()=>{const c=AC.carouselList(many.slice(0,2));assert.equal(c.length,2);assert.equal(AC.step(1,1,2).index,0);});

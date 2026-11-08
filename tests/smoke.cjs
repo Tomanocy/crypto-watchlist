@@ -11,7 +11,13 @@ const {JSDOM,VirtualConsole}=require('jsdom');
  for(const group of ['Usage','Supply','Liquidity','Sentiment','Structural','Price context']){d.querySelector('[data-group="'+group+'"]').click();assert.equal(d.querySelectorAll('#compare-table thead th').length,8);assert.equal(d.querySelectorAll('#compare-table tbody tr').length,16);}
  for(const coin of ['HBAR','XRP','XLM','QNT','ICP','DOT','BNKR','TAO','ONDO','ALGO','SUI','RENDER','AXL','NEAR','SOL','FLR']){d.getElementById('coin-picker').value=coin;d.getElementById('coin-picker').dispatchEvent(new w.Event('change'));assert.match(d.getElementById('coin-title').textContent,new RegExp(coin));assert.ok([...d.querySelectorAll('#news-content details')].every(x=>x.textContent.includes(coin)));}
  d.getElementById('coin-picker').value='All';d.getElementById('coin-picker').dispatchEvent(new w.Event('change'));
- assert.ok(d.querySelectorAll('.alert-card').length>=3);assert.ok(d.querySelectorAll('.calendar-grid').length>=2);
+ assert.ok(d.querySelectorAll('.alert-card').length>=3);
+ const stage=d.getElementById('carousel-stage');assert.ok(stage);const n=d.querySelectorAll('.car-dot').length;assert.ok(n>=1&&n<=6);assert.ok(d.querySelectorAll('.peek').length<=2);
+ const count=()=>d.getElementById('car-count').textContent;assert.match(count(),new RegExp('^1 of '+n));
+ if(n>3){d.getElementById('car-next').click();d.getElementById('car-next').click();d.getElementById('car-next').click();assert.match(count(),/^4 of .*Showing 3 more/);}
+ for(let k=0;k<n*2;k++){d.getElementById('carousel-stage').dispatchEvent(new w.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));}
+ d.querySelector('[data-scope="market"]').click();assert.ok([...d.querySelectorAll('#alert-cards .alert-card')].every(x=>x.textContent.includes('Market-wide')));d.querySelector('[data-scope="all"]').click();
+ assert.ok(d.getElementById('all-alerts'));assert.ok(d.querySelectorAll('.calendar-grid').length>=2);
  d.querySelector('[data-group="Price context"]').click();assert.match(d.getElementById('compare-note').textContent,/Not financial advice/);
  d.querySelector('[data-coin="SUI"]').click();assert.equal(d.getElementById('coin-picker').value,'SUI');assert.match(d.getElementById('coin-title').textContent,/SUI/);assert.match(d.getElementById('coin-content').textContent,/Research summary · news sentiment/);
  assert.ok([...d.querySelectorAll('#news-content details')].every(x=>x.textContent.includes('SUI')));

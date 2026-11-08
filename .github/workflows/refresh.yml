@@ -47,7 +47,7 @@ jobs:
       - name: Prepare public artifact only
         run: |
           mkdir -p _site/data
-          cp index.html styles.css app.js .nojekyll _site/
+          cp index.html styles.css carousel.js app.js .nojekyll _site/
           cp data/*.json _site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

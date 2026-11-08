@@ -11,7 +11,9 @@ assert not any(k in numeric for k in ['news','events','catalysts','risks','thesi
 assert all(not any(k in a for k in ['thesis','riskFlags','catalysts']) for a in numeric['assets'])
 html=(root/'index.html').read_text();js=(root/'app.js').read_text()
 assert 'Not financial advice' in html and 'Not financial advice' in js
-for path in ['styles.css','app.js','data/page-data.json','data/numeric-data.json']:assert (root/path).exists()
+assert all(a['scope']=='market' and a['severity'] in ['High','Medium','Info'] and a['source'].startswith('http') for a in seed.get('marketAlerts',[]))
+assert 'carousel.js' in html and 'all-alerts' in html
+for path in ['carousel.js','styles.css','app.js','data/page-data.json','data/numeric-data.json']:assert (root/path).exists()
 assert 'https://cursor.com/canvas/' not in (root/'data/page-data.json').read_text()
 assert '/workspace/' not in (root/'data/page-data.json').read_text()
 assert len(re.findall(r'id="coin-picker"',html))==1

@@ -24,31 +24,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -674,31 +674,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -1324,31 +1324,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -1974,7 +1974,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -2079,19 +2079,19 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -2479,7 +2479,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -2497,13 +2497,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -2879,7 +2879,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -2897,13 +2897,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -3279,7 +3279,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -3384,7 +3384,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -3402,13 +3402,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -3784,31 +3784,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -4434,31 +4434,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -5084,7 +5084,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -5189,7 +5189,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
@@ -5294,31 +5294,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -5944,31 +5944,31 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -6594,25 +6594,25 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -7119,13 +7119,13 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.239783790833332,
+          "ageHours": 10.708315495833334,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
@@ -7137,13 +7137,13 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 49.92006156861111,
+          "ageHours": 50.388593273611114,
           "stale": true,
           "missing": false
         }
@@ -8460,7 +8460,8 @@
       "change": "7-day fees -75.8% versus preceding 7 days ($82,552 vs $340,783).",
       "why": "Paid activity or fee economics shifted; check one-offs and metric definitions, not just activity counts.",
       "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyFees",
-      "new": true
+      "new": true,
+      "scope": "watchlist"
     },
     {
       "id": "BNKR:revenue7d",
@@ -8471,7 +8472,8 @@
       "change": "7-day revenue -73.8% versus preceding 7 days ($38,049 vs $145,243).",
       "why": "Paid activity or fee economics shifted; check one-offs and metric definitions, not just activity counts.",
       "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyRevenue",
-      "new": true
+      "new": true,
+      "scope": "watchlist"
     },
     {
       "id": "SUI:stables7d",
@@ -8482,7 +8484,8 @@
       "change": "Stablecoin value +17.6% over 7 days ($+77,776,259).",
       "why": "Settlement liquidity changed materially; issuance, bridges and valuation may contribute.",
       "source": "https://stablecoins.llama.fi/stablecoincharts/Sui",
-      "new": true
+      "new": true,
+      "scope": "watchlist"
     }
   ],
   "sourceFailures": []
