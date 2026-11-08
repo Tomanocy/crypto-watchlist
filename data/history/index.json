@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T04:01:02+00:00",
+ "generatedAt": "2026-11-08T10:36:28+00:00",
  "series": {
   "ALGO": {
    "kind": "crypto",
@@ -7,7 +7,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/ALGO-USD",
    "asOf": "2026-11-08",
    "first": "2019-06-23",
-   "days": 728,
+   "days": 729,
    "ffill": false,
    "dailyDays": 400
   },
@@ -17,7 +17,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/AXL17799-USD",
    "asOf": "2026-11-08",
    "first": "2022-10-02",
-   "days": 557,
+   "days": 558,
    "ffill": false,
    "dailyDays": 400
   },
@@ -27,7 +27,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/BNKR37545-USD",
    "asOf": "2026-11-08",
    "first": "2025-08-10",
-   "days": 408,
+   "days": 409,
    "ffill": false,
    "dailyDays": 400
   },
@@ -37,7 +37,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/BTC-USD",
    "asOf": "2026-11-08",
    "first": "2014-09-21",
-   "days": 976,
+   "days": 977,
    "ffill": false,
    "dailyDays": 400
   },
@@ -47,7 +47,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/DOT-USD",
    "asOf": "2026-11-08",
    "first": "2020-08-23",
-   "days": 667,
+   "days": 668,
    "ffill": false,
    "dailyDays": 400
   },
@@ -57,7 +57,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/ETH-USD",
    "asOf": "2026-11-08",
    "first": "2017-11-12",
-   "days": 812,
+   "days": 813,
    "ffill": false,
    "dailyDays": 400
   },
@@ -67,7 +67,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/FLR-USD",
    "asOf": "2026-11-08",
    "first": "2023-01-15",
-   "days": 542,
+   "days": 543,
    "ffill": false,
    "dailyDays": 400
   },
@@ -75,8 +75,8 @@
    "kind": "traditional",
    "source": "Gold futures front month (Yahoo GC=F)",
    "sourceUrl": "https://finance.yahoo.com/quote/GC=F",
-   "asOf": "2026-11-07",
-   "first": "2000-09-02",
+   "asOf": "2026-11-08",
+   "first": "2000-09-03",
    "days": 1710,
    "ffill": true,
    "dailyDays": 400
@@ -85,8 +85,8 @@
    "kind": "traditional",
    "source": "Alphabet Class A (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/GOOGL",
-   "asOf": "2026-11-07",
-   "first": "2004-08-21",
+   "asOf": "2026-11-08",
+   "first": "2004-08-22",
    "days": 1503,
    "ffill": true,
    "dailyDays": 400
@@ -97,7 +97,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/HBAR-USD",
    "asOf": "2026-11-08",
    "first": "2019-09-22",
-   "days": 715,
+   "days": 716,
    "ffill": false,
    "dailyDays": 400
   },
@@ -107,7 +107,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/ICP-USD",
    "asOf": "2026-11-08",
    "first": "2021-05-16",
-   "days": 629,
+   "days": 630,
    "ffill": false,
    "dailyDays": 400
   },
@@ -117,7 +117,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/NEAR-USD",
    "asOf": "2026-11-08",
    "first": "2020-10-18",
-   "days": 659,
+   "days": 660,
    "ffill": false,
    "dailyDays": 400
   },
@@ -125,8 +125,8 @@
    "kind": "traditional",
    "source": "Nvidia (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/NVDA",
-   "asOf": "2026-11-07",
-   "first": "1999-01-23",
+   "asOf": "2026-11-08",
+   "first": "1999-01-24",
    "days": 1794,
    "ffill": true,
    "dailyDays": 400
@@ -137,7 +137,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/ONDO-USD",
    "asOf": "2026-11-08",
    "first": "2024-01-21",
-   "days": 489,
+   "days": 490,
    "ffill": false,
    "dailyDays": 400
   },
@@ -147,7 +147,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/QNT-USD",
    "asOf": "2026-11-08",
    "first": "2018-08-12",
-   "days": 773,
+   "days": 774,
    "ffill": false,
    "dailyDays": 400
   },
@@ -157,7 +157,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/RENDER-USD",
    "asOf": "2026-11-08",
    "first": "2020-06-14",
-   "days": 676,
+   "days": 677,
    "ffill": false,
    "dailyDays": 400
   },
@@ -167,7 +167,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/SOL-USD",
    "asOf": "2026-11-08",
    "first": "2020-04-12",
-   "days": 686,
+   "days": 687,
    "ffill": false,
    "dailyDays": 400
   },
@@ -177,7 +177,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/SUI20947-USD",
    "asOf": "2026-11-08",
    "first": "2023-05-07",
-   "days": 526,
+   "days": 527,
    "ffill": false,
    "dailyDays": 400
   },
@@ -187,7 +187,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/TAO22974-USD",
    "asOf": "2026-11-08",
    "first": "2023-03-05",
-   "days": 535,
+   "days": 536,
    "ffill": false,
    "dailyDays": 400
   },
@@ -195,8 +195,8 @@
    "kind": "traditional",
    "source": "Tesla (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/TSLA",
-   "asOf": "2026-11-07",
-   "first": "2010-07-03",
+   "asOf": "2026-11-08",
+   "first": "2010-07-04",
    "days": 1197,
    "ffill": true,
    "dailyDays": 400
@@ -207,7 +207,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/XLM-USD",
    "asOf": "2026-11-08",
    "first": "2017-11-12",
-   "days": 812,
+   "days": 813,
    "ffill": false,
    "dailyDays": 400
   },
@@ -217,7 +217,7 @@
    "sourceUrl": "https://finance.yahoo.com/quote/XRP-USD",
    "asOf": "2026-11-08",
    "first": "2017-11-12",
-   "days": 812,
+   "days": 813,
    "ffill": false,
    "dailyDays": 400
   }
@@ -228,7 +228,7 @@
    "first": "2019-09-17",
    "source": "Yahoo Finance HBAR-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 1.85%"
+    "Yahoo checked vs CoinGecko last year: median gap 1.80%"
    ]
   },
   "XRP": {
@@ -244,7 +244,7 @@
    "first": "2017-11-09",
    "source": "Yahoo Finance XLM-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.06%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.05%"
    ]
   },
   "QNT": {
@@ -260,7 +260,7 @@
    "first": "2021-05-10",
    "source": "Yahoo Finance ICP-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.21%"
+    "coingecko check unavailable: HTTP Error 429: Too Many Requests"
    ]
   },
   "DOT": {
@@ -284,7 +284,7 @@
    "first": "2023-03-05",
    "source": "Yahoo Finance TAO22974-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.53%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.49%"
    ]
   },
   "ONDO": {
@@ -308,7 +308,7 @@
    "first": "2023-05-03",
    "source": "Yahoo Finance SUI20947-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.47%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.45%"
    ]
   },
   "RENDER": {
@@ -316,7 +316,7 @@
    "first": "2020-06-11",
    "source": "Yahoo Finance RENDER-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.69%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.67%"
    ]
   },
   "AXL": {
@@ -332,7 +332,7 @@
    "first": "2020-10-14",
    "source": "Yahoo Finance NEAR-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.59%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.57%"
    ]
   },
   "SOL": {
@@ -340,7 +340,7 @@
    "first": "2020-04-10",
    "source": "Yahoo Finance SOL-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 1.64%"
+    "Yahoo checked vs CoinGecko last year: median gap 1.63%"
    ]
   },
   "FLR": {
@@ -348,7 +348,7 @@
    "first": "2023-01-10",
    "source": "Yahoo Finance FLR-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.02%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.01%"
    ]
   },
   "BTC": {
@@ -356,7 +356,7 @@
    "first": "2014-09-17",
    "source": "Yahoo Finance BTC-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 1.10%"
+    "Yahoo checked vs CoinGecko last year: median gap 1.09%"
    ]
   },
   "ETH": {
@@ -364,7 +364,7 @@
    "first": "2017-11-09",
    "source": "Yahoo Finance ETH-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 1.33%"
+    "Yahoo checked vs CoinGecko last year: median gap 1.32%"
    ]
   },
   "GOLD": {

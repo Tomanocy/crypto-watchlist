@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-11-07T09:41:05.187188-06:00",
+  "refreshedAt": "2026-11-08T04:32:05.773055-06:00",
   "assets": [
     {
       "symbol": "HBAR",
@@ -8,71 +8,68 @@
       "peer": "Payments",
       "chain": "Hedera",
       "market": {
-        "market_cap": 2982320667,
-        "total_volume": 36454402,
-        "circulating_supply": 44327148039.15895,
+        "market_cap": 2938204826,
+        "total_volume": 27516459,
+        "circulating_supply": 44327147017.822876,
         "total_supply": 50000000000.0,
         "max_supply": 50000000000.0,
-        "ath_change_percentage": -88.18054,
-        "current_price": 0.06728,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -88.35538,
+        "current_price": 0.066285,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -27.5
       },
-      "turnover": 1.2223501786167918,
-      "tradingActivity": 1.2223501786167918,
+      "turnover": 0.9365058132267869,
+      "tradingActivity": 0.9365058132267869,
       "coverage": 4,
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 0.067276,
-        "change30d": -28.255,
-        "athDistance": -88.18117,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 44327148039.21262,
+        "usd": 0.066285,
+        "change30d": -27.5,
+        "athDistance": -88.35538,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 44327147017.822876,
         "source": "https://www.coingecko.com/en/coins/hedera-hashgraph"
       },
       "gapObservations": [],
       "tvl": {
-        "current": 24839688.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 24726718.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -12.807328629058802,
-        "change30d": -36.97241998727101,
+        "change7d": -16.80447621045871,
+        "change30d": -33.69391682815668,
         "history": [
-          [
-            "Oct 06",
-            39410823.0
-          ],
           [
             "Oct 07",
             37291779.0
@@ -192,20 +189,20 @@
           [
             "Nov 05",
             24839688.0
+          ],
+          [
+            "Nov 06",
+            24726718.0
           ]
         ]
       },
       "stables": {
-        "current": 24943925.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 26523161.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 1.2987469196868773,
-        "change30d": -47.28349962025366,
+        "change7d": 7.737931499515405,
+        "change30d": -42.914182822014844,
         "history": [
-          [
-            "Oct 06",
-            47317111.0
-          ],
           [
             "Oct 07",
             46461910.0
@@ -325,20 +322,20 @@
           [
             "Nov 05",
             24943925.0
+          ],
+          [
+            "Nov 06",
+            26523161.0
           ]
         ]
       },
       "fees": {
-        "current": 464.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 847.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -4.131985731272292,
-        "change30d": -21.569536765084763,
+        "change7d": 5.410938871014914,
+        "change30d": -21.342117358664016,
         "history": [
-          [
-            "Oct 06",
-            509.0
-          ],
           [
             "Oct 07",
             666.0
@@ -458,20 +455,20 @@
           [
             "Nov 05",
             464.0
+          ],
+          [
+            "Nov 06",
+            847.0
           ]
         ]
       },
       "revenue": {
         "current": 0.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
         "change7d": null,
         "change30d": null,
         "history": [
-          [
-            "Oct 06",
-            0.0
-          ],
           [
             "Oct 07",
             0.0
@@ -591,65 +588,146 @@
           [
             "Nov 05",
             0.0
+          ],
+          [
+            "Nov 06",
+            0.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            39410823.0
+            "Oct 07",
+            37291779.0
+          ],
+          [
+            "Oct 08",
+            36189962.0
           ],
           [
             "Oct 09",
             36744572.0
           ],
           [
+            "Oct 10",
+            36836490.0
+          ],
+          [
+            "Oct 11",
+            35019690.0
+          ],
+          [
             "Oct 12",
             34835763.0
+          ],
+          [
+            "Oct 13",
+            35017532.0
+          ],
+          [
+            "Oct 14",
+            34204575.0
           ],
           [
             "Oct 15",
             34498150.0
           ],
           [
+            "Oct 16",
+            33029543.0
+          ],
+          [
+            "Oct 17",
+            32679635.0
+          ],
+          [
             "Oct 18",
             33922166.0
+          ],
+          [
+            "Oct 19",
+            33090471.0
+          ],
+          [
+            "Oct 20",
+            33663642.0
           ],
           [
             "Oct 21",
             34162819.0
           ],
           [
+            "Oct 22",
+            32070843.0
+          ],
+          [
+            "Oct 23",
+            31254424.0
+          ],
+          [
             "Oct 24",
             31720492.0
+          ],
+          [
+            "Oct 25",
+            31599673.0
+          ],
+          [
+            "Oct 26",
+            30805399.0
           ],
           [
             "Oct 27",
             31075644.0
           ],
           [
+            "Oct 28",
+            30644209.0
+          ],
+          [
+            "Oct 29",
+            28488275.0
+          ],
+          [
             "Oct 30",
             29721212.0
+          ],
+          [
+            "Oct 31",
+            29913059.0
+          ],
+          [
+            "Nov 01",
+            29004666.0
           ],
           [
             "Nov 02",
             23421153.0
           ],
           [
+            "Nov 03",
+            25270133.0
+          ],
+          [
+            "Nov 04",
+            26100929.0
+          ],
+          [
             "Nov 05",
             24839688.0
+          ],
+          [
+            "Nov 06",
+            24726718.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -12.807328629058802,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 4,
           "total": 4
-        },
-        "peerLabel": "Payments"
+        }
       }
     },
     {
@@ -658,71 +736,68 @@
       "peer": "Payments",
       "chain": "XRPL",
       "market": {
-        "market_cap": 73440797977,
-        "total_volume": 1597541414,
+        "market_cap": 73631925016,
+        "total_volume": 875073688,
         "circulating_supply": 63516606953.0,
         "total_supply": 99985583260.0,
         "max_supply": 100000000000.0,
-        "ath_change_percentage": -68.29057,
+        "ath_change_percentage": -68.20805,
         "current_price": 1.16,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -17.1584
       },
-      "turnover": 2.175277853735078,
-      "tradingActivity": 2.175277853735078,
+      "turnover": 1.1884433115253323,
+      "tradingActivity": 1.1884433115253323,
       "coverage": 4,
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
         "usd": 1.16,
-        "change30d": -17.6352,
-        "athDistance": -68.25095,
-        "asOf": "2026-11-07T16:14:48.000Z",
+        "change30d": -17.1584,
+        "athDistance": -68.20805,
+        "asOf": "2026-11-08T10:31:51.000Z",
         "circulating": 63516606953.0,
         "source": "https://www.coingecko.com/en/coins/ripple"
       },
       "gapObservations": [],
       "tvl": {
-        "current": 36488124.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 35640808.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -0.0212571927978078,
-        "change30d": -18.9838340792429,
+        "change7d": -5.829823499655918,
+        "change30d": -16.724305661413187,
         "history": [
-          [
-            "Oct 06",
-            45038078.0
-          ],
           [
             "Oct 07",
             42798572.0
@@ -842,20 +917,20 @@
           [
             "Nov 05",
             36488124.0
+          ],
+          [
+            "Nov 06",
+            35640808.0
           ]
         ]
       },
       "stables": {
-        "current": 987246166.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 976249678.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -8.837926809741358,
-        "change30d": -26.220511099068077,
+        "change7d": 22.157006424430836,
+        "change30d": -26.01310874745102,
         "history": [
-          [
-            "Oct 06",
-            1338103829.0
-          ],
           [
             "Oct 07",
             1319490063.0
@@ -975,20 +1050,20 @@
           [
             "Nov 05",
             987246166.0
+          ],
+          [
+            "Nov 06",
+            976249678.0
           ]
         ]
       },
       "fees": {
-        "current": 2883.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 1422.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 55.01077033541901,
-        "change30d": 1.2255319148936072,
+        "change7d": 42.067907155188955,
+        "change30d": 3.6672047121456774,
         "history": [
-          [
-            "Oct 06",
-            475.0
-          ],
           [
             "Oct 07",
             496.0
@@ -1108,20 +1183,20 @@
           [
             "Nov 05",
             2883.0
+          ],
+          [
+            "Nov 06",
+            1422.0
           ]
         ]
       },
       "revenue": {
-        "current": 2883.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 1422.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 55.01077033541901,
-        "change30d": 1.2255319148936072,
+        "change7d": 42.067907155188955,
+        "change30d": 3.6672047121456774,
         "history": [
-          [
-            "Oct 06",
-            475.0
-          ],
           [
             "Oct 07",
             496.0
@@ -1241,65 +1316,146 @@
           [
             "Nov 05",
             2883.0
+          ],
+          [
+            "Nov 06",
+            1422.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            45038078.0
+            "Oct 07",
+            42798572.0
+          ],
+          [
+            "Oct 08",
+            41716874.0
           ],
           [
             "Oct 09",
             42070773.0
           ],
           [
+            "Oct 10",
+            42157204.0
+          ],
+          [
+            "Oct 11",
+            42378729.0
+          ],
+          [
             "Oct 12",
             40241697.0
+          ],
+          [
+            "Oct 13",
+            41187877.0
+          ],
+          [
+            "Oct 14",
+            40080152.0
           ],
           [
             "Oct 15",
             40189941.0
           ],
           [
+            "Oct 16",
+            39409164.0
+          ],
+          [
+            "Oct 17",
+            39057869.0
+          ],
+          [
             "Oct 18",
             39365451.0
+          ],
+          [
+            "Oct 19",
+            39010795.0
+          ],
+          [
+            "Oct 20",
+            40192127.0
           ],
           [
             "Oct 21",
             41067634.0
           ],
           [
+            "Oct 22",
+            39302660.0
+          ],
+          [
+            "Oct 23",
+            38603079.0
+          ],
+          [
             "Oct 24",
             39070221.0
+          ],
+          [
+            "Oct 25",
+            38938561.0
+          ],
+          [
+            "Oct 26",
+            39375014.0
           ],
           [
             "Oct 27",
             40264267.0
           ],
           [
+            "Oct 28",
+            39756012.0
+          ],
+          [
+            "Oct 29",
+            36495882.0
+          ],
+          [
             "Oct 30",
             37847235.0
+          ],
+          [
+            "Oct 31",
+            37651639.0
+          ],
+          [
+            "Nov 01",
+            37528413.0
           ],
           [
             "Nov 02",
             37534546.0
           ],
           [
+            "Nov 03",
+            38432790.0
+          ],
+          [
+            "Nov 04",
+            39302733.0
+          ],
+          [
             "Nov 05",
             36488124.0
+          ],
+          [
+            "Nov 06",
+            35640808.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -0.0212571927978078,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 4,
           "total": 4
-        },
-        "peerLabel": "Payments"
+        }
       }
     },
     {
@@ -1308,71 +1464,68 @@
       "peer": "Payments",
       "chain": "Stellar",
       "market": {
-        "market_cap": 5368853731,
-        "total_volume": 92433998,
-        "circulating_supply": 35372681843.28938,
+        "market_cap": 5302845420,
+        "total_volume": 78563385,
+        "circulating_supply": 35372678750.51394,
         "total_supply": 50001786837.39707,
         "max_supply": null,
-        "ath_change_percentage": -82.66491,
-        "current_price": 0.15178,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -82.87803,
+        "current_price": 0.149914,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -22.8284
       },
-      "turnover": 1.7216710052330535,
-      "tradingActivity": 1.7216710052330535,
+      "turnover": 1.4815326259312307,
+      "tradingActivity": 1.4815326259312307,
       "coverage": 4,
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 0.151503,
-        "change30d": -24.0027,
-        "athDistance": -82.69649,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 35372681766.48921,
+        "usd": 0.149914,
+        "change30d": -22.8284,
+        "athDistance": -82.87803,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 35372678750.51394,
         "source": "https://www.coingecko.com/en/coins/stellar"
       },
       "gapObservations": [],
       "tvl": {
-        "current": 209359907.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 208338666.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -2.535471743400175,
-        "change30d": -19.88106335510289,
+        "change7d": -7.322547810488067,
+        "change30d": -17.043869421069935,
         "history": [
-          [
-            "Oct 06",
-            261311390.0
-          ],
           [
             "Oct 07",
             251143182.0
@@ -1492,20 +1645,20 @@
           [
             "Nov 05",
             209359907.0
+          ],
+          [
+            "Nov 06",
+            208338666.0
           ]
         ]
       },
       "stables": {
-        "current": 378180289.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 394524466.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 8.516664414345488,
-        "change30d": -8.734389092894702,
+        "change7d": 10.855772259796147,
+        "change30d": -4.473326529253541,
         "history": [
-          [
-            "Oct 06",
-            414373262.0
-          ],
           [
             "Oct 07",
             412999272.0
@@ -1625,20 +1778,20 @@
           [
             "Nov 05",
             378180289.0
+          ],
+          [
+            "Nov 06",
+            394524466.0
           ]
         ]
       },
       "fees": {
-        "current": 708.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 636.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -26.5424739195231,
-        "change30d": -28.71098705912205,
+        "change7d": -26.224041230862515,
+        "change30d": -31.126107127794178,
         "history": [
-          [
-            "Oct 06",
-            2008.0
-          ],
           [
             "Oct 07",
             1690.0
@@ -1758,20 +1911,20 @@
           [
             "Nov 05",
             708.0
+          ],
+          [
+            "Nov 06",
+            636.0
           ]
         ]
       },
       "revenue": {
-        "current": 708.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 636.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -26.5424739195231,
-        "change30d": -28.71098705912205,
+        "change7d": -26.224041230862515,
+        "change30d": -31.126107127794178,
         "history": [
-          [
-            "Oct 06",
-            2008.0
-          ],
           [
             "Oct 07",
             1690.0
@@ -1891,65 +2044,146 @@
           [
             "Nov 05",
             708.0
+          ],
+          [
+            "Nov 06",
+            636.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            261311390.0
+            "Oct 07",
+            251143182.0
+          ],
+          [
+            "Oct 08",
+            243585888.0
           ],
           [
             "Oct 09",
             245561522.0
           ],
           [
+            "Oct 10",
+            246667550.0
+          ],
+          [
+            "Oct 11",
+            252253761.0
+          ],
+          [
             "Oct 12",
             240392584.0
+          ],
+          [
+            "Oct 13",
+            242101348.0
+          ],
+          [
+            "Oct 14",
+            235252982.0
           ],
           [
             "Oct 15",
             236020364.0
           ],
           [
+            "Oct 16",
+            236509599.0
+          ],
+          [
+            "Oct 17",
+            228500149.0
+          ],
+          [
             "Oct 18",
             229825179.0
+          ],
+          [
+            "Oct 19",
+            230775043.0
+          ],
+          [
+            "Oct 20",
+            236237468.0
           ],
           [
             "Oct 21",
             238621662.0
           ],
           [
+            "Oct 22",
+            230044316.0
+          ],
+          [
+            "Oct 23",
+            227472763.0
+          ],
+          [
             "Oct 24",
             225297546.0
+          ],
+          [
+            "Oct 25",
+            222292520.0
+          ],
+          [
+            "Oct 26",
+            223982895.0
           ],
           [
             "Oct 27",
             224554093.0
           ],
           [
+            "Oct 28",
+            225816374.0
+          ],
+          [
+            "Oct 29",
+            214806259.0
+          ],
+          [
             "Oct 30",
             224799734.0
+          ],
+          [
+            "Oct 31",
+            223064013.0
+          ],
+          [
+            "Nov 01",
+            220475463.0
           ],
           [
             "Nov 02",
             216719054.0
           ],
           [
+            "Nov 03",
+            214651780.0
+          ],
+          [
+            "Nov 04",
+            221338082.0
+          ],
+          [
             "Nov 05",
             209359907.0
+          ],
+          [
+            "Nov 06",
+            208338666.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -2.535471743400175,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 4,
           "total": 4
-        },
-        "peerLabel": "Payments"
+        }
       }
     },
     {
@@ -1958,23 +2192,24 @@
       "peer": "Payments",
       "chain": null,
       "market": {
-        "market_cap": 2890997997,
-        "total_volume": 50613114,
+        "market_cap": 2872747677,
+        "total_volume": 30301246,
         "circulating_supply": 14556178.164081175,
         "total_supply": 14612493.0,
         "max_supply": 14612493.0,
-        "ath_change_percentage": -53.53316,
-        "current_price": 198.61,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -53.8265,
+        "current_price": 197.36,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -19.2996
       },
-      "turnover": 1.7507142534350224,
-      "tradingActivity": 1.7507142534350224,
+      "turnover": 1.0547827169994786,
+      "tradingActivity": 1.0547827169994786,
       "coverage": 0,
       "dataAvailable": 0,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
@@ -2004,10 +2239,10 @@
         }
       },
       "priceContext": {
-        "usd": 198.58,
-        "change30d": -18.5178,
-        "athDistance": -53.53992,
-        "asOf": "2026-11-07T16:14:48.000Z",
+        "usd": 197.36,
+        "change30d": -19.2996,
+        "athDistance": -53.8265,
+        "asOf": "2026-11-08T10:31:51.000Z",
         "circulating": 14556178.164081175,
         "source": "https://www.coingecko.com/en/coins/quant-network"
       },
@@ -2046,15 +2281,12 @@
       },
       "visual": {
         "sparklineMetric": null,
-        "sparklineLabel": null,
         "sparkline": [],
         "sourceAsOf": null,
-        "change7d": null,
         "availabilityGauge": {
           "count": 0,
           "total": 4
-        },
-        "peerLabel": "Payments"
+        }
       }
     },
     {
@@ -2063,36 +2295,37 @@
       "peer": "Platforms",
       "chain": "ICP",
       "market": {
-        "market_cap": 1353989571,
-        "total_volume": 22656626,
-        "circulating_supply": 558263601.5095564,
-        "total_supply": 558263654.8296375,
+        "market_cap": 1336132527,
+        "total_volume": 19625411,
+        "circulating_supply": 558301758.6459178,
+        "total_supply": 558301772.4772357,
         "max_supply": null,
-        "ath_change_percentage": -99.65384,
-        "current_price": 2.43,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -99.65843,
+        "current_price": 2.39,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -20.3877
       },
-      "turnover": 1.6733235237009074,
-      "tradingActivity": 1.6733235237009074,
+      "turnover": 1.4688221866781932,
+      "tradingActivity": 1.4688221866781932,
       "coverage": 2,
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
@@ -2109,25 +2342,21 @@
         }
       },
       "priceContext": {
-        "usd": 2.42,
-        "change30d": -22.179,
-        "athDistance": -99.65435,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 558263601.5095564,
+        "usd": 2.39,
+        "change30d": -20.3877,
+        "athDistance": -99.65843,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 558301758.6459178,
         "source": "https://www.coingecko.com/en/coins/internet-computer"
       },
       "gapObservations": [],
       "tvl": {
-        "current": 7630754.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 7749028.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 1.485005841793452,
-        "change30d": -12.066853931548449,
+        "change7d": -0.6838677296919227,
+        "change30d": -7.486896412082844,
         "history": [
-          [
-            "Oct 06",
-            8677904.0
-          ],
           [
             "Oct 07",
             8376141.0
@@ -2247,20 +2476,20 @@
           [
             "Nov 05",
             7630754.0
+          ],
+          [
+            "Nov 06",
+            7749028.0
           ]
         ]
       },
       "stables": {
-        "current": 4282744.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 4251872.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 4.379369913547371,
-        "change30d": 2.25402056854056,
+        "change7d": 2.1416029843926765,
+        "change30d": 1.9445330238780922,
         "history": [
-          [
-            "Oct 06",
-            4188338.0
-          ],
           [
             "Oct 07",
             4170770.0
@@ -2380,6 +2609,10 @@
           [
             "Nov 05",
             4282744.0
+          ],
+          [
+            "Nov 06",
+            4251872.0
           ]
         ]
       },
@@ -2401,60 +2634,137 @@
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            8677904.0
+            "Oct 07",
+            8376141.0
+          ],
+          [
+            "Oct 08",
+            8441799.0
           ],
           [
             "Oct 09",
             8514762.0
           ],
           [
+            "Oct 10",
+            8502560.0
+          ],
+          [
+            "Oct 11",
+            8991879.0
+          ],
+          [
             "Oct 12",
             8639110.0
+          ],
+          [
+            "Oct 13",
+            8403948.0
+          ],
+          [
+            "Oct 14",
+            8256593.0
           ],
           [
             "Oct 15",
             8244864.0
           ],
           [
+            "Oct 16",
+            8307032.0
+          ],
+          [
+            "Oct 17",
+            8147013.0
+          ],
+          [
             "Oct 18",
             8171443.0
+          ],
+          [
+            "Oct 19",
+            8046786.0
+          ],
+          [
+            "Oct 20",
+            8322994.0
           ],
           [
             "Oct 21",
             8386787.0
           ],
           [
+            "Oct 22",
+            7920121.0
+          ],
+          [
+            "Oct 23",
+            7874492.0
+          ],
+          [
             "Oct 24",
             7862641.0
+          ],
+          [
+            "Oct 25",
+            7783488.0
+          ],
+          [
+            "Oct 26",
+            7985331.0
           ],
           [
             "Oct 27",
             7927853.0
           ],
           [
+            "Oct 28",
+            8023192.0
+          ],
+          [
+            "Oct 29",
+            7519095.0
+          ],
+          [
             "Oct 30",
             7802386.0
+          ],
+          [
+            "Oct 31",
+            7958193.0
+          ],
+          [
+            "Nov 01",
+            7920420.0
           ],
           [
             "Nov 02",
             7753298.0
           ],
           [
+            "Nov 03",
+            7765406.0
+          ],
+          [
+            "Nov 04",
+            8209159.0
+          ],
+          [
             "Nov 05",
             7630754.0
+          ],
+          [
+            "Nov 06",
+            7749028.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": 1.485005841793452,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 2,
           "total": 4
-        },
-        "peerLabel": "Smart-contract platforms"
+        }
       }
     },
     {
@@ -2463,23 +2773,24 @@
       "peer": "Platforms",
       "chain": null,
       "market": {
-        "market_cap": 1530977471,
-        "total_volume": 52601175,
-        "circulating_supply": 1711002882.8999755,
-        "total_supply": 1711002882.8999755,
+        "market_cap": 1530278868,
+        "total_volume": 48702542,
+        "circulating_supply": 1711127089.9179027,
+        "total_supply": 1711127089.9179027,
         "max_supply": 2100000000.0,
-        "ath_change_percentage": -98.3725,
-        "current_price": 0.894784,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -98.37336,
+        "current_price": 0.89431,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -24.7393
       },
-      "turnover": 3.4357902710117676,
-      "tradingActivity": 3.4357902710117676,
+      "turnover": 3.182592599194149,
+      "tradingActivity": 3.182592599194149,
       "coverage": 2,
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
@@ -2496,24 +2807,24 @@
           "missing": true
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 0.896738,
-        "change30d": -19.0854,
-        "athDistance": -98.36894,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 1711010029.0571713,
+        "usd": 0.89431,
+        "change30d": -24.7393,
+        "athDistance": -98.37336,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 1711127089.9179027,
         "source": "https://www.coingecko.com/en/coins/polkadot"
       },
       "gapObservations": [],
@@ -2534,16 +2845,12 @@
         "history": []
       },
       "fees": {
-        "current": 0.07,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 0.01,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -85.71428571428572,
-        "change30d": -60.40642458100558,
+        "change7d": -52.941176470588225,
+        "change30d": -62.55289139633287,
         "history": [
-          [
-            "Oct 06",
-            18.0
-          ],
           [
             "Oct 07",
             18.0
@@ -2663,20 +2970,20 @@
           [
             "Nov 05",
             0.07
+          ],
+          [
+            "Nov 06",
+            0.01
           ]
         ]
       },
       "revenue": {
         "current": 0.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
         "change7d": null,
         "change30d": null,
         "history": [
-          [
-            "Oct 06",
-            0.0
-          ],
           [
             "Oct 07",
             0.0
@@ -2796,19 +3103,34 @@
           [
             "Nov 05",
             0.0
+          ],
+          [
+            "Nov 06",
+            0.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "fees",
-        "sparklineLabel": "Fees",
         "sparkline": [
           [
-            "Oct 06",
+            "Oct 07",
             18.0
           ],
           [
+            "Oct 08",
+            26.0
+          ],
+          [
             "Oct 09",
+            26.0
+          ],
+          [
+            "Oct 10",
+            26.0
+          ],
+          [
+            "Oct 11",
             26.0
           ],
           [
@@ -2816,45 +3138,111 @@
             24.0
           ],
           [
+            "Oct 13",
+            24.0
+          ],
+          [
+            "Oct 14",
+            23.0
+          ],
+          [
             "Oct 15",
             25.0
+          ],
+          [
+            "Oct 16",
+            23.0
+          ],
+          [
+            "Oct 17",
+            23.0
           ],
           [
             "Oct 18",
             17.0
           ],
           [
+            "Oct 19",
+            0.14
+          ],
+          [
+            "Oct 20",
+            0.04
+          ],
+          [
             "Oct 21",
             0.11
+          ],
+          [
+            "Oct 22",
+            0.2
+          ],
+          [
+            "Oct 23",
+            1.26
           ],
           [
             "Oct 24",
             0.07
           ],
           [
+            "Oct 25",
+            0.1
+          ],
+          [
+            "Oct 26",
+            0.12
+          ],
+          [
             "Oct 27",
             0.06
+          ],
+          [
+            "Oct 28",
+            0.03
+          ],
+          [
+            "Oct 29",
+            0.11
           ],
           [
             "Oct 30",
             0.02
           ],
           [
+            "Oct 31",
+            0.0
+          ],
+          [
+            "Nov 01",
+            0.03
+          ],
+          [
             "Nov 02",
             0.0
           ],
           [
+            "Nov 03",
+            0.02
+          ],
+          [
+            "Nov 04",
+            0.11
+          ],
+          [
             "Nov 05",
             0.07
+          ],
+          [
+            "Nov 06",
+            0.01
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -85.71428571428572,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 2,
           "total": 4
-        },
-        "peerLabel": "Smart-contract platforms"
+        }
       }
     },
     {
@@ -2863,23 +3251,24 @@
       "peer": "AI & compute",
       "chain": null,
       "market": {
-        "market_cap": 26982798,
-        "total_volume": 827898,
+        "market_cap": 25333321,
+        "total_volume": 1089036,
         "circulating_supply": 100000000000.0,
         "total_supply": 100000000000.0,
         "max_supply": 100000000000.0,
-        "ath_change_percentage": -77.532,
-        "current_price": 0.00026983,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -78.90548,
+        "current_price": 0.00025333,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -24.412
       },
-      "turnover": 3.0682437010424195,
-      "tradingActivity": 3.0682437010424195,
+      "turnover": 4.298828408640146,
+      "tradingActivity": 4.298828408640146,
       "coverage": 2,
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
@@ -2896,23 +3285,23 @@
           "missing": true
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 0.00026013,
-        "change30d": -23.862,
-        "athDistance": -78.33913,
-        "asOf": "2026-11-07T16:14:48.000Z",
+        "usd": 0.00025333,
+        "change30d": -24.412,
+        "athDistance": -78.90548,
+        "asOf": "2026-11-08T10:31:51.000Z",
         "circulating": 100000000000.0,
         "source": "https://www.coingecko.com/en/coins/bankercoin-2"
       },
@@ -2934,16 +3323,12 @@
         "history": []
       },
       "fees": {
-        "current": 2571.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 312.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -75.77578693772871,
-        "change30d": -82.62711180320218,
+        "change7d": -79.12471565337175,
+        "change30d": -81.71237980675348,
         "history": [
-          [
-            "Oct 06",
-            136272.0
-          ],
           [
             "Oct 07",
             6853.0
@@ -3063,20 +3448,20 @@
           [
             "Nov 05",
             2571.0
+          ],
+          [
+            "Nov 06",
+            312.0
           ]
         ]
       },
       "revenue": {
-        "current": 296.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 266.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -73.80321254724839,
-        "change30d": -86.24936764676617,
+        "change7d": -76.26905185897392,
+        "change30d": -85.19683373846671,
         "history": [
-          [
-            "Oct 06",
-            77418.0
-          ],
           [
             "Oct 07",
             1098.0
@@ -3196,65 +3581,146 @@
           [
             "Nov 05",
             296.0
+          ],
+          [
+            "Nov 06",
+            266.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "fees",
-        "sparklineLabel": "Fees",
         "sparkline": [
           [
-            "Oct 06",
-            136272.0
+            "Oct 07",
+            6853.0
+          ],
+          [
+            "Oct 08",
+            18291.0
           ],
           [
             "Oct 09",
             5160.0
           ],
           [
+            "Oct 10",
+            41162.0
+          ],
+          [
+            "Oct 11",
+            10642.0
+          ],
+          [
             "Oct 12",
             6645.0
+          ],
+          [
+            "Oct 13",
+            5405.0
+          ],
+          [
+            "Oct 14",
+            4071.0
           ],
           [
             "Oct 15",
             2300.0
           ],
           [
+            "Oct 16",
+            2768.0
+          ],
+          [
+            "Oct 17",
+            11059.0
+          ],
+          [
             "Oct 18",
             39878.0
+          ],
+          [
+            "Oct 19",
+            4514.0
+          ],
+          [
+            "Oct 20",
+            3562.0
           ],
           [
             "Oct 21",
             3870.0
           ],
           [
+            "Oct 22",
+            2335.0
+          ],
+          [
+            "Oct 23",
+            3331.0
+          ],
+          [
             "Oct 24",
             16175.0
+          ],
+          [
+            "Oct 25",
+            277715.0
+          ],
+          [
+            "Oct 26",
+            2644.0
           ],
           [
             "Oct 27",
             6012.0
           ],
           [
+            "Oct 28",
+            32314.0
+          ],
+          [
+            "Oct 29",
+            2592.0
+          ],
+          [
             "Oct 30",
             10275.0
+          ],
+          [
+            "Oct 31",
+            4075.0
+          ],
+          [
+            "Nov 01",
+            34796.0
           ],
           [
             "Nov 02",
             2468.0
           ],
           [
+            "Nov 03",
+            23253.0
+          ],
+          [
+            "Nov 04",
+            5114.0
+          ],
+          [
             "Nov 05",
             2571.0
+          ],
+          [
+            "Nov 06",
+            312.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -75.77578693772871,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 2,
           "total": 4
-        },
-        "peerLabel": "AI & compute"
+        }
       }
     },
     {
@@ -3263,23 +3729,24 @@
       "peer": "AI & compute",
       "chain": null,
       "market": {
-        "market_cap": 2607556141,
-        "total_volume": 49922991,
-        "circulating_supply": 11702316.377399769,
-        "total_supply": 11702316.377399769,
+        "market_cap": 2600923359,
+        "total_volume": 40228821,
+        "circulating_supply": 11705244.203982282,
+        "total_supply": 11705244.203982282,
         "max_supply": 21000000.0,
-        "ath_change_percentage": -70.58837,
-        "current_price": 222.82,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -70.67053,
+        "current_price": 222.2,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -19.1469
       },
-      "turnover": 1.9145509550124007,
-      "tradingActivity": 1.9145509550124007,
+      "turnover": 1.5467130494559107,
+      "tradingActivity": 1.5467130494559107,
       "coverage": 0,
       "dataAvailable": 0,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
@@ -3309,11 +3776,11 @@
         }
       },
       "priceContext": {
-        "usd": 222.72,
-        "change30d": -20.7856,
-        "athDistance": -70.60159,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 11702502.04274869,
+        "usd": 222.2,
+        "change30d": -19.1469,
+        "athDistance": -70.67053,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 11705244.203982282,
         "source": "https://www.coingecko.com/en/coins/bittensor"
       },
       "gapObservations": [],
@@ -3351,15 +3818,12 @@
       },
       "visual": {
         "sparklineMetric": null,
-        "sparklineLabel": null,
         "sparkline": [],
         "sourceAsOf": null,
-        "change7d": null,
         "availabilityGauge": {
           "count": 0,
           "total": 4
-        },
-        "peerLabel": "AI & compute"
+        }
       }
     },
     {
@@ -3368,23 +3832,24 @@
       "peer": "Tokenization & interop",
       "chain": null,
       "market": {
-        "market_cap": 1768813649,
-        "total_volume": 61679240,
+        "market_cap": 1747887084,
+        "total_volume": 58116313,
         "circulating_supply": 4869330647.0,
         "total_supply": 10000000000.0,
         "max_supply": 10000000000.0,
-        "ath_change_percentage": -83.02666,
-        "current_price": 0.363256,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -83.22747,
+        "current_price": 0.358958,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -26.6459
       },
-      "turnover": 3.4870400301846605,
-      "tradingActivity": 3.4870400301846605,
+      "turnover": 3.3249466474116933,
+      "tradingActivity": 3.3249466474116933,
       "coverage": 2,
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
@@ -3401,23 +3866,23 @@
           "missing": true
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 0.363316,
-        "change30d": -25.9549,
-        "athDistance": -83.02388,
-        "asOf": "2026-11-07T16:14:48.000Z",
+        "usd": 0.358958,
+        "change30d": -26.6459,
+        "athDistance": -83.22747,
+        "asOf": "2026-11-08T10:31:51.000Z",
         "circulating": 4869330647.0,
         "source": "https://www.coingecko.com/en/coins/ondo-finance"
       },
@@ -3439,16 +3904,12 @@
         "history": []
       },
       "fees": {
-        "current": 253652.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 216895.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -4.897982376483679,
+        "change7d": -5.831466195073753,
         "change30d": null,
         "history": [
-          [
-            "Oct 06",
-            255615.0
-          ],
           [
             "Oct 07",
             255073.0
@@ -3568,20 +4029,20 @@
           [
             "Nov 05",
             253652.0
+          ],
+          [
+            "Nov 06",
+            216895.0
           ]
         ]
       },
       "revenue": {
         "current": 0.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
         "change7d": null,
         "change30d": null,
         "history": [
-          [
-            "Oct 06",
-            0.0
-          ],
           [
             "Oct 07",
             0.0
@@ -3701,65 +4162,146 @@
           [
             "Nov 05",
             0.0
+          ],
+          [
+            "Nov 06",
+            0.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "fees",
-        "sparklineLabel": "Fees",
         "sparkline": [
           [
-            "Oct 06",
-            255615.0
+            "Oct 07",
+            255073.0
+          ],
+          [
+            "Oct 08",
+            31203.0
           ],
           [
             "Oct 09",
             223696.0
           ],
           [
+            "Oct 10",
+            223717.0
+          ],
+          [
+            "Oct 11",
+            306083.0
+          ],
+          [
             "Oct 12",
             44028.0
+          ],
+          [
+            "Oct 13",
+            257738.0
+          ],
+          [
+            "Oct 14",
+            255453.0
           ],
           [
             "Oct 15",
             264130.0
           ],
           [
+            "Oct 16",
+            227162.0
+          ],
+          [
+            "Oct 17",
+            227202.0
+          ],
+          [
             "Oct 18",
             321631.0
+          ],
+          [
+            "Oct 19",
+            256399.0
+          ],
+          [
+            "Oct 20",
+            487426.0
           ],
           [
             "Oct 21",
             260357.0
           ],
           [
+            "Oct 22",
+            267420.0
+          ],
+          [
+            "Oct 23",
+            228841.0
+          ],
+          [
             "Oct 24",
             228848.0
+          ],
+          [
+            "Oct 25",
+            324060.0
+          ],
+          [
+            "Oct 26",
+            262966.0
           ],
           [
             "Oct 27",
             260379.0
           ],
           [
+            "Oct 28",
+            262324.0
+          ],
+          [
+            "Oct 29",
+            298044.0
+          ],
+          [
             "Oct 30",
             231657.0
+          ],
+          [
+            "Oct 31",
+            231680.0
+          ],
+          [
+            "Nov 01",
+            293222.0
           ],
           [
             "Nov 02",
             255201.0
           ],
           [
+            "Nov 03",
+            258862.0
+          ],
+          [
+            "Nov 04",
+            249818.0
+          ],
+          [
             "Nov 05",
             253652.0
+          ],
+          [
+            "Nov 06",
+            216895.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -4.897982376483679,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 2,
           "total": 4
-        },
-        "peerLabel": "Tokenization & interop"
+        }
       }
     },
     {
@@ -3768,71 +4310,78 @@
       "peer": "Payments",
       "chain": "Algorand",
       "market": {
-        "market_cap": 848266278,
-        "total_volume": 33361835,
-        "circulating_supply": 9078283692.787083,
-        "total_supply": 9078305170.88639,
+        "market_cap": 865081559,
+        "total_volume": 31841989,
+        "circulating_supply": 9078446135.606993,
+        "total_supply": 9078471795.576305,
         "max_supply": 10000000000.0,
-        "ath_change_percentage": -97.37616,
-        "current_price": 0.093439,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -97.32419,
+        "current_price": 0.09529,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -19.3942
       },
-      "turnover": 3.932943683516321,
-      "tradingActivity": 3.932943683516321,
+      "turnover": 3.6808077421980974,
+      "tradingActivity": 3.6808077421980974,
       "coverage": 4,
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 0.093967,
-        "change30d": -22.1294,
-        "athDistance": -97.36133,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 9078283692.787083,
+        "usd": 0.09529,
+        "change30d": -19.3942,
+        "athDistance": -97.32419,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 9078446135.606993,
         "source": "https://www.coingecko.com/en/coins/algorand"
       },
-      "gapObservations": [],
+      "gapObservations": [
+        {
+          "metric": "stables",
+          "change30d": 98.44541654744042,
+          "priceChange30d": -19.3942,
+          "fundamentalAsOf": "2026-11-06T18:00:00-06:00",
+          "priceAsOf": "2026-11-08T10:31:51.000Z",
+          "source": "https://stablecoins.llama.fi/stablecoincharts/Algorand",
+          "priceSource": "https://www.coingecko.com/en/coins/algorand"
+        }
+      ],
       "tvl": {
-        "current": 28989228.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 30045835.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -0.5960929966659534,
-        "change30d": -22.213096604407934,
+        "change7d": 0.12354392105691225,
+        "change30d": -16.95702570194998,
         "history": [
-          [
-            "Oct 06",
-            37267492.0
-          ],
           [
             "Oct 07",
             36181068.0
@@ -3952,20 +4501,20 @@
           [
             "Nov 05",
             28989228.0
+          ],
+          [
+            "Nov 06",
+            30045835.0
           ]
         ]
       },
       "stables": {
-        "current": 114606760.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 116774614.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 9.42062295157533,
-        "change30d": 104.81024056564037,
+        "change7d": 9.030154175636685,
+        "change30d": 98.44541654744042,
         "history": [
-          [
-            "Oct 06",
-            55957534.0
-          ],
           [
             "Oct 07",
             58844702.0
@@ -4085,20 +4634,20 @@
           [
             "Nov 05",
             114606760.0
+          ],
+          [
+            "Nov 06",
+            116774614.0
           ]
         ]
       },
       "fees": {
         "current": 17.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 8.000000000000007,
-        "change30d": -0.990099009900991,
+        "change7d": 7.843137254901955,
+        "change30d": -1.3806706114398382,
         "history": [
-          [
-            "Oct 06",
-            20.0
-          ],
           [
             "Oct 07",
             17.0
@@ -4217,21 +4766,21 @@
           ],
           [
             "Nov 05",
+            17.0
+          ],
+          [
+            "Nov 06",
             17.0
           ]
         ]
       },
       "revenue": {
         "current": 17.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 8.000000000000007,
-        "change30d": -0.990099009900991,
+        "change7d": 7.843137254901955,
+        "change30d": -1.3806706114398382,
         "history": [
-          [
-            "Oct 06",
-            20.0
-          ],
           [
             "Oct 07",
             17.0
@@ -4351,65 +4900,146 @@
           [
             "Nov 05",
             17.0
+          ],
+          [
+            "Nov 06",
+            17.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            37267492.0
+            "Oct 07",
+            36181068.0
+          ],
+          [
+            "Oct 08",
+            35626585.0
           ],
           [
             "Oct 09",
             35013350.0
           ],
           [
+            "Oct 10",
+            35687117.0
+          ],
+          [
+            "Oct 11",
+            37794984.0
+          ],
+          [
             "Oct 12",
             35627781.0
+          ],
+          [
+            "Oct 13",
+            35989075.0
+          ],
+          [
+            "Oct 14",
+            34787049.0
           ],
           [
             "Oct 15",
             35724177.0
           ],
           [
+            "Oct 16",
+            34765095.0
+          ],
+          [
+            "Oct 17",
+            33980709.0
+          ],
+          [
             "Oct 18",
             33759012.0
+          ],
+          [
+            "Oct 19",
+            33308514.0
+          ],
+          [
+            "Oct 20",
+            34653715.0
           ],
           [
             "Oct 21",
             34921301.0
           ],
           [
+            "Oct 22",
+            33053000.0
+          ],
+          [
+            "Oct 23",
+            32738554.0
+          ],
+          [
             "Oct 24",
             32418269.0
+          ],
+          [
+            "Oct 25",
+            32588950.0
+          ],
+          [
+            "Oct 26",
+            32811783.0
           ],
           [
             "Oct 27",
             32246467.0
           ],
           [
+            "Oct 28",
+            32332229.0
+          ],
+          [
+            "Oct 29",
+            29163067.0
+          ],
+          [
             "Oct 30",
             30008761.0
+          ],
+          [
+            "Oct 31",
+            29871066.0
+          ],
+          [
+            "Nov 01",
+            29445273.0
           ],
           [
             "Nov 02",
             28808121.0
           ],
           [
+            "Nov 03",
+            28915551.0
+          ],
+          [
+            "Nov 04",
+            30910920.0
+          ],
+          [
             "Nov 05",
             28989228.0
+          ],
+          [
+            "Nov 06",
+            30045835.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -0.5960929966659534,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 4,
           "total": 4
-        },
-        "peerLabel": "Payments"
+        }
       }
     },
     {
@@ -4418,71 +5048,78 @@
       "peer": "Platforms",
       "chain": "Sui",
       "market": {
-        "market_cap": 3549732335,
-        "total_volume": 164475156,
+        "market_cap": 3506586317,
+        "total_volume": 150926470,
         "circulating_supply": 4139043544.1303763,
         "total_supply": 10000000000.0,
         "max_supply": 10000000000.0,
-        "ath_change_percentage": -83.9594,
-        "current_price": 0.857621,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -84.15437,
+        "current_price": 0.847197,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -20.9009
       },
-      "turnover": 4.633452341696068,
-      "tradingActivity": 4.633452341696068,
+      "turnover": 4.30408540831593,
+      "tradingActivity": 4.30408540831593,
       "coverage": 4,
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 0.857816,
-        "change30d": -22.0155,
-        "athDistance": -83.95577,
-        "asOf": "2026-11-07T16:14:48.000Z",
+        "usd": 0.847197,
+        "change30d": -20.9009,
+        "athDistance": -84.15437,
+        "asOf": "2026-11-08T10:31:51.000Z",
         "circulating": 4139043544.1303763,
         "source": "https://www.coingecko.com/en/coins/sui"
       },
-      "gapObservations": [],
+      "gapObservations": [
+        {
+          "metric": "stables",
+          "change30d": 13.600522511636171,
+          "priceChange30d": -20.9009,
+          "fundamentalAsOf": "2026-11-06T18:00:00-06:00",
+          "priceAsOf": "2026-11-08T10:31:51.000Z",
+          "source": "https://stablecoins.llama.fi/stablecoincharts/Sui",
+          "priceSource": "https://www.coingecko.com/en/coins/sui"
+        }
+      ],
       "tvl": {
-        "current": 438008652.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 440978818.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -3.169025727315855,
-        "change30d": -19.721783484572185,
+        "change7d": -5.241220189158868,
+        "change30d": -17.43153753773403,
         "history": [
-          [
-            "Oct 06",
-            545613332.0
-          ],
           [
             "Oct 07",
             534076577.0
@@ -4602,20 +5239,20 @@
           [
             "Nov 05",
             438008652.0
+          ],
+          [
+            "Nov 06",
+            440978818.0
           ]
         ]
       },
       "stables": {
-        "current": 519499861.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 546985314.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 17.60744923926434,
-        "change30d": 7.911174734199644,
+        "change7d": 22.343269785928975,
+        "change30d": 13.600522511636171,
         "history": [
-          [
-            "Oct 06",
-            481414332.0
-          ],
           [
             "Oct 07",
             481498942.0
@@ -4735,331 +5372,162 @@
           [
             "Nov 05",
             519499861.0
+          ],
+          [
+            "Nov 06",
+            546985314.0
           ]
         ]
       },
       "fees": {
-        "current": 2712.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 1379.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
         "change7d": null,
         "change30d": null,
-        "history": [
-          [
-            "Oct 05",
-            7500.0
-          ],
-          [
-            "Oct 06",
-            9463.0
-          ],
-          [
-            "Oct 07",
-            23069.0
-          ],
-          [
-            "Oct 08",
-            2996.0
-          ],
-          [
-            "Oct 09",
-            3229.0
-          ],
-          [
-            "Oct 10",
-            3277.0
-          ],
-          [
-            "Oct 11",
-            5662.0
-          ],
-          [
-            "Oct 12",
-            6926.0
-          ],
-          [
-            "Oct 13",
-            4412.0
-          ],
-          [
-            "Oct 14",
-            4581.0
-          ],
-          [
-            "Oct 15",
-            3558.0
-          ],
-          [
-            "Oct 16",
-            2243.0
-          ],
-          [
-            "Oct 17",
-            2430.0
-          ],
-          [
-            "Oct 18",
-            2652.0
-          ],
-          [
-            "Oct 19",
-            3180.0
-          ],
-          [
-            "Oct 20",
-            3202.0
-          ],
-          [
-            "Oct 21",
-            5035.0
-          ],
-          [
-            "Oct 22",
-            2608.0
-          ],
-          [
-            "Oct 23",
-            2566.0
-          ],
-          [
-            "Oct 24",
-            2110.0
-          ],
-          [
-            "Oct 25",
-            2341.0
-          ],
-          [
-            "Oct 26",
-            2627.0
-          ],
-          [
-            "Oct 27",
-            2532.0
-          ],
-          [
-            "Oct 28",
-            3877.0
-          ],
-          [
-            "Oct 29",
-            3550.0
-          ],
-          [
-            "Oct 30",
-            2071.0
-          ],
-          [
-            "Oct 31",
-            1452.0
-          ],
-          [
-            "Nov 01",
-            2168.0
-          ],
-          [
-            "Nov 02",
-            2116.0
-          ],
-          [
-            "Nov 03",
-            2402.0
-          ],
-          [
-            "Nov 05",
-            2712.0
-          ]
-        ]
+        "history": []
       },
       "revenue": {
-        "current": 34.81,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 15.07,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
         "change7d": null,
         "change30d": null,
-        "history": [
-          [
-            "Oct 05",
-            2940.0
-          ],
-          [
-            "Oct 06",
-            2590.0
-          ],
-          [
-            "Oct 07",
-            3392.0
-          ],
-          [
-            "Oct 08",
-            126.0
-          ],
-          [
-            "Oct 09",
-            19.86
-          ],
-          [
-            "Oct 10",
-            18.78
-          ],
-          [
-            "Oct 11",
-            23.57
-          ],
-          [
-            "Oct 12",
-            26.27
-          ],
-          [
-            "Oct 13",
-            32.48
-          ],
-          [
-            "Oct 14",
-            35.06
-          ],
-          [
-            "Oct 15",
-            29.52
-          ],
-          [
-            "Oct 16",
-            16.91
-          ],
-          [
-            "Oct 17",
-            20.39
-          ],
-          [
-            "Oct 18",
-            22.19
-          ],
-          [
-            "Oct 19",
-            26.17
-          ],
-          [
-            "Oct 20",
-            24.38
-          ],
-          [
-            "Oct 21",
-            22.8
-          ],
-          [
-            "Oct 22",
-            23.0
-          ],
-          [
-            "Oct 23",
-            19.77
-          ],
-          [
-            "Oct 24",
-            15.78
-          ],
-          [
-            "Oct 25",
-            21.76
-          ],
-          [
-            "Oct 26",
-            21.34
-          ],
-          [
-            "Oct 27",
-            23.84
-          ],
-          [
-            "Oct 28",
-            29.52
-          ],
-          [
-            "Oct 29",
-            25.93
-          ],
-          [
-            "Oct 30",
-            21.28
-          ],
-          [
-            "Oct 31",
-            16.09
-          ],
-          [
-            "Nov 01",
-            25.48
-          ],
-          [
-            "Nov 02",
-            26.63
-          ],
-          [
-            "Nov 03",
-            30.36
-          ],
-          [
-            "Nov 05",
-            34.81
-          ]
-        ]
+        "history": []
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            545613332.0
+            "Oct 07",
+            534076577.0
+          ],
+          [
+            "Oct 08",
+            510040580.0
           ],
           [
             "Oct 09",
             519339081.0
           ],
           [
+            "Oct 10",
+            527470323.0
+          ],
+          [
+            "Oct 11",
+            532084859.0
+          ],
+          [
             "Oct 12",
             504903276.0
+          ],
+          [
+            "Oct 13",
+            510936014.0
+          ],
+          [
+            "Oct 14",
+            508262647.0
           ],
           [
             "Oct 15",
             508166095.0
           ],
           [
+            "Oct 16",
+            498318033.0
+          ],
+          [
+            "Oct 17",
+            489514019.0
+          ],
+          [
             "Oct 18",
             492656431.0
+          ],
+          [
+            "Oct 19",
+            487917864.0
+          ],
+          [
+            "Oct 20",
+            497890335.0
           ],
           [
             "Oct 21",
             511462007.0
           ],
           [
+            "Oct 22",
+            491281169.0
+          ],
+          [
+            "Oct 23",
+            488032141.0
+          ],
+          [
             "Oct 24",
             478744144.0
+          ],
+          [
+            "Oct 25",
+            472878579.0
+          ],
+          [
+            "Oct 26",
+            473025048.0
           ],
           [
             "Oct 27",
             476987019.0
           ],
           [
+            "Oct 28",
+            483687425.0
+          ],
+          [
+            "Oct 29",
+            452343535.0
+          ],
+          [
             "Oct 30",
             465369878.0
+          ],
+          [
+            "Oct 31",
+            463266695.0
+          ],
+          [
+            "Nov 01",
+            460133564.0
           ],
           [
             "Nov 02",
             451771030.0
           ],
           [
+            "Nov 03",
+            455444677.0
+          ],
+          [
+            "Nov 04",
+            468055367.0
+          ],
+          [
             "Nov 05",
             438008652.0
+          ],
+          [
+            "Nov 06",
+            440978818.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -3.169025727315855,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 4,
           "total": 4
-        },
-        "peerLabel": "Smart-contract platforms"
+        }
       }
     },
     {
@@ -5068,23 +5536,24 @@
       "peer": "AI & compute",
       "chain": null,
       "market": {
-        "market_cap": 833317674,
-        "total_volume": 21739777,
+        "market_cap": 822519347,
+        "total_volume": 15472737,
         "circulating_supply": 533536414.5626915,
-        "total_supply": 561677066.6003445,
+        "total_supply": 561664988.5003445,
         "max_supply": 644168762.0,
-        "ath_change_percentage": -88.4602,
-        "current_price": 1.56,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -88.60974,
+        "current_price": 1.54,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -19.2186
       },
-      "turnover": 2.6088222629009064,
-      "tradingActivity": 2.6088222629009064,
+      "turnover": 1.881139581267503,
+      "tradingActivity": 1.881139581267503,
       "coverage": 0,
       "dataAvailable": 0,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
@@ -5114,10 +5583,10 @@
         }
       },
       "priceContext": {
-        "usd": 1.55,
-        "change30d": -21.8487,
-        "athDistance": -88.52105,
-        "asOf": "2026-11-07T16:14:48.000Z",
+        "usd": 1.54,
+        "change30d": -19.2186,
+        "athDistance": -88.60974,
+        "asOf": "2026-11-08T10:31:51.000Z",
         "circulating": 533536414.5626915,
         "source": "https://www.coingecko.com/en/coins/render-token"
       },
@@ -5156,15 +5625,12 @@
       },
       "visual": {
         "sparklineMetric": null,
-        "sparklineLabel": null,
         "sparkline": [],
         "sourceAsOf": null,
-        "change7d": null,
         "availabilityGauge": {
           "count": 0,
           "total": 4
-        },
-        "peerLabel": "AI & compute"
+        }
       }
     },
     {
@@ -5173,23 +5639,24 @@
       "peer": "Tokenization & interop",
       "chain": null,
       "market": {
-        "market_cap": 46093781,
-        "total_volume": 2292540,
-        "circulating_supply": 1253753509.119619,
-        "total_supply": 1259564025.682688,
+        "market_cap": 45411496,
+        "total_volume": 2640450,
+        "circulating_supply": 1253925758.508737,
+        "total_supply": 1259625276.498358,
         "max_supply": null,
-        "ath_change_percentage": -98.60946,
-        "current_price": 0.03676463,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -98.63023,
+        "current_price": 0.03621546,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -29.2695
       },
-      "turnover": 4.973642756709413,
-      "tradingActivity": 4.973642756709413,
+      "turnover": 5.814496840183376,
+      "tradingActivity": 5.814496840183376,
       "coverage": 0,
       "dataAvailable": 0,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
@@ -5219,11 +5686,11 @@
         }
       },
       "priceContext": {
-        "usd": 0.03670654,
-        "change30d": -29.0132,
-        "athDistance": -98.61166,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 1253754384.734073,
+        "usd": 0.03621546,
+        "change30d": -29.2695,
+        "athDistance": -98.63023,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 1253925758.508737,
         "source": "https://www.coingecko.com/en/coins/axelar"
       },
       "gapObservations": [],
@@ -5261,15 +5728,12 @@
       },
       "visual": {
         "sparklineMetric": null,
-        "sparklineLabel": null,
         "sparkline": [],
         "sourceAsOf": null,
-        "change7d": null,
         "availabilityGauge": {
           "count": 0,
           "total": 4
-        },
-        "peerLabel": "Tokenization & interop"
+        }
       }
     },
     {
@@ -5278,71 +5742,78 @@
       "peer": "Platforms",
       "chain": "Near",
       "market": {
-        "market_cap": 4829390343,
-        "total_volume": 264558837,
-        "circulating_supply": 1311062901.0,
-        "total_supply": 1311062952.0,
+        "market_cap": 4845186466,
+        "total_volume": 247226373,
+        "circulating_supply": 1311140133.0,
+        "total_supply": 1311140145.0,
         "max_supply": null,
-        "ath_change_percentage": -81.97697,
-        "current_price": 3.68,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -81.91909,
+        "current_price": 3.7,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -23.2063
       },
-      "turnover": 5.478100095666671,
-      "tradingActivity": 5.478100095666671,
+      "turnover": 5.102515140229486,
+      "tradingActivity": 5.102515140229486,
       "coverage": 4,
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 3.66,
-        "change30d": -26.4865,
-        "athDistance": -82.08179,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 1311062884.0,
+        "usd": 3.7,
+        "change30d": -23.2063,
+        "athDistance": -81.91909,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 1311140133.0,
         "source": "https://www.coingecko.com/en/coins/near"
       },
-      "gapObservations": [],
+      "gapObservations": [
+        {
+          "metric": "fees",
+          "change30d": 14.40312638491601,
+          "priceChange30d": -23.2063,
+          "fundamentalAsOf": "2026-11-06T18:00:00-06:00",
+          "priceAsOf": "2026-11-08T10:31:51.000Z",
+          "source": "https://api.llama.fi/summary/fees/near?dataType=dailyFees",
+          "priceSource": "https://www.coingecko.com/en/coins/near"
+        }
+      ],
       "tvl": {
-        "current": 172956530.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 176426962.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -6.981364017879899,
-        "change30d": -27.223716364767014,
+        "change7d": -10.658064238297227,
+        "change30d": -30.239720542222305,
         "history": [
-          [
-            "Oct 06",
-            237655073.0
-          ],
           [
             "Oct 07",
             252904609.0
@@ -5462,20 +5933,20 @@
           [
             "Nov 05",
             172956530.0
+          ],
+          [
+            "Nov 06",
+            176426962.0
           ]
         ]
       },
       "stables": {
-        "current": 129702551.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 130536896.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 0.5747013866349793,
-        "change30d": 1.334757992317126,
+        "change7d": 1.1965650399214933,
+        "change30d": -1.1504957999055487,
         "history": [
-          [
-            "Oct 06",
-            127994139.0
-          ],
           [
             "Oct 07",
             132056197.0
@@ -5595,20 +6066,20 @@
           [
             "Nov 05",
             129702551.0
+          ],
+          [
+            "Nov 06",
+            130536896.0
           ]
         ]
       },
       "fees": {
-        "current": 3204.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 2725.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -10.058221240714715,
-        "change30d": 20.91504174409897,
+        "change7d": -10.590912785499473,
+        "change30d": 14.40312638491601,
         "history": [
-          [
-            "Oct 06",
-            5481.0
-          ],
           [
             "Oct 07",
             6723.0
@@ -5728,20 +6199,20 @@
           [
             "Nov 05",
             3204.0
+          ],
+          [
+            "Nov 06",
+            2725.0
           ]
         ]
       },
       "revenue": {
-        "current": 2243.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 1907.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -10.06595927731574,
-        "change30d": 20.91931249690426,
+        "change7d": -10.595065312046447,
+        "change30d": 14.407543839453595,
         "history": [
-          [
-            "Oct 06",
-            3836.0
-          ],
           [
             "Oct 07",
             4706.0
@@ -5861,65 +6332,146 @@
           [
             "Nov 05",
             2243.0
+          ],
+          [
+            "Nov 06",
+            1907.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            237655073.0
+            "Oct 07",
+            252904609.0
+          ],
+          [
+            "Oct 08",
+            221204975.0
           ],
           [
             "Oct 09",
             229764145.0
           ],
           [
+            "Oct 10",
+            249670766.0
+          ],
+          [
+            "Oct 11",
+            276755828.0
+          ],
+          [
             "Oct 12",
             243469146.0
+          ],
+          [
+            "Oct 13",
+            243090975.0
+          ],
+          [
+            "Oct 14",
+            225207880.0
           ],
           [
             "Oct 15",
             241523942.0
           ],
           [
+            "Oct 16",
+            234052707.0
+          ],
+          [
+            "Oct 17",
+            224496951.0
+          ],
+          [
             "Oct 18",
             229160088.0
+          ],
+          [
+            "Oct 19",
+            223179810.0
+          ],
+          [
+            "Oct 20",
+            225679569.0
           ],
           [
             "Oct 21",
             245666739.0
           ],
           [
+            "Oct 22",
+            228791914.0
+          ],
+          [
+            "Oct 23",
+            214374740.0
+          ],
+          [
             "Oct 24",
             209803976.0
+          ],
+          [
+            "Oct 25",
+            212713943.0
+          ],
+          [
+            "Oct 26",
+            209137580.0
           ],
           [
             "Oct 27",
             216157780.0
           ],
           [
+            "Oct 28",
+            218499638.0
+          ],
+          [
+            "Oct 29",
+            185937504.0
+          ],
+          [
             "Oct 30",
             197473852.0
+          ],
+          [
+            "Oct 31",
+            201698869.0
+          ],
+          [
+            "Nov 01",
+            195416230.0
           ],
           [
             "Nov 02",
             178319326.0
           ],
           [
+            "Nov 03",
+            180105702.0
+          ],
+          [
+            "Nov 04",
+            187460483.0
+          ],
+          [
             "Nov 05",
             172956530.0
+          ],
+          [
+            "Nov 06",
+            176426962.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -6.981364017879899,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 4,
           "total": 4
-        },
-        "peerLabel": "Smart-contract platforms"
+        }
       }
     },
     {
@@ -5928,71 +6480,68 @@
       "peer": "Platforms",
       "chain": "Solana",
       "market": {
-        "market_cap": 52821772916,
-        "total_volume": 1175272635,
-        "circulating_supply": 590982487.5804209,
-        "total_supply": 637127594.0270784,
+        "market_cap": 52611033878,
+        "total_volume": 846324023,
+        "circulating_supply": 591038092.3122792,
+        "total_supply": 637188745.2911954,
         "max_supply": null,
-        "ath_change_percentage": -69.52744,
-        "current_price": 89.38,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -69.65187,
+        "current_price": 89.01,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -19.3444
       },
-      "turnover": 2.2249776372879064,
-      "tradingActivity": 2.2249776372879064,
+      "turnover": 1.6086435878879424,
+      "tradingActivity": 1.6086435878879424,
       "coverage": 4,
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 89.52,
-        "change30d": -20.457,
-        "athDistance": -69.47928,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 591038496.4893911,
+        "usd": 89.01,
+        "change30d": -19.3444,
+        "athDistance": -69.65187,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 591038092.3122792,
         "source": "https://www.coingecko.com/en/coins/solana"
       },
       "gapObservations": [],
       "tvl": {
-        "current": 5260256983.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 5225773565.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -1.5435492868763,
-        "change30d": -19.97624767961681,
+        "change7d": -4.131948734127622,
+        "change30d": -18.3659166640751,
         "history": [
-          [
-            "Oct 06",
-            6573369569.0
-          ],
           [
             "Oct 07",
             6401460458.0
@@ -6083,49 +6632,49 @@
           ],
           [
             "Oct 29",
-            5342724570.0
+            5343462400.0
           ],
           [
             "Oct 30",
-            5450268523.0
+            5451006353.0
           ],
           [
             "Oct 31",
-            5408895428.0
+            5409633258.0
           ],
           [
             "Nov 01",
-            5461467367.0
+            5462205197.0
           ],
           [
             "Nov 02",
-            5403026894.0
+            5403764724.0
           ],
           [
             "Nov 03",
-            5385991266.0
+            5386729096.0
           ],
           [
             "Nov 04",
-            5533122245.0
+            5533860075.0
           ],
           [
             "Nov 05",
             5260256983.0
+          ],
+          [
+            "Nov 06",
+            5225773565.0
           ]
         ]
       },
       "stables": {
-        "current": 15033710389.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 14839175305.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -2.712545017987067,
-        "change30d": -10.147623420614005,
+        "change7d": -4.230442273314661,
+        "change30d": -9.65970459690444,
         "history": [
-          [
-            "Oct 06",
-            16731566778.0
-          ],
           [
             "Oct 07",
             16425865378.0
@@ -6245,20 +6794,20 @@
           [
             "Nov 05",
             15033710389.0
+          ],
+          [
+            "Nov 06",
+            14839175305.0
           ]
         ]
       },
       "fees": {
-        "current": 466944.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 392516.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -10.029841728049027,
-        "change30d": -32.18767960034247,
+        "change7d": -6.302807564240576,
+        "change30d": -34.556533384823474,
         "history": [
-          [
-            "Oct 06",
-            970296.0
-          ],
           [
             "Oct 07",
             940134.0
@@ -6378,20 +6927,20 @@
           [
             "Nov 05",
             466944.0
+          ],
+          [
+            "Nov 06",
+            392516.0
           ]
         ]
       },
       "revenue": {
-        "current": 34339.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 27552.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -7.1753622306100056,
-        "change30d": -31.93779245539493,
+        "change7d": -4.55120597920482,
+        "change30d": -34.8543737560396,
         "history": [
-          [
-            "Oct 06",
-            113892.0
-          ],
           [
             "Oct 07",
             107134.0
@@ -6511,65 +7060,146 @@
           [
             "Nov 05",
             34339.0
+          ],
+          [
+            "Nov 06",
+            27552.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            6573369569.0
+            "Oct 07",
+            6401460458.0
+          ],
+          [
+            "Oct 08",
+            6158898830.0
           ],
           [
             "Oct 09",
             6140954326.0
           ],
           [
+            "Oct 10",
+            6162390001.0
+          ],
+          [
+            "Oct 11",
+            6204196984.0
+          ],
+          [
             "Oct 12",
             5964417774.0
+          ],
+          [
+            "Oct 13",
+            5999025261.0
+          ],
+          [
+            "Oct 14",
+            5919261633.0
           ],
           [
             "Oct 15",
             5965228677.0
           ],
           [
+            "Oct 16",
+            5908662552.0
+          ],
+          [
+            "Oct 17",
+            5880613397.0
+          ],
+          [
             "Oct 18",
             5835694448.0
+          ],
+          [
+            "Oct 19",
+            5831421334.0
+          ],
+          [
+            "Oct 20",
+            5949707542.0
           ],
           [
             "Oct 21",
             5962255047.0
           ],
           [
+            "Oct 22",
+            5845886283.0
+          ],
+          [
+            "Oct 23",
+            5759652020.0
+          ],
+          [
             "Oct 24",
             5759823649.0
+          ],
+          [
+            "Oct 25",
+            5688796422.0
+          ],
+          [
+            "Oct 26",
+            5649644235.0
           ],
           [
             "Oct 27",
             5693287956.0
           ],
           [
+            "Oct 28",
+            5694686678.0
+          ],
+          [
+            "Oct 29",
+            5343462400.0
+          ],
+          [
             "Oct 30",
-            5450268523.0
+            5451006353.0
+          ],
+          [
+            "Oct 31",
+            5409633258.0
+          ],
+          [
+            "Nov 01",
+            5462205197.0
           ],
           [
             "Nov 02",
-            5403026894.0
+            5403764724.0
+          ],
+          [
+            "Nov 03",
+            5386729096.0
+          ],
+          [
+            "Nov 04",
+            5533860075.0
           ],
           [
             "Nov 05",
             5260256983.0
+          ],
+          [
+            "Nov 06",
+            5225773565.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -1.5435492868763,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 4,
           "total": 4
-        },
-        "peerLabel": "Smart-contract platforms"
+        }
       }
     },
     {
@@ -6578,42 +7208,43 @@
       "peer": "Tokenization & interop",
       "chain": "Flare",
       "market": {
-        "market_cap": 502163802,
-        "total_volume": 1966372,
-        "circulating_supply": 87740786356.4181,
-        "total_supply": 106902934534.95207,
+        "market_cap": 499670043,
+        "total_volume": 1001357,
+        "circulating_supply": 87746649737.44312,
+        "total_supply": 106910109178.00879,
         "max_supply": null,
-        "ath_change_percentage": -96.18634,
-        "current_price": 0.00572327,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -96.20554,
+        "current_price": 0.00569446,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -17.1188
       },
-      "turnover": 0.3915797977011493,
-      "tradingActivity": 0.3915797977011493,
+      "turnover": 0.20040364917374084,
+      "tradingActivity": 0.20040364917374084,
       "coverage": 3,
       "dataAvailable": 3,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
@@ -6624,25 +7255,21 @@
         }
       },
       "priceContext": {
-        "usd": 0.0057199,
-        "change30d": -17.3231,
-        "athDistance": -96.18859,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 87740786356.4181,
+        "usd": 0.00569446,
+        "change30d": -17.1188,
+        "athDistance": -96.20554,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 87746649737.44312,
         "source": "https://www.coingecko.com/en/coins/flare-networks"
       },
       "gapObservations": [],
       "tvl": {
-        "current": 170015423.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 165969022.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -2.360939515659888,
-        "change30d": -18.38172018155827,
+        "change7d": -5.170251541203896,
+        "change30d": -16.37746958041855,
         "history": [
-          [
-            "Oct 06",
-            208305570.0
-          ],
           [
             "Oct 07",
             198474049.0
@@ -6762,20 +7389,20 @@
           [
             "Nov 05",
             170015423.0
+          ],
+          [
+            "Nov 06",
+            165969022.0
           ]
         ]
       },
       "stables": {
-        "current": 43047130.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 42447510.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -10.337130911413528,
-        "change30d": -11.55653838099131,
+        "change7d": -11.459376493102546,
+        "change30d": -12.461544492900812,
         "history": [
-          [
-            "Oct 06",
-            48671919.0
-          ],
           [
             "Oct 07",
             48490129.0
@@ -6895,20 +7522,20 @@
           [
             "Nov 05",
             43047130.0
+          ],
+          [
+            "Nov 06",
+            42447510.0
           ]
         ]
       },
       "fees": {
-        "current": 613.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 467.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 4.80209545983703,
-        "change30d": -21.34355360883641,
+        "change7d": 10.45001510117789,
+        "change30d": -23.343430518742903,
         "history": [
-          [
-            "Oct 06",
-            747.0
-          ],
           [
             "Oct 07",
             792.0
@@ -7028,6 +7655,10 @@
           [
             "Nov 05",
             613.0
+          ],
+          [
+            "Nov 06",
+            467.0
           ]
         ]
       },
@@ -7041,60 +7672,137 @@
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            208305570.0
+            "Oct 07",
+            198474049.0
+          ],
+          [
+            "Oct 08",
+            193075155.0
           ],
           [
             "Oct 09",
             196780619.0
           ],
           [
+            "Oct 10",
+            198278842.0
+          ],
+          [
+            "Oct 11",
+            197791990.0
+          ],
+          [
             "Oct 12",
             189036590.0
+          ],
+          [
+            "Oct 13",
+            191275309.0
+          ],
+          [
+            "Oct 14",
+            183932560.0
           ],
           [
             "Oct 15",
             184496763.0
           ],
           [
+            "Oct 16",
+            182597701.0
+          ],
+          [
+            "Oct 17",
+            181407357.0
+          ],
+          [
             "Oct 18",
             181116757.0
+          ],
+          [
+            "Oct 19",
+            180711109.0
+          ],
+          [
+            "Oct 20",
+            184515740.0
           ],
           [
             "Oct 21",
             187655257.0
           ],
           [
+            "Oct 22",
+            181260421.0
+          ],
+          [
+            "Oct 23",
+            179238226.0
+          ],
+          [
             "Oct 24",
             180335952.0
+          ],
+          [
+            "Oct 25",
+            180417478.0
+          ],
+          [
+            "Oct 26",
+            181833672.0
           ],
           [
             "Oct 27",
             184280786.0
           ],
           [
+            "Oct 28",
+            183257673.0
+          ],
+          [
+            "Oct 29",
+            174126443.0
+          ],
+          [
             "Oct 30",
             175017887.0
+          ],
+          [
+            "Oct 31",
+            175151206.0
+          ],
+          [
+            "Nov 01",
+            176014901.0
           ],
           [
             "Nov 02",
             176519267.0
           ],
           [
+            "Nov 03",
+            179221796.0
+          ],
+          [
+            "Nov 04",
+            183711505.0
+          ],
+          [
             "Nov 05",
             170015423.0
+          ],
+          [
+            "Nov 06",
+            165969022.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -2.360939515659888,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 3,
           "total": 4
-        },
-        "peerLabel": "Tokenization & interop"
+        }
       }
     },
     {
@@ -7103,30 +7811,31 @@
       "peer": "Backdrop",
       "chain": "Bitcoin",
       "market": {
-        "market_cap": 1522944807828,
-        "total_volume": 15910298982,
-        "circulating_supply": 20109115.0,
-        "total_supply": 20109159.0,
+        "market_cap": 1524168877578,
+        "total_volume": 10504304179,
+        "circulating_supply": 20109490.0,
+        "total_supply": 20109490.0,
         "max_supply": 21000000.0,
-        "ath_change_percentage": -39.93169,
-        "current_price": 75734,
-        "last_updated": "2026-11-07T15:40:49.000Z"
+        "ath_change_percentage": -39.88453,
+        "current_price": 75794,
+        "last_updated": "2026-11-08T10:31:51.000Z",
+        "price_change_percentage_30d_in_currency": -8.2252
       },
-      "turnover": 1.0447062099834739,
-      "tradingActivity": 1.0447062099834739,
+      "turnover": 0.6891824346716748,
+      "tradingActivity": 0.6891824346716748,
       "coverage": 3,
       "dataAvailable": 3,
       "metricFreshness": {
         "market": {
-          "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 10.708315495833334,
+          "asOf": "2026-11-08T10:31:51.000Z",
+          "ageHours": 0.004103626388888889,
           "stale": false,
           "missing": false
         },
         "tvl": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "stables": {
@@ -7136,38 +7845,34 @@
           "missing": true
         },
         "fees": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         },
         "revenue": {
-          "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 50.388593273611114,
-          "stale": true,
+          "asOf": "2026-11-06T18:00:00-06:00",
+          "ageHours": 34.53493695972222,
+          "stale": false,
           "missing": false
         }
       },
       "priceContext": {
-        "usd": 75717,
-        "change30d": -8.4219,
-        "athDistance": -39.94484,
-        "asOf": "2026-11-07T16:14:48.000Z",
-        "circulating": 20109115.0,
+        "usd": 75794,
+        "change30d": -8.2252,
+        "athDistance": -39.88453,
+        "asOf": "2026-11-08T10:31:51.000Z",
+        "circulating": 20109490.0,
         "source": "https://www.coingecko.com/en/coins/bitcoin"
       },
       "gapObservations": [],
       "tvl": {
-        "current": 4029089178.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 4038077241.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": -1.5623570113565188,
-        "change30d": -11.761133015850167,
+        "change7d": -1.8201400372465204,
+        "change30d": -9.214907895071034,
         "history": [
-          [
-            "Oct 06",
-            4566116175.0
-          ],
           [
             "Oct 07",
             4447951913.0
@@ -7287,6 +7992,10 @@
           [
             "Nov 05",
             4029089178.0
+          ],
+          [
+            "Nov 06",
+            4038077241.0
           ]
         ]
       },
@@ -7299,16 +8008,12 @@
         "history": []
       },
       "fees": {
-        "current": 260854.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "current": 191267.0,
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
-        "change7d": 6.972579100129517,
-        "change30d": -13.689210657026397,
+        "change7d": 8.855008005182953,
+        "change30d": -14.494979182944757,
         "history": [
-          [
-            "Oct 06",
-            218994.0
-          ],
           [
             "Oct 07",
             242795.0
@@ -7428,20 +8133,20 @@
           [
             "Nov 05",
             260854.0
+          ],
+          [
+            "Nov 06",
+            191267.0
           ]
         ]
       },
       "revenue": {
         "current": 0.0,
-        "asOf": "2026-11-05T18:00:00-06:00",
+        "asOf": "2026-11-06T18:00:00-06:00",
         "fresh": true,
         "change7d": null,
         "change30d": null,
         "history": [
-          [
-            "Oct 06",
-            0.0
-          ],
           [
             "Oct 07",
             0.0
@@ -7561,75 +8266,161 @@
           [
             "Nov 05",
             0.0
+          ],
+          [
+            "Nov 06",
+            0.0
           ]
         ]
       },
       "visual": {
         "sparklineMetric": "tvl",
-        "sparklineLabel": "Value locked",
         "sparkline": [
           [
-            "Oct 06",
-            4566116175.0
+            "Oct 07",
+            4447951913.0
+          ],
+          [
+            "Oct 08",
+            4364527004.0
           ],
           [
             "Oct 09",
             4409161800.0
           ],
           [
+            "Oct 10",
+            4427450674.0
+          ],
+          [
+            "Oct 11",
+            4470149749.0
+          ],
+          [
             "Oct 12",
             4358251030.0
+          ],
+          [
+            "Oct 13",
+            4456157526.0
+          ],
+          [
+            "Oct 14",
+            4367370393.0
           ],
           [
             "Oct 15",
             4401099840.0
           ],
           [
+            "Oct 16",
+            4360982247.0
+          ],
+          [
+            "Oct 17",
+            4355334809.0
+          ],
+          [
             "Oct 18",
             4403372416.0
+          ],
+          [
+            "Oct 19",
+            4365945176.0
+          ],
+          [
+            "Oct 20",
+            4434057177.0
           ],
           [
             "Oct 21",
             4502728828.0
           ],
           [
+            "Oct 22",
+            4348201139.0
+          ],
+          [
+            "Oct 23",
+            4327544356.0
+          ],
+          [
             "Oct 24",
             4323377725.0
+          ],
+          [
+            "Oct 25",
+            4283720865.0
+          ],
+          [
+            "Oct 26",
+            4285731941.0
           ],
           [
             "Oct 27",
             4298294886.0
           ],
           [
+            "Oct 28",
+            4314157905.0
+          ],
+          [
+            "Oct 29",
+            4093037029.0
+          ],
+          [
             "Oct 30",
             4112938481.0
+          ],
+          [
+            "Oct 31",
+            4148101759.0
+          ],
+          [
+            "Nov 01",
+            4173044122.0
           ],
           [
             "Nov 02",
             4103284383.0
           ],
           [
+            "Nov 03",
+            4128284482.0
+          ],
+          [
+            "Nov 04",
+            4284366466.0
+          ],
+          [
             "Nov 05",
             4029089178.0
+          ],
+          [
+            "Nov 06",
+            4038077241.0
           ]
         ],
-        "sourceAsOf": "2026-11-05T18:00:00-06:00",
-        "change7d": -1.5623570113565188,
+        "sourceAsOf": "2026-11-06T18:00:00-06:00",
         "availabilityGauge": {
           "count": 3,
           "total": 4
-        },
-        "peerLabel": "Backdrop"
+        }
       }
     }
   ],
   "backdrop": {
     "fng": [
       {
+        "value": "28",
+        "value_classification": "Fear",
+        "timestamp": "1794096000",
+        "time_until_update": "48474"
+      },
+      {
         "value": "25",
         "value_classification": "Extreme Fear",
-        "timestamp": "1794009600",
-        "time_until_update": "29935"
+        "timestamp": "1794009600"
       },
       {
         "value": "28",
@@ -8075,418 +8866,198 @@
         "value": "30",
         "value_classification": "Fear",
         "timestamp": "1786320000"
-      },
-      {
-        "value": "31",
-        "value_classification": "Fear",
-        "timestamp": "1786233600"
       }
     ],
     "stablecoins": {
-      "current": 295532173690.0,
-      "change30d": -4.5410122276522635,
-      "asOf": "2026-11-05T18:00:00-06:00",
+      "current": 294078620947.0,
+      "asOf": "2026-11-06T18:00:00-06:00",
+      "fresh": true,
+      "change7d": -2.2070778196872753,
+      "change30d": -4.835672093504694,
       "history": [
         [
-          1786233600,
-          300716922767.0
-        ],
-        [
-          1786320000,
-          300798154893.0
-        ],
-        [
-          1786406400,
-          299861775603.0
-        ],
-        [
-          1786492800,
-          300816619966.0
-        ],
-        [
-          1786579200,
-          300914316183.0
-        ],
-        [
-          1786665600,
-          300818106002.0
-        ],
-        [
-          1786752000,
-          300969575268.0
-        ],
-        [
-          1786838400,
-          300869841820.0
-        ],
-        [
-          1786924800,
-          300879468222.0
-        ],
-        [
-          1787011200,
-          301001675130.0
-        ],
-        [
-          1787097600,
-          300971102340.0
-        ],
-        [
-          1787184000,
-          301656135332.0
-        ],
-        [
-          1787270400,
-          302706042416.0
-        ],
-        [
-          1787356800,
-          302960444031.0
-        ],
-        [
-          1787443200,
-          303066887465.0
-        ],
-        [
-          1787529600,
-          303134760629.0
-        ],
-        [
-          1787616000,
-          303278798297.0
-        ],
-        [
-          1787702400,
-          303530872823.0
-        ],
-        [
-          1787788800,
-          303916515427.0
-        ],
-        [
-          1787875200,
-          303951845403.0
-        ],
-        [
-          1787961600,
-          303675921939.0
-        ],
-        [
-          1788048000,
-          303584064529.0
-        ],
-        [
-          1788134400,
-          303724550676.0
-        ],
-        [
-          1788220800,
-          303652145213.0
-        ],
-        [
-          1788307200,
-          303689583360.0
-        ],
-        [
-          1788393600,
-          304068665946.0
-        ],
-        [
-          1788480000,
-          305122149570.0
-        ],
-        [
-          1788566400,
-          305392501900.0
-        ],
-        [
-          1788652800,
-          305423306655.0
-        ],
-        [
-          1788739200,
-          305440019643.0
-        ],
-        [
-          1788825600,
-          305299640618.0
-        ],
-        [
-          1788912000,
-          305547800028.0
-        ],
-        [
-          1788998400,
-          305422831066.0
-        ],
-        [
-          1789084800,
-          305052833377.0
-        ],
-        [
-          1789171200,
-          305244663787.0
-        ],
-        [
-          1789257600,
-          305222051361.0
-        ],
-        [
-          1789344000,
-          305089869642.0
-        ],
-        [
-          1789430400,
-          305265181773.0
-        ],
-        [
-          1789516800,
-          304465385275.0
-        ],
-        [
-          1789603200,
-          304549580274.0
-        ],
-        [
-          1789689600,
-          304642173385.0
-        ],
-        [
-          1789776000,
-          305134448273.0
-        ],
-        [
-          1789862400,
-          305134661527.0
-        ],
-        [
-          1789948800,
-          305338383578.0
-        ],
-        [
-          1790035200,
-          306038980207.0
-        ],
-        [
-          1790121600,
-          306257587428.0
-        ],
-        [
-          1790208000,
-          306022308280.0
-        ],
-        [
-          1790294400,
-          306411199951.0
-        ],
-        [
-          1790380800,
-          306696209581.0
-        ],
-        [
-          1790467200,
-          306888932129.0
-        ],
-        [
-          1790553600,
-          308350560959.0
-        ],
-        [
-          1790640000,
-          308039755690.0
-        ],
-        [
-          1790726400,
-          307990417560.0
-        ],
-        [
-          1790812800,
-          307495374660.0
-        ],
-        [
-          1790899200,
-          308296317272.0
-        ],
-        [
-          1790985600,
-          308682758045.0
-        ],
-        [
-          1791072000,
-          308773536927.0
-        ],
-        [
-          1791158400,
-          309001520714.0
-        ],
-        [
-          1791244800,
-          309451041981.0
-        ],
-        [
-          1791331200,
-          309590726433.0
-        ],
-        [
-          1791417600,
+          "Oct 07",
           309021907070.0
         ],
         [
-          1791504000,
+          "Oct 08",
           308312120855.0
         ],
         [
-          1791590400,
+          "Oct 09",
           307673953324.0
         ],
         [
-          1791676800,
+          "Oct 10",
           307773927543.0
         ],
         [
-          1791763200,
+          "Oct 11",
           307835667387.0
         ],
         [
-          1791849600,
+          "Oct 12",
           307799079976.0
         ],
         [
-          1791936000,
+          "Oct 13",
           307792562478.0
         ],
         [
-          1792022400,
+          "Oct 14",
           307222726670.0
         ],
         [
-          1792108800,
+          "Oct 15",
           306913385872.0
         ],
         [
-          1792195200,
+          "Oct 16",
           306600483759.0
         ],
         [
-          1792281600,
+          "Oct 17",
           306387043279.0
         ],
         [
-          1792368000,
+          "Oct 18",
           306339246316.0
         ],
         [
-          1792454400,
+          "Oct 19",
           305450090633.0
         ],
         [
-          1792540800,
+          "Oct 20",
           305260497874.0
         ],
         [
-          1792627200,
+          "Oct 21",
           305414101723.0
         ],
         [
-          1792713600,
+          "Oct 22",
           304971807059.0
         ],
         [
-          1792800000,
+          "Oct 23",
           304537944420.0
         ],
         [
-          1792886400,
+          "Oct 24",
           304341087898.0
         ],
         [
-          1792972800,
+          "Oct 25",
           304019280185.0
         ],
         [
-          1793059200,
+          "Oct 26",
           303264191479.0
         ],
         [
-          1793145600,
+          "Oct 27",
           303324050157.0
         ],
         [
-          1793232000,
+          "Oct 28",
           301847825995.0
         ],
         [
-          1793318400,
+          "Oct 29",
           301424400554.0
         ],
         [
-          1793404800,
+          "Oct 30",
           300715649344.0
         ],
         [
-          1793491200,
+          "Oct 31",
           300124663617.0
         ],
         [
-          1793577600,
+          "Nov 01",
           299382801294.0
         ],
         [
-          1793664000,
+          "Nov 02",
           297798893190.0
         ],
         [
-          1793750400,
+          "Nov 03",
           296922000375.0
         ],
         [
-          1793836800,
+          "Nov 04",
           296345657450.0
         ],
         [
-          1793923200,
+          "Nov 05",
           295532173690.0
+        ],
+        [
+          "Nov 06",
+          294078620947.0
         ]
       ]
     }
   },
   "numericAlerts": [
     {
+      "id": "XRP:stables7d",
+      "asset": "XRP",
+      "rule": "stables7d",
+      "severity": "Medium",
+      "time": "2026-11-08T04:32:05.773055-06:00",
+      "change": "stables +22.16% over 7d ($+177,073,514).",
+      "why": "USD-valued capital or settlement liquidity changed; valuation, bridges and adapter scope may contribute. Not a trade signal.",
+      "source": "https://stablecoins.llama.fi/stablecoincharts/XRPL"
+    },
+    {
+      "id": "XLM:stables7d",
+      "asset": "XLM",
+      "rule": "stables7d",
+      "severity": "Medium",
+      "time": "2026-11-08T04:32:05.773055-06:00",
+      "change": "stables +10.86% over 7d ($+38,634,594).",
+      "why": "USD-valued capital or settlement liquidity changed; valuation, bridges and adapter scope may contribute. Not a trade signal.",
+      "source": "https://stablecoins.llama.fi/stablecoincharts/Stellar"
+    },
+    {
       "id": "BNKR:fees7d",
       "asset": "BNKR",
       "rule": "fees7d",
       "severity": "Medium",
-      "time": "2026-11-07T09:41:05.187188-06:00",
-      "change": "7-day fees -75.8% versus preceding 7 days ($82,552 vs $340,783).",
-      "why": "Paid activity or fee economics shifted; check one-offs and metric definitions, not just activity counts.",
-      "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyFees",
-      "new": true,
-      "scope": "watchlist"
+      "time": "2026-11-08T04:32:05.773055-06:00",
+      "change": "Completed 7d fees -79.12% ($72,589 vs $347,727).",
+      "why": "Provider-defined paid activity or fee economics shifted; inspect one-offs and metric scope. No assumed token-holder entitlement.",
+      "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyFees"
     },
     {
       "id": "BNKR:revenue7d",
       "asset": "BNKR",
       "rule": "revenue7d",
       "severity": "Medium",
-      "time": "2026-11-07T09:41:05.187188-06:00",
-      "change": "7-day revenue -73.8% versus preceding 7 days ($38,049 vs $145,243).",
-      "why": "Paid activity or fee economics shifted; check one-offs and metric definitions, not just activity counts.",
-      "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyRevenue",
-      "new": true,
-      "scope": "watchlist"
+      "time": "2026-11-08T04:32:05.773055-06:00",
+      "change": "Completed 7d revenue -76.27% ($35,048 vs $147,689).",
+      "why": "Provider-defined paid activity or fee economics shifted; inspect one-offs and metric scope. No assumed token-holder entitlement.",
+      "source": "https://api.llama.fi/summary/fees/bankr?dataType=dailyRevenue"
     },
     {
       "id": "SUI:stables7d",
       "asset": "SUI",
       "rule": "stables7d",
       "severity": "Medium",
-      "time": "2026-11-07T09:41:05.187188-06:00",
-      "change": "Stablecoin value +17.6% over 7 days ($+77,776,259).",
-      "why": "Settlement liquidity changed materially; issuance, bridges and valuation may contribute.",
-      "source": "https://stablecoins.llama.fi/stablecoincharts/Sui",
-      "new": true,
-      "scope": "watchlist"
+      "time": "2026-11-08T04:32:05.773055-06:00",
+      "change": "stables +22.34% over 7d ($+99,894,669).",
+      "why": "USD-valued capital or settlement liquidity changed; valuation, bridges and adapter scope may contribute. Not a trade signal.",
+      "source": "https://stablecoins.llama.fi/stablecoincharts/Sui"
     }
   ],
-  "sourceFailures": []
+  "sourceFailures": [
+    "BTC:stables: Source unavailable",
+    "FLR:revenue: Source unavailable",
+    "ICP:fees: Source unavailable",
+    "ICP:revenue: Source unavailable"
+  ]
 }
