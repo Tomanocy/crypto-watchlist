@@ -1,84 +1,84 @@
 {
   "asOf": "Nov 07, 2026, 09:41 AM CST",
   "asOfISO": "2026-11-07T09:41:05.187188-06:00",
-  "statusAsOf": "2026-11-07T10:24:09.461355-06:00",
+  "statusAsOf": "2026-11-07T19:55:12.221647-06:00",
   "glance": [
     {
       "symbol": "HBAR",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: tvl, stables, fees, revenue"
       ],
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
     },
     {
       "symbol": "XRP",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: tvl, stables, fees, revenue"
       ],
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
@@ -87,38 +87,39 @@
       "symbol": "XLM",
       "status": "Watch",
       "reasons": [
-        "fees down -26.54% over 7d"
+        "fees down -26.54% over 7d",
+        "Stale source: tvl, stables, fees, revenue"
       ],
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
@@ -133,7 +134,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -165,28 +166,28 @@
     },
     {
       "symbol": "ICP",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: tvl, stables"
       ],
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
@@ -207,13 +208,14 @@
       "symbol": "DOT",
       "status": "Watch",
       "reasons": [
-        "fees down -85.71% over 7d"
+        "fees down -85.71% over 7d",
+        "Stale source: fees, revenue"
       ],
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -231,14 +233,14 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
@@ -248,13 +250,14 @@
       "status": "Watch",
       "reasons": [
         "Active Medium alert",
-        "fees down -75.78% over 7d"
+        "fees down -75.78% over 7d",
+        "Stale source: fees, revenue"
       ],
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -272,14 +275,14 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
@@ -294,7 +297,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -326,15 +329,15 @@
     },
     {
       "symbol": "ONDO",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: fees, revenue"
       ],
       "dataAvailable": 2,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -352,54 +355,54 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
     },
     {
       "symbol": "ALGO",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: tvl, stables, fees, revenue"
       ],
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
@@ -408,38 +411,39 @@
       "symbol": "SUI",
       "status": "Watch",
       "reasons": [
-        "Active Medium alert"
+        "Active Medium alert",
+        "Stale source: tvl, stables, fees, revenue"
       ],
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
@@ -454,7 +458,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -494,7 +498,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -526,114 +530,114 @@
     },
     {
       "symbol": "NEAR",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: tvl, stables, fees, revenue"
       ],
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
     },
     {
       "symbol": "SOL",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: tvl, stables, fees, revenue"
       ],
       "dataAvailable": 4,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       }
     },
     {
       "symbol": "FLR",
-      "status": "Healthy",
+      "status": "Watch",
       "reasons": [
-        "No tracked rule tripped; partial coverage"
+        "Stale source: tvl, stables, fees"
       ],
       "dataAvailable": 3,
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
@@ -667,40 +671,40 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
       "dataAvailable": 4,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, stables, fees, revenue"
         ]
       },
       "priceContext": {
@@ -808,6 +812,19 @@
           "type": "upgrade"
         }
       ],
+      "newsSentiment": {
+        "label": "Not enough data",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 0,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": []
+      },
+      "researchSummary": "No dated, tagged news in the last 7 days; this is a coverage gap, not a negative verdict.",
       "tradingActivity": 1.2223501786167918,
       "tvl": {
         "current": 24839688.0,
@@ -1419,40 +1436,40 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
       "dataAvailable": 4,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, stables, fees, revenue"
         ]
       },
       "priceContext": {
@@ -1549,6 +1566,26 @@
           "caveat": "Release needs EscrowFinish; re-escrow is unknown in advance. 70% re-escrowed over the last 12 releases is historical, not a forecast."
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 3,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 3,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection",
+          "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover",
+          "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh",
+          "https://x.com/binance/status/2118541594358104469",
+          "https://x.com/binance/status/2118657118014496819",
+          "https://xrplwin.com/amendment/fixCleanup3_4_0"
+        ]
+      },
+      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
       "tradingActivity": 2.175277853735078,
       "tvl": {
         "current": 36488124.0,
@@ -2160,32 +2197,32 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
@@ -2193,7 +2230,8 @@
       "glance": {
         "status": "Watch",
         "reasons": [
-          "fees down -26.54% over 7d"
+          "fees down -26.54% over 7d",
+          "Stale source: tvl, stables, fees, revenue"
         ]
       },
       "priceContext": {
@@ -2254,6 +2292,23 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 1,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://centrifuge.io/blog/schroders-centrifuge",
+          "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
+          "https://x.com/StellarOrg/status/2118390141731356759"
+        ]
+      },
+      "researchSummary": "Live tokenization and distribution broaden; token-holder cash flow is not established.",
       "tradingActivity": 1.7216710052330535,
       "tvl": {
         "current": 209359907.0,
@@ -2865,7 +2920,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -2947,6 +3002,22 @@
         "interpretation": "Evidence checks, not forecasts, ratings or token-value guarantees."
       },
       "catalysts": [],
+      "newsSentiment": {
+        "label": "Neutral",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 1,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://quant.network/news",
+          "https://quant.network/press-releases/the-clearing-house-partners-with-quant-to-advance-the-on-chain-money-initiative"
+        ]
+      },
+      "researchSummary": "An educational publication does not itself demonstrate additional production usage.",
       "tradingActivity": 1.7507142534350224,
       "tvl": {
         "current": null,
@@ -3013,20 +3084,20 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
@@ -3044,9 +3115,9 @@
       },
       "dataAvailable": 2,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, stables"
         ]
       },
       "priceContext": {
@@ -3112,6 +3183,22 @@
           "api": "https://ic-api.internetcomputer.org/api/v3/proposals/144741"
         }
       ],
+      "newsSentiment": {
+        "label": "Neutral",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 1,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://dashboard.internetcomputer.org/proposal/144741",
+          "https://ic-api.internetcomputer.org/api/v3/proposals/144741"
+        ]
+      },
+      "researchSummary": "An open upgrade election is process evidence, not completed delivery.",
       "tradingActivity": 1.6733235237009074,
       "tvl": {
         "current": 7630754.0,
@@ -3473,7 +3560,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -3491,14 +3578,14 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
@@ -3506,7 +3593,8 @@
       "glance": {
         "status": "Watch",
         "reasons": [
-          "fees down -85.71% over 7d"
+          "fees down -85.71% over 7d",
+          "Stale source: fees, revenue"
         ]
       },
       "priceContext": {
@@ -3566,6 +3654,21 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Neutral",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 1,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://forum.polkadot.network/t/polkadot-socials-daily-digest-2026-11-06/19284"
+        ]
+      },
+      "researchSummary": "Validator changes remain a proposal; efficiency and resilience effects are not settled.",
       "tradingActivity": 3.4357902710117676,
       "tvl": {
         "current": null,
@@ -3927,7 +4030,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -3945,14 +4048,14 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
@@ -3961,7 +4064,8 @@
         "status": "Watch",
         "reasons": [
           "Active Medium alert",
-          "fees down -75.78% over 7d"
+          "fees down -75.78% over 7d",
+          "Stale source: fees, revenue"
         ]
       },
       "priceContext": {
@@ -4022,6 +4126,23 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 1,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://x.com/CoinbaseDev/status/2118810403740504305",
+          "https://x.com/bankrbot/status/2118495853933711382",
+          "https://x.com/base/status/2118819694220296594"
+        ]
+      },
+      "researchSummary": "A corroborated integration expands distribution; retained usage is unproven.",
       "tradingActivity": 3.0682437010424195,
       "tvl": {
         "current": null,
@@ -4383,7 +4504,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -4478,6 +4599,22 @@
           "type": "activation"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 1,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
+          "https://x.com/opentensor/status/2118654269947785444"
+        ]
+      },
+      "researchSummary": "Wallet security capability shipped, but the spending switch is still off.",
       "tradingActivity": 1.9145509550124007,
       "tvl": {
         "current": null,
@@ -4544,7 +4681,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -4562,22 +4699,22 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
       "dataAvailable": 2,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: fees, revenue"
         ]
       },
       "priceContext": {
@@ -4651,6 +4788,24 @@
           "type": "product"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 2,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 2,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://centrifuge.io/blog/schroders-centrifuge",
+          "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
+          "https://x.com/Ondo/status/2118725675204919420",
+          "https://x.com/StellarOrg/status/2118390141731356759"
+        ]
+      },
+      "researchSummary": "Live distribution expands; IPO-day issuance is a conditional plan, not completed.",
       "tradingActivity": 3.4870400301846605,
       "tvl": {
         "current": null,
@@ -5012,40 +5167,40 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
       "dataAvailable": 4,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, stables, fees, revenue"
         ]
       },
       "priceContext": {
@@ -5056,19 +5211,7 @@
         "circulating": 9078283692.787083,
         "source": "https://www.coingecko.com/en/coins/algorand"
       },
-      "gapObservations": [
-        {
-          "metric": "stables",
-          "label": "Stablecoin USD value",
-          "change30d": 104.81024056564037,
-          "priceChange30d": -22.1294,
-          "fundamentalAsOf": "2026-11-05T18:00:00-06:00",
-          "priceAsOf": "2026-11-07T16:14:48.000Z",
-          "observation": "Stablecoin USD value up while price fell; an observation, not a signal.",
-          "source": "https://stablecoins.llama.fi/stablecoincharts/Algorand",
-          "priceSource": "https://www.coingecko.com/en/coins/algorand"
-        }
-      ],
+      "gapObservations": [],
       "riskFlags": {
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "flags": [
@@ -5117,6 +5260,21 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Negative",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 1
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://algorand.co/blog/algorand-community-update"
+        ]
+      },
+      "researchSummary": "Grant and community-support channels contract; sustainability intent does not remove builder-retention risk.",
       "tradingActivity": 3.932943683516321,
       "tvl": {
         "current": 28989228.0,
@@ -5728,32 +5886,32 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
@@ -5761,7 +5919,8 @@
       "glance": {
         "status": "Watch",
         "reasons": [
-          "Active Medium alert"
+          "Active Medium alert",
+          "Stale source: tvl, stables, fees, revenue"
         ]
       },
       "priceContext": {
@@ -5772,19 +5931,7 @@
         "circulating": 4139043544.1303763,
         "source": "https://www.coingecko.com/en/coins/sui"
       },
-      "gapObservations": [
-        {
-          "metric": "stables",
-          "label": "Stablecoin USD value",
-          "change30d": 7.911174734199644,
-          "priceChange30d": -22.0155,
-          "fundamentalAsOf": "2026-11-05T18:00:00-06:00",
-          "priceAsOf": "2026-11-07T16:14:48.000Z",
-          "observation": "Stablecoin USD value up while price fell; an observation, not a signal.",
-          "source": "https://stablecoins.llama.fi/stablecoincharts/Sui",
-          "priceSource": "https://www.coingecko.com/en/coins/sui"
-        }
-      ],
+      "gapObservations": [],
       "riskFlags": {
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "flags": [
@@ -5864,6 +6011,22 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 1,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://x.com/binance/status/2118541594358104469",
+          "https://x.com/binance/status/2118657118014496819"
+        ]
+      },
+      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
       "tradingActivity": 4.633452341696068,
       "tvl": {
         "current": 438008652.0,
@@ -6475,7 +6638,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -6579,6 +6742,19 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Not enough data",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 0,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": []
+      },
+      "researchSummary": "No dated, tagged news in the last 7 days; this is a coverage gap, not a negative verdict.",
       "tradingActivity": 2.6088222629009064,
       "tvl": {
         "current": null,
@@ -6645,7 +6821,7 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
@@ -6744,6 +6920,23 @@
           "type": "governance"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 1,
+          "Steady": 1,
+          "Yikes": 0
+        },
+        "storyCount": 2,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://axelar.valopers.com/proposals/511",
+          "https://x.com/binance/status/2118541594358104469",
+          "https://x.com/binance/status/2118657118014496819"
+        ]
+      },
+      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
       "tradingActivity": 4.973642756709413,
       "tvl": {
         "current": null,
@@ -6810,40 +7003,40 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
       "dataAvailable": 4,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, stables, fees, revenue"
         ]
       },
       "priceContext": {
@@ -6854,19 +7047,7 @@
         "circulating": 1311062884.0,
         "source": "https://www.coingecko.com/en/coins/near"
       },
-      "gapObservations": [
-        {
-          "metric": "fees",
-          "label": "Fees paid",
-          "change30d": 20.91504174409897,
-          "priceChange30d": -26.4865,
-          "fundamentalAsOf": "2026-11-05T18:00:00-06:00",
-          "priceAsOf": "2026-11-07T16:14:48.000Z",
-          "observation": "Fees paid up while price fell; an observation, not a signal.",
-          "source": "https://api.llama.fi/summary/fees/near?dataType=dailyFees",
-          "priceSource": "https://www.coingecko.com/en/coins/near"
-        }
-      ],
+      "gapObservations": [],
       "riskFlags": {
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "flags": [
@@ -6931,6 +7112,22 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 1,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://x.com/binance/status/2118541594358104469",
+          "https://x.com/binance/status/2118657118014496819"
+        ]
+      },
+      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
       "tradingActivity": 5.478100095666671,
       "tvl": {
         "current": 172956530.0,
@@ -7542,40 +7739,40 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
       "dataAvailable": 4,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, stables, fees, revenue"
         ]
       },
       "priceContext": {
@@ -7643,6 +7840,26 @@
           "type": "ecosystem"
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 2,
+          "Steady": 1,
+          "Yikes": 0
+        },
+        "storyCount": 3,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://centrifuge.io/blog/schroders-centrifuge",
+          "https://lstradar.com/epochs",
+          "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
+          "https://x.com/Ondo/status/2118725675204919420",
+          "https://x.com/StellarOrg/status/2118390141731356759",
+          "https://x.com/anza_xyz/status/2118423244806164615"
+        ]
+      },
+      "researchSummary": "Continued block production is reassuring but no official advisory all-clear was verified.",
       "tradingActivity": 2.2249776372879064,
       "tvl": {
         "current": 5260256983.0,
@@ -8254,26 +8471,26 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
@@ -8285,9 +8502,9 @@
       },
       "dataAvailable": 3,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, stables, fees"
         ]
       },
       "priceContext": {
@@ -8372,6 +8589,22 @@
           "caveat": "Weekly rate; do not treat as a single unlock amount or selling."
         }
       ],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 1,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 1,
+        "windowDays": 7,
+        "asOf": "2026-11-07T19:55:12.221647-06:00",
+        "sources": [
+          "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection",
+          "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover"
+        ]
+      },
+      "researchSummary": "Defined-risk cover adds a production integration, not protection against every loss.",
       "tradingActivity": 0.3915797977011493,
       "tvl": {
         "current": 170015423.0,
@@ -8858,14 +9091,14 @@
       "metricFreshness": {
         "market": {
           "asOf": "2026-11-07T15:40:49.000Z",
-          "ageHours": 0.7223503763888889,
+          "ageHours": 10.239783790833332,
           "stale": false,
           "missing": false
         },
         "tvl": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "stables": {
@@ -8876,22 +9109,22 @@
         },
         "fees": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         },
         "revenue": {
           "asOf": "2026-11-05T18:00:00-06:00",
-          "ageHours": 40.40262815416667,
-          "stale": false,
+          "ageHours": 49.92006156861111,
+          "stale": true,
           "missing": false
         }
       },
       "dataAvailable": 3,
       "glance": {
-        "status": "Healthy",
+        "status": "Watch",
         "reasons": [
-          "No tracked rule tripped; partial coverage"
+          "Stale source: tvl, fees, revenue"
         ]
       },
       "priceContext": {
@@ -8908,6 +9141,8 @@
       },
       "thesis": {},
       "catalysts": [],
+      "newsSentiment": null,
+      "researchSummary": null,
       "tradingActivity": 1.0447062099834739,
       "tvl": {
         "current": 4029089178.0,
@@ -10039,7 +10274,8 @@
       "tag": "Rocket",
       "tagReason": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/binance/status/2118541594358104469"
+      "source": "https://x.com/binance/status/2118541594358104469",
+      "summary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete."
     },
     {
       "section": "Yesterday",
@@ -10064,7 +10300,8 @@
       "tag": "Rocket",
       "tagReason": "Wallet security capability shipped, but the spending switch is still off.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets"
+      "source": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
+      "summary": "Wallet security capability shipped, but the spending switch is still off."
     },
     {
       "section": "Yesterday",
@@ -10093,7 +10330,8 @@
       "tag": "Rocket",
       "tagReason": "A corroborated integration expands distribution; retained usage is unproven.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/bankrbot/status/2118495853933711382"
+      "source": "https://x.com/bankrbot/status/2118495853933711382",
+      "summary": "A corroborated integration expands distribution; retained usage is unproven."
     },
     {
       "section": "Yesterday",
@@ -10114,7 +10352,8 @@
       "tag": "Yikes",
       "tagReason": "Grant and community-support channels contract; sustainability intent does not remove builder-retention risk.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://algorand.co/blog/algorand-community-update"
+      "source": "https://algorand.co/blog/algorand-community-update",
+      "summary": "Grant and community-support channels contract; sustainability intent does not remove builder-retention risk."
     },
     {
       "section": "Yesterday",
@@ -10139,7 +10378,8 @@
       "tag": "Steady",
       "tagReason": "Continued block production is reassuring but no official advisory all-clear was verified.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/anza_xyz/status/2118423244806164615"
+      "source": "https://x.com/anza_xyz/status/2118423244806164615",
+      "summary": "Continued block production is reassuring but no official advisory all-clear was verified."
     },
     {
       "section": "Yesterday",
@@ -10161,7 +10401,8 @@
       "tag": "Rocket",
       "tagReason": "Live distribution expands; IPO-day issuance is a conditional plan, not completed.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/Ondo/status/2118725675204919420"
+      "source": "https://x.com/Ondo/status/2118725675204919420",
+      "summary": "Live distribution expands; IPO-day issuance is a conditional plan, not completed."
     },
     {
       "section": "Yesterday",
@@ -10182,7 +10423,8 @@
       "tag": "Steady",
       "tagReason": "Validator changes remain a proposal; efficiency and resilience effects are not settled.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://forum.polkadot.network/t/polkadot-socials-daily-digest-2026-11-06/19284"
+      "source": "https://forum.polkadot.network/t/polkadot-socials-daily-digest-2026-11-06/19284",
+      "summary": "Validator changes remain a proposal; efficiency and resilience effects are not settled."
     },
     {
       "section": "Ranked lookback",
@@ -10210,7 +10452,8 @@
       "tag": "Rocket",
       "tagReason": "Custody access improved on specific routes, not across every token network.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/binance/status/2118541594358104469"
+      "source": "https://x.com/binance/status/2118541594358104469",
+      "summary": "Custody access improved on specific routes, not across every token network."
     },
     {
       "section": "Ranked lookback",
@@ -10241,7 +10484,8 @@
       "tag": "Rocket",
       "tagReason": "Live tokenization and distribution broaden; token-holder cash flow is not established.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://centrifuge.io/blog/schroders-centrifuge"
+      "source": "https://centrifuge.io/blog/schroders-centrifuge",
+      "summary": "Live tokenization and distribution broaden; token-holder cash flow is not established."
     },
     {
       "section": "Ranked lookback",
@@ -10267,7 +10511,8 @@
       "tag": "Rocket",
       "tagReason": "Defined-risk cover adds a production integration, not protection against every loss.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover"
+      "source": "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover",
+      "summary": "Defined-risk cover adds a production integration, not protection against every loss."
     },
     {
       "section": "Ranked lookback",
@@ -10292,7 +10537,8 @@
       "tag": "Rocket",
       "tagReason": "A security fix and regulated euro rail expand ledger capability; no assumed token revenue.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://xrplwin.com/amendment/fixCleanup3_4_0"
+      "source": "https://xrplwin.com/amendment/fixCleanup3_4_0",
+      "summary": "A security fix and regulated euro rail expand ledger capability; no assumed token revenue."
     },
     {
       "section": "Ranked lookback",
@@ -10317,7 +10563,8 @@
       "tag": "Steady",
       "tagReason": "Compatibility coordination is documented; no official incident conclusion was verified.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/anza_xyz/status/2118423244806164615"
+      "source": "https://x.com/anza_xyz/status/2118423244806164615",
+      "summary": "Compatibility coordination is documented; no official incident conclusion was verified."
     },
     {
       "section": "Ranked lookback",
@@ -10338,7 +10585,8 @@
       "tag": "Rocket",
       "tagReason": "Custody hardening shipped, with activation still gated.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets"
+      "source": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
+      "summary": "Custody hardening shipped, with activation still gated."
     },
     {
       "section": "Ranked lookback",
@@ -10359,7 +10607,8 @@
       "tag": "Yikes",
       "tagReason": "Builder-support infrastructure is reduced; outcomes of the reset remain unmeasured.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://algorand.co/blog/algorand-community-update"
+      "source": "https://algorand.co/blog/algorand-community-update",
+      "summary": "Builder-support infrastructure is reduced; outcomes of the reset remain unmeasured."
     },
     {
       "section": "Ranked lookback",
@@ -10384,7 +10633,8 @@
       "tag": "Rocket",
       "tagReason": "More agent distribution is factual; durable fee conversion remains to be tested.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/bankrbot/status/2118495853933711382"
+      "source": "https://x.com/bankrbot/status/2118495853933711382",
+      "summary": "More agent distribution is factual; durable fee conversion remains to be tested."
     },
     {
       "section": "Ranked lookback",
@@ -10405,7 +10655,8 @@
       "tag": "Steady",
       "tagReason": "Bell is staged for a vote, not yet a mainnet activation.",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://stellar.org/blog/developers/introducing-bell-protocol-30-on-stellar"
+      "source": "https://stellar.org/blog/developers/introducing-bell-protocol-30-on-stellar",
+      "summary": "Bell is staged for a vote, not yet a mainnet activation."
     },
     {
       "section": "Verified follow-up",
@@ -10430,7 +10681,8 @@
       "tagReason": "An open upgrade election is process evidence, not completed delivery.",
       "id": "research-icp-144741",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://dashboard.internetcomputer.org/proposal/144741"
+      "source": "https://dashboard.internetcomputer.org/proposal/144741",
+      "summary": "An open upgrade election is process evidence, not completed delivery."
     },
     {
       "section": "Verified follow-up",
@@ -10451,7 +10703,8 @@
       "tagReason": "A pending configuration vote is not passing or production execution.",
       "id": "research-axl-511",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://axelar.valopers.com/proposals/511"
+      "source": "https://axelar.valopers.com/proposals/511",
+      "summary": "A pending configuration vote is not passing or production execution."
     },
     {
       "section": "Verified follow-up",
@@ -10476,9 +10729,24 @@
       "tagReason": "An educational publication does not itself demonstrate additional production usage.",
       "id": "research-qnt-privacy",
       "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://quant.network/news/"
+      "source": "https://quant.network/news/",
+      "summary": "An educational publication does not itself demonstrate additional production usage."
     }
   ],
+  "researchSummary": {
+    "body": "Recent reviewed news highlights ecosystem functionality, integrations and distribution; conditional releases remain conditional. News interpretation is separate from usage coverage and market mood, and missing news never counts as deterioration.",
+    "sentiment": "Mixed",
+    "counts": {
+      "Positive": 10,
+      "Neutral": 3,
+      "Negative": 1,
+      "Mixed": 0,
+      "Not enough data": 2
+    },
+    "windowDays": 7,
+    "asOf": "2026-11-07T19:55:12.221647-06:00",
+    "disclaimer": "Not financial advice. Editorial fundamentals news only, not measured social sentiment or a price signal."
+  },
   "brand": {
     "name": "Crypto Watchlist",
     "updatedAt": "2026-11-07T10:18:41.207957-06:00",
@@ -11345,6 +11613,7 @@
     },
     "changeColorMeaning": "Arithmetic direction only, not ecosystem quality or a price signal"
   },
+  "researchSchemaVersion": 1,
   "structural": {
     "HBAR": {
       "name": "Hedera",

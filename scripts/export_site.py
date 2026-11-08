@@ -16,6 +16,8 @@ def export(output,source_dir=ROOT):
  source_dir=pathlib.Path(source_dir)
  out=pathlib.Path(output);out.mkdir(parents=True,exist_ok=True)
  data=json.loads((source_dir/'page-data.json').read_text());data=public(data)
+ # Preserve dated derive_research output verbatim; numeric overlays never invent editorial sentiment.
+ data['researchSchemaVersion']=1
  structural_path=source_dir/'structural.json'
  if structural_path.exists():data['structural']=public(json.loads(structural_path.read_text()))
  data['weeklyRecap']={'title':'Week in context · Nov 4–6, 2026','body':'Staged Binance custody recovery; tokenization distribution; Firelight cover on Lido Earn; Bittensor wallet security shipped but still gated; Algorand grant/community reset. Distribution gains and weaker fee/capital readings can coexist. This is a verified slice, not a complete week.','reviewedAt':'2026-11-07T10:18:41-06:00','sources':['https://x.com/binance/status/2118541594358104469','https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover','https://taostats.io/docs/concepts/protocol-changes/quantum-wallets','https://algorand.co/blog/algorand-community-update']}
