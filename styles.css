@@ -91,3 +91,16 @@ body.co-open{overflow:hidden}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (max-width:900px){.co{padding:0}.co-shell{border-radius:0;padding:.75rem}.co-body,.co-grid{grid-template-columns:minmax(0,1fr)}.co-chart svg{height:300px}.co-chart.small svg{height:200px}.co-head{flex-direction:column}}
 .co-main,.co-side,.co-card{min-width:0}.co-legend .caption{flex-basis:100%}
+
+/* Wide compare chart */
+#compare-table svg.wide-open{cursor:zoom-in;border-radius:4px}
+#compare-table svg.wide-open:hover,#compare-table svg.wide-open:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+#cmp-overlay .co-shell{max-width:none}
+.cmp-chart svg{width:100%;height:min(62vh,560px);display:block}
+.cmp-legend{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem}
+.cmp-lg{font:inherit;font-size:.9rem;color:var(--text);background:var(--bg);border:2px solid var(--b);border-radius:8px;padding:.3rem .65rem;cursor:pointer;min-height:40px}
+.cmp-lg .sw{display:inline-block;width:.8rem;height:.8rem;border-radius:2px;background:var(--b);margin-right:.4rem;vertical-align:middle}
+.cmp-lg.off{opacity:.45;border-style:dashed}
+.cmp-lg.focus{background:#1E2D45;font-weight:700;box-shadow:0 0 0 2px var(--b)}
+.cmp-lg:disabled{opacity:.35;cursor:not-allowed;border-color:var(--border)}
+#cmp-tip .f{font-weight:700}

@@ -56,3 +56,24 @@ const {JSDOM,VirtualConsole}=require('jsdom');
  d.querySelector('#compare-table [data-coin]').click();await until(()=>!d.getElementById('coin-overlay').hidden,'table open');
  assert.deepEqual(errors,[]);console.log('PASS overlay: hash open, tile/table open, close+Esc, 9 ranges incl 2Y/3Y/5Y, ONDO short-history disabling + dashes, 6 benchmarks, ratio, perf table, side panel; zero console errors.');w.close();
 })().catch(e=>{console.error(e);process.exitCode=1;});
+/* Wide compare chart smoke: sparkline click, metrics, ranges, legend toggles, Esc. */
+(async()=>{
+ const base=process.argv[2]||'http://127.0.0.1:8000/';const errors=[];const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));vc.on('error',(...a)=>errors.push(a.join(' ')));
+ const dom=await JSDOM.fromURL(base,{resources:'usable',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){w.fetch=(url,opts)=>fetch(new URL(url,base),opts);}});
+ const w=dom.window,d=w.document;const wait=(f,ms=6000)=>new Promise((res,rej)=>{const t0=Date.now();const t=setInterval(()=>{let v;try{v=f();}catch{}if(v){clearInterval(t);res(v);}else if(Date.now()-t0>ms){clearInterval(t);rej(Error('timeout: '+f+' '+errors.join('; ')));}},40);});
+ await wait(()=>w.__dashboardReady&&d.getElementById('cmp-open'));
+ const spark=await wait(()=>d.querySelector('#compare-table svg.wide-open'));assert.equal(spark.getAttribute('role'),'button');
+ spark.dispatchEvent(new w.MouseEvent('click',{bubbles:true}));
+ const o=await wait(()=>{const x=d.getElementById('cmp-overlay');return x&&!x.hidden&&d.querySelector('#cmp-chart svg path')&&x;});
+ assert.equal(d.getElementById('coin-overlay')?.hidden??true,true,'coin overlay must not open from a sparkline');
+ assert.ok(d.querySelectorAll('#cmp-legend .cmp-lg').length===16);
+ const enabled=()=>[...d.querySelectorAll('#cmp-ranges [data-range]')].filter(b=>!b.disabled).map(b=>b.dataset.range);
+ assert.ok(!enabled().includes('1Y'),'usage metrics only ~30 days');
+ d.querySelector('[data-metric="price"]').click();await wait(()=>enabled().includes('5Y'));
+ for(const k of ['7D','1M','3M','6M','1Y','2Y','3Y','5Y','Max']){d.querySelector(`[data-range="${k}"]`).click();assert.equal(d.querySelector(`[data-range="${k}"]`).getAttribute('aria-pressed'),'true');assert.ok(d.querySelectorAll('#cmp-chart svg path').length>=10);}
+ d.querySelector('[data-mode="abs"]').click();assert.match(d.getElementById('cmp-chart-title').textContent,/log scale/);
+ const before=d.querySelectorAll('#cmp-chart svg path').length;d.querySelector('#cmp-legend [data-toggle="XRP"]').click();assert.equal(d.querySelectorAll('#cmp-chart svg path').length,before-1);
+ o.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert.equal(o.hidden,true);
+ d.getElementById('peer-filter').value='Payments';d.getElementById('peer-filter').dispatchEvent(new w.Event('change'));d.getElementById('cmp-open').click();await wait(()=>!o.hidden&&d.querySelectorAll('#cmp-legend .cmp-lg').length===5);
+ assert.deepEqual(errors,[]);console.log('PASS: wide compare chart opens from sparklines and button, metrics, all ranges, log scale, legend toggles, peer filter respected, Esc closes; zero errors.');dom.window.close();
+})().catch(e=>{console.error(e);process.exitCode=1;});
