@@ -10378,6 +10378,16 @@
         "type": "ecosystem"
       },
       {
+        "id": "hype-2026-11-09-33",
+        "asset": "HYPE",
+        "date": "2026-11-09",
+        "title": "Elysium mainnet launch scheduled by Kinetiq; completion and feature availability require a post-launch check",
+        "source": "https://kinetiq.xyz/blog/elysium-mainnet-launch",
+        "status": "Scheduled; verify closer to date",
+        "time": "Time unspecified",
+        "reviewedAt": "2026-11-08T16:43:50-06:00"
+      },
+      {
         "date": "2026-11-09",
         "end": "2026-11-15",
         "asset": "NEAR",
@@ -10401,16 +10411,6 @@
         "type": "ecosystem"
       },
       {
-        "id": "hype-2026-11-09-33",
-        "asset": "HYPE",
-        "date": "2026-11-09",
-        "title": "Elysium mainnet launch scheduled by Kinetiq; completion and feature availability require a post-launch check",
-        "source": "https://kinetiq.xyz/blog/elysium-mainnet-launch",
-        "status": "Scheduled; verify closer to date",
-        "time": "Time unspecified",
-        "reviewedAt": "2026-11-08T16:43:50-06:00"
-      },
-      {
         "id": "render-2026-11-09T19:00:00-06:00-29",
         "asset": "RENDER",
         "date": "2026-11-09",
@@ -10430,6 +10430,16 @@
         "id": "existing-3",
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "type": "ecosystem"
+      },
+      {
+        "id": "dot-2026-11-10-27",
+        "asset": "DOT",
+        "date": "2026-11-10",
+        "title": "Estimated Referendum 1966 enactment at Relay Chain block 33,814,400; era transition follows",
+        "source": "https://polkadot.subsquare.io/referenda/1966",
+        "status": "Scheduled; verify closer to date",
+        "time": "Time unspecified",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
       },
       {
         "id": "hbar-2026-11-10",
@@ -10457,16 +10467,6 @@
         "api": "https://ic-api.internetcomputer.org/api/v3/proposals/144741"
       },
       {
-        "id": "dot-2026-11-10-27",
-        "asset": "DOT",
-        "date": "2026-11-10",
-        "title": "Estimated Referendum 1966 enactment at Relay Chain block 33,814,400; era transition follows",
-        "source": "https://polkadot.subsquare.io/referenda/1966",
-        "status": "Scheduled; verify closer to date",
-        "time": "Time unspecified",
-        "reviewedAt": "2026-11-08T16:43:14-06:00"
-      },
-      {
         "id": "icp-2026-11-10T05:26:48-06:00-26",
         "asset": "ICP",
         "date": "2026-11-10",
@@ -10488,6 +10488,16 @@
         "type": "ecosystem"
       },
       {
+        "id": "near-2026-11-14T17:59:00-06:00-30",
+        "asset": "NEAR",
+        "date": "2026-11-14",
+        "title": "NEAR Hackathon public-repository and demo submission deadline",
+        "source": "https://nearhackathon.com",
+        "status": "Scheduled; verify closer to date",
+        "time": "2026-11-14T17:59:00-06:00",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
+      },
+      {
         "date": "2026-11-14",
         "asset": "RENDER",
         "title": "Mo+Design Paris appearance",
@@ -10497,16 +10507,6 @@
         "id": "existing-4",
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "type": "ecosystem"
-      },
-      {
-        "id": "near-2026-11-14T17:59:00-06:00-30",
-        "asset": "NEAR",
-        "date": "2026-11-14",
-        "title": "NEAR Hackathon public-repository and demo submission deadline",
-        "source": "https://nearhackathon.com",
-        "status": "Scheduled; verify closer to date",
-        "time": "2026-11-14T17:59:00-06:00",
-        "reviewedAt": "2026-11-08T16:43:14-06:00"
       },
       {
         "date": "2026-11-15",
@@ -10543,6 +10543,15 @@
         "type": "conference"
       },
       {
+        "id": "stk-NVDA-0",
+        "asset": "NVDA",
+        "title": "Q3 fiscal 2027 results and conference call, 2 PM PT / 5 PM ET",
+        "status": "Scheduled",
+        "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+        "kind": "stock",
+        "date": "2026-11-17"
+      },
+      {
         "id": "hbar-2026-11-18",
         "asset": "HBAR",
         "date": "2026-11-18",
@@ -10563,6 +10572,15 @@
         "status": "Scheduled; verify closer to date",
         "time": "2026-11-18T17:59:00-06:00",
         "reviewedAt": "2026-11-08T16:43:14-06:00"
+      },
+      {
+        "id": "stk-TSLA-0",
+        "asset": "TSLA",
+        "title": "Tesla officially launches in Argentina (first showroom at Unicenter, Mart\u00ednez)",
+        "status": "Scheduled",
+        "source": "https://www.infobae.com/economia/2026/11/06/tesla-confirmo-su-llegada-a-la-argentina-para-los-proximos-dias-los-detalles-del-desembarco-de-los-autos-electricos-de-elon-musk/",
+        "kind": "stock",
+        "date": "2026-11-20"
       },
       {
         "date": "2026-11-23",
@@ -10597,6 +10615,15 @@
         "type": "upgrade"
       },
       {
+        "id": "stk-AMZN-0",
+        "asset": "AMZN",
+        "title": "AWS re:Invent 2026 opens in Las Vegas (runs through Dec 4)",
+        "status": "Scheduled",
+        "source": "https://aws.amazon.com/events/reinvent/",
+        "kind": "stock",
+        "date": "2026-11-30"
+      },
+      {
         "date": "2026-11-30",
         "asset": "SUI",
         "title": "Estimated Mysten Treasury release: 2.07m SUI",
@@ -10622,6 +10649,24 @@
         "amount": 1000000000,
         "type": "unlock",
         "caveat": "Release needs EscrowFinish; re-escrow is unknown in advance. 70% re-escrowed over the last 12 releases is historical, not a forecast."
+      },
+      {
+        "id": "stk-AMD-0",
+        "asset": "AMD",
+        "title": "AMD at UBS Global Technology and AI Conference",
+        "status": "Scheduled",
+        "source": "https://ir.amd.com/news-events/ir-calendar",
+        "kind": "stock",
+        "date": "2026-12-01"
+      },
+      {
+        "id": "stk-TSLA-1",
+        "asset": "TSLA",
+        "title": "Tesla 2026 Annual Shareholder Meeting, 3:00 PM CT, Austin and virtual",
+        "status": "Scheduled",
+        "source": "https://www.votetesla.com/annual-meeting-details/",
+        "kind": "stock",
+        "date": "2026-12-03"
       },
       {
         "date": "2026-12-06",
@@ -10656,6 +10701,24 @@
         "type": "ecosystem"
       },
       {
+        "id": "stk-GOOGL-0",
+        "asset": "GOOGL",
+        "title": "Record date for $0.22 quarterly dividend on Class A, B and C shares",
+        "status": "Scheduled",
+        "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "kind": "stock",
+        "date": "2026-12-07"
+      },
+      {
+        "id": "stk-AMD-1",
+        "asset": "AMD",
+        "title": "AMD at Barclays 24th Annual Global Technology Conference",
+        "status": "Scheduled",
+        "source": "https://ir.amd.com/news-events/ir-calendar",
+        "kind": "stock",
+        "date": "2026-12-09"
+      },
+      {
         "id": "flr-incentives",
         "asset": "FLR",
         "date": "2026-12-09",
@@ -10679,6 +10742,15 @@
         "time": "Time unspecified",
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "type": "upgrade"
+      },
+      {
+        "id": "stk-GOOGL-1",
+        "asset": "GOOGL",
+        "title": "Payment of $0.22 quarterly dividend",
+        "status": "Scheduled",
+        "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "kind": "stock",
+        "date": "2026-12-14"
       },
       {
         "id": "xrp-2026-12-31",
@@ -11400,6 +11472,270 @@
       "source": "https://x.com/ethereumfndn/status/2118838695314989071",
       "id": "new-5",
       "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 5, 2026",
+      "assets": [
+        "NVDA",
+        "AMD",
+        "TSLA",
+        "INTC",
+        "META",
+        "GOOGL",
+        "AMZN"
+      ],
+      "title": "Post-midterm AI selloff: Nasdaq's worst day since April 2025 as chipmakers slide",
+      "body": "The Nasdaq fell 5.5% on Nov 5 after Democrats won control of Congress and key governor and Senate races in Texas, Ohio and Georgia, the states with the most ambitious AI data-center plans. Nvidia dropped more than 9%, losing almost $450 billion in market value, and AMD, Micron and Applied Materials fell by double digits. Tesla and SpaceX each fell more than 9%, while the hyperscalers (Alphabet, Amazon, Meta, Microsoft) fell 2\u20134%. Voters sided against data centers in all but one of 41 local ballot measures, and Meta's president said building data centers is 'going to be harder'.",
+      "why": "This is the biggest shared risk for all seven companies, because tighter permitting and power-cost rules would directly affect AI capex plans worth more than $100 billion a year per hyperscaler. For crypto and AI infrastructure, the same pressure on power and data centers also affects GPU-compute networks and miners that compete for the same sites and grid capacity.",
+      "tag": "Yikes",
+      "tagReason": "Policy risk to the AI data-center build-out hit every company on this list.",
+      "summary": "A post-election selloff hit AI chipmakers and Musk's companies hardest on fears of curbs on data-center construction.",
+      "sources": [
+        {
+          "title": "CNBC: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+          "href": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+        },
+        {
+          "title": "CNBC: Tesla, SpaceX lose over $420 billion after midterms",
+          "href": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
+        }
+      ],
+      "source": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+      "kind": "stock",
+      "id": "stock-23",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 5, 2026",
+      "assets": [
+        "GOOGL"
+      ],
+      "title": "Google commits $17 billion to its first Wyoming data center",
+      "body": "Google announced a $17 billion investment in its first Wyoming data center in Laramie County near Cheyenne, with partners Tallgrass Energy, Black Hills Energy, American Electric Power and Related Digital. The campus will draw on a 702 MW natural-gas fuel-cell system made by Bloom Energy, with carbon capture and storage at Tallgrass's Eastern Wyoming Sequestration Hub, and it will be air-cooled to limit water use. Google says it will pay for 100% of the power it uses, and construction is slated to finish by 2031. The 716-acre site was previously being developed by Crusoe.",
+      "why": "Google is pressing ahead with AI capacity two days after a broad voter rebuke of data centers, choosing a Republican-led state and building its own power supply instead of drawing from the grid. Self-supplied power is becoming the template for AI campuses, and AI-compute and crypto infrastructure builders are competing for the same resource.",
+      "tag": "Rocket",
+      "tagReason": "Adds large long-term AI and cloud capacity with dedicated power.",
+      "summary": "Google announced a $17 billion Wyoming AI data center powered by fuel cells with carbon capture.",
+      "sources": [
+        {
+          "title": "Google: Investing in Wyoming's infrastructure, energy and workforce",
+          "href": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/"
+        },
+        {
+          "title": "WyoFile: Google commits $17B to Wyoming data centers",
+          "href": "https://wyofile.com/google-commits-to-spending-17b-on-ai-data-centers-in-wyoming/"
+        },
+        {
+          "title": "DCD: Google announces $17bn campus in Cheyenne",
+          "href": "https://www.datacenterdynamics.com/en/news/google-announces-17bn-data-center-campus-in-cheyenne-wyoming/"
+        }
+      ],
+      "source": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "kind": "stock",
+      "id": "stock-24",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 4, 2026",
+      "assets": [
+        "GOOGL"
+      ],
+      "title": "Google unveils $15 billion Malaysia data-center and cloud investment for 2027\u20132028",
+      "body": "In the presence of Prime Minister Anwar Ibrahim, Google announced a $15 billion investment in Malaysia for 2027\u20132028, covering new data-center campuses in Selangor and Negeri Sembilan in addition to its now-operational Elmina campus. The plan adds more than 1 GW of clean-energy capacity to Malaysia's grid through Tenaga Nasional, and Google will pay for 100% of the power it uses. Google estimates the construction phase will support more than 37,000 jobs a year and add about $1.1 billion a year to GDP. The capacity will also back an upcoming Google Cloud region in Malaysia.",
+      "why": "This expands Google Cloud's AI capacity in Southeast Asia at a time when U.S. sites face growing local resistance. It also supports Google Cloud's growth, after revenue rose 103% in Q3.",
+      "tag": "Rocket",
+      "tagReason": "Major capacity expansion that supports Cloud growth outside the U.S.",
+      "summary": "Google committed $15 billion to Malaysian data centers and a new cloud region over 2027\u20132028.",
+      "sources": [
+        {
+          "title": "Google Cloud Press Corner: US$15 billion Malaysia investment",
+          "href": "https://www.googlecloudpresscorner.com/2026-11-04-Google-Announces-Digital-Infrastructure-Expansion-Local-Jobs-Water-Replenishment-and-Clean-Energy-Initiatives-with-US-15-Billion-Malaysia-Investment"
+        }
+      ],
+      "source": "https://www.googlecloudpresscorner.com/2026-11-04-Google-Announces-Digital-Infrastructure-Expansion-Local-Jobs-Water-Replenishment-and-Clean-Energy-Initiatives-with-US-15-Billion-Malaysia-Investment",
+      "kind": "stock",
+      "id": "stock-25",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 4, 2026",
+      "assets": [
+        "META"
+      ],
+      "title": "Meta raises $15 billion in US-dollar bonds and \u20ac9 billion in its first euro bond sale",
+      "body": "Meta raised $15 billion in a five-part U.S. dollar bond sale on Nov 3 and followed it on Nov 4 with its first euro-denominated bonds, raising \u20ac9 billion with maturities from 4 to 38 years. The money funds AI infrastructure, as Meta guides 2026 capex to $135\u2013145 billion and posted negative free cash flow of $2.12 billion in Q3. The sale came days after S&P revised Meta's outlook from AA- stable to AA- negative. Separately, Meta has said it plans to raise $95 billion in equity, including $35 billion in underwritten offerings and a $60 billion at-the-market program.",
+      "why": "The AI build-out is now funded with borrowed money and new shares rather than cash on hand, which raises Meta's financing costs and dilution even as demand for the debt stays strong. Big Tech's appetite for capital shows how much AI compute is being built, and that demand flows through to Nvidia, AMD and the wider AI-infrastructure sector.",
+      "tag": "Steady",
+      "tagReason": "The raise was well received, but it adds leverage under a negative S&P outlook.",
+      "summary": "Meta tapped dollar and euro bond markets for roughly $25 billion to fund AI data centers.",
+      "sources": [
+        {
+          "title": "The Straits Times (Reuters): Meta sells first bonds in euros, raises \u20ac9 billion",
+          "href": "https://www.straitstimes.com/business/companies-markets/meta-sells-first-bonds-in-euros-raises-eu9-billion"
+        },
+        {
+          "title": "CNBC: Meta seeks to raise up to $25 billion in debt sale",
+          "href": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
+        }
+      ],
+      "source": "https://www.straitstimes.com/business/companies-markets/meta-sells-first-bonds-in-euros-raises-eu9-billion",
+      "kind": "stock",
+      "id": "stock-26",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "NVDA"
+      ],
+      "title": "Nvidia faces a more hostile Washington on chip exports",
+      "body": "Semafor reports that CEO Jensen Huang's ties to President Trump are unlikely to shield Nvidia, as Democrats prepare to take over regulatory committees and key Republicans seek stronger export controls. A must-pass defense bill in the lame-duck session could include measures further restricting chip sales to China. Sen. Elizabeth Warren, likely the next Senate Banking chair, has long sought Huang's testimony on Nvidia's deals and China sales. Three Republican House members have also asked Huang for a private briefing on whether he was targeted by a Chinese spy.",
+      "why": "Tighter export rules or hearings could limit Nvidia's addressable market and add uncertainty ahead of its Nov 17 earnings, although its guidance already assumes no China data-center compute revenue. Export rules shape where AI GPUs end up, which matters for decentralized-compute networks that rely on Nvidia hardware.",
+      "tag": "Yikes",
+      "tagReason": "Rising regulatory and congressional scrutiny of Nvidia's core business.",
+      "summary": "Nvidia faces likely congressional scrutiny and tighter export controls after the midterms.",
+      "sources": [
+        {
+          "title": "Semafor: Nvidia faces a more hostile Washington",
+          "href": "https://www.semafor.com/article/11/06/2026/nvidia-faces-a-more-hostile-washington"
+        }
+      ],
+      "source": "https://www.semafor.com/article/11/06/2026/nvidia-faces-a-more-hostile-washington",
+      "kind": "stock",
+      "id": "stock-27",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "NVDA"
+      ],
+      "title": "Nvidia completes $1 billion investment for a 4.13% stake in Korea's Naver",
+      "body": "Nvidia finalized a $1 billion (1.3 trillion won) payment to Naver on Nov 6, acquiring 4.13% of the Korean internet company through a third-party allotment of more than 6.5 million new shares. The stake supports the two companies' joint AI-factory venture announced in June. Naver plans to build GPU-based infrastructure, starting at its Gak Sejong data center, to expand its GPU-as-a-service business. The deal builds on Nvidia's sovereign-AI partnerships in Korea with SK Telecom, Naver and Brookfield.",
+      "why": "Equity stakes in customers that build GPU clouds secure future demand for Nvidia hardware and extend its 'sovereign AI' strategy outside the U.S. More regional GPU-as-a-service capacity also adds to the AI-compute supply that AI and crypto projects draw on.",
+      "tag": "Rocket",
+      "tagReason": "Locks in a strategic GPU-cloud partner in Korea.",
+      "summary": "Nvidia closed its $1 billion purchase of a 4.13% Naver stake to accelerate a Korean AI-factory venture.",
+      "sources": [
+        {
+          "title": "Yonhap: Nvidia finalizes payment of US$1 bln, acquires over 4 pct stake in Naver",
+          "href": "https://en.yna.co.kr/view/AEN20261106010300320"
+        },
+        {
+          "title": "NVIDIA Q2 FY27 results (Korea partnerships)",
+          "href": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+        }
+      ],
+      "source": "https://en.yna.co.kr/view/AEN20261106010300320",
+      "kind": "stock",
+      "id": "stock-28",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 4, 2026",
+      "assets": [
+        "AMD"
+      ],
+      "title": "AMD files Q3 10-Q after record quarter, with data center revenue up 97%",
+      "body": "AMD filed its Q3 2026 10-Q on Nov 4, following results released after the close on Nov 3. It reported record revenue of $13.4 billion (+45%) and data center revenue of $8.5 billion (+97%), driven by EPYC CPUs and the launch of Instinct MI450 GPUs. GAAP diluted EPS was $1.46 and non-GAAP EPS was $2.09. Gaming revenue fell 40% to $773 million on lower semi-custom sales, and AMD guided Q4 revenue to about $17 billion \u00b13% as Helios racks and 'Venice' CPUs ramp. Shares later fell sharply on Nov 5 in the sector-wide selloff.",
+      "why": "AMD is becoming a credible second source of AI accelerators, which matters for buyers' pricing power and for the overall supply of AI compute. The gap between strong results and the Nov 5 drop shows the market weighing policy risk to the AI build-out above near-term fundamentals.",
+      "tag": "Rocket",
+      "tagReason": "Record revenue and accelerating data center guidance.",
+      "summary": "AMD's record Q3 and its guide to about $17 billion in Q4 revenue were overshadowed by the sector selloff.",
+      "sources": [
+        {
+          "title": "AMD: Reports Third Quarter 2026 Financial Results",
+          "href": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "AMD Form 10-Q (filed Nov 4, 2026)",
+          "href": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/0000002488-26-000191.pdf"
+        }
+      ],
+      "source": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "kind": "stock",
+      "id": "stock-29",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 5, 2026",
+      "assets": [
+        "AMZN"
+      ],
+      "title": "Amazon adds $0-delivery Uber Eats to Prime",
+      "body": "Amazon and Uber launched a benefit that lets U.S. Prime members order Uber Eats restaurant delivery directly on Amazon.com and in the Amazon Shopping app, with a $0 delivery fee on orders of $25 or more. The service covers nearly ten thousand U.S. cities and towns, needs no Uber account, and includes Prime for Young Adults and Prime Access members. Launch offers include $20 off the first two qualifying orders, and Prime Visa holders get 5% back on Uber Eats orders through Dec 5, 2026. Amazon estimates potential savings of more than $175 a year per member.",
+      "why": "The deal adds a high-frequency reason to open the Amazon app and strengthens the value of Prime without Amazon having to run its own delivery fleet. For investors following AWS, it is a retail and advertising story more than a cloud one, but it supports the cash flow that funds AWS capex.",
+      "tag": "Steady",
+      "tagReason": "A useful Prime perk; immaterial to AWS fundamentals.",
+      "summary": "Prime members now get $0 delivery on Uber Eats orders placed through Amazon.",
+      "sources": [
+        {
+          "title": "Amazon press release: partnership with Uber Eats",
+          "href": "https://press.aboutamazon.com/2026/11/amazon-launches-partnership-with-uber-eats-featuring-0-delivery-fee-for-prime-members"
+        }
+      ],
+      "source": "https://press.aboutamazon.com/2026/11/amazon-launches-partnership-with-uber-eats-featuring-0-delivery-fee-for-prime-members",
+      "kind": "stock",
+      "id": "stock-30",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "META"
+      ],
+      "title": "Meta launches 'spaces' in its Muse AI app",
+      "body": "Meta introduced spaces, custom app-like experiences that users build inside the Muse app just by describing an idea, such as a gift tracker, a school calendar dashboard, a trip planner or a small-business order tracker. Spaces can connect to other apps, update in the background, and be pinned to the sidebar or main tabs. They are available wherever Muse is available, and Meta is exploring ways to share them. Meta is also rolling out specialized models in Muse trained on learnings from its frontier model, Muse Wonder.",
+      "why": "Muse is how Meta plans to earn a return on more than $135 billion of 2026 capex, and features that make the assistant part of daily routines raise engagement and future monetization options. It is also a direct competitive move against OpenAI, Google Gemini and agent platforms.",
+      "tag": "Steady",
+      "tagReason": "Product progress, but monetization is not yet proven.",
+      "summary": "Muse users can now build persistent, self-updating mini-apps called spaces.",
+      "sources": [
+        {
+          "title": "Meta Newsroom: Design the Muse App, Just for You",
+          "href": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
+        }
+      ],
+      "source": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "kind": "stock",
+      "id": "stock-31",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "TSLA"
+      ],
+      "title": "Tesla confirms its arrival in Argentina on Nov 20",
+      "body": "Tesla announced on its official X account that it will arrive in Argentina on Nov 20, with a video of a Model Y driving through Buenos Aires. Its first space will be a showroom on Level 1 of the Unicenter mall in Mart\u00ednez with two vehicles on display, according to mall owner Cencosud. A point of sale and a ten-car test-drive area in the parking lot are planned for 2027. Models and prices have not yet been announced.",
+      "why": "This is a small but symbolic expansion of Tesla's Latin American footprint at a time when its global deliveries are slightly down year over year. It also adds a new market as Tesla builds its direct-sales network across South America.",
+      "tag": "Steady",
+      "tagReason": "New market entry, though immaterial to near-term volumes.",
+      "summary": "Tesla will open its first Argentine showroom on Nov 20, with full sales planned for 2027.",
+      "sources": [
+        {
+          "title": "Infobae: Tesla confirm\u00f3 su llegada a la Argentina",
+          "href": "https://www.infobae.com/economia/2026/11/06/tesla-confirmo-su-llegada-a-la-argentina-para-los-proximos-dias-los-detalles-del-desembarco-de-los-autos-electricos-de-elon-musk/"
+        },
+        {
+          "title": "TN: Tesla anunci\u00f3 la fecha de su llegada a la Argentina",
+          "href": "https://tn.com.ar/autos/novedades/2026/11/07/tesla-anuncio-la-fecha-de-su-llegada-a-la-argentina-donde-se-podran-ver-y-probar-sus-autos/"
+        }
+      ],
+      "source": "https://www.infobae.com/economia/2026/11/06/tesla-confirmo-su-llegada-a-la-argentina-para-los-proximos-dias-los-detalles-del-desembarco-de-los-autos-electricos-de-elon-musk/",
+      "kind": "stock",
+      "id": "stock-32",
+      "tagReviewedAt": "2026-11-08T16:50:00-06:00"
     }
   ],
   "researchSummary": {
@@ -12566,6 +12902,386 @@
     {
       "title": "SEC Ripple release",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26369"
+    }
+  ],
+  "stocks": [
+    {
+      "kind": "stock",
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "EVs, energy & AI",
+      "overview": "Tesla builds electric vehicles and energy-storage systems and is investing heavily in self-driving (FSD, Robotaxi and the Cybercab), Optimus robots and its own AI compute. In Q3 2026 revenue was $28.05 billion, roughly flat year over year, with 486,532 deliveries (down about 2%) and net income attributable to common stockholders of $787 million ($0.22 per diluted share), down from $1.37 billion a year earlier; energy revenue fell 16% while services and other rose 33%. Recent moves include Cybercab service starting in Austin in September, a new \u20ac100 million Berlin engineering center that opened Nov 4 with about 250 staff, and an official Argentina launch set for Nov 20. Shareholders meet on Dec 3, and Tesla and SpaceX have discussed a possible combination, though no terms have been announced and any deal would need shareholder approval. The main near-term risk is political: after Democrats won Congress and Texas, Tesla and SpaceX shares fell about 11% and 9% on Nov 5, as investors priced in possible congressional probes and tighter rules on AI data centers.",
+      "researchSummary": "Tesla's latest quarter showed flat revenue and lower profit, with a pivot in spending toward AI compute, robotaxis and robots. This week's company news was constructive (the Berlin engineering hub and the Argentina entry), but after the midterms the bigger story is the regulatory and political overhang on Elon Musk's companies.",
+      "cryptoLink": "Tesla's Q3 2026 10-Q shows digital assets of $962 million at Sep 30, 2026, mostly 11,509 bitcoin acquired for $386 million, and the company booked a $288 million mark-to-market gain on its bitcoin in the quarter.",
+      "newsSentiment": {
+        "label": "Mixed",
+        "asOf": "2026-11-08"
+      },
+      "catalysts": [
+        {
+          "date": "2026-11-20",
+          "title": "Tesla officially launches in Argentina (first showroom at Unicenter, Mart\u00ednez)",
+          "source": "https://www.infobae.com/economia/2026/11/06/tesla-confirmo-su-llegada-a-la-argentina-para-los-proximos-dias-los-detalles-del-desembarco-de-los-autos-electricos-de-elon-musk/"
+        },
+        {
+          "date": "2026-12-03",
+          "title": "Tesla 2026 Annual Shareholder Meeting, 3:00 PM CT, Austin and virtual",
+          "source": "https://www.votetesla.com/annual-meeting-details/"
+        }
+      ],
+      "riskFlags": {
+        "flags": [
+          {
+            "kind": "Regulatory / legal",
+            "text": "CNBC reports that, with Democrats controlling both chambers of Congress and Texas flipping, investors expect probes and steeper regulatory hurdles for Musk's AI and merger ambitions. Texas Gov.-elect Hinojosa has called for a moratorium on new data-center approvals.",
+            "sources": [
+              "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
+            ]
+          },
+          {
+            "kind": "Competition / execution",
+            "text": "Q3 automotive revenue fell 3% to $20.56 billion on lower average selling prices and battery-supply limits, and operating income dropped to $718 million from $1.62 billion as R&D spending rose 69%.",
+            "sources": [
+              "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+              "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
+            ]
+          },
+          {
+            "kind": "Concentration / key-person",
+            "text": "Tesla's strategy and its possible SpaceX combination both center on Elon Musk. CNBC notes he was the largest donor to GOP midterm candidates, most of whom lost, which ties Tesla's regulatory exposure to his political profile.",
+            "sources": [
+              "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+        "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+        "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+        "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+        "https://www.electrive.com/2026/11/05/new-tesla-engineering-centre-opens-in-berlin-kopenick/",
+        "https://www.infobae.com/economia/2026/11/06/tesla-confirmo-su-llegada-a-la-argentina-para-los-proximos-dias-los-detalles-del-desembarco-de-los-autos-electricos-de-elon-musk/",
+        "https://www.votetesla.com/annual-meeting-details/"
+      ]
+    },
+    {
+      "kind": "stock",
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "sector": "Social apps, ads & AI",
+      "overview": "Meta runs Facebook, Instagram, WhatsApp and Messenger, earns almost all of its revenue from advertising, and is spending heavily to build its Muse AI assistant and 'personal superintelligence'. Q3 2026 revenue rose 26% to $64.60 billion and diluted EPS was $3.83, or $7.40 excluding a $9.89 billion charge from its settlement with state attorneys general over teen mental health. Capital expenditures were $34.91 billion in the quarter and free cash flow was negative $2.12 billion. Meta expects 2026 capex of $135\u2013145 billion and Q4 revenue of $73\u201376 billion. To fund the AI build-out it sold $15 billion of US-dollar bonds on Nov 3 and its first euro bonds (\u20ac9 billion) on Nov 4, and it has announced a non-voting Class C share class effective Jan 19, 2027. It launched Muse 'spaces' on Nov 6. The main risks are funding and returns on AI spending: S&P moved Meta's outlook to negative, and more youth-related trials are scheduled.",
+      "researchSummary": "Meta's ad business is growing fast, but AI infrastructure spending has pushed free cash flow negative, so it is now raising large amounts of debt and planning equity. Product momentum in Muse continues, while litigation and data-center permitting after the midterms are the main watch items.",
+      "cryptoLink": "Since April 2026, Meta has paid select creators in Colombia and the Philippines in Circle's USDC on Solana or Polygon via Stripe. It is not issuing its own stablecoin.",
+      "newsSentiment": {
+        "label": "Mixed",
+        "asOf": "2026-11-08"
+      },
+      "catalysts": [],
+      "riskFlags": {
+        "flags": [
+          {
+            "kind": "Regulatory / legal",
+            "text": "Q3 included a $9.89 billion charge from a settlement with 52 state attorneys general of up to about $18.59 billion, and Meta says more youth-related trials are scheduled in the U.S. in the coming months.",
+            "sources": [
+              "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            ]
+          },
+          {
+            "kind": "Competition / execution",
+            "text": "Meta's capex of $135\u2013145 billion turned Q3 free cash flow negative, S&P revised its outlook to AA- negative, and Meta's president said after the midterms that building data centers is 'going to be harder'.",
+            "sources": [
+              "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+              "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
+              "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+            ]
+          },
+          {
+            "kind": "Concentration / key-person",
+            "text": "Advertising was $63.06 billion of $64.60 billion in Q3 revenue. The new Class C structure is designed to keep Mark Zuckerberg in control, under a Founder Alignment Agreement.",
+            "sources": [
+              "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+        "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html",
+        "https://www.straitstimes.com/business/companies-markets/meta-sells-first-bonds-in-euros-raises-eu9-billion",
+        "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+        "https://www.coindesk.com/business/2026/04/29/tech-giant-meta-starts-paying-some-creators-in-stablecoin-with-stripe-s-support",
+        "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      ]
+    },
+    {
+      "kind": "stock",
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Google)",
+      "sector": "Search, cloud & AI",
+      "overview": "Alphabet owns Google Search, YouTube, Android, Google Cloud and the Gemini AI models, and sells its TPU AI chips through Google Cloud. Q3 2026 revenue rose 25% to $127.6 billion, Google Cloud revenue more than doubled (+103%) to $30.7 billion with $11.1 billion of operating income, and EPS was $2.12; the Gemini app has reached one billion users. This week Google announced a $15 billion data-center investment in Malaysia for 2027\u20132028 (Nov 4) and a $17 billion first data center in Laramie County, Wyoming (Nov 5), powered partly by a 702 MW Bloom fuel-cell system with carbon capture. Alphabet pays a $0.22 quarterly dividend on Dec 14 to holders of record on Dec 7. The main risk is legal: appeals are pending in both U.S. antitrust cases (search and ad tech), and a court refused to pause related private ad-tech suits.",
+      "researchSummary": "Google Cloud is now Alphabet's fastest-growing engine, driven by AI infrastructure and TPU demand, and Google is committing tens of billions more to data centers even as U.S. local opposition grows. Antitrust remedies remain the key overhang.",
+      "cryptoLink": "Google Cloud offers Universal Ledger, a managed, permissioned distributed ledger for tokenizing commercial bank money and securities and for wholesale payments.",
+      "newsSentiment": {
+        "label": "Positive",
+        "asOf": "2026-11-08"
+      },
+      "catalysts": [
+        {
+          "date": "2026-12-07",
+          "title": "Record date for $0.22 quarterly dividend on Class A, B and C shares",
+          "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+        },
+        {
+          "date": "2026-12-14",
+          "title": "Payment of $0.22 quarterly dividend",
+          "source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+        }
+      ],
+      "riskFlags": {
+        "flags": [
+          {
+            "kind": "Regulatory / legal",
+            "text": "Google lost the U.S. DOJ and states' ad-tech antitrust case and is appealing. A court has denied its request to pause related private ad-tech suits while that appeal proceeds, according to MLex.",
+            "sources": [
+              "https://www.mlex.com/mlex/articles/2547557/google-denied-stay-of-adtech-antitrust-suits-pending-appeal-loss-to-us-doj-states"
+            ]
+          },
+          {
+            "kind": "Competition / execution",
+            "text": "Political resistance to data centers is rising: Reuters, via Yahoo Finance, reports that all but one of 41 data-center ballot measures in this week's elections went against data centers, as Google commits $17 billion in Wyoming and $15 billion in Malaysia.",
+            "sources": [
+              "https://finance.yahoo.com/technology/ai/articles/google-plans-17-billion-wyoming-204551123.html",
+              "https://www.googlecloudpresscorner.com/2026-11-04-Google-Announces-Digital-Infrastructure-Expansion-Local-Jobs-Water-Replenishment-and-Clean-Energy-Initiatives-with-US-15-Billion-Malaysia-Investment"
+            ]
+          },
+          {
+            "kind": "Concentration / key-person",
+            "text": "Google Search & other produced $63.35 billion of Alphabet's $127.58 billion Q3 revenue, so Search is still about half the business while Cloud scales.",
+            "sources": [
+              "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+        "https://wyofile.com/google-commits-to-spending-17b-on-ai-data-centers-in-wyoming/",
+        "https://www.datacenterdynamics.com/en/news/google-announces-17bn-data-center-campus-in-cheyenne-wyoming/",
+        "https://www.googlecloudpresscorner.com/2026-11-04-Google-Announces-Digital-Infrastructure-Expansion-Local-Jobs-Water-Replenishment-and-Clean-Energy-Initiatives-with-US-15-Billion-Malaysia-Investment",
+        "https://docs.cloud.google.com/universal-ledger/overview",
+        "https://www.mlex.com/mlex/articles/2547557/google-denied-stay-of-adtech-antitrust-suits-pending-appeal-loss-to-us-doj-states"
+      ]
+    },
+    {
+      "kind": "stock",
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "AI chips & accelerated computing",
+      "overview": "Nvidia designs the GPUs, CPUs, networking and software that run most AI training and inference. In Q2 fiscal 2027 (to July 26, 2026) revenue rose 106% to $96.2 billion, data center revenue was $89.0 billion (+117%), gross margin was 75.0% and GAAP EPS was $2.46; Nvidia guided Q3 revenue to $108.0 billion \u00b12%, assuming no data-center compute revenue from China. Vera Rubin is in full production at CoreWeave, Google Cloud, Microsoft Azure, OCI and Nebius, and on Nov 6 Nvidia completed a $1 billion purchase of a 4.13% stake in Naver for a joint AI-factory venture in Korea. Nvidia reports Q3 FY27 results on Nov 17. The main risks are policy and AI-spending sentiment: shares fell more than 9% on Nov 5 amid post-midterm fears of an AI build-out slowdown, and Democrats are preparing scrutiny of its chip exports.",
+      "researchSummary": "Nvidia's last reported quarter was another record, driven by data-center demand, and the Nov 17 report is the next major checkpoint. Its news flow this week is split between expanding partnerships (Naver) and a tougher Washington backdrop on exports and AI infrastructure.",
+      "cryptoLink": "No direct crypto exposure verified.",
+      "newsSentiment": {
+        "label": "Mixed",
+        "asOf": "2026-11-08"
+      },
+      "catalysts": [
+        {
+          "date": "2026-11-17",
+          "title": "Q3 fiscal 2027 results and conference call, 2 PM PT / 5 PM ET",
+          "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+        }
+      ],
+      "riskFlags": {
+        "flags": [
+          {
+            "kind": "Regulatory / legal",
+            "text": "Semafor reports that Democrats taking over regulatory committees, along with Republicans pushing stronger export controls, point to closer scrutiny of Nvidia's China chip sales, possibly through the lame-duck defense bill and Senate Banking under Sen. Warren.",
+            "sources": [
+              "https://www.semafor.com/article/11/06/2026/nvidia-faces-a-more-hostile-washington"
+            ]
+          },
+          {
+            "kind": "Competition / execution",
+            "text": "Investors are questioning whether AI infrastructure growth can be sustained. Nvidia fell more than 9% on Nov 5, losing almost $450 billion in market cap, as fears of a post-election slowdown hit chip stocks.",
+            "sources": [
+              "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+            ]
+          },
+          {
+            "kind": "Concentration / key-person",
+            "text": "Data center revenue was $89.0 billion of $96.2 billion in Q2 FY27 (about 93%), so results depend heavily on hyperscaler and AI-lab spending.",
+            "sources": [
+              "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+        "https://en.yna.co.kr/view/AEN20261106010300320",
+        "https://www.semafor.com/article/11/06/2026/nvidia-faces-a-more-hostile-washington",
+        "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      ]
+    },
+    {
+      "kind": "stock",
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "sector": "CPUs, GPUs & AI data center",
+      "overview": "AMD makes EPYC server CPUs, Instinct AI GPUs, Ryzen PC chips and embedded and gaming silicon. Q3 2026 revenue was a record $13.4 billion (+45%), data center revenue nearly doubled (+97%) to $8.5 billion on the MI450 launch and EPYC demand, and diluted EPS was $1.46 GAAP and $2.09 non-GAAP. Gaming revenue fell 40% to $773 million. AMD guided Q4 revenue to about $17 billion \u00b13% as it scales Helios rack systems and 'Venice' CPUs, and it filed its 10-Q on Nov 4. It is scheduled to present at the UBS conference on Dec 1 and Barclays on Dec 9. The main risk is AI-spending sentiment and supply: AMD shares fell double digits on Nov 5 in the post-midterm chip selloff, and the memory shortage is raising component costs.",
+      "researchSummary": "AMD's latest quarter was its strongest on record and it is now mainly a data-center company, with guidance for faster growth in Q4. The stock's sharp drop on Nov 5 reflected sector-wide fears about the AI build-out rather than company-specific news.",
+      "cryptoLink": "No direct crypto exposure verified.",
+      "newsSentiment": {
+        "label": "Positive",
+        "asOf": "2026-11-08"
+      },
+      "catalysts": [
+        {
+          "date": "2026-12-01",
+          "title": "AMD at UBS Global Technology and AI Conference",
+          "source": "https://ir.amd.com/news-events/ir-calendar"
+        },
+        {
+          "date": "2026-12-09",
+          "title": "AMD at Barclays 24th Annual Global Technology Conference",
+          "source": "https://ir.amd.com/news-events/ir-calendar"
+        }
+      ],
+      "riskFlags": {
+        "flags": [
+          {
+            "kind": "Regulatory / legal",
+            "text": "CNBC links the post-election chip selloff to concerns over data-center restrictions and power-cost rules: voters opposed data centers in all but one of 41 local ballot measures.",
+            "sources": [
+              "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+            ]
+          },
+          {
+            "kind": "Competition / execution",
+            "text": "AMD competes with Nvidia in AI accelerators and with Intel in CPUs. CNBC notes that the global memory shortage is pushing up costs for AMD, Intel and Qualcomm, and AMD's gaming revenue fell 40% in Q3.",
+            "sources": [
+              "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+              "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+            ]
+          },
+          {
+            "kind": "Concentration / key-person",
+            "text": "Data Center was $8.5 billion of $13.4 billion in Q3 revenue (about 64%), so AMD is increasingly tied to AI and cloud capex cycles.",
+            "sources": [
+              "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+        "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/0000002488-26-000191.pdf",
+        "https://ir.amd.com/news-events/ir-calendar",
+        "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      ]
+    },
+    {
+      "kind": "stock",
+      "symbol": "INTC",
+      "name": "Intel Corporation",
+      "sector": "CPUs, foundry & AI",
+      "overview": "Intel designs and manufactures PC and server CPUs and is building a contract foundry business (Intel 14A). Q3 2026 revenue rose 21% to $16.5 billion, Data Center and AI revenue rose 78% to $7.3 billion (its strongest growth in 15 years) and Intel Foundry revenue rose 58%, with GAAP EPS of $0.60 and non-GAAP EPS of $0.52. Q4 guidance is $15.0\u201316.0 billion of revenue, with an expected PC slowdown through at least the first half of 2027. Recent deals include a multiyear Xeon collaboration with Oracle Cloud, a planned acquisition of Classiq (quantum software) and a $23 billion equity offering. CEO Lip-Bu Tan bought 150,000 shares on Nov 2 at about $64.73 (Form 4 filed Nov 4). The main risks are supply and execution: an accident at the Kiryat Gat fab in Israel will cost about $300 million of Q4 revenue, with a similar hit expected in Q1.",
+      "researchSummary": "Intel's data-center demand is outrunning its supply, but a weaker PC outlook and the Israel fab accident produced soft guidance. The CEO's open-market purchase is a notable insider signal, though it is not a forecast.",
+      "cryptoLink": "No direct crypto exposure verified.",
+      "newsSentiment": {
+        "label": "Mixed",
+        "asOf": "2026-11-08"
+      },
+      "catalysts": [],
+      "riskFlags": {
+        "flags": [
+          {
+            "kind": "Regulatory / legal",
+            "text": "Intel lists the U.S. government's acquisition of significant equity interests in the company, along with export controls and trade policy, among its key risk factors.",
+            "sources": [
+              "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+            ]
+          },
+          {
+            "kind": "Competition / execution",
+            "text": "Intel says demand for its data-center products 'continues to meaningfully exceed available supply', limited by Intel 3 yields, substrate shortages and the Fab 28 accident, which will cut about $300 million from Q4 revenue and 200 basis points from gross margin.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/ap4pe55j3",
+              "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+            ]
+          },
+          {
+            "kind": "Concentration / key-person",
+            "text": "The turnaround rests on CEO Lip-Bu Tan, who has bought shares personally (150,000 on Nov 2). Client computing is still about half of Intel Products revenue ($8.1 billion of $15.4 billion), which leaves Intel exposed to the PC slowdown.",
+            "sources": [
+              "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000195/form4.html",
+              "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000195/form4.html",
+        "https://www.calcalistech.com/ctechnews/article/ap4pe55j3",
+        "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      ]
+    },
+    {
+      "kind": "stock",
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc. (AWS)",
+      "sector": "Cloud (AWS), e-commerce & AI",
+      "overview": "Amazon is the parent of AWS, the largest cloud provider, alongside its retail, Prime, advertising, devices and newer businesses (Zoox, Amazon Leo satellites, Pharmacy). In Q3 2026 AWS revenue rose 39% to $46.0 billion, its fastest growth in nearly five years and a $184 billion annualized run rate, with $17.8 billion of operating income (38.7% margin). Total net sales rose 12% to $201.9 billion, operating income was a record $28.1 billion and EPS was $1.89. AWS signed new agreements with Meta, NVIDIA, OpenAI, Oracle and others, Bedrock token volume grew nearly 17x and Trainium became easier to adopt through TorchNeuron; CEO Andy Jassy projects AWS growth above 40% in both 2027 and 2028. On Nov 5 Amazon launched $0 Uber Eats delivery for Prime members, and AWS re:Invent runs Nov 30\u2013Dec 4 in Las Vegas. The main risk is capital intensity: 2026 cash capex of about $220 billion has pushed trailing free cash flow to an outflow of $42.4 billion.",
+      "researchSummary": "AWS is accelerating on AI demand and is the main driver of Amazon's profits, while retail margins hit a record. The trade-off is very heavy AI capex funded partly with new debt, plus rising data-center permitting risk in the U.S.",
+      "cryptoLink": "AWS stopped accepting new customers for Amazon Managed Blockchain (Ethereum, Bitcoin, Polygon node access) on Oct 29, 2026, and will end the service on Sep 29, 2027, pointing users to self-managed Node Runners on AWS or partners such as Alchemy and QuickNode.",
+      "newsSentiment": {
+        "label": "Positive",
+        "asOf": "2026-11-08"
+      },
+      "catalysts": [
+        {
+          "date": "2026-11-30",
+          "title": "AWS re:Invent 2026 opens in Las Vegas (runs through Dec 4)",
+          "source": "https://aws.amazon.com/events/reinvent/"
+        }
+      ],
+      "riskFlags": {
+        "flags": [
+          {
+            "kind": "Regulatory / legal",
+            "text": "Voters sided against data centers in all but one of 41 local ballot measures on Nov 3, and CNBC reports that the hyperscalers, Amazon included, fell 2\u20134% on Nov 5 on build-out concerns.",
+            "sources": [
+              "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+            ]
+          },
+          {
+            "kind": "Competition / execution",
+            "text": "Trailing-12-month free cash flow was an outflow of $42.4 billion and long-term debt rose to $173.1 billion from $65.6 billion at end-2025, as AWS competes with Google Cloud, whose revenue grew 103%, and Microsoft for AI capacity.",
+            "sources": [
+              "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+              "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+            ]
+          },
+          {
+            "kind": "Concentration / key-person",
+            "text": "AWS generated $17.8 billion of Amazon's $28.1 billion Q3 operating income (about 63%), so group profit depends heavily on cloud and AI demand.",
+            "sources": [
+              "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+        "https://press.aboutamazon.com/2026/11/amazon-launches-partnership-with-uber-eats-featuring-0-delivery-fee-for-prime-members",
+        "https://aws.amazon.com/events/reinvent/",
+        "https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/managed-blockchain-end-of-support.html",
+        "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+      ]
     }
   ]
 }

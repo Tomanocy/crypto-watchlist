@@ -47,7 +47,11 @@ def yahoo(sym):
 TRAD={'GOLD':('xauusd','GC=F','Gold spot USD/oz (Stooq XAUUSD)','Gold futures front month (Yahoo GC=F)'),
       'TSLA':('tsla.us','TSLA','Tesla (Stooq TSLA.US)','Tesla (Yahoo Finance)'),
       'NVDA':('nvda.us','NVDA','Nvidia (Stooq NVDA.US)','Nvidia (Yahoo Finance)'),
-      'GOOGL':('googl.us','GOOGL','Alphabet Class A (Stooq GOOGL.US)','Alphabet Class A (Yahoo Finance)')}
+      'GOOGL':('googl.us','GOOGL','Alphabet Class A (Stooq GOOGL.US)','Alphabet Class A (Yahoo Finance)'),
+      'META':('meta.us','META','Meta Platforms (Stooq META.US)','Meta Platforms (Yahoo Finance)'),
+      'AMD':('amd.us','AMD','AMD (Stooq AMD.US)','AMD (Yahoo Finance)'),
+      'INTC':('intc.us','INTC','Intel (Stooq INTC.US)','Intel (Yahoo Finance)'),
+      'AMZN':('amzn.us','AMZN','Amazon (Stooq AMZN.US)','Amazon (Yahoo Finance)')}
 def trad(key):
     s,y,ls,ly=TRAD[key];errs=[]
     try:return stooq(s),f'https://stooq.com/q/?s={s}',ls,errs

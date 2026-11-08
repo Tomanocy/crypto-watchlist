@@ -50,10 +50,10 @@
   o.addEventListener('keydown',e=>{if(e.key==='Escape'){e.preventDefault();close();return;}if(e.key!=='Tab')return;const f=[...o.querySelectorAll('button,[href],select,input,[tabindex]:not([tabindex="-1"])')].filter(x=>!x.disabled&&!x.closest('[hidden]'));if(!f.length)return;const first=f[0],last=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}});
  }
  async function open(sym,fromHash){sym=String(sym||'').toUpperCase();page=page||await getJSON('data/page-data.json');index=index||await getJSON('data/history/index.json');
-  const asset=(page?.assets||[]).find(a=>a.symbol===sym);if(!asset)return false;build();
+  const asset=(page?.assets||[]).find(a=>a.symbol===sym)||(page?.stocks||[]).find(a=>a.symbol===sym);if(!asset)return false;build();
   const o=$('coin-overlay');if(o.hidden)lastFocus=document.activeElement;
   st={sym,asset,range:st?.sym===sym?st.range:'3M',bench:st?.sym===sym?st.bench:new Set(),ratio:st?.ratio||'BTC',data:{}};
-  o.hidden=false;document.body.classList.add('co-open');$('co-title').textContent=`${sym} · ${asset.id.replace(/-/g,' ')}`;
+  o.hidden=false;document.body.classList.add('co-open');$('co-title').textContent=`${sym} · ${asset.kind==='stock'?asset.name:asset.id.replace(/-/g,' ')}`;
   if(!fromHash&&location.hash!=='#coin='+sym)history.pushState(null,'','#coin='+sym);
   $('co-close').focus();side();const my=st;st.loading=true;['co-chart','co-ratio-chart','co-perf','co-legend','co-src'].forEach(id=>$(id).innerHTML=id==='co-chart'?'<p class="co-na">Loading history…</p>':'');
   const syms=[sym,...BENCH.map(b=>b[0]).filter(k=>k!==sym)];const res=await Promise.all(syms.map(series));if(st!==my)return true;st.loading=false;syms.forEach((k,i)=>st.data[k]=res[i]&&Array.isArray(res[i].closes)&&res[i].closes.length?res[i]:null);
@@ -103,7 +103,7 @@
  function side(){const a=st.asset,ns=a.newsSentiment||{};const cls={Positive:'rocket',Negative:'yikes'}[ns.label]||'steady';const m=k=>a[k]&&isN(a[k].current)?`${compact(a[k].current)}${isN(a[k].change7d)?` <span class="${a[k].change7d>0?'up':'down'}">${pct(a[k].change7d)} 7d</span>`:''}`:'Unknown';
   const news=(page.news||[]).filter(x=>(x.assets||[]).includes(a.symbol)).slice(0,6);const L=(u,t)=>safe(u)?`<a href="${esc(safe(u))}" target="_blank" rel="noopener noreferrer">${esc(t)}</a>`:'';
   $('co-side').innerHTML=`<section><h3>Research summary</h3><p><span class="sentiment ${cls}">News sentiment: ${esc(ns.label||'Insufficient news')}</span></p><p>${esc(a.researchSummary||'No reviewed summary yet.')}</p><p class="caption">Describes recent news, not a price call.</p></section>
-  <section><h3>Usage metrics</h3><dl class="co-dl"><dt>Value locked</dt><dd>${m('tvl')}</dd><dt>Stablecoins</dt><dd>${m('stables')}</dd><dt>Fees</dt><dd>${m('fees')}</dd><dt>Revenue</dt><dd>${m('revenue')}</dd></dl></section>
+  ${a.kind==='stock'?`<section><h3>Usage metrics</h3><p class="caption">Value locked, stablecoins and network fees are crypto metrics and don't apply to a stock (N/A).</p></section>`:`<section><h3>Usage metrics</h3><dl class="co-dl"><dt>Value locked</dt><dd>${m('tvl')}</dd><dt>Stablecoins</dt><dd>${m('stables')}</dd><dt>Fees</dt><dd>${m('fees')}</dd><dt>Revenue</dt><dd>${m('revenue')}</dd></dl></section>`}
   <section><h3>Catalysts</h3>${(a.catalysts||[]).length?'<ul>'+a.catalysts.slice(0,5).map(c=>`<li><strong>${esc(c.date||'Undated')}</strong> ${esc(c.title)} ${L(c.source,'Source')}</li>`).join('')+'</ul>':'<p class="muted">None scheduled in the reviewed window.</p>'}</section>
   <section><h3>Risk flags</h3><ul>${(a.riskFlags?.flags||[]).map(f=>`<li><strong>${esc(f.kind)}:</strong> ${esc(f.text)}</li>`).join('')}</ul></section>
   <section><h3>Thesis check</h3>${a.thesis?`<p><strong>Going right:</strong> ${esc(a.thesis.goingRight)}</p><p><strong>Would weaken:</strong> ${esc(a.thesis.wouldWeaken)}</p><p><strong>This week:</strong> ${esc(a.thesis.changedThisWeek)}</p>`:'<p class="muted">Unknown</p>'}</section>
@@ -111,7 +111,7 @@
   <p class="caption">Not financial advice. No buy/sell ratings, targets or predictions.</p>`;}
  function hookOpeners(){const pick=$('coin-picker'),h=$('coin-title');if(h&&!$('coin-chart-open')){const b=document.createElement('button');b.type='button';b.id='coin-chart-open';b.className='co-open-btn';b.textContent='⤢ Full-screen chart';b.hidden=true;h.insertAdjacentElement('afterend',b);b.onclick=()=>open(pick.value);const sync=()=>{b.hidden=!pick||pick.value==='All';};pick&&pick.addEventListener('change',sync);document.addEventListener('click',()=>setTimeout(sync,0));}}
  function init(){
-  document.addEventListener('click',e=>{const t=e.target.closest('.tile-main[data-coin], #compare-table [data-coin], #coin-title');if(!t)return;const sym=t.id==='coin-title'?$('coin-picker')?.value:t.dataset.coin;if(sym&&sym!=='All')open(sym);});
+  document.addEventListener('click',e=>{const t=e.target.closest('.tile-main[data-coin], .tile-main[data-stockchart], #compare-table [data-coin], #coin-title');if(!t)return;const sym=t.id==='coin-title'?$('coin-picker')?.value:(t.dataset.stockchart||t.dataset.coin);if(sym&&sym!=='All')open(sym);});
   window.addEventListener('hashchange',()=>{const s=parseHash(location.hash);if(s)open(s,true);else close();});
   window.addEventListener('popstate',()=>{const s=parseHash(location.hash);if(!s)close();});
   const wait=setInterval(()=>{if(window.__dashboardReady){clearInterval(wait);hookOpeners();const s=parseHash(location.hash);if(s)open(s,true);}},60);

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T22:46:39+00:00",
+ "generatedAt": "2026-11-08T22:54:12+00:00",
  "series": {
   "AERO": {
    "kind": "crypto",
@@ -19,6 +19,26 @@
    "first": "2019-06-23",
    "days": 729,
    "ffill": false,
+   "dailyDays": 400
+  },
+  "AMD": {
+   "kind": "traditional",
+   "source": "AMD (Yahoo Finance)",
+   "sourceUrl": "https://finance.yahoo.com/quote/AMD",
+   "asOf": "2026-11-08",
+   "first": "1980-03-23",
+   "days": 2777,
+   "ffill": true,
+   "dailyDays": 400
+  },
+  "AMZN": {
+   "kind": "traditional",
+   "source": "Amazon (Yahoo Finance)",
+   "sourceUrl": "https://finance.yahoo.com/quote/AMZN",
+   "asOf": "2026-11-08",
+   "first": "1997-05-18",
+   "days": 1882,
+   "ffill": true,
    "dailyDays": 400
   },
   "AXL": {
@@ -129,6 +149,26 @@
    "first": "2021-05-16",
    "days": 630,
    "ffill": false,
+   "dailyDays": 400
+  },
+  "INTC": {
+   "kind": "traditional",
+   "source": "Intel (Yahoo Finance)",
+   "sourceUrl": "https://finance.yahoo.com/quote/INTC",
+   "asOf": "2026-11-08",
+   "first": "1980-03-23",
+   "days": 2777,
+   "ffill": true,
+   "dailyDays": 400
+  },
+  "META": {
+   "kind": "traditional",
+   "source": "Meta Platforms (Yahoo Finance)",
+   "sourceUrl": "https://finance.yahoo.com/quote/META",
+   "asOf": "2026-11-08",
+   "first": "2012-05-20",
+   "days": 1099,
+   "ffill": true,
    "dailyDays": 400
   },
   "NEAR": {
@@ -467,6 +507,38 @@
    "ok": true,
    "first": "2004-08-19",
    "source": "Alphabet Class A (Yahoo Finance)",
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
+   ]
+  },
+  "META": {
+   "ok": true,
+   "first": "2012-05-18",
+   "source": "Meta Platforms (Yahoo Finance)",
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
+   ]
+  },
+  "AMD": {
+   "ok": true,
+   "first": "1980-03-17",
+   "source": "AMD (Yahoo Finance)",
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
+   ]
+  },
+  "INTC": {
+   "ok": true,
+   "first": "1980-03-17",
+   "source": "Intel (Yahoo Finance)",
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
+   ]
+  },
+  "AMZN": {
+   "ok": true,
+   "first": "1997-05-15",
+   "source": "Amazon (Yahoo Finance)",
    "notes": [
     "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charse"
    ]

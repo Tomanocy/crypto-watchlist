@@ -131,3 +131,7 @@ p.overview{font-size:1.05em;line-height:1.6;border-left:3px solid #0D9488;paddin
 .group-bar{margin:0 0 14px}.group-bar-inner{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:12px 14px;border:2px solid var(--gold);border-radius:12px;background:rgba(212,160,23,.08)}
 .group-chips{display:flex;flex-wrap:wrap;gap:6px}.group-chip{font-size:.78rem;font-weight:650;padding:3px 9px;border:1.5px solid var(--gold);border-radius:999px}
 .group-clear{margin-left:auto;font-size:.8rem;border:1.5px solid var(--bad);color:var(--bad)}
+.utility-group.stocks-group{border-left-color:#D4A017 !important;background:rgba(32,28,14,.35)}
+.stocks-group .utility-head h3::after{content:" · equities";font-size:.75em;color:#D4A017;font-weight:600}
+.stock-tile .sentiment{display:inline-block;margin:4px 0;font-size:.85em;padding:2px 8px;border-radius:999px;border-style:solid}
+.stock-tile .tile-peer{white-space:normal}
