@@ -32,3 +32,23 @@ const {JSDOM,VirtualConsole}=require('jsdom');
  assert.deepEqual(errors,[]);assert.equal(d.getElementById('error').hidden,true);
  console.log('PASS: DOM runtime, all 16 selections, all six eight-column groups, calendars, SUI research, QNT missing history, label filter recovery, local favorites, peers/sort; zero captured console/runtime errors.');dom.window.close();
 })().catch(e=>{console.error(e);process.exitCode=1;});
+/* Overlay smoke: open via tile, ranges, benchmarks, Esc, hash. */
+(async()=>{
+ const base=process.argv[2]||'http://127.0.0.1:8000/';const errors=[];const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));vc.on('error',(...a)=>errors.push(a.join(' ')));
+ const dom=await JSDOM.fromURL(base+'#coin=XRP',{resources:'usable',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){w.fetch=(u,o)=>fetch(new URL(u,base),o);}});
+ const w=dom.window,d=w.document;const until=async(f,m)=>{for(let i=0;i<120;i++){if(f())return;await new Promise(r=>setTimeout(r,50));}throw Error('timeout: '+m+' '+errors.join(';'));};
+ await until(()=>w.__dashboardReady,'ready');await until(()=>d.getElementById('coin-overlay')&&!d.getElementById('coin-overlay').hidden&&d.querySelector('#co-chart svg'),'hash open');
+ assert.match(d.getElementById('co-title').textContent,/XRP/);
+ d.getElementById('co-close').click();assert.equal(d.getElementById('coin-overlay').hidden,true);assert.equal(w.location.hash,'');
+ d.querySelector('.tile-main[data-coin="SOL"]').click();await until(()=>w.CoinChart.state()?.sym==='SOL'&&d.querySelector('#co-chart svg path'),'tile open');assert.equal(w.location.hash,'#coin=SOL');
+ assert.equal(d.activeElement.id,'co-close');
+ for(const r of ['7D','1M','3M','6M','1Y','Max']){d.querySelector(`[data-range="${r}"]`).click();assert.equal(d.querySelector(`[data-range="${r}"]`).getAttribute('aria-pressed'),'true');assert.ok(d.querySelector('#co-chart svg path'));}
+ for(const b of ['BTC','ETH','GOLD','TSLA','NVDA','GOOGL']){d.querySelector(`[data-bench="${b}"]`).click();}
+ assert.match(d.getElementById('co-chart-title').textContent,/rebased/);assert.equal(d.querySelectorAll('#co-chart svg path').length,7);assert.equal(d.querySelectorAll('#co-legend .lg').length,7);
+ d.querySelector('[data-bench="TSLA"]').click();assert.equal(d.querySelectorAll('#co-chart svg path').length,6);
+ d.querySelector('[data-ratio="GOLD"]').click();assert.ok(d.querySelector('#co-ratio-chart svg path'));assert.equal(d.querySelectorAll('#co-perf tbody tr').length,6);
+ assert.match(d.getElementById('co-side').textContent,/Risk flags/);assert.match(d.getElementById('coin-overlay').textContent,/Not financial advice/);
+ d.getElementById('coin-overlay').dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert.equal(d.getElementById('coin-overlay').hidden,true);
+ d.querySelector('#compare-table [data-coin]').click();await until(()=>!d.getElementById('coin-overlay').hidden,'table open');
+ assert.deepEqual(errors,[]);console.log('PASS overlay: hash open, tile/table open, close+Esc, 6 ranges, 6 benchmarks, ratio, perf table, side panel; zero console errors.');w.close();
+})().catch(e=>{console.error(e);process.exitCode=1;});

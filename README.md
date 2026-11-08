@@ -185,3 +185,7 @@ not scripts, git metadata or tests (the public repository still contains source 
 
 References: [custom Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages),
 [GITHUB_TOKEN trigger behavior](https://docs.github.com/en/actions/how-tos/writing-workflows/choosing-when-your-workflow-runs/triggering-a-workflow).
+
+## Full-screen coin charts
+
+Click a glance tile, a coin in the comparison table, or the single-coin header (or open `#coin=XRP`). `chart.js` lazy-loads `data/history/<SYMBOL>.json` (from `scripts/refresh_history.py`) and draws plain-SVG price, %-change-vs-benchmark (BTC, ETH, Gold, TSLA, NVDA, GOOGL), ratio and performance views. Neutral context only; see /workspace/crypto-health/README.md for sources and forward-fill rules.

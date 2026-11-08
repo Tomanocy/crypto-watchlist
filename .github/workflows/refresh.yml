@@ -29,26 +29,29 @@ jobs:
         run: sha256sum data/page-data.json > /tmp/editorial.sha256
       - name: Refresh public numeric sources only
         run: python scripts/refresh_numeric.py
+      - name: Refresh daily close history (crypto + benchmarks)
+        run: python scripts/refresh_history.py || echo 'History refresh partial; previous files kept'
       - name: Validate curation was not overwritten
         run: |
           sha256sum -c /tmp/editorial.sha256
           python scripts/validate.py
-          test -z "$(git diff --name-only -- . ':!data/numeric-data.json')"
+          test -z "$(git diff --name-only -- . ':!data/numeric-data.json' ':!data/history')"
       - name: Commit numeric JSON only, if changed
         run: |
-          if ! git diff --quiet -- data/numeric-data.json; then
+          if ! git diff --quiet -- data/numeric-data.json data/history || [ -n "$(git ls-files --others -- data/history)" ]; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data/numeric-data.json
+            git add data/numeric-data.json data/history
             git commit -m 'Refresh public numeric observations'
             git push origin HEAD:main
           fi
       # GITHUB_TOKEN pushes do not trigger another push workflow. Deploy explicitly.
       - name: Prepare public artifact only
         run: |
-          mkdir -p _site/data
-          cp index.html styles.css carousel.js app.js .nojekyll _site/
+          mkdir -p _site/data/history
+          cp index.html styles.css carousel.js app.js chart.js .nojekyll _site/
           cp data/*.json _site/data/
+          cp data/history/*.json _site/data/history/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

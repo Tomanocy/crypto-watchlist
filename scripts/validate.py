@@ -17,4 +17,12 @@ for path in ['carousel.js','styles.css','app.js','data/page-data.json','data/num
 assert 'https://cursor.com/canvas/' not in (root/'data/page-data.json').read_text()
 assert '/workspace/' not in (root/'data/page-data.json').read_text()
 assert len(re.findall(r'id="coin-picker"',html))==1
+assert 'chart.js' in html and (root/'chart.js').exists()
+cj=(root/'chart.js').read_text();assert 'Not financial advice' in cj and 'Data unavailable' in cj
+hidx=json.loads((root/'data/history/index.json').read_text())['series']
+for s in [a['symbol'] for a in seed['assets']]+['ETH','GOLD','TSLA','NVDA','GOOGL']:
+  if s in hidx:
+    h=json.loads((root/f'data/history/{s}.json').read_text());c=h['closes'];assert c and h['source'] and h['asOf']==c[-1][0]
+    assert all(c[i][0]<c[i+1][0] for i in range(len(c)-1)) and all(x[1]>0 for x in c)
+assert not re.search(r'\b(RSI|MACD|Bollinger|moving average|price target)\b',cj,re.I)
 print('Validated: 16 focus coins + BTC, curated/numeric separation, public-safe export, news tags, local asset paths and disclaimers.')

@@ -1,0 +1,305 @@
+{
+ "generatedAt": "2026-11-08T03:20:58+00:00",
+ "series": {
+  "ALGO": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/algorand",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "AXL": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/axelar",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "BNKR": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/bankercoin-2",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "BTC": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/bitcoin",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "DOT": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/polkadot",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "ETH": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/ethereum",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "FLR": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/flare-networks",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "GOLD": {
+   "kind": "traditional",
+   "source": "Gold futures front month (Yahoo GC=F)",
+   "sourceUrl": "https://finance.yahoo.com/quote/GC=F",
+   "asOf": "2026-11-07",
+   "first": "2024-11-07",
+   "days": 731,
+   "ffill": true
+  },
+  "GOOGL": {
+   "kind": "traditional",
+   "source": "Alphabet Class A (Yahoo Finance)",
+   "sourceUrl": "https://finance.yahoo.com/quote/GOOGL",
+   "asOf": "2026-11-07",
+   "first": "2024-11-07",
+   "days": 731,
+   "ffill": true
+  },
+  "HBAR": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/hedera-hashgraph",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "ICP": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/internet-computer",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "NEAR": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/near",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "NVDA": {
+   "kind": "traditional",
+   "source": "Nvidia (Yahoo Finance)",
+   "sourceUrl": "https://finance.yahoo.com/quote/NVDA",
+   "asOf": "2026-11-07",
+   "first": "2024-11-07",
+   "days": 731,
+   "ffill": true
+  },
+  "ONDO": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/ondo-finance",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "QNT": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/quant-network",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "RENDER": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/render-token",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "SOL": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/solana",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "SUI": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/sui",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "TAO": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/bittensor",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "TSLA": {
+   "kind": "traditional",
+   "source": "Tesla (Yahoo Finance)",
+   "sourceUrl": "https://finance.yahoo.com/quote/TSLA",
+   "asOf": "2026-11-07",
+   "first": "2024-11-07",
+   "days": 731,
+   "ffill": true
+  },
+  "XLM": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/stellar",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  },
+  "XRP": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/ripple",
+   "asOf": "2026-11-08",
+   "first": "2025-11-09",
+   "days": 365,
+   "ffill": false
+  }
+ },
+ "status": {
+  "HBAR": {
+   "ok": true,
+   "days": 365
+  },
+  "XRP": {
+   "ok": true,
+   "days": 365
+  },
+  "XLM": {
+   "ok": true,
+   "days": 365
+  },
+  "QNT": {
+   "ok": true,
+   "days": 365
+  },
+  "ICP": {
+   "ok": true,
+   "days": 365
+  },
+  "DOT": {
+   "ok": true,
+   "days": 365
+  },
+  "BNKR": {
+   "ok": true,
+   "days": 365
+  },
+  "TAO": {
+   "ok": true,
+   "days": 365
+  },
+  "ONDO": {
+   "ok": true,
+   "days": 365
+  },
+  "ALGO": {
+   "ok": true,
+   "days": 365
+  },
+  "SUI": {
+   "ok": true,
+   "days": 365
+  },
+  "RENDER": {
+   "ok": true,
+   "days": 365
+  },
+  "AXL": {
+   "ok": true,
+   "days": 365
+  },
+  "NEAR": {
+   "ok": true,
+   "days": 365
+  },
+  "SOL": {
+   "ok": true,
+   "days": 365
+  },
+  "FLR": {
+   "ok": true,
+   "days": 365
+  },
+  "BTC": {
+   "ok": true,
+   "days": 365
+  },
+  "ETH": {
+   "ok": true,
+   "days": 365
+  },
+  "GOLD": {
+   "ok": true,
+   "days": 503,
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+   ]
+  },
+  "TSLA": {
+   "ok": true,
+   "days": 501,
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+   ]
+  },
+  "NVDA": {
+   "ok": true,
+   "days": 501,
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+   ]
+  },
+  "GOOGL": {
+   "ok": true,
+   "days": 501,
+   "notes": [
+    "stooq: stooq empty/limited: <!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"no"
+   ]
+  }
+ }
+}
