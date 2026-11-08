@@ -55,7 +55,7 @@ def trad(key):
     rows=yahoo(y);return rows,f'https://finance.yahoo.com/quote/{y}',ly,errs
 YAHOO={'HBAR':'HBAR-USD','XRP':'XRP-USD','XLM':'XLM-USD','QNT':'QNT-USD','ICP':'ICP-USD','DOT':'DOT-USD','BNKR':'BNKR37545-USD',
        'TAO':'TAO22974-USD','ONDO':'ONDO-USD','ALGO':'ALGO-USD','SUI':'SUI20947-USD','RENDER':'RENDER-USD','AXL':'AXL17799-USD',
-       'NEAR':'NEAR-USD','SOL':'SOL-USD','FLR':'FLR-USD','BTC':'BTC-USD','ETH':'ETH-USD'}
+       'NEAR':'NEAR-USD','SOL':'SOL-USD','FLR':'FLR-USD','BTC':'BTC-USD','ETH':'ETH-USD','HYPE':'HYPE32196-USD','AERO':'AERO29270-USD','VET':'VET-USD','XDC':'XDC-USD'}
 DAILY_DAYS=400
 def thin(rows):
     if not rows:return rows

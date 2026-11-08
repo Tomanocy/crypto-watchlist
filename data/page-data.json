@@ -813,7 +813,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Not enough data",
+        "label": "Positive",
         "counts": {
           "Rocket": 0,
           "Steady": 0,
@@ -821,10 +821,10 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
+        "asOf": "2026-11-08T16:43:50-06:00",
         "sources": []
       },
-      "researchSummary": "No dated, tagged news in the last 7 days; this is a coverage gap, not a negative verdict.",
+      "researchSummary": "The current evidence is more concrete than a generic brand partnership: a live marketplace and a specific cross-chain configuration approval are visible. Neither establishes sustained activity or the value captured by HBAR.",
       "tradingActivity": 1.2223501786167918,
       "tvl": {
         "current": 24839688.0,
@@ -1414,7 +1414,8 @@
           "total": 4
         },
         "peerLabel": "Payments"
-      }
+      },
+      "overview": "Hedera has a verified consumer-application update in the November 6 McLaren collectibles release and the live SentX secondary-market route. These sources show distribution and an accessible application surface, not enterprise payment volumes. Hedera also remains one of the named destinations in Axelar Proposal 511\u2019s approved ITS trust-configuration calls. That approval is not independent confirmation that destination execution or user transfers are live. The next useful evidence is retained collectors, successful integration execution and independent paid network use; the main risk is mistaking branded availability for broad adoption."
     },
     {
       "symbol": "XRP",
@@ -1575,17 +1576,10 @@
         },
         "storyCount": 3,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection",
-          "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover",
-          "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh",
-          "https://x.com/binance/status/2118541594358104469",
-          "https://x.com/binance/status/2118657118014496819",
-          "https://xrplwin.com/amendment/fixCleanup3_4_0"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
+      "researchSummary": "The strongest verified context is functioning euro access, enabled ledger maintenance and a live FXRP-linked application. Little new standalone native-XRPL news was verified for November 6\u20138, so earlier milestones are explicitly dated rather than recycled as new launches.",
       "tradingActivity": 2.175277853735078,
       "tvl": {
         "current": 36488124.0,
@@ -2175,7 +2169,8 @@
           "total": 4
         },
         "peerLabel": "Payments"
-      }
+      },
+      "overview": "XRP Ledger context combines recent asset rails, amendment maintenance and Flare-linked applications, but not all of these are new this weekend. GateHub\u2019s November 5 EURGH launch connects XRPL and Xahau wallets with a regulated euro-denominated token and SEPA mint/redeem flow under issuer requirements. The amendment tracker records fixCleanup3_4_0 enabled on November 4, covering a broad collection of ledger fixes. Firelight\u2019s November 8 follow-up points to already-live FXRP-backed cover for Lido Earn, an application on Flare rather than a new native-XRPL feature. The main risk is conflating issued-asset or external-application adoption with direct XRP demand, while cover and issuer access retain their own conditions."
     },
     {
       "symbol": "XLM",
@@ -2301,14 +2296,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://centrifuge.io/blog/schroders-centrifuge",
-          "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
-          "https://x.com/StellarOrg/status/2118390141731356759"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Live tokenization and distribution broaden; token-holder cash flow is not established.",
+      "researchSummary": "Issued assets and a well-specified upgrade pipeline provide a concrete ecosystem picture. Bell remains conditional on validator approval, and the RWA milestone should not be read as a live balance or direct XLM-token cash flow.",
       "tradingActivity": 1.7216710052330535,
       "tvl": {
         "current": 209359907.0,
@@ -2898,7 +2889,8 @@
           "total": 4
         },
         "peerLabel": "Payments"
-      }
+      },
+      "overview": "Stellar\u2019s November 6 RWA milestone is backed by an issuer-level dashboard whose latest displayed observation is November 5. Those balances indicate issued assets on the network, not the frequency or usefulness of their transfers. Bell, Protocol 30, is the next dated protocol catalyst, with a proposed November 23 mainnet vote. It adds muxed contract addresses, ML-DSA signature verification inside smart contracts and millisecond timing support if validators approve. Native transaction signatures remain Ed25519, and Bell does not itself accelerate ledger closes; execution, application readiness and practical adoption remain the main risks."
     },
     {
       "symbol": "QNT",
@@ -3011,13 +3003,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://quant.network/news",
-          "https://quant.network/press-releases/the-clearing-house-partners-with-quant-to-advance-the-on-chain-money-initiative"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "An educational publication does not itself demonstrate additional production usage.",
+      "researchSummary": "No new verified QNT integration or release was established in the strict three-day window. The Clearing House commitment remains relevant background, but institutional availability is still forward-looking and the privacy article is commentary.",
       "tradingActivity": 1.7507142534350224,
       "tvl": {
         "current": null,
@@ -3062,7 +3051,8 @@
           "total": 4
         },
         "peerLabel": "Payments"
-      }
+      },
+      "overview": "Quant\u2019s freshest dated publication is the November 6 explanation of privacy for tokenized money, not a new customer deployment. It distinguishes operator visibility, counterparty confidentiality and regulatory recovery requirements, giving institutions a framework for evaluating settlement infrastructure. The more material deployment context remains The Clearing House\u2019s September 24 selection of Quant for interoperability, orchestration and transaction management. The announcement expects availability to participating institutions in the first half of 2027, outside the next 60 days. Public current usage remains limited, so the main risk is treating thought leadership or a selected provider as evidence that the new network has already reached production."
     },
     {
       "symbol": "ICP",
@@ -3184,7 +3174,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Neutral",
+        "label": "Positive",
         "counts": {
           "Rocket": 0,
           "Steady": 1,
@@ -3192,13 +3182,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://dashboard.internetcomputer.org/proposal/144741",
-          "https://ic-api.internetcomputer.org/api/v3/proposals/144741"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "An open upgrade election is process evidence, not completed delivery.",
+      "researchSummary": "There is verified delivery at the governance-interface layer and a specific open protocol-maintenance vote. A rollout claim must wait for approval and deployment evidence rather than being inferred from a release hash.",
       "tradingActivity": 1.6733235237009074,
       "tvl": {
         "current": 7630754.0,
@@ -3538,7 +3525,8 @@
           "total": 4
         },
         "peerLabel": "Smart-contract platforms"
-      }
+      },
+      "overview": "ICP\u2019s current work spans protocol-governance maintenance and improvements to the NNS application. Proposal 144741 remains open to elect GuestOS revision 8d892f1, with no decision or execution timestamp in the primary API. The NNS app has also added persistent voting controls, richer shared-proposal cards and clearer rewards and maturity information. These are distinct milestones: interface changes do not change monetary policy, and electing a GuestOS version does not install it on every subnet. The next check is the proposal outcome and subsequent deployments; the main risk is overstating governance process or developer convenience as measured application demand."
     },
     {
       "symbol": "DOT",
@@ -3655,7 +3643,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Neutral",
+        "label": "Mixed",
         "counts": {
           "Rocket": 0,
           "Steady": 1,
@@ -3663,12 +3651,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://forum.polkadot.network/t/polkadot-socials-daily-digest-2026-11-06/19284"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Validator changes remain a proposal; efficiency and resilience effects are not settled.",
+      "researchSummary": "Approval of the first step is verified and the board\u2019s old pending-vote language should be removed. The efficiency rationale and decentralization trade-offs still need to be assessed after enactment and elections.",
       "tradingActivity": 3.4357902710117676,
       "tvl": {
         "current": null,
@@ -4008,7 +3994,8 @@
           "total": 4
         },
         "peerLabel": "Smart-contract platforms"
-      }
+      },
+      "overview": "Polkadot has moved the first validator-reduction referendum from voting into its enactment period. Referendum 1966 sets a 500-validator target and proportionally adjusts the DAP validator budget with related system-chain parameters. Enactment is tied to Relay Chain block 33,814,400, and the new set applies in the first era after the call. November 10 is an estimated calendar date, not an independently guaranteed activation time. Subsequent steps toward 400 and 320 need separate approval, while the main risks are execution coordination, validator concentration and the effect on nomination participation."
     },
     {
       "symbol": "BNKR",
@@ -4135,14 +4122,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://x.com/CoinbaseDev/status/2118810403740504305",
-          "https://x.com/bankrbot/status/2118495853933711382",
-          "https://x.com/base/status/2118819694220296594"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "A corroborated integration expands distribution; retained usage is unproven.",
+      "researchSummary": "A major counterpart confirms the integration, making the distribution claim stronger than a standalone promotional post. BNKR holders should not be assumed to own a direct claim on Bankr\u2019s integration revenue.",
       "tradingActivity": 3.0682437010424195,
       "tvl": {
         "current": null,
@@ -4482,7 +4465,8 @@
           "total": 4
         },
         "peerLabel": "AI & compute"
-      }
+      },
+      "overview": "Bankr\u2019s Coinbase for Agents connection was corroborated by Coinbase Developer Platform on November 6. The integration broadens the agent interface from onchain EVM and Solana activity to a connected Coinbase account. Bankr advertises portfolio checks and account actions from chat, with the actual product surface dependent on account permissions and jurisdiction. That distribution expansion is a useful product milestone but supplies no fresh evidence of retained customers or incremental fees. The next test is repeat authorized usage and reliable controls, while the main risks are permission exposure, execution errors and revenue dependent on transient activity."
     },
     {
       "symbol": "TAO",
@@ -4608,13 +4592,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
-          "https://x.com/opentensor/status/2118654269947785444"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Wallet security capability shipped, but the spending switch is still off.",
+      "researchSummary": "The wallet release and Hy4 endpoint are concrete developments with different adoption tests. The board should retain the explicit warning that deployed post-quantum wallet code is not yet enabled spending.",
       "tradingActivity": 1.9145509550124007,
       "tvl": {
         "current": null,
@@ -4659,7 +4640,8 @@
           "total": 4
         },
         "peerLabel": "AI & compute"
-      }
+      },
+      "overview": "Bittensor\u2019s verified developments combine wallet-security engineering with a new Chutes inference endpoint. Runtime 488 adds post-quantum wallet choices, while the reviewed documentation still says root has not enabled spending from those accounts. Separately, Chutes offers Tencent Hy4 through a live API and Opentensor corroborates its launch-partner role. These show infrastructure and distribution progress, not independently measured paying demand across the subnet economy. The next checks are safe wallet activation, compatible tooling and sustained paid inference; the main risks are operational limitations, service-quality gaps and treating emissions or model listings as customer revenue."
     },
     {
       "symbol": "ONDO",
@@ -4797,15 +4779,10 @@
         },
         "storyCount": 2,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://centrifuge.io/blog/schroders-centrifuge",
-          "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
-          "https://x.com/Ondo/status/2118725675204919420",
-          "https://x.com/StellarOrg/status/2118390141731356759"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Live distribution expands; IPO-day issuance is a conditional plan, not completed.",
+      "researchSummary": "The IPO-day plan broadens the product ambition but must not be shown as launched. Legal structure and access limits are material context, and no verified dated IPO catalyst was added.",
       "tradingActivity": 3.4870400301846605,
       "tvl": {
         "current": null,
@@ -5145,7 +5122,8 @@
           "total": 4
         },
         "peerLabel": "Tokenization & interop"
-      }
+      },
+      "overview": "Ondo is extending tokenized-security distribution, with its latest announcement targeting Anthropic exposure on IPO day. The launch remains conditional on the corporate listing and on actual product execution rather than a fixed calendar date. Ondo\u2019s primary documentation makes clear that these tokens are structured notes backed by assets, not ordinary shares with shareholder voting rights. Access restrictions, KYC, custody and redemption requirements remain central to the product. The next check is a completed issuance with published terms, while the main risk is confusing product-asset growth with rights or revenue belonging to the ONDO governance token."
     },
     {
       "symbol": "ALGO",
@@ -5269,12 +5247,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://algorand.co/blog/algorand-community-update"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Grant and community-support channels contract; sustainability intent does not remove builder-retention risk.",
+      "researchSummary": "The support contraction is confirmed and operationally meaningful even though staking commitments remain intact. The security-export strategy is forward-looking, so its benefits should not be counted before implementation and customer evidence.",
       "tradingActivity": 3.932943683516321,
       "tvl": {
         "current": 28989228.0,
@@ -5864,7 +5840,8 @@
           "total": 4
         },
         "peerLabel": "Payments"
-      }
+      },
+      "overview": "Algorand is undertaking a substantive change in ecosystem support and commercial focus. The November 6 update closes the Forum to new discussion, concludes the company-run EAC and ends Technical Council sponsorship, while periodic Developer Council meetings remain. xGov is scheduled to pause indefinitely on December 6. Staking rewards through January 2028 are preserved, and the previously discussed supply-cap, MEV and higher minimum-fee ideas are shelved. The next test is whether a sustainable post-quantum-security business can coexist with retained developers; reduced support channels and uncertain execution are the main risks."
     },
     {
       "symbol": "SUI",
@@ -6020,13 +5997,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://x.com/binance/status/2118541594358104469",
-          "https://x.com/binance/status/2118657118014496819"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
+      "researchSummary": "The planned consumer interface is concrete, but availability is still described as forthcoming. An exact launch day is unverified, so no artificial calendar catalyst is supplied.",
       "tradingActivity": 4.633452341696068,
       "tvl": {
         "current": 438008652.0,
@@ -6616,7 +6590,8 @@
           "total": 4
         },
         "peerLabel": "Smart-contract platforms"
-      }
+      },
+      "overview": "Sui\u2019s latest ecosystem update emphasizes planned Samsung Wallet USDC access later in November. The primary explanation limits launch support to USDC for eligible US Galaxy users and explicitly excludes the SUI token from Samsung Wallet at launch. Supported USDC transfers do not require the sender to hold SUI for gas. The integration is therefore a potential distribution improvement, not a verified count of active new users or a requirement for customers to hold the native token. The next milestone is an actual rollout with terms and usage evidence; the main risk is that broad device reach fails to convert into repeat settlement."
     },
     {
       "symbol": "RENDER",
@@ -6743,7 +6718,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Not enough data",
+        "label": "Neutral",
         "counts": {
           "Rocket": 0,
           "Steady": 0,
@@ -6751,10 +6726,10 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
+        "asOf": "2026-11-08T16:43:50-06:00",
         "sources": []
       },
-      "researchSummary": "No dated, tagged news in the last 7 days; this is a coverage gap, not a negative verdict.",
+      "researchSummary": "There is a concrete near-term governance decision, but neither final passage nor production Forth usage is established in this review. A recirculated rendering case study was not treated as a new November 2026 customer deployment.",
       "tradingActivity": 2.6088222629009064,
       "tvl": {
         "current": null,
@@ -6799,7 +6774,8 @@
           "total": 4
         },
         "peerLabel": "AI & compute"
-      }
+      },
+      "overview": "Render\u2019s current governance focus is the final RNP-024 vote concerning the Forth AI gateway and adoption incentives. The official November 6 notice ties the proposal to paid usage, RENDER payments and Render Network compute. Its stated deadline is November 9 at 7 PM CST, while the accessible proposal page does not expose a complete live tally. Binance\u2019s November 8 update also reiterates that the Solana RENDER withdrawal route is already enabled. The next checks are the final governance result, implementation and paid workload retention; the main risk is confusing subsidy-supported distribution with durable compute demand."
     },
     {
       "symbol": "AXL",
@@ -6921,7 +6897,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Positive",
+        "label": "Mixed",
         "counts": {
           "Rocket": 1,
           "Steady": 1,
@@ -6929,14 +6905,10 @@
         },
         "storyCount": 2,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://axelar.valopers.com/proposals/511",
-          "https://x.com/binance/status/2118541594358104469",
-          "https://x.com/binance/status/2118657118014496819"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
+      "researchSummary": "The integration configuration advances, but it should not be described as fully executed on all chains. The Web3Auth recovery attribution also corrects the earlier assumption that all observed wallet sweeps represented stolen funds.",
       "tradingActivity": 4.973642756709413,
       "tvl": {
         "current": null,
@@ -6981,7 +6953,8 @@
           "total": 4
         },
         "peerLabel": "Tokenization & interop"
-      }
+      },
+      "overview": "Axelar Proposal 511 has passed, approving ITS trust-configuration calls involving robinhood across 20 destination chains. The named set includes Hedera and XRPL EVM alongside established EVM networks. Approval is a completed governance milestone, but destination execution and actual transfers still require independent verification. Separately, Keplr\u2019s recovery-wallet list includes Axelar in the Web3Auth incident response, which is wallet infrastructure exposure rather than evidence of an Axelar consensus or bridge exploit. The next checks are successful configuration execution and production messages, while cross-chain security and shared-provider dependencies remain the main risks."
     },
     {
       "symbol": "NEAR",
@@ -7113,7 +7086,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Positive",
+        "label": "Neutral",
         "counts": {
           "Rocket": 1,
           "Steady": 0,
@@ -7121,13 +7094,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://x.com/binance/status/2118541594358104469",
-          "https://x.com/binance/status/2118657118014496819"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
+      "researchSummary": "The hackathon offers a specific builder checkpoint, while exchange recovery remains conditional. Neither prizes nor a target date should be relabeled as recurring demand or completed infrastructure restoration.",
       "tradingActivity": 5.478100095666671,
       "tvl": {
         "current": 172956530.0,
@@ -7717,7 +7687,8 @@
           "total": 4
         },
         "peerLabel": "Smart-contract platforms"
-      }
+      },
+      "overview": "NEAR\u2019s near-term developer focus is its active November 1\u201314 hackathon with Intents, Chain Signatures and agent-related tracks. The November 7 reminder and official event site confirm a November 14 deadline and judging through November 18. These are opportunities to evaluate working prototypes rather than proof of production adoption. On exchange access, Binance\u2019s November 6 statement still names NEAR in a conditional restoration target, with no completed NEAR reopening established by the November 8 update reviewed. The next evidence is working and maintained applications plus confirmed withdrawal availability; the main risks are weak conversion from incentives and continued access friction."
     },
     {
       "symbol": "SOL",
@@ -7841,7 +7812,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Positive",
+        "label": "Mixed",
         "counts": {
           "Rocket": 2,
           "Steady": 1,
@@ -7849,17 +7820,10 @@
         },
         "storyCount": 3,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://centrifuge.io/blog/schroders-centrifuge",
-          "https://lstradar.com/epochs",
-          "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html",
-          "https://x.com/Ondo/status/2118725675204919420",
-          "https://x.com/StellarOrg/status/2118390141731356759",
-          "https://x.com/anza_xyz/status/2118423244806164615"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Continued block production is reassuring but no official advisory all-clear was verified.",
+      "researchSummary": "Current service status is reassuring, while the urgent compatibility advisory remains important context. Breakpoint is a verified dated ecosystem event, not a guarantee of new releases or adoption.",
       "tradingActivity": 2.2249776372879064,
       "tvl": {
         "current": 5260256983.0,
@@ -8449,7 +8413,8 @@
           "total": 4
         },
         "peerLabel": "Smart-contract platforms"
-      }
+      },
+      "overview": "Solana\u2019s official status page is operational after the November 6 epoch boundary highlighted in Anza\u2019s urgent client advisory. That is current availability evidence, not a client-upgrade audit or an incident-specific all-clear. Tokenization and consumer-payment distribution remain relevant ecosystem themes, while product-specific rights and access conditions must be checked separately. Breakpoint in London is scheduled for November 15\u201317, with additional builder events ahead of it. The next checks are concrete shipped releases, reliable client operation and retained paid application use; the main risks are coordination failures and mistaking event announcements or trading intensity for durable demand."
     },
     {
       "symbol": "FLR",
@@ -8598,13 +8563,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-07T20:23:18.935785-06:00",
-        "sources": [
-          "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection",
-          "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover"
-        ]
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": []
       },
-      "researchSummary": "Defined-risk cover adds a production integration, not protection against every loss.",
+      "researchSummary": "The integration is production evidence rather than a proposal, but limited cover is not a guarantee against loss. Firelight remains part of Flare coverage here, not an extra seventeenth focus coin.",
       "tradingActivity": 0.3915797977011493,
       "tvl": {
         "current": 170015423.0,
@@ -9069,7 +9031,395 @@
           "total": 4
         },
         "peerLabel": "Tokenization & interop"
-      }
+      },
+      "overview": "Flare\u2019s verified application context is Firelight\u2019s live protection for Lido EarnETH and EarnUSD, reaffirmed on November 8 after the November 5 launch. Lido identifies the backing as Firelight reserves and staked FXRP, creating a role for XRP-linked capital in DeFi risk protection. Eligible losses are subject to fixed-period terms, an independent Risk Consortium assessment and available settlement capital. New markets introduced during a protection period are not automatically covered immediately, and normal market losses and user errors are excluded. The next test is sustainable capital and credible incident handling, while collateral concentration, claims and misread coverage are the main risks."
+    },
+    {
+      "symbol": "HYPE",
+      "id": "hyperliquid",
+      "peer": "DeFi & trading",
+      "chain": "Hyperliquid L1",
+      "riskFlags": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "flags": [
+          {
+            "kind": "Unlock / issuance",
+            "text": "The official genesis allocation reserves 38.888% for future emissions/community rewards and 23.8% for core contributors, with a one-year contributor lock and most vesting ending in 2027\u20132028. No exact next-60-day contributor distribution amount/date was verified from a primary release schedule in this review.",
+            "sources": [
+              "https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f"
+            ]
+          },
+          {
+            "kind": "Supply concentration",
+            "text": "The original allocation assigned 23.8% to core contributors and 6% to the Hyper Foundation budget; these are genesis allocation categories, not current beneficial-owner shares. A fresh holder or validator concentration measurement was not verified.",
+            "sources": [
+              "https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f"
+            ]
+          },
+          {
+            "kind": "Recent outage / exploit",
+            "text": "The official status page marks November 7 scheduled network maintenance completed, while Chainstack reports a separate Hyperliquid/Elysium testnet block-production interruption resolved November 8. No exploit or mainnet halt is established by that testnet report.",
+            "sources": [
+              "https://hyperliquid.statuspage.io/",
+              "https://status.chainstack.com/cmw7br1y6162c1ms0y717qm0z"
+            ]
+          },
+          {
+            "kind": "Regulatory exposure",
+            "text": "The official interface terms exclude persons/entities in the United States and Ontario, Canada, and specified sanctioned jurisdictions. They also state the interface is not government-authorized; that is an access/terms disclosure, not a new enforcement finding.",
+            "sources": [
+              "https://app.hyperliquid.xyz/terms"
+            ]
+          }
+        ]
+      },
+      "thesis": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "goingRight": "HyperCore and HyperEVM are documented production building blocks; Mayan has announced an integration for scheduled Elysium launch.",
+        "wouldWeaken": "Repeated operational failures or an inability to turn new integration capacity into sustained usage would weaken this evidence.",
+        "changedThisWeek": "The November 7 maintenance completed, a separate testnet incident resolved November 8, and Elysium remains scheduled for November 9.",
+        "sources": [
+          "https://hyperliquid.gitbook.io/hyperliquid-docs",
+          "https://hyperliquid.statuspage.io/",
+          "https://status.chainstack.com/cmw7br1y6162c1ms0y717qm0z",
+          "https://kinetiq.xyz/blog/elysium-mainnet-launch",
+          "https://x.com/mayan/status/2119066687417057628"
+        ],
+        "interpretation": "Evidence checks, not forecasts, ratings or token-value guarantees."
+      },
+      "catalysts": [],
+      "newsSentiment": {
+        "label": "Mixed",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 0,
+        "windowDays": 7,
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": [
+          "https://hyperliquid.gitbook.io/hyperliquid-docs",
+          "https://hyperliquid.statuspage.io/",
+          "https://status.chainstack.com/cmw7br1y6162c1ms0y717qm0z",
+          "https://x.com/binance/status/2119352231732580574",
+          "https://kinetiq.xyz/blog/elysium-mainnet-launch",
+          "https://elysium.kinetiq.xyz/docs/what-is-elysium",
+          "https://x.com/mayan/status/2119066687417057628",
+          "https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f",
+          "https://app.hyperliquid.xyz/terms"
+        ]
+      },
+      "researchSummary": "The next concrete ecosystem checkpoint is Elysium's scheduled November 9 launch, followed by working bridges, integrations and retained application usage. Completed maintenance, a resolved testnet incident and restored Binance HYPE access are separate operational facts; none establishes an exploit or guarantees mainnet launch readiness.",
+      "overview": "Hyperliquid combines a purpose-built Layer 1 with HyperCore spot and perpetual order books and the HyperEVM smart-contract environment. The official status page records a completed November 7 network upgrade, while Chainstack separately reports a resolved November 8 Hyperliquid/Elysium testnet interruption; the latter is not evidence of a mainnet exploit. Binance's November 8 update newly lists HYPE withdrawals as re-enabled, an exchange-access improvement rather than a chain upgrade. Kinetiq schedules Elysium mainnet for November 9, using HYPE for gas and settling to HyperEVM, with Mayan announcing day-one cross-chain support. Its documentation distinguishes launch features from later HyperCore read/write functionality, so announced integration capacity should not be counted as demonstrated production adoption. Main risks remain reliability across the trading and bridge stack, contributor vesting, and jurisdictional restrictions on the official interface."
+    },
+    {
+      "symbol": "AERO",
+      "id": "aero",
+      "peer": "DeFi & trading",
+      "chain": null,
+      "riskFlags": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "flags": [
+          {
+            "kind": "Unlock / issuance",
+            "text": "The official upgrade hub says legacy AERO/VELO emissions stopped at the October launch and successor AERO emissions began, with a 20% annual inflation ceiling at launch. Actual issuance depends on the reward system; the ceiling is not realized issuance or a dated token unlock.",
+            "sources": [
+              "https://aero.xyz/aero-upgrade/"
+            ]
+          },
+          {
+            "kind": "Supply concentration",
+            "text": "The upgrade allocates 94.5% of initial successor supply to Aerodrome holders and 5.5% to Velodrome holders; those predecessor communities are not single beneficial owners. Current holder-level concentration was not independently verified.",
+            "sources": [
+              "https://aero.xyz/aero-upgrade/",
+              "https://aero.xyz/economics/"
+            ]
+          },
+          {
+            "kind": "Recent outage / exploit",
+            "text": "No verified new protocol exploit found for November 6\u20138 in this review; Coinbase reports its AERO/VELO migration complete and sends/receives restored. Aero publishes audits and emergency controls, which do not eliminate smart-contract or migration risk.",
+            "sources": [
+              "https://x.com/i/status/2118788654650806744",
+              "https://app.aero.xyz/docs/security/"
+            ]
+          },
+          {
+            "kind": "Regulatory exposure",
+            "text": "No verified new AERO-specific enforcement action found for November 6\u20138 in this review. The reviewed security documentation requires acceptance of a legal disclaimer; that does not establish regulatory approval or an exemption.",
+            "sources": [
+              "https://app.aero.xyz/docs/security/"
+            ]
+          }
+        ]
+      },
+      "thesis": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "goingRight": "Coinbase confirms completed token conversion, and Enso confirms the new MetaDEX integration across seven chains.",
+        "wouldWeaken": "Failed migrations, weaker retained liquidity or issuance unmoored from productive pool activity would weaken this evidence.",
+        "changedThisWeek": "Coinbase completed AERO/VELO conversion November 6; Enso announced seven-chain swap/liquidity/gauge access the same day.",
+        "sources": [
+          "https://x.com/i/status/2118788654650806744",
+          "https://x.com/i/status/2118825821842637096",
+          "https://aero.xyz/aero-upgrade/",
+          "https://app.aero.xyz/docs/security/"
+        ],
+        "interpretation": "Evidence checks, not forecasts, ratings or token-value guarantees."
+      },
+      "catalysts": [],
+      "newsSentiment": {
+        "label": "Positive",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 0,
+        "windowDays": 7,
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": [
+          "https://aero.xyz/aero-upgrade/",
+          "https://aero.xyz/economics/",
+          "https://app.aero.xyz/docs/security/",
+          "https://x.com/i/status/2118788654650806744",
+          "https://x.com/aeroxyz/status/2119495920664633779",
+          "https://x.com/i/status/2118825821842637096",
+          "https://x.com/aeroxyz/status/2118827042875781168",
+          "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=aero,aerodrome-finance",
+          "https://api.coingecko.com/api/v3/coins/aerodrome-finance?localization=false&tickers=false&market_data=false&community_data=false&developer_data=false"
+        ]
+      },
+      "researchSummary": "Two completed infrastructure developments are verified: Coinbase's token conversion and Enso's seven-chain integration. The material data issue is identity: CoinGecko still serves legacy aerodrome-finance separately from successor aero, while DefiLlama's aerodrome fees endpoint resolves to the broader Aero parent.",
+      "overview": "Aerodrome Finance began as a Base DEX, but the official upgrade hub says Aerodrome and Velodrome became the unified Aero protocol on October 21, 2026. The successor retains the AERO ticker, uses a new Base token contract and replaces legacy weekly voting with sAERO-based continuous reward allocation. Coinbase announced completed AERO/VELO conversion and restored sends and receives on November 6; Aero's November 8 post reiterates that completed exchange migration, rather than announcing another launch. Enso and Aero also confirmed access to the new MetaDEX's swaps, liquidity management and gauge staking across seven chains on November 6. The next evidence to track is successful migration, sustained routed usage and the relationship between actual pool revenue and reward issuance, not a newly verified dated upgrade in the next 60 days. Principal risks are migration and cross-chain contract dependencies, privileged emergency controls, ongoing issuance and mixing legacy Base-only statistics with successor-wide data."
+    },
+    {
+      "symbol": "ETH",
+      "id": "ethereum",
+      "peer": "Platforms",
+      "chain": "Ethereum",
+      "riskFlags": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "flags": [
+          {
+            "kind": "Unlock / issuance",
+            "text": "ETH issuance rewards proof-of-stake validators, while base fees are burned; net supply depends on both flows rather than a fixed monthly team-token unlock. Historical numerical examples on the explanatory issuance page are not used as current emission measurements.",
+            "sources": [
+              "https://ethereum.org/en/roadmap/merge/issuance/"
+            ]
+          },
+          {
+            "kind": "Supply concentration",
+            "text": "Ethereum documentation warns that centralized staking providers consolidate large ETH pools and can create a centralized point of failure. This review did not verify fresh beneficial-holder, staking-provider or client-share percentages.",
+            "sources": [
+              "https://ethereum.org/en/staking/"
+            ]
+          },
+          {
+            "kind": "Recent outage / exploit",
+            "text": "No verified new Ethereum-mainnet consensus outage or protocol exploit found for November 6\u20138 in this review. Application, bridge or rollup incidents should not be relabeled as an Ethereum-mainnet failure without direct evidence.",
+            "sources": [
+              "https://ethereum.org/en/roadmap/",
+              "https://ethereum.org/en/staking/"
+            ]
+          },
+          {
+            "kind": "Regulatory exposure",
+            "text": "No verified new ETH-specific enforcement action found for November 6\u20138 in this review. The official documentation distinguishes native staking from third-party pooled and custodial services, whose risks and counterparties are separate.",
+            "sources": [
+              "https://ethereum.org/en/staking/"
+            ]
+          }
+        ]
+      },
+      "thesis": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "goingRight": "The Foundation highlights a usable browser privacy toolkit, and the public roadmap/EIPs expose development scope and unresolved migration work.",
+        "wouldWeaken": "Client defects, concentrated validation or proposals failing to progress through tested releases would weaken this evidence.",
+        "changedThisWeek": "The November 6 Nym highlight is verified; no new mainnet fork activation is established by the reviewed material.",
+        "sources": [
+          "https://x.com/ethereumfndn/status/2118838695314989071",
+          "https://cryptobriefing.com/nym-mixnet-sdk-wallets-devcon-8/",
+          "https://ethereum.org/en/roadmap/",
+          "https://eips.ethereum.org/EIPS/eip-8347",
+          "https://ethereum.org/en/staking/"
+        ],
+        "interpretation": "Evidence checks, not forecasts, ratings or token-value guarantees."
+      },
+      "catalysts": [],
+      "newsSentiment": {
+        "label": "Neutral",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 0,
+        "windowDays": 7,
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": [
+          "https://ethereum.org/en/roadmap/",
+          "https://x.com/ethereumfndn/status/2118838695314989071",
+          "https://cryptobriefing.com/nym-mixnet-sdk-wallets-devcon-8/",
+          "https://eips.ethereum.org/EIPS/eip-8297",
+          "https://eips.ethereum.org/EIPS/eip-8347",
+          "https://ethereum.org/en/staking/",
+          "https://ethereum.org/en/roadmap/merge/issuance/"
+        ]
+      },
+      "researchSummary": "The fresh verified item is a Foundation-highlighted privacy integration toolkit, not a network-wide privacy upgrade or proof that all Ethereum wallets use it. The roadmap provides a Q4 development window for Glamsterdam, while the later state-tree migration remains unscheduled draft work.",
+      "overview": "Ethereum remains a proof-of-stake smart-contract and settlement platform whose roadmap spans Layer 1 capacity, rollup data availability, account usability and privacy. The official roadmap lists Fusaka as in production and Glamsterdam as in development for Q4 2026, not as a completed November upgrade. The Ethereum Foundation's November 6 post highlighted Nym's browser mixnet SDK as a way for wallets and applications to reduce access-layer metadata leakage. Separately, EIP-8297 and EIP-8347 describe a proposed Partitioned Binary Tree and offline migration, but both remain drafts and the migration proposal does not schedule activation. Next checks are coordinated client releases, test results, an explicit Glamsterdam activation announcement and identifiable wallet integrations rather than treating research goals as delivered functionality. Execution complexity, staking/operator concentration and application or bridge failures remain risks that must be distinguished from failure of Ethereum consensus itself."
+    },
+    {
+      "symbol": "VET",
+      "id": "vechain",
+      "peer": "Tokenization & interop",
+      "chain": "VeChain",
+      "riskFlags": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "flags": [
+          {
+            "kind": "Unlock / issuance",
+            "text": "VeChain describes VTHO rewards as arising from actively delegated VET, with dynamic VTHO issuance and base-fee burning. VIP-255 explicitly leaves VET/VTHO tokenomics unchanged; no verified next-60-day VET unlock event was found.",
+            "sources": [
+              "https://vechain.org/the-economics-of-staking-how-hayabusa-rewards-real-activity",
+              "https://vechain.org/vechain-renaissance-interstellar-sets-course"
+            ]
+          },
+          {
+            "kind": "Supply concentration",
+            "text": "Delegator reward shares depend on effective stake and NFT tier multipliers under the published staking model. No verified current beneficial-owner or validator-delegation concentration percentage found in this review.",
+            "sources": [
+              "https://vechain.org/the-economics-of-staking-how-hayabusa-rewards-real-activity"
+            ]
+          },
+          {
+            "kind": "Recent outage / exploit",
+            "text": "No verified new VeChain-mainnet outage or protocol exploit found for November 6\u20138 in this review. VIP-255 operator-upgrade warnings describe a planned-upgrade risk, not proof of a current incident or completed activation.",
+            "sources": [
+              "https://vechain.org/vechain-renaissance-interstellar-sets-course",
+              "https://vechain.org"
+            ]
+          },
+          {
+            "kind": "Regulatory exposure",
+            "text": "No verified new VET-specific enforcement action found for November 6\u20138 in this review. The official product and technical pages are not evidence of a blanket regulatory approval.",
+            "sources": [
+              "https://vechain.org",
+              "https://vechain.org/vechain-renaissance-interstellar-sets-course"
+            ]
+          }
+        ]
+      },
+      "thesis": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "goingRight": "VeChain documents agent tooling and a staking/gas architecture, while an application reports human-approved agent commerce.",
+        "wouldWeaken": "Incentives that fail to retain users, unauditable usage claims or concentrated delegation would weaken this evidence.",
+        "changedThisWeek": "VeChain amplified Greencart on November 6, but the underlying order-count claim was published November 4; no fresh protocol activation was verified.",
+        "sources": [
+          "https://vechain.org",
+          "https://x.com/vechainofficial/status/2118674767200833840",
+          "https://x.com/i/status/2118095920763908154",
+          "https://vechain.org/the-economics-of-staking-how-hayabusa-rewards-real-activity",
+          "https://vechain.org/vechain-renaissance-interstellar-sets-course"
+        ],
+        "interpretation": "Evidence checks, not forecasts, ratings or token-value guarantees."
+      },
+      "catalysts": [],
+      "newsSentiment": {
+        "label": "Neutral",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 0,
+        "windowDays": 7,
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": [
+          "https://vechain.org",
+          "https://vechain.org/the-economics-of-staking-how-hayabusa-rewards-real-activity",
+          "https://x.com/vechainofficial/status/2118674767200833840",
+          "https://x.com/i/status/2118095920763908154",
+          "https://vechain.org/vechain-renaissance-interstellar-sets-course"
+        ]
+      },
+      "researchSummary": "The ecosystem is broadening into agent tooling and human-approved commerce, but the order count is a project-reported application statistic, not network revenue or independently audited adoption. Interstellar's published scope is useful developer context; its August proposal cannot by itself prove November production activation.",
+      "overview": "VeChain's current ecosystem combines VeChainThor, the VeBetter application network, VeWorld and the AgentSuite agent-development offering. Its published Hayabusa model ties VTHO reward issuance to actively delegated VET, with VTHO used for gas and base fees burned; VET and VTHO therefore need separate treatment. A November 6 VeChain post highlighted Greencart's Kapok shopping agent and a developer-reported 250 Amazon orders in a week, with human approval retained. That figure originated in Greencart's November 4 post, so it is older context amplified in the review window, not a newly audited November 6 adoption milestone. The Interstellar VIP-255 publication proposes newer EVM features while preserving tokenomics, but this review did not independently verify its later activation block or a new dated event in the next 60 days. The key risk is mistaking rewarded consumer actions or agent demonstrations for durable paid demand, alongside validator-delegation concentration and application-security dependencies."
+    },
+    {
+      "symbol": "XDC",
+      "id": "xdce-crowd-sale",
+      "peer": "Tokenization & interop",
+      "chain": "XDC",
+      "riskFlags": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "flags": [
+          {
+            "kind": "Unlock / issuance",
+            "text": "The official rewards documentation describes ongoing masternode and standby-node rewards rather than a fixed investor-token unlock calendar. No verified next-60-day XDC cliff unlock found; its illustrative reward tables are not used here to assert actual realized network issuance.",
+            "sources": [
+              "https://docs.xdc.network/xdcchain/rewards/"
+            ]
+          },
+          {
+            "kind": "Supply concentration",
+            "text": "The official node guide requires masternodes to complete KYC and lock at least 10 million XDC, an entry requirement rather than a measurement of actual ownership concentration. Current beneficial-holder or validator shares were not verified.",
+            "sources": [
+              "https://docs.xdc.network/xdcchain/developers/node_operators/masternode/"
+            ]
+          },
+          {
+            "kind": "Recent outage / exploit",
+            "text": "No verified new XDC-mainnet outage or protocol exploit found for November 6\u20138 in this review. The reviewed documentation and ecosystem pages are not a comprehensive security certification.",
+            "sources": [
+              "https://xdc.org",
+              "https://docs.xdc.network/xdcchain/developers/node_operators/masternode/"
+            ]
+          },
+          {
+            "kind": "Regulatory exposure",
+            "text": "The official masternode guide requires operator KYC, while the ecosystem targets trade finance and tokenized financial instruments. No verified new XDC-specific enforcement action was found for November 6\u20138; KYC and tokenization branding do not establish legal approval of every asset or service.",
+            "sources": [
+              "https://docs.xdc.network/xdcchain/developers/node_operators/masternode/",
+              "https://xdc.org"
+            ]
+          }
+        ]
+      },
+      "thesis": {
+        "reviewedAt": "2026-11-08T16:42:56-06:00",
+        "goingRight": "The enterprise/RWA focus is documented, and Keyban describes controlled per-agent USDC settlement on XDC AI.",
+        "wouldWeaken": "Integrations remaining pilots, missing sustained settlement or weak legal enforceability would weaken this evidence.",
+        "changedThisWeek": "Keyban is November 1/2 background; no material new November 6\u20138 announcement was verified in the reviewed official feed.",
+        "sources": [
+          "https://xdc.org",
+          "https://www.keyban.io/en/blog/posts/xdc-network-partners-with-keyban-non-custodial-onchain-accounts-for-ai-agents/",
+          "https://x.com/XDCFoundation/status/2118369012878909589",
+          "https://docs.xdc.network/xdcchain/developers/node_operators/masternode/"
+        ],
+        "interpretation": "Evidence checks, not forecasts, ratings or token-value guarantees."
+      },
+      "catalysts": [],
+      "newsSentiment": {
+        "label": "Neutral",
+        "counts": {
+          "Rocket": 0,
+          "Steady": 0,
+          "Yikes": 0
+        },
+        "storyCount": 0,
+        "windowDays": 7,
+        "asOf": "2026-11-08T16:43:50-06:00",
+        "sources": [
+          "https://xdc.org",
+          "https://www.keyban.io/en/blog/posts/xdc-network-partners-with-keyban-non-custodial-onchain-accounts-for-ai-agents/",
+          "https://docs.xdc.network/xdcchain/developers/node_operators/masternode/",
+          "https://docs.xdc.network/xdcchain/rewards/",
+          "https://x.com/XDCFoundation/status/2118369012878909589"
+        ]
+      },
+      "researchSummary": "XDC's utility case spans enterprise tokenization and controlled agent payments, but announcements are not a substitute for verified settlement and retained customers. No material November 6\u20138 item or exact upcoming catalyst was verified for this addition, so neither was manufactured to fill the board.",
+      "overview": "XDC Network is an EVM-compatible Layer 1 focused on trade finance, tokenized real-world assets and enterprise applications, with sovereign subnets offered alongside the public chain. Its current ecosystem also includes XDC AI agent-payment infrastructure. Keyban's partner announcement, dated November 1 in its header and November 2 in its body, describes separate non-custodial agent accounts, USDC-per-call API payments and spending limits set by businesses. That partnership is recent background outside the November 6\u20138 news window, and the reviewed XDC Foundation feed did not provide a material new announcement inside that window. Next checks are identifiable production settlement activity, institutional integrations with measurable usage and a verified dated delivery schedule; no next-60-day catalyst was confirmed. Risks include KYC-gated masternode participation, a substantial validator stake requirement, enterprise concentration and the legal enforceability of underlying tokenized assets rather than merely their onchain representation."
     },
     {
       "symbol": "BTC",
@@ -9656,33 +10006,65 @@
   ],
   "marketAlerts": [
     {
-      "id": "market:keplr-web3auth-social-login-drain-2026-11-07",
+      "id": "market:mexc-fincen-order-2026-11-06",
       "asset": "Market-wide",
       "scope": "market",
       "rule": "market-event",
-      "severity": "Medium",
-      "time": "2026-11-06T22:38:00-06:00",
-      "change": "Keplr social-login wallets drained after Web3Auth key exposure",
-      "summary": "Keplr confirmed unauthorized transactions from wallets created with Google or Apple login after Web3Auth reported a security issue and paused its embedded-wallet service. Bitquery traced at least 44,041 Cosmos-chain wallets and 7,603 Injective wallets swept to two addresses holding about $6.0M (estimate). Recovery-phrase and hardware wallets were reported unaffected; Keplr paused social login.",
-      "why": "A shared wallet-infrastructure provider failure hit tens of thousands of users across several chains at once. Estimated losses (~$6.0M) are below the ~$10M High threshold, so this is Medium; breadth and an ongoing drain at review time make it worth knowing.",
-      "source": "https://bitquery.io/investigations/keplr-wallet-hack",
-      "new": true
+      "severity": "High",
+      "time": "2026-11-06T16:20:25-06:00",
+      "change": "FinCEN order targets MEXC\u2019s US financial-system access; effectiveness follows Federal Register publication",
+      "summary": "Treasury announced on November 6 that FinCEN issued an order prohibiting US financial institutions from transmitting funds to or from MEXC Global. Treasury alleges at least $16 billion in illicit transactions; that is an enforcement allegation, not a verified customer loss. The order takes effect 30 days after publication in the Federal Register, not automatically on the announcement date. MEXC says it is operating normally and has begun an independent AML and sanctions-controls review.",
+      "why": "This is High because it affects the connectivity of a major exchange to the US financial system, with potential operational consequences across many crypto assets rather than a single project. It is not evidence that customer balances have been frozen or that a $16 billion hack occurred, and no exact effective date is asserted without the publication record.",
+      "source": "https://home.treasury.gov/news/press-releases/sb0685",
+      "new": true,
+      "sources": [
+        {
+          "title": "US Treasury \u00b7 primary order announcement",
+          "href": "https://home.treasury.gov/news/press-releases/sb0685"
+        },
+        {
+          "title": "Treasury \u00b7 timestamped X announcement",
+          "href": "https://x.com/USTreasury/status/2118830891522830391"
+        },
+        {
+          "title": "MEXC \u00b7 official response",
+          "href": "https://www.mexc.com/announcements/article/statement-regarding-fincen-s-november-6-order-17827791539626"
+        }
+      ]
     },
     {
-      "id": "market:canary-staked-inj-etf-launch-2026-11-05",
+      "id": "market:keplr-web3auth-recovery-correction-2026-11-08",
       "asset": "Market-wide",
       "scope": "market",
       "rule": "market-event",
       "severity": "Medium",
-      "time": "2026-11-05T08:30:00-06:00",
-      "change": "First U.S. spot staked INJ ETF (INJC) begins trading on Nasdaq",
-      "summary": "Canary Capital's Staked INJ ETF began trading on Nasdaq on Nov 5, holding spot INJ and staking part of it, with net rewards reflected in NAV. Nasdaq's trader notice confirms the listing date.",
-      "why": "Another U.S. spot product with built-in staking widens regulated access beyond BTC/ETH; a precedent for staking-enabled funds on other proof-of-stake networks. Not a price signal.",
-      "source": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETP2026-179",
-      "new": true
+      "time": "2026-11-08T00:31:35-06:00",
+      "change": "Keplr / Web3Auth incident: major observed sweeps are now attributed to recovery, not a verified $6 million theft",
+      "summary": "Web3Auth confirms a security issue affecting certain Keplr embedded wallets, while Keplr says recovery-phrase and hardware wallets were not affected. On November 8 both teams identified the receiving addresses as recovery wallets, including addresses covering Axelar and EVM chains. Bitquery corrected its earlier reporting: the approximately $6.01 million observed in the main receiving wallets is attributed to recovery, not an established attacker haul. Original attacker losses, affected-user totals outside that analysis and the complete return timetable remain unverified.",
+      "why": "A shared login provider can transmit wallet risk across chains even when underlying networks continue to operate normally. Medium is retained because the verified stolen amount is unknown and a $10 million loss or broader systemic failure has not been established; the earlier board\u2019s loss characterization must be corrected.",
+      "source": "https://bitquery.io/investigations/keplr-wallet-hack",
+      "new": true,
+      "sources": [
+        {
+          "title": "Bitquery \u00b7 November 8 correction and limitations",
+          "href": "https://bitquery.io/investigations/keplr-wallet-hack"
+        },
+        {
+          "title": "Keplr \u00b7 recovery-wallet attribution",
+          "href": "https://x.com/keplrwallet/status/2119316885737177339"
+        },
+        {
+          "title": "Web3Auth \u00b7 recovery confirmation",
+          "href": "https://x.com/Web3Auth/status/2119314957057871935"
+        },
+        {
+          "title": "Keplr \u00b7 affected account types and response",
+          "href": "https://x.com/keplrwallet/status/2119117067500806350"
+        }
+      ]
     }
   ],
-  "marketAlertsReviewedAt": "2026-11-07T20:30:00-06:00",
+  "marketAlertsReviewedAt": "2026-11-08T16:43:50-06:00",
   "resolvedAlerts": [],
   "events": [
     {
@@ -10019,6 +10401,26 @@
         "type": "ecosystem"
       },
       {
+        "id": "hype-2026-11-09-33",
+        "asset": "HYPE",
+        "date": "2026-11-09",
+        "title": "Elysium mainnet launch scheduled by Kinetiq; completion and feature availability require a post-launch check",
+        "source": "https://kinetiq.xyz/blog/elysium-mainnet-launch",
+        "status": "Scheduled; verify closer to date",
+        "time": "Time unspecified",
+        "reviewedAt": "2026-11-08T16:43:50-06:00"
+      },
+      {
+        "id": "render-2026-11-09T19:00:00-06:00-29",
+        "asset": "RENDER",
+        "date": "2026-11-09",
+        "title": "RNP-024 final voting deadline per Render Network\u2019s official notice",
+        "source": "https://x.com/rendernetwork/status/2118757807709147538",
+        "status": "Scheduled; verify closer to date",
+        "time": "2026-11-09T19:00:00-06:00",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
+      },
+      {
         "date": "2026-11-10",
         "asset": "DOT",
         "title": "Ref 1966 validator reduction if confirmed",
@@ -10055,6 +10457,26 @@
         "api": "https://ic-api.internetcomputer.org/api/v3/proposals/144741"
       },
       {
+        "id": "dot-2026-11-10-27",
+        "asset": "DOT",
+        "date": "2026-11-10",
+        "title": "Estimated Referendum 1966 enactment at Relay Chain block 33,814,400; era transition follows",
+        "source": "https://polkadot.subsquare.io/referenda/1966",
+        "status": "Scheduled; verify closer to date",
+        "time": "Time unspecified",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
+      },
+      {
+        "id": "icp-2026-11-10T05:26:48-06:00-26",
+        "asset": "ICP",
+        "date": "2026-11-10",
+        "title": "Current Proposal 144741 voting deadline; wait-for-quiet may extend it",
+        "source": "https://ic-api.internetcomputer.org/api/v3/proposals/144741",
+        "status": "Scheduled; verify closer to date",
+        "time": "2026-11-10T05:26:48-06:00",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
+      },
+      {
         "date": "2026-11-14",
         "asset": "NEAR",
         "title": "Hackathon submissions close",
@@ -10077,6 +10499,16 @@
         "type": "ecosystem"
       },
       {
+        "id": "near-2026-11-14T17:59:00-06:00-30",
+        "asset": "NEAR",
+        "date": "2026-11-14",
+        "title": "NEAR Hackathon public-repository and demo submission deadline",
+        "source": "https://nearhackathon.com",
+        "status": "Scheduled; verify closer to date",
+        "time": "2026-11-14T17:59:00-06:00",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
+      },
+      {
         "date": "2026-11-15",
         "end": "2026-11-17",
         "asset": "SOL",
@@ -10087,6 +10519,16 @@
         "id": "existing-6",
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "type": "ecosystem"
+      },
+      {
+        "id": "sol-2026-11-15-32",
+        "asset": "SOL",
+        "date": "2026-11-15",
+        "title": "Breakpoint begins in London; scheduled November 15\u201317",
+        "source": "https://www.olympia.co.uk/events/breakpoint",
+        "status": "Scheduled; verify closer to date",
+        "time": "Time unspecified",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
       },
       {
         "id": "hbar-2026-11-16",
@@ -10113,6 +10555,16 @@
         "type": "conference"
       },
       {
+        "id": "near-2026-11-18T17:59:00-06:00-31",
+        "asset": "NEAR",
+        "date": "2026-11-18",
+        "title": "NEAR Hackathon results due by this time under the published schedule",
+        "source": "https://nearhackathon.com",
+        "status": "Scheduled; verify closer to date",
+        "time": "2026-11-18T17:59:00-06:00",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
+      },
+      {
         "date": "2026-11-23",
         "asset": "XLM",
         "title": "Bell / Protocol 30 mainnet vote",
@@ -10122,6 +10574,16 @@
         "id": "existing-7",
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "type": "ecosystem"
+      },
+      {
+        "id": "xlm-2026-11-23T11:00:00-06:00-25",
+        "asset": "XLM",
+        "date": "2026-11-23",
+        "title": "Proposed Bell / Protocol 30 mainnet vote; subject to validator approval and schedule changes",
+        "source": "https://stellar.org/blog/developers/introducing-bell-protocol-30-on-stellar",
+        "status": "Scheduled; verify closer to date",
+        "time": "2026-11-23T11:00:00-06:00",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
       },
       {
         "id": "hbar-2026-11-25",
@@ -10171,6 +10633,16 @@
         "id": "existing-9",
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "type": "ecosystem"
+      },
+      {
+        "id": "algo-2026-12-06-28",
+        "asset": "ALGO",
+        "date": "2026-12-06",
+        "title": "xGov grants program pauses indefinitely under the announced community reset",
+        "source": "https://algorand.co/blog/algorand-community-update",
+        "status": "Scheduled; verify closer to date",
+        "time": "Time unspecified",
+        "reviewedAt": "2026-11-08T16:43:14-06:00"
       },
       {
         "date": "2026-12-07",
@@ -10223,6 +10695,20 @@
         "caveat": "Release needs EscrowFinish; re-escrow is unknown in advance. 70% re-escrowed over the last 12 releases is historical, not a forecast."
       },
       {
+        "id": "ondo-2027-cliff",
+        "asset": "ONDO",
+        "date": "2027-01-17",
+        "title": "Estimated ONDO ecosystem/development/private-sales release",
+        "time": "11:25 AM CST",
+        "at": "2027-01-17T11:25:00-06:00",
+        "amount": 1710100000,
+        "type": "unlock",
+        "status": "Tracker estimate; outside current 60-day window",
+        "source": "https://defillama.com/unlocks/ondo-finance",
+        "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
+        "caveat": "Not presumed selling; denominator is current circulating supply, not future float."
+      },
+      {
         "id": "ondo-ipo-plan",
         "asset": "ONDO",
         "date": null,
@@ -10254,20 +10740,6 @@
         "time": "Time unspecified",
         "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
         "type": "activation"
-      },
-      {
-        "id": "ondo-2027-cliff",
-        "asset": "ONDO",
-        "date": "2027-01-17",
-        "title": "Estimated ONDO ecosystem/development/private-sales release",
-        "time": "11:25 AM CST",
-        "at": "2027-01-17T11:25:00-06:00",
-        "amount": 1710100000,
-        "type": "unlock",
-        "status": "Tracker estimate; outside current 60-day window",
-        "source": "https://defillama.com/unlocks/ondo-finance",
-        "reviewedAt": "2026-11-07T10:18:41.207957-06:00",
-        "caveat": "Not presumed selling; denominator is current circulating supply, not future float."
       }
     ],
     "coverageNotes": {
@@ -10281,492 +10753,657 @@
   },
   "news": [
     {
-      "section": "Yesterday",
-      "date": "Nov 6, 2026",
+      "section": "Today",
+      "date": "Nov 8, 2026",
       "assets": [
-        "XRP",
-        "AXL",
-        "SUI",
+        "QNT",
+        "ONDO",
+        "RENDER",
         "NEAR"
       ],
-      "title": "Binance Update #9: 58 token-network pairs reopened",
-      "body": "Progressive withdrawals reopened across nine networks after security checks. Relevant pairs include XRP on Ethereum, AXL on several networks, SUI on BSC and FDUSD on Sui. Deposits stayed open. Binance separately targeted NEAR and other assets for the end of next week; this is not restoration of every native route.",
-      "why": "Selected custody/access rails return with a concrete but conditional NEAR recovery window.",
+      "title": "Binance recovery advances, but the network-by-network distinction still matters",
+      "body": "Binance\u2019s November 8 update identifies HYPE and APT as newly re-enabled and reiterates previously restored Ethereum routes for QNT and ONDO and a Solana route for RENDER. Those watchlist routes are listed as already enabled, not new November 8 reopenings. Its November 6 statement still provides a target to restore NEAR and other remaining assets by the end of the following week, subject to security checks. The update does not establish that every native asset or every withdrawal network is available; the selected asset-network route remains the operative unit.",
+      "why": "Exchange access is a practical infrastructure issue for holders, applications and liquidity providers across this watchlist. Distinguishing existing routes from genuinely new restoration avoids overstating recovery, while NEAR remains a specific follow-up rather than a completed milestone.",
+      "tag": "Steady",
+      "tagReason": "Recovery is progressing, but remaining routes and the NEAR timetable are conditional.",
+      "summary": "Binance lists QNT, ONDO and RENDER routes as already restored; NEAR remains a conditional recovery target.",
       "sources": [
         {
-          "title": "Binance Update #9",
-          "href": "https://x.com/binance/status/2118541594358104469"
+          "title": "Binance \u00b7 November 8 withdrawal status",
+          "href": "https://x.com/binance/status/2119352231732580574"
         },
         {
-          "title": "Next-week target list",
+          "title": "Binance \u00b7 conditional restoration target",
           "href": "https://x.com/binance/status/2118657118014496819"
         }
       ],
+      "source": "https://x.com/binance/status/2119352231732580574",
       "id": "digest-0",
-      "tag": "Rocket",
-      "tagReason": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/binance/status/2118541594358104469",
-      "summary": "Selected withdrawal routes returned; NEAR recovery remains a target, not complete."
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Yesterday",
-      "date": "Nov 5\u20136, 2026",
-      "assets": [
-        "TAO"
-      ],
-      "title": "Bittensor runtime 488: post-quantum wallets, still gated",
-      "body": "ML-DSA-65/Falcon wallets and hashed-account rotation shipped on Finney. Existing Sr25519/Ed25519 accounts are unchanged. The docs say authorization stays disabled until root enables it: funds can reach PQ addresses but cannot be spent from them. Default hashed-account registration deposit: 0.2 TAO.",
-      "why": "Custody hardening is real development, but shipped code is not enabled spending.",
-      "sources": [
-        {
-          "title": "Taostats docs \u00b7 rechecked Nov 7",
-          "href": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets"
-        },
-        {
-          "title": "Opentensor announcement",
-          "href": "https://x.com/opentensor/status/2118654269947785444"
-        }
-      ],
-      "id": "digest-1",
-      "tag": "Rocket",
-      "tagReason": "Wallet security capability shipped, but the spending switch is still off.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
-      "summary": "Wallet security capability shipped, but the spending switch is still off."
-    },
-    {
-      "section": "Yesterday",
-      "date": "Nov 6, 2026",
-      "assets": [
-        "BNKR"
-      ],
-      "title": "Bankr connects Coinbase for Agents",
-      "body": "Bankr announced linked Coinbase portfolios and chat-based crypto, stocks and futures functionality, corroborated by Base and Coinbase Developer Platform. Enter Elysium appearance: Nov 9.",
-      "why": "Expands agent distribution to a major exchange-account surface; retained usage still needs measuring.",
-      "sources": [
-        {
-          "title": "Bankr",
-          "href": "https://x.com/bankrbot/status/2118495853933711382"
-        },
-        {
-          "title": "Coinbase Developer Platform",
-          "href": "https://x.com/CoinbaseDev/status/2118810403740504305"
-        },
-        {
-          "title": "Base",
-          "href": "https://x.com/base/status/2118819694220296594"
-        }
-      ],
-      "id": "digest-2",
-      "tag": "Rocket",
-      "tagReason": "A corroborated integration expands distribution; retained usage is unproven.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/bankrbot/status/2118495853933711382",
-      "summary": "A corroborated integration expands distribution; retained usage is unproven."
-    },
-    {
-      "section": "Yesterday",
-      "date": "Nov 6, 2026",
-      "assets": [
-        "ALGO"
-      ],
-      "title": "Algorand resets grants and governance support",
-      "body": "xGov pauses indefinitely Dec 6; the Forum becomes a read-only archive and the Ecosystem Advisory Council concludes. Technical Council sponsorship ends while periodic Developer Council meetings continue. King Safety supply-cap, MEV and minimum-fee ideas are shelved. Staking rewards through January 2028 stand; the Foundation emphasizes sustainable revenue and exporting post-quantum security.",
-      "why": "A material change to builder support and priorities; watch retention and execution.",
-      "sources": [
-        {
-          "title": "Official update \u00b7 rechecked Nov 7",
-          "href": "https://algorand.co/blog/algorand-community-update"
-        }
-      ],
-      "id": "digest-3",
-      "tag": "Yikes",
-      "tagReason": "Grant and community-support channels contract; sustainability intent does not remove builder-retention risk.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://algorand.co/blog/algorand-community-update",
-      "summary": "Grant and community-support channels contract; sustainability intent does not remove builder-retention risk."
-    },
-    {
-      "section": "Yesterday",
-      "date": "Nov 6, 2026",
+      "section": "Today",
+      "date": "Nov 8, 2026",
       "assets": [
         "SOL"
       ],
-      "title": "Solana epoch 1079 gate: no reported halt",
-      "body": "After the urgent Agave 4.4.1 / Firedancer 26.10.6 advisory, epoch 1079 began with continued block production. The digest found no credible outage/fork report, but Anza and SolanaStatus had not issued an official all-clear. Slot-level observations are not an official incident conclusion.",
-      "why": "A critical compatibility boundary appears to have landed without a halt, with source limitations explicit.",
+      "title": "Solana status is operational after the November 6 client-compatibility boundary",
+      "body": "Solana\u2019s official status page reports all systems operational at this review. Anza\u2019s preceding urgent advisory recommended Agave 4.4.1 and warned that unpatched nodes were planned to fork off at epoch 1079, expected on November 6. The patch applies a minimum loaded-data size to loader-v3 ProgramData accounts. Today\u2019s status supports current service availability, but it is not a dedicated Anza post-mortem or proof that every validator upgraded without disruption.",
+      "why": "Compatibility coordination is an ecosystem reliability issue affecting applications, exchanges and validators simultaneously. Current operational status is useful follow-through, while client adoption and any incident-specific findings remain separate evidence to monitor.",
+      "tag": "Steady",
+      "tagReason": "The official status is operational, without an incident-specific all-clear or validator audit.",
+      "summary": "Solana reports operational service after the client cutoff; an incident-specific conclusion was not verified.",
       "sources": [
         {
-          "title": "Anza client advisory",
+          "title": "Solana \u00b7 official current service status",
+          "href": "https://status.solana.com/"
+        },
+        {
+          "title": "Anza \u00b7 epoch 1079 compatibility advisory",
           "href": "https://x.com/anza_xyz/status/2118423244806164615"
-        },
-        {
-          "title": "Epoch observations",
-          "href": "https://lstradar.com/epochs"
         }
       ],
-      "id": "digest-4",
-      "tag": "Steady",
-      "tagReason": "Continued block production is reassuring but no official advisory all-clear was verified.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/anza_xyz/status/2118423244806164615",
-      "summary": "Continued block production is reassuring but no official advisory all-clear was verified."
+      "source": "https://status.solana.com/",
+      "id": "digest-9",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Yesterday",
-      "date": "Nov 5\u20136, 2026",
-      "assets": [
-        "ONDO",
-        "SOL"
-      ],
-      "title": "Ondo plans IPO-day Anthropic exposure; Stocks reaches JTX",
-      "body": "Ondo plans structured tokenized Anthropic economic exposure from IPO day for eligible non-US investors\u2014not direct equity, and subject to jurisdictional restrictions and the IPO. Stocks also went live on Solana RFQ venue JTX in-window.",
-      "why": "Extends product/distribution scope; a planned issuance is not a completed launch.",
-      "sources": [
-        {
-          "title": "Ondo announcement",
-          "href": "https://x.com/Ondo/status/2118725675204919420"
-        }
-      ],
-      "id": "digest-5",
-      "tag": "Rocket",
-      "tagReason": "Live distribution expands; IPO-day issuance is a conditional plan, not completed.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/Ondo/status/2118725675204919420",
-      "summary": "Live distribution expands; IPO-day issuance is a conditional plan, not completed."
-    },
-    {
-      "section": "Yesterday",
-      "date": "Nov 6, 2026",
-      "assets": [
-        "DOT"
-      ],
-      "title": "Polkadot Ref 1966 is still conditional",
-      "body": "The first validator reduction proposes 600\u2192500, proportional budget reduction and per-core checker changes. Nov 6 reporting has it still in decision, strongly Aye, targeting around Nov 10 if confirmed. The wider roadmap targets 320 by late November.",
-      "why": "Changes participation and rewards if enacted; do not label it passed yet.",
-      "sources": [
-        {
-          "title": "Polkadot forum / Ref 1966",
-          "href": "https://forum.polkadot.network/t/polkadot-socials-daily-digest-2026-11-06/19284"
-        }
-      ],
-      "id": "digest-6",
-      "tag": "Steady",
-      "tagReason": "Validator changes remain a proposal; efficiency and resilience effects are not settled.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://forum.polkadot.network/t/polkadot-socials-daily-digest-2026-11-06/19284",
-      "summary": "Validator changes remain a proposal; efficiency and resilience effects are not settled."
-    },
-    {
-      "section": "Ranked lookback",
-      "date": "Nov 4\u20136, 2026",
-      "assets": [
-        "XRP",
-        "AXL",
-        "SUI",
-        "NEAR"
-      ],
-      "title": "1 \u00b7 Binance access returns in stages",
-      "body": "Updates #7\u2013#9 moved from replenishment/proof-of-reserves work to token-network withdrawal reopenings. The fresh Nov 6 milestone is 58 pairs and a target list naming NEAR; earlier updates are context, not additional new alerts.",
-      "why": "Routes and conditional dates matter more than a blanket recovery headline.",
-      "sources": [
-        {
-          "title": "Latest reopening milestone",
-          "href": "https://x.com/binance/status/2118541594358104469"
-        },
-        {
-          "title": "NEAR target",
-          "href": "https://x.com/binance/status/2118657118014496819"
-        }
-      ],
-      "id": "digest-7",
-      "tag": "Rocket",
-      "tagReason": "Custody access improved on specific routes, not across every token network.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/binance/status/2118541594358104469",
-      "summary": "Custody access improved on specific routes, not across every token network."
-    },
-    {
-      "section": "Ranked lookback",
-      "date": "Nov 4\u20136, 2026",
-      "assets": [
-        "ONDO",
-        "SOL",
-        "XLM"
-      ],
-      "title": "2 \u00b7 RWA scale and distribution",
-      "body": "Schroders/Centrifuge launched an emerging-market bond feeder on Solana. Ondo announced a $4bn tokenization milestone and Stellar amplified roughly $5bn on-network RWAs. JTX distribution and IPO-day plans added product news. These are dated source claims, not today's reconciled totals.",
-      "why": "Live institutional tokenization is spreading, but product balances are not governance-token cash flows.",
-      "sources": [
-        {
-          "title": "Centrifuge / Schroders",
-          "href": "https://centrifuge.io/blog/schroders-centrifuge"
-        },
-        {
-          "title": "Ondo milestone",
-          "href": "https://www.prnewswire.com/news-releases/ondo-finance-becomes-worlds-largest-tokenization-platform-302930916.html"
-        },
-        {
-          "title": "Stellar RWA claim",
-          "href": "https://x.com/StellarOrg/status/2118390141731356759"
-        }
-      ],
-      "id": "digest-8",
-      "tag": "Rocket",
-      "tagReason": "Live tokenization and distribution broaden; token-holder cash flow is not established.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://centrifuge.io/blog/schroders-centrifuge",
-      "summary": "Live tokenization and distribution broaden; token-holder cash flow is not established."
-    },
-    {
-      "section": "Ranked lookback",
-      "date": "Nov 5\u20136, 2026",
+      "section": "Today",
+      "date": "Nov 8, 2026",
       "assets": [
         "FLR",
         "XRP"
       ],
-      "title": "3 \u00b7 Firelight cover on Lido Earn",
-      "body": "Cover for EarnETH/EarnUSD went live Nov 5. Terms reset with vault composition; an independent Risk Consortium assesses defined exploit events. The digest cites historical first-period capacities up to $12.1m/$4m, not fresh available-capacity readings. Market losses and user error are not blanket-covered.",
-      "why": "An XRP-linked use case under major DeFi earn products, without removing their risks.",
+      "title": "Firelight reiterates live Lido Earn cover, with defined exclusions and capital limits",
+      "body": "Firelight\u2019s November 8 follow-up reiterates that cover for Lido EarnETH and EarnUSD has been active since November 5; this is not a second launch. Lido\u2019s documentation says Firelight absorbs eligible and approved losses first, followed by a separate DAO-funded layer under its own rules. Protection is defined for fixed 30-day periods, with new markets added mid-period only protected once included in a later period. Normal price moves, accurate-price liquidations, stolen keys and user error are excluded from Firelight\u2019s layer, and payout depends on available settlement capital.",
+      "why": "The integration gives Flare-based infrastructure and FXRP-backed capital a production role in protection for externally distributed DeFi vaults. It also exposes staked capital to defined claims, making cover terms, consortium decisions and available capital more important than a headline capacity figure.",
+      "tag": "Rocket",
+      "tagReason": "A production integration is corroborated, but cover is limited and does not eliminate losses.",
+      "summary": "Firelight\u2019s Lido cover is live, but only eligible approved losses within defined periods and capital limits are protected.",
       "sources": [
         {
-          "title": "Firelight terms \u00b7 rechecked Nov 7",
+          "title": "Firelight \u00b7 November 8 follow-up",
+          "href": "https://x.com/Firelightfi/status/2119429743867281437"
+        },
+        {
+          "title": "Firelight \u00b7 integration and eligibility terms",
           "href": "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover"
         },
         {
-          "title": "Lido explanation",
+          "title": "Lido \u00b7 two-layer protection mechanics and limitations",
           "href": "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection/"
         }
       ],
-      "id": "digest-9",
-      "tag": "Rocket",
-      "tagReason": "Defined-risk cover adds a production integration, not protection against every loss.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover",
-      "summary": "Defined-risk cover adds a production integration, not protection against every loss."
+      "source": "https://x.com/Firelightfi/status/2119429743867281437",
+      "id": "digest-10",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Ranked lookback",
-      "date": "Nov 4\u20135, 2026",
+      "section": "Today",
+      "date": "Nov 8, 2026",
       "assets": [
+        "HYPE"
+      ],
+      "title": "Resolved testnet disruption is separate from Hyperliquid\u2019s completed mainnet maintenance",
+      "body": "Chainstack marks a Hyperliquid and Elysium testnet block-production interruption resolved on November 8. Its incident window runs from 10:20 PM CST on November 7 to 8:51 AM CST on November 8, affecting the named testnet node services. Separately, Hyperliquid's official status page records November 7 network maintenance from 2:15 AM to 2:35 AM CST as completed and shows its listed systems operational at review. The testnet provider report does not establish an exploit, user-fund loss or an unplanned mainnet halt.",
+      "why": "Builder infrastructure reliability matters with Elysium's launch scheduled for the next day. Keeping testnet scope separate from official production maintenance prevents both false reassurance and an exaggerated mainnet incident claim; neither report provides a full root-cause analysis.",
+      "tag": "Yikes",
+      "tagReason": "A resolved testnet block-production problem is a real builder-readiness concern, not evidence of a mainnet exploit.",
+      "summary": "Chainstack reports a resolved Hyperliquid/Elysium testnet interruption; official mainnet maintenance is separately marked complete.",
+      "sources": [
+        {
+          "title": "Chainstack \u00b7 primary infrastructure incident report",
+          "href": "https://status.chainstack.com/cmw7br1y6162c1ms0y717qm0z"
+        },
+        {
+          "title": "Hyperliquid \u00b7 official production status",
+          "href": "https://hyperliquid.statuspage.io/"
+        },
+        {
+          "title": "Kinetiq \u00b7 upcoming launch",
+          "href": "https://kinetiq.xyz/blog/elysium-mainnet-launch"
+        }
+      ],
+      "source": "https://status.chainstack.com/cmw7br1y6162c1ms0y717qm0z",
+      "id": "new-2",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Today",
+      "date": "Nov 8, 2026",
+      "assets": [
+        "HYPE"
+      ],
+      "title": "Binance newly restores HYPE withdrawals in its phased access recovery",
+      "body": "Binance's November 8 official update lists HYPE and APT as newly re-enabled for withdrawals. Its Ethereum and Solana asset lists are explicitly marked already enabled, so those routes should not be presented as newly restored Sunday services. The exchange says additional assets and networks will return in phases as security checks are completed. This is a custodial-exchange access update, not evidence that Hyperliquid's own chain was compromised or that every Binance route has reopened.",
+      "why": "Restored withdrawals can reduce friction between exchange custody and the native ecosystem. Asset-network availability remains the relevant check, and reopening one asset does not certify all exchange services or remove counterparty risk.",
+      "tag": "Steady",
+      "tagReason": "New HYPE access is confirmed, with broader recovery still phased and conditional.",
+      "summary": "Binance newly lists HYPE withdrawals as restored, distinct from previously enabled Ethereum and Solana routes.",
+      "sources": [
+        {
+          "title": "Binance \u00b7 full official withdrawal update",
+          "href": "https://x.com/binance/status/2119352231732580574"
+        }
+      ],
+      "source": "https://x.com/binance/status/2119352231732580574",
+      "id": "new-4",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Yesterday",
+      "date": "Nov 7, 2026",
+      "assets": [
+        "DOT"
+      ],
+      "title": "Polkadot Referendum 1966 passes; the 500-validator change still awaits enactment",
+      "body": "Referendum 1966 is now in its enactment period, replacing the board\u2019s earlier description of a still-pending decision. The approved first step sets the validator count to 500, proportionally reduces the DAP validator incentive budget and coordinates Relay Chain and Coretime configuration changes. The call is scheduled for Relay Chain block 33,814,400, with the new validator count applying in the first era after enactment; November 10 is an estimate rather than a guaranteed wall-clock activation. Reporting places confirmation at 11:49 PM CST on November 7, although European reports date it November 8. Further reductions toward 400 and 320 require separate governance steps and are not approved by this referendum.",
+      "why": "The change directly affects validator participation and the allocation of security resources, so enactment and the subsequent election deserve separate checks. A smaller validator set may change operational economics and concentration, but the vote itself does not prove either improved efficiency or impaired resilience.",
+      "tag": "Steady",
+      "tagReason": "Approval is verified; actual enactment and downstream elections remain separate milestones.",
+      "summary": "Polkadot approved the first validator reduction, but 500 active seats follow block-triggered enactment and the next applicable era.",
+      "sources": [
+        {
+          "title": "Subsquare \u00b7 Referendum 1966 primary governance record",
+          "href": "https://polkadot.subsquare.io/referenda/1966"
+        },
+        {
+          "title": "CryptoTicker \u00b7 confirmation timing and execution context",
+          "href": "https://cryptoticker.io/en/polkadot-referendum-1966-approved-500-validators/"
+        }
+      ],
+      "source": "https://polkadot.subsquare.io/referenda/1966",
+      "id": "digest-2",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Yesterday",
+      "date": "Nov 7, 2026",
+      "assets": [
+        "AXL",
+        "HBAR",
         "XRP"
       ],
-      "title": "4 \u00b7 XRPL security and euro rail",
-      "body": "The digest records fixCleanup3_4_0 activation Nov 4 to close the PaymentBurn mint loophole. GateHub EURGH then launched as a MiCA euro EMT, with SEPA mint/redeem on XRPL and Xahau.",
-      "why": "Issued-asset hardening plus a live regulated rail; neither establishes XRP-token revenue.",
+      "title": "Axelar Proposal 511 passes for Robinhood ITS trust configuration across 20 chains",
+      "body": "Axelar\u2019s governance explorer now marks Proposal 511 passed and voting closed, superseding the board\u2019s prior pending-vote text. The proposal contains 20 contract-execution messages for Interchain Token Service trusted-chain configuration involving the chain identifier robinhood. Named destinations include Ethereum, Base, Hedera and xrpl-evm, among others. The governance result does not independently verify successful destination-chain execution, operational token transfers or a new consumer-facing Robinhood product.",
+      "why": "Trust configuration is a concrete prerequisite for cross-chain token routing and is more specific than a generic interoperability announcement. For AXL, the next evidence should be successful execution and actual application traffic; the Hedera and XRPL EVM references should not be confused with a new native-XRPL feature.",
+      "tag": "Rocket",
+      "tagReason": "A completed governance approval advances integration configuration, with execution still unverified.",
+      "summary": "Axelar approved 20 ITS trust-configuration calls, not independently verified live transfers on every destination.",
       "sources": [
         {
-          "title": "Amendment tracker",
-          "href": "https://xrplwin.com/amendment/fixCleanup3_4_0"
+          "title": "Axelar \u00b7 Proposal 511 governance record",
+          "href": "https://axelar.valopers.com/proposals/511"
         },
         {
-          "title": "GateHub launch",
-          "href": "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh/"
+          "title": "MoonRunners validator \u00b7 passed-vote lead",
+          "href": "https://x.com/mrunners_val/status/2119175669863092269"
         }
       ],
-      "id": "digest-10",
-      "tag": "Rocket",
-      "tagReason": "A security fix and regulated euro rail expand ledger capability; no assumed token revenue.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://xrplwin.com/amendment/fixCleanup3_4_0",
-      "summary": "A security fix and regulated euro rail expand ledger capability; no assumed token revenue."
+      "source": "https://axelar.valopers.com/proposals/511",
+      "id": "digest-3",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Ranked lookback",
-      "date": "Nov 5\u20136, 2026",
+      "section": "Yesterday",
+      "date": "Nov 7, 2026",
       "assets": [
-        "SOL"
+        "NEAR"
       ],
-      "title": "5 \u00b7 Solana client cutoff before Breakpoint",
-      "body": "The urgent upgrade preceded epoch 1079. The digest reports continued block production and no credible halt report as Breakpoint London preparations continued.",
-      "why": "Client coordination and continuity are structural checks, not a price signal.",
-      "sources": [
-        {
-          "title": "Anza advisory",
-          "href": "https://x.com/anza_xyz/status/2118423244806164615"
-        },
-        {
-          "title": "Breakpoint",
-          "href": "https://solana.com/breakpoint"
-        }
-      ],
-      "id": "digest-11",
+      "title": "NEAR\u2019s hackathon enters its final submission week with Intents and agent-building tracks",
+      "body": "NEAR\u2019s November 7 reminder gives builders until November 14 at 5:59 PM CST to submit working projects. The official site lists $250,000 in prizes across 13 tracks, including cross-chain DeFi, autonomous businesses, privacy and AI security. Submissions require a public repository and a public demo post, with judging and results scheduled for November 16\u201318. The event is an active builder program, not proof that the resulting prototypes will become maintained applications or generate recurring settlement.",
+      "why": "The tracks create a near-term test of whether NEAR Intents, Chain Signatures and AI-related tooling can be turned into usable products. The strongest follow-through will be working demonstrations, maintained code and retained users after prizes are awarded, rather than submission counts alone.",
       "tag": "Steady",
-      "tagReason": "Compatibility coordination is documented; no official incident conclusion was verified.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/anza_xyz/status/2118423244806164615",
-      "summary": "Compatibility coordination is documented; no official incident conclusion was verified."
-    },
-    {
-      "section": "Ranked lookback",
-      "date": "Nov 5\u20136, 2026",
-      "assets": [
-        "TAO"
-      ],
-      "title": "6 \u00b7 Bittensor custody hardening, gated",
-      "body": "Runtime 488 adds ML-DSA/Falcon authorization and hashed-account rotation. The cited implementation awaits the root switch; receiving funds is not the same as being able to spend them.",
-      "why": "Activation status is essential context for security development.",
+      "tagReason": "A verified active builder program has a concrete deadline; adoption outcomes are still ahead.",
+      "summary": "NEAR\u2019s builder program closes November 14 at 5:59 PM CST, with post-event product retention still to be tested.",
       "sources": [
         {
-          "title": "Wallet documentation",
-          "href": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets"
+          "title": "NEAR Protocol \u00b7 final-week reminder",
+          "href": "https://x.com/NEARProtocol/status/2119163723998761371"
+        },
+        {
+          "title": "NEAR Hackathon \u00b7 rules, tracks and schedule",
+          "href": "https://nearhackathon.com"
         }
       ],
-      "id": "digest-12",
-      "tag": "Rocket",
-      "tagReason": "Custody hardening shipped, with activation still gated.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
-      "summary": "Custody hardening shipped, with activation still gated."
+      "source": "https://x.com/NEARProtocol/status/2119163723998761371",
+      "id": "digest-16",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Ranked lookback",
+      "section": "Yesterday",
+      "date": "Nov 7, 2026",
+      "assets": [
+        "HYPE"
+      ],
+      "title": "Mayan confirms day-one Elysium support ahead of the November 9 mainnet plan",
+      "body": "Mayan announced on November 7 that cross-chain support for Elysium would be available on day one, and Elysium echoed the integration. Kinetiq's primary announcement schedules mainnet for November 9, 2026, so the launch remains upcoming at this review. Elysium's documentation says the network uses native HYPE for gas and settles to HyperEVM. It also separates stock-ArbOS launch functionality from a later upgrade adding the HyperCore market-data and fast-write paths.",
+      "why": "Cross-chain access can make Hyperliquid-linked applications easier to reach and gives builders another execution environment. The meaningful follow-up is a functioning launch with working integrations and disclosed trust assumptions, not a presumption that every roadmap feature or forecast throughput is already delivered.",
+      "tag": "Rocket",
+      "tagReason": "Both integration partners confirm planned day-one support and Kinetiq provides a dated launch, with production completion still pending.",
+      "summary": "Elysium and Mayan confirm day-one cross-chain integration for a November 9 launch that is not yet completed.",
+      "sources": [
+        {
+          "title": "Mayan \u00b7 integration announcement",
+          "href": "https://x.com/mayan/status/2119066687417057628"
+        },
+        {
+          "title": "Elysium \u00b7 partner confirmation",
+          "href": "https://x.com/Enter_Elysium/status/2119081999797543265"
+        },
+        {
+          "title": "Kinetiq \u00b7 dated mainnet announcement",
+          "href": "https://kinetiq.xyz/blog/elysium-mainnet-launch"
+        },
+        {
+          "title": "Elysium \u00b7 launch scope and trust assumptions",
+          "href": "https://elysium.kinetiq.xyz/docs/what-is-elysium"
+        }
+      ],
+      "source": "https://x.com/mayan/status/2119066687417057628",
+      "id": "new-1",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
       "date": "Nov 6, 2026",
       "assets": [
         "ALGO"
       ],
-      "title": "7 \u00b7 Algorand funding-model reset",
-      "body": "xGov pauses Dec 6; Forum/EAC wind down; King Safety is shelved. Rewards through January 2028 stand; sustainability and broader PQ adoption are emphasized.",
-      "why": "Changes builder support and Foundation priorities.",
+      "title": "Algorand resets builder funding and community governance while preserving staking commitments",
+      "body": "Algorand\u2019s November 6 community update indefinitely pauses xGov from December 6 and closes the Forum to new discussion, with a read-only archive promised. It also concludes the company-run Ecosystem Advisory Council and ends sponsorship of the Technical Council, while periodic Developer Council meetings continue. Previously discussed supply-cap changes, MEV capture and a higher minimum transaction fee under Project King Safety are no longer being considered at this time. The commitment to staking rewards through January 2028 stands, and leadership now emphasizes sustainable revenue and extending post-quantum security beyond Algorand.",
+      "why": "This changes the routes through which builders seek funding, technical coordination and community influence, rather than merely changing marketing language. The relevant follow-through is whether developers retain effective support and whether the proposed security-focused business model generates durable usage; neither outcome is established by the announcement.",
+      "tag": "Yikes",
+      "tagReason": "Confirmed support-channel contraction creates execution and builder-retention risk.",
+      "summary": "Algorand is contracting grants and community structures while maintaining rewards and shifting toward revenue and post-quantum services.",
       "sources": [
         {
-          "title": "Community update",
+          "title": "Algorand Foundation \u00b7 official announcement",
+          "href": "https://x.com/AlgoFoundation/status/2118721585473278034"
+        },
+        {
+          "title": "Algorand \u00b7 full community update",
           "href": "https://algorand.co/blog/algorand-community-update"
         }
       ],
-      "id": "digest-13",
-      "tag": "Yikes",
-      "tagReason": "Builder-support infrastructure is reduced; outcomes of the reset remain unmeasured.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://algorand.co/blog/algorand-community-update",
-      "summary": "Builder-support infrastructure is reduced; outcomes of the reset remain unmeasured."
+      "source": "https://x.com/AlgoFoundation/status/2118721585473278034",
+      "id": "digest-1",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Ranked lookback",
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "TAO"
+      ],
+      "title": "Bittensor announces post-quantum wallet support, with spending still gated",
+      "body": "Opentensor announced quantum-resistant wallets on November 6, following deployment of runtime spec 488 on Finney the previous day. Taostats documents ML-DSA-65 and Falcon options, rotating hashed accounts and safer multisig/proxy address derivation, while existing Sr25519 and Ed25519 accounts continue unchanged. The documentation explicitly says root has not enabled authorization: a post-quantum address can receive funds but cannot yet spend them. Hardware and browser-wallet support also needs explicit implementation, and the EVM signature scheme is unchanged.",
+      "why": "The development adds a real custody-security capability, but the activation switch and wallet compatibility determine whether users can safely use it. Treating deployed code as fully enabled protection would conceal an important operational limitation, especially for anyone considering moving funds to a new address type.",
+      "tag": "Rocket",
+      "tagReason": "A security capability shipped, but authorization remains disabled in the documentation.",
+      "summary": "Bittensor\u2019s new wallet types are deployed, but the documented root switch still prevents spending from post-quantum accounts.",
+      "sources": [
+        {
+          "title": "Opentensor \u00b7 wallet announcement",
+          "href": "https://x.com/opentensor/status/2118654269947785444"
+        },
+        {
+          "title": "Taostats \u00b7 spec 488 mechanics and activation caveats",
+          "href": "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets"
+        }
+      ],
+      "source": "https://x.com/opentensor/status/2118654269947785444",
+      "id": "digest-4",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "TAO"
+      ],
+      "title": "Chutes adds Tencent Hy4 to its live inference API",
+      "body": "Chutes announced Tencent Hy4 availability on November 6 and described itself as a Tencent Hunyuan launch partner; Opentensor corroborated the integration on November 7. The live Chutes model page lists tencent/Hy4 and an OpenAI-compatible endpoint, giving developers a concrete route to use the model. Chutes describes vision and computer-use capabilities, including interpreting screenshots and charts. Endpoint availability verifies distribution, not the quantity of paid demand, model quality under every workload or the share of execution attributable to Bittensor infrastructure.",
+      "why": "This is a tangible AI-service addition within the Bittensor subnet ecosystem rather than a token narrative. Sustained paid inference, service quality and the economics retained by subnet operators remain the meaningful adoption tests after a model is listed.",
+      "tag": "Rocket",
+      "tagReason": "A live model endpoint corroborates the announced integration; adoption is not quantified.",
+      "summary": "Chutes offers Tencent Hy4 through a live API, broadening Bittensor-linked developer services without establishing paid adoption.",
+      "sources": [
+        {
+          "title": "Chutes \u00b7 launch announcement",
+          "href": "https://x.com/chutes_ai/status/2118714124116910424"
+        },
+        {
+          "title": "Opentensor \u00b7 ecosystem corroboration",
+          "href": "https://x.com/opentensor/status/2119082078436499963"
+        },
+        {
+          "title": "Chutes \u00b7 live Hy4 model page",
+          "href": "https://chutes.ai/app/chute/chutes-tencent-hy4"
+        }
+      ],
+      "source": "https://x.com/chutes_ai/status/2118714124116910424",
+      "id": "digest-5",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
       "date": "Nov 6, 2026",
       "assets": [
         "BNKR"
       ],
-      "title": "8 \u00b7 Bankr expands to Coinbase accounts",
-      "body": "Bankr, Base and Coinbase Developer Platform corroborated the integration. Enter Elysium is scheduled Nov 9.",
-      "why": "Distribution needs follow-through in retained usage/fees, not assumed token value capture.",
+      "title": "Coinbase Developer Platform corroborates Bankr\u2019s exchange-account connection",
+      "body": "Coinbase Developer Platform confirmed on November 6 that Bankr integrated Coinbase for Agents. Bankr\u2019s initial announcement described portfolio checking, crypto, stock and futures functionality, and moving funds from a single chat; that first post was November 5 in Chicago time. Coinbase\u2019s follow-up situates the connection alongside Bankr\u2019s EVM and Solana execution and non-custodial wallet capabilities. Product availability and permissions still depend on the connected account and applicable restrictions, and the announcements do not quantify retained users or integration-driven fees.",
+      "why": "The connection extends Bankr\u2019s distribution from onchain wallets into an established exchange-account interface. That increases the importance of permissions, execution controls and sustained user engagement; integration breadth alone does not create a direct entitlement to revenue for BNKR holders.",
+      "tag": "Rocket",
+      "tagReason": "The integration is corroborated by Coinbase, while durable activity remains unmeasured.",
+      "summary": "Coinbase confirmed Bankr\u2019s account integration, expanding its interface without proving retention or token-holder value capture.",
       "sources": [
         {
-          "title": "Bankr",
+          "title": "Coinbase Developer Platform \u00b7 integration confirmation",
+          "href": "https://x.com/CoinbaseDev/status/2118810403740504305"
+        },
+        {
+          "title": "Bankr \u00b7 original product announcement",
           "href": "https://x.com/bankrbot/status/2118495853933711382"
         },
         {
-          "title": "Coinbase Developer Platform",
-          "href": "https://x.com/CoinbaseDev/status/2118810403740504305"
+          "title": "Bankr \u00b7 Coinbase connection page",
+          "href": "https://bankr.bot/coinbase"
         }
       ],
-      "id": "digest-14",
-      "tag": "Rocket",
-      "tagReason": "More agent distribution is factual; durable fee conversion remains to be tested.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://x.com/bankrbot/status/2118495853933711382",
-      "summary": "More agent distribution is factual; durable fee conversion remains to be tested."
+      "source": "https://x.com/CoinbaseDev/status/2118810403740504305",
+      "id": "digest-6",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Ranked lookback",
-      "date": "Nov 3\u20136 context; Nov 23 next vote",
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "ONDO"
+      ],
+      "title": "Ondo plans Anthropic exposure from IPO day, not a completed token launch",
+      "body": "Ondo announced on November 6 that Anthropic would come to Ondo Stocks on IPO day. The statement is a planned issuance tied to a future corporate event, not evidence that tokens have already launched or that an IPO date is fixed. Ondo\u2019s legal documentation describes its tokenized stocks as structured notes backed by underlying securities and cash in transit, rather than direct shares with shareholder voting rights. Offerings are restricted to eligible non-US persons outside the United States and subject to onboarding and jurisdictional controls.",
+      "why": "The plan tests whether tokenized-security infrastructure can distribute exposure alongside a high-profile listing rather than only after a long delay. Its ecosystem significance depends on execution, lawful access, custody and redemption mechanics; it does not establish rights for the ONDO governance token.",
+      "tag": "Rocket",
+      "tagReason": "Product scope expands through a conditional plan, not a completed issuance.",
+      "summary": "Ondo\u2019s Anthropic plan is conditional on IPO-day execution and uses restricted structured notes rather than direct equity.",
+      "sources": [
+        {
+          "title": "Ondo \u00b7 IPO-day announcement",
+          "href": "https://x.com/Ondo/status/2118725675204919420"
+        },
+        {
+          "title": "Ondo Stocks \u00b7 primary legal structure and restrictions",
+          "href": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory"
+        }
+      ],
+      "source": "https://x.com/Ondo/status/2118725675204919420",
+      "id": "digest-7",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "SUI"
+      ],
+      "title": "Sui reiterates Samsung Wallet USDC rollout; the SUI token is not supported at launch",
+      "body": "Sui\u2019s November 6 ecosystem update reiterates that USDC on Sui is coming to Samsung Wallet for eligible US Galaxy users later in November. The original partnership disclosure predates this window, so the fresh item is rollout guidance rather than a newly signed partnership. The primary product explanation says USDC is the only supported asset at launch and supported transfers do not require users to hold SUI for network fees. No exact launch day or verified active-user count was supplied in the sources reviewed.",
+      "why": "A familiar mobile wallet could reduce the onboarding friction of stablecoin transfers, giving Sui a distribution path beyond crypto-native applications. The distinction between potential device reach, actual enabled accounts and recurring settlement is essential, and gasless USDC access is not the same as direct consumer demand to hold SUI.",
+      "tag": "Rocket",
+      "tagReason": "A concrete distribution plan is reaffirmed, with rollout and user conversion still ahead.",
+      "summary": "Sui expects Samsung Wallet USDC access later this month, with no exact launch day and no SUI-token support at launch.",
+      "sources": [
+        {
+          "title": "Sui \u00b7 November 6 ecosystem update",
+          "href": "https://x.com/SuiNetwork/status/2118822240141865064"
+        },
+        {
+          "title": "Sui \u00b7 primary Samsung Wallet explanation",
+          "href": "https://www.sui.io/blog/samsung-collaborates-with-sui-to-bring-usdc-to-samsung-wallet-on-82-million-u-s-galaxy-devices"
+        },
+        {
+          "title": "crypto.news \u00b7 rollout context",
+          "href": "https://crypto.news/sui-says-usdc-support-is-coming-to-samsung-wallet-in-november/"
+        }
+      ],
+      "source": "https://x.com/SuiNetwork/status/2118822240141865064",
+      "id": "digest-8",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "RENDER"
+      ],
+      "title": "Render\u2019s Forth final vote remains open with a November 9 deadline",
+      "body": "Render Network\u2019s November 6 notice says final voting on RNP-024 remains open. The proposal covers a privacy-first AI gateway and incentives tied to paid usage, RENDER payments and Render Network compute. The official notice gives a deadline of November 9 at 7 PM CST. The governance page identifies the final proposal, but the accessible page does not expose a complete live tally; neither final passage nor production launch is asserted here.",
+      "why": "The proposal would connect AI-service distribution with measurable paid usage rather than relying only on compute-supply incentives. The decisive follow-up is the final result and, if approved, implementation and paid workloads; an earlier community-stage vote is not the final authorization.",
+      "tag": "Steady",
+      "tagReason": "A dated final governance vote is open; approval and delivery are not established.",
+      "summary": "Render\u2019s Forth proposal is still in final voting, with a November 9, 7 PM CST deadline in the official notice.",
+      "sources": [
+        {
+          "title": "Render Network \u00b7 final vote notice",
+          "href": "https://x.com/rendernetwork/status/2118757807709147538"
+        },
+        {
+          "title": "NATION \u00b7 final RNP-024 proposal",
+          "href": "https://nation.io/a/RenderNetwork/proposal/c7a58974-bf33-4f76-925f-1de530dc4887"
+        }
+      ],
+      "source": "https://x.com/rendernetwork/status/2118757807709147538",
+      "id": "digest-11",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
       "assets": [
         "XLM"
       ],
-      "title": "9 \u00b7 Stellar Bell remains staged",
-      "body": "Nov 3 testnet is pre-window context. The next proposed mainnet vote is Nov 23 at 11 AM CST; Nov 4\u20136 contains follow-through and RWA messaging, not another new protocol launch.",
-      "why": "Muxed smart accounts and PQ contract verification expand the enterprise toolset if validators approve.",
+      "title": "Stellar reiterates a $5 billion RWA milestone, with a dated dashboard behind the claim",
+      "body": "Stellar\u2019s November 6 official post celebrates more than $5 billion in real-world assets and links its RWA dashboard. The dashboard\u2019s latest displayed RWA observation is about $5.39 billion as of November 5, with stablecoins shown separately rather than folded into that number. Issuer balances and categories are visible, allowing the headline to be examined as an asset-stock measure rather than a transfer-volume statistic. This is a dated ecosystem milestone, not a reconciled November 8 balance, and it does not establish how much activity each asset generates.",
+      "why": "Tokenized balances provide concrete evidence of issued assets using Stellar, but usefulness also depends on holders, redemptions and settlement. Keeping balances separate from stablecoins, payment volume and XLM economics prevents multiple distinct adoption measures from being treated as interchangeable.",
+      "tag": "Rocket",
+      "tagReason": "A primary dashboard supports the dated asset milestone, not a real-time usage claim.",
+      "summary": "Stellar\u2019s $5 billion RWA claim is supported by a November 5 dashboard snapshot, not a live November 8 total.",
       "sources": [
         {
-          "title": "Official timeline \u00b7 rechecked Nov 7",
-          "href": "https://stellar.org/blog/developers/introducing-bell-protocol-30-on-stellar"
+          "title": "Stellar \u00b7 November 6 milestone post",
+          "href": "https://x.com/StellarOrg/status/2118816798565072956"
+        },
+        {
+          "title": "Stellar-owned Dune \u00b7 RWA observations",
+          "href": "https://dune.com/stellar/rwas"
         }
       ],
-      "id": "digest-15",
-      "tag": "Steady",
-      "tagReason": "Bell is staged for a vote, not yet a mainnet activation.",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://stellar.org/blog/developers/introducing-bell-protocol-30-on-stellar",
-      "summary": "Bell is staged for a vote, not yet a mainnet activation."
+      "source": "https://x.com/StellarOrg/status/2118816798565072956",
+      "id": "digest-12",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Verified follow-up",
-      "date": "Nov 6\u20137, 2026",
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
       "assets": [
         "ICP"
       ],
-      "title": "NNS 144741 opens GuestOS revision election",
-      "body": "The primary dashboard API reports proposal 144741 OPEN for revision 8d892f1. Deadline: Nov 10, 5:26 AM CST, subject to wait-for-quiet extension. Election is not subnet deployment.",
-      "why": "Tracks upgrade governance without relabeling it an executed rollout.",
+      "title": "NNS interface adds proposal-reading and rewards-transparency improvements",
+      "body": "The NNS team announced five interface changes on November 6, which DFINITY amplified on November 7. Yes and No vote buttons remain accessible while reading a proposal, and shared proposal links show a title and summary. Other additions include a daily rewards forecast, maturity-modulation information and longer comparison periods on the ICP price card. These are application-interface improvements; forecasts are not guaranteed rewards and the release is not a change to network monetary policy.",
+      "why": "Better proposal navigation can lower the practical friction of participating in ICP governance. Clearer maturity and rewards information can also improve interpretation, provided users distinguish estimates and presentation changes from the underlying governance rules.",
+      "tag": "Rocket",
+      "tagReason": "Shipped governance-interface functionality is corroborated by the foundation.",
+      "summary": "The NNS app improved proposal navigation and rewards visibility without changing governance policy.",
       "sources": [
         {
-          "title": "NNS proposal",
-          "href": "https://dashboard.internetcomputer.org/proposal/144741"
+          "title": "NNS team \u00b7 release thread",
+          "href": "https://x.com/yhabibf/status/2118703816333726205"
         },
         {
-          "title": "Primary proposal API",
+          "title": "DFINITY \u00b7 detailed release confirmation",
+          "href": "https://x.com/dfinity/status/2119097660124664152"
+        }
+      ],
+      "source": "https://x.com/yhabibf/status/2118703816333726205",
+      "id": "digest-13",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "ICP"
+      ],
+      "title": "NNS Proposal 144741 remains an open GuestOS revision election",
+      "body": "The Internet Computer\u2019s primary proposal API still reports Proposal 144741 OPEN at this review. It elects GuestOS revision 8d892f1, with release notes describing a raised limit in the core protocol. The returned record has no decision or execution timestamp, and its current deadline converts to November 10 at 5:26 AM CST, subject to wait-for-quiet changes. Electing a revision makes it eligible for installation; it is not evidence that all subnets have deployed it.",
+      "why": "This is concrete protocol-maintenance work moving through ICP\u2019s formal release-governance process. Separating election, approval and subsequent deployment gives the board a more useful upgrade tracker than a generic shipped-update label.",
+      "tag": "Steady",
+      "tagReason": "An open version election is verified, not a completed subnet rollout.",
+      "summary": "Proposal 144741 is still open; GuestOS election and actual subnet deployment remain different milestones.",
+      "sources": [
+        {
+          "title": "Internet Computer \u00b7 primary proposal API",
           "href": "https://ic-api.internetcomputer.org/api/v3/proposals/144741"
         }
       ],
-      "tag": "Steady",
-      "tagReason": "An open upgrade election is process evidence, not completed delivery.",
-      "id": "research-icp-144741",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://dashboard.internetcomputer.org/proposal/144741",
-      "summary": "An open upgrade election is process evidence, not completed delivery."
+      "source": "https://ic-api.internetcomputer.org/api/v3/proposals/144741",
+      "id": "digest-14",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     },
     {
-      "section": "Verified follow-up",
-      "date": "Nov 6\u20137, 2026",
-      "assets": [
-        "AXL"
-      ],
-      "title": "Axelar 511: ITS trust configuration for robinhood on 20 chains",
-      "body": "The governance explorer shows voting and a Nov 7 deadline. Its displayed clock has no explicit zone, so no Chicago hour is asserted. Passing and production execution have not been verified.",
-      "why": "Would extend trusted ITS configuration if approved and executed.",
-      "sources": [
-        {
-          "title": "Governance proposal 511",
-          "href": "https://axelar.valopers.com/proposals/511"
-        }
-      ],
-      "tag": "Steady",
-      "tagReason": "A pending configuration vote is not passing or production execution.",
-      "id": "research-axl-511",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://axelar.valopers.com/proposals/511",
-      "summary": "A pending configuration vote is not passing or production execution."
-    },
-    {
-      "section": "Verified follow-up",
+      "section": "Last 3 days",
       "date": "Nov 6, 2026",
       "assets": [
-        "QNT"
+        "HBAR"
       ],
-      "title": "Quant publishes tokenized-money privacy explainer",
-      "body": "Quant's official newsroom dates the explainer Nov 6. It is commentary, not a new deployment. The Clearing House selection was announced Sept 24, with institutional availability expected H1 2027.",
-      "why": "Separates current communications from measurable adoption and future delivery.",
+      "title": "McLaren collectibles gain a live SentX secondary-market route on Hedera",
+      "body": "SentX announced on November 6 that secondary trading for McLaren Racing\u2019s MCL / COLLECT collection is live. Hedera separately promoted the S\u00e3o Paulo Grand Prix digital artwork, while the McLaren collection site displays the BRA GP release. The live SentX page exposes the McLaren collection catalog and listings, corroborating an actual marketplace surface rather than only a partnership promise. This is a consumer-application distribution update, not evidence of enterprise settlement adoption or a measured increase in paid network usage.",
+      "why": "The combination of branded issuance, a wallet route and secondary-market availability makes the application more usable for existing collectors. Its significance for Hedera should be judged by sustained participation and independent paid activity, not by the brand name alone.",
+      "tag": "Rocket",
+      "tagReason": "A live application route is corroborated; broader usage effects remain unmeasured.",
+      "summary": "McLaren\u2019s Hedera collectibles have a live SentX market, adding usability without proving broader network adoption.",
       "sources": [
         {
-          "title": "Official newsroom",
-          "href": "https://quant.network/news/"
+          "title": "SentX \u00b7 secondary-market announcement",
+          "href": "https://x.com/SentX_io/status/2118779855433273422"
         },
         {
-          "title": "Clearing House announcement",
-          "href": "https://quant.network/press-releases/the-clearing-house-partners-with-quant-to-advance-the-on-chain-money-initiative/"
+          "title": "Hedera \u00b7 BRA GP release",
+          "href": "https://x.com/hedera/status/2118756860392099930"
+        },
+        {
+          "title": "SentX \u00b7 live McLaren catalog",
+          "href": "https://sentx.io/mclaren-racing"
+        },
+        {
+          "title": "McLaren \u00b7 collection site",
+          "href": "https://www.collectibles.mclaren.com/"
         }
       ],
+      "source": "https://x.com/SentX_io/status/2118779855433273422",
+      "id": "digest-15",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "AERO"
+      ],
+      "title": "Coinbase completes AERO/VELO conversion; legacy and successor data must stay distinct",
+      "body": "Coinbase Assets announced on November 6 that conversion of Aerodrome Finance and Velodrome Finance to the new Aero token was complete and sends and receives had been re-enabled. Aero reiterated the completed conversion on November 8; that later post does not make the exchange migration a new Sunday event. The official launch hub describes the earlier October 21 protocol upgrade and the 1:1 conversion from legacy AERO into successor AERO. CoinGecko separately exposes aerodrome-finance and aero, while Aero's security page lists a new Base token contract.",
+      "why": "This restores a documented exchange access route and makes the token-identity distinction immediately relevant to the board. Combining a legacy market series with successor supply or multichain fees without a migration note would create misleading comparisons.",
       "tag": "Steady",
-      "tagReason": "An educational publication does not itself demonstrate additional production usage.",
-      "id": "research-qnt-privacy",
-      "tagReviewedAt": "2026-11-07T10:18:41.207957-06:00",
-      "source": "https://quant.network/news/",
-      "summary": "An educational publication does not itself demonstrate additional production usage."
+      "tagReason": "Completed operational conversion is verified, but the protocol launch happened earlier and data continuity requires care.",
+      "summary": "Coinbase finished the AERO/VELO conversion on November 6, while legacy and successor AERO remain distinct data identities.",
+      "sources": [
+        {
+          "title": "Coinbase Assets \u00b7 completed conversion",
+          "href": "https://x.com/i/status/2118788654650806744"
+        },
+        {
+          "title": "Aero \u00b7 November 8 reiteration",
+          "href": "https://x.com/aeroxyz/status/2119495920664633779"
+        },
+        {
+          "title": "Aero \u00b7 official upgrade hub",
+          "href": "https://aero.xyz/aero-upgrade/"
+        },
+        {
+          "title": "CoinGecko \u00b7 separate token records",
+          "href": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=aero,aerodrome-finance"
+        },
+        {
+          "title": "Aero \u00b7 security and contract addresses",
+          "href": "https://app.aero.xyz/docs/security/"
+        }
+      ],
+      "source": "https://x.com/i/status/2118788654650806744",
+      "id": "new-0",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "AERO",
+        "ETH"
+      ],
+      "title": "Enso opens Aero swaps, liquidity operations and gauge staking across seven chains",
+      "body": "Enso announced November 6 support for Aero's new MetaDEX on Ethereum, Base, Arbitrum, Optimism, Ink, Arc and Robinhood, and Aero confirmed the integration. The stated operations include swapping, adding or removing liquidity and staking positions in Aero gauges. This is an application-integration milestone rather than a new Ethereum consensus feature. Aero's official upgrade hub supplies the multichain context and makes clear the new protocol follows the earlier Aerodrome/Velodrome transition.",
+      "why": "Applications using Enso can access more Aero operations without independently assembling each pool interaction. The next evidence is actual routed usage and reliable execution, while reported parent-protocol fees must not be mislabeled as Base-only Aerodrome fees or Ethereum network revenue.",
+      "tag": "Rocket",
+      "tagReason": "Both integration participants state the functionality is live across the named chains.",
+      "summary": "Enso and Aero confirm live seven-chain integration for swaps, liquidity management and gauge staking.",
+      "sources": [
+        {
+          "title": "Enso \u00b7 supported operations and chain list",
+          "href": "https://x.com/i/status/2118825821842637096"
+        },
+        {
+          "title": "Aero \u00b7 confirmation",
+          "href": "https://x.com/aeroxyz/status/2118827042875781168"
+        },
+        {
+          "title": "Aero \u00b7 launch and migration context",
+          "href": "https://aero.xyz/aero-upgrade/"
+        }
+      ],
+      "source": "https://x.com/i/status/2118825821842637096",
+      "id": "new-3",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
+    },
+    {
+      "section": "Last 3 days",
+      "date": "Nov 6, 2026",
+      "assets": [
+        "ETH"
+      ],
+      "title": "Ethereum Foundation highlights browser-level metadata privacy for wallets and dapps",
+      "body": "The Ethereum Foundation's November 6 post explains that private transactions can still expose sender metadata at the network-access layer and highlights Nym's browser SDK. Its stated design lets wallets and dapps route traffic through a mixnet without a separate user installation or configuration. November 6 reporting describes HTTP(S) and gRPC support and says the SDK was presented at Devcon on November 5, so this is a fresh ecosystem highlight of an earlier presentation. Neither source establishes that every Ethereum wallet has integrated it or that Ethereum consensus now supplies transaction anonymity by default.",
+      "why": "Protecting RPC and network metadata addresses a different privacy layer from hiding transaction contents onchain. Adoption should be assessed through named shipping integrations, latency and usability checks rather than equating toolkit availability with network-wide deployment.",
+      "tag": "Steady",
+      "tagReason": "A concrete developer toolkit is highlighted, while broad Ethereum-wallet deployment is not established.",
+      "summary": "The Foundation highlights an available browser mixnet SDK, not a network-wide Ethereum privacy activation.",
+      "sources": [
+        {
+          "title": "Ethereum Foundation \u00b7 privacy-tooling highlight",
+          "href": "https://x.com/ethereumfndn/status/2118838695314989071"
+        },
+        {
+          "title": "Crypto Briefing \u00b7 SDK capabilities and release context",
+          "href": "https://cryptobriefing.com/nym-mixnet-sdk-wallets-devcon-8/"
+        }
+      ],
+      "source": "https://x.com/ethereumfndn/status/2118838695314989071",
+      "id": "new-5",
+      "tagReviewedAt": "2026-11-08T16:43:50-06:00"
     }
   ],
   "researchSummary": {
-    "body": "Recent reviewed news highlights ecosystem functionality, integrations and distribution; conditional releases remain conditional. News interpretation is separate from usage coverage and market mood, and missing news never counts as deterioration.",
+    "body": "The cross-watchlist picture is mixed: live interfaces and distribution integrations are advancing, but several headline catalysts remain plans, open votes or approved calls awaiting execution evidence. Bankr, Chutes, McLaren\u2019s Hedera route and Firelight provide concrete product surfaces, while Sui\u2019s Samsung access and Ondo\u2019s IPO-day exposure still need rollout checks. Polkadot and Axelar have verified governance progress, whereas ICP\u2019s version election and Render\u2019s final vote remain open. Algorand\u2019s support contraction, exchange-access restrictions and shared-wallet-provider exposure are the principal operational cautions. Missing fresh news is a coverage limitation rather than deterioration, and none of these ecosystem observations establishes a price outcome or constitutes financial advice.",
     "sentiment": "Mixed",
     "counts": {
       "Positive": 10,
@@ -10776,7 +11413,7 @@
       "Not enough data": 2
     },
     "windowDays": 7,
-    "asOf": "2026-11-07T20:23:18.935785-06:00",
+    "asOf": "2026-11-08T16:43:50-06:00",
     "disclaimer": "Not financial advice. Editorial fundamentals news only, not measured social sentiment or a price signal."
   },
   "brand": {
@@ -11822,17 +12459,83 @@
       "weaken": "App usage/collateral contracts, cover capital concentrates or incident handling fails published terms.",
       "specific": "Firelight is a Flare app, not a separate focus token. Lido Earn cover went live Nov 5 and addresses defined failures, not every loss.",
       "source": "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover"
+    },
+    "HYPE": {
+      "name": "Hyperliquid",
+      "peer": "DeFi & trading",
+      "role": "Onchain trading / L1",
+      "milestone": "Elysium Nov 9 plan",
+      "risk": "Reliability / restricted access",
+      "thesis": "Track native trading infrastructure and whether HyperEVM and Elysium convert integrations into sustained application use.",
+      "weaken": "Persistent reliability failures, weaker retained activity or stalled application adoption would weaken the ecosystem case.",
+      "specific": "Hyperliquid L1 TVL and the Hyperliquid trading-protocol fees aggregate measure different scopes and neither is a direct entitlement of every HYPE holder.",
+      "source": "https://hyperliquid.xyz"
+    },
+    "AERO": {
+      "name": "Aerodrome Finance / Aero",
+      "peer": "DeFi & trading",
+      "role": "DEX / liquidity coordination",
+      "milestone": "Migration; Enso live",
+      "risk": "Identity / migration scope",
+      "thesis": "Track the Base-origin liquidity venue and its verified successor integrations against durable pool usage and issuance discipline.",
+      "weaken": "Migration failures, declining retained liquidity or rewards persistently exceeding useful economic activity would weaken the ecosystem case.",
+      "specific": "Legacy aerodrome-finance market history, successor aero token data and the multichain Aero fees parent are not interchangeable Base-only measurements.",
+      "source": "https://aero.xyz"
+    },
+    "ETH": {
+      "name": "Ethereum",
+      "peer": "Platforms",
+      "role": "Smart-contract settlement",
+      "milestone": "Glamsterdam in development",
+      "risk": "Execution / concentration",
+      "thesis": "Track Ethereum settlement, developer delivery and rollup support against robust consensus and paid application usage.",
+      "weaken": "Persistent client reliability failures, concentrated validation or weaker retained settlement usage would weaken the ecosystem case.",
+      "specific": "Ethereum Layer 1 TVL and gas fees exclude much Layer 2 execution, and draft EIPs or development windows are not activation dates.",
+      "source": "https://ethereum.org/en/roadmap/"
+    },
+    "VET": {
+      "name": "VeChain",
+      "peer": "Tokenization & interop",
+      "role": "Enterprise / application chain",
+      "milestone": "Agent tooling; EVM roadmap",
+      "risk": "Usage quality / delegation",
+      "thesis": "Track VeChain applications and enterprise workflows against independent usage, VTHO consumption and reliable delivery.",
+      "weaken": "Usage that remains subsidy-dependent, unverified enterprise adoption or impaired validator diversity would weaken the ecosystem case.",
+      "specific": "VTHO is the gas asset, VET is the stake asset, and small DeFi TVL does not measure all VeBetter or enterprise activity; a verified fee feed was unavailable.",
+      "source": "https://vechain.org"
+    },
+    "XDC": {
+      "name": "XDC Network",
+      "peer": "Tokenization & interop",
+      "role": "Trade finance / RWA",
+      "milestone": "Agent-payment integration",
+      "risk": "Enterprise / validator access",
+      "thesis": "Track production trade-finance, tokenization and agent-payment settlement rather than partnership counts alone.",
+      "weaken": "Pilots that fail to reach sustained settlement, weak asset enforceability or concentrated validation would weaken the ecosystem case.",
+      "specific": "Public-chain DeFi TVL and gas fees do not capture all private subnet activity or the legal value and enforceability of underlying trade assets.",
+      "source": "https://xdc.org"
     }
   },
   "weeklyRecap": {
-    "title": "Week in context \u00b7 Nov 4\u20136, 2026",
-    "body": "Staged Binance custody recovery; tokenization distribution; Firelight cover on Lido Earn; Bittensor wallet security shipped but still gated; Algorand grant/community reset. Distribution gains and weaker fee/capital readings can coexist. This is a verified slice, not a complete week.",
-    "reviewedAt": "2026-11-07T10:18:41-06:00",
+    "title": "Week in context \u00b7 Nov 2\u20138, 2026",
+    "body": "The week\u2019s strongest ecosystem theme was wider distribution with important boundaries around what is actually live. Coinbase corroborated Bankr\u2019s exchange-account connection, Chutes listed Tencent Hy4 behind a live API, and Hedera\u2019s McLaren collectibles gained an accessible secondary market. Sui reiterated a forthcoming Samsung Wallet USDC rollout, while Ondo\u2019s Anthropic announcement remained a conditional IPO-day plan rather than a completed issuance. Stellar\u2019s RWA milestone was supported by a dated issuer dashboard; those asset balances should not be confused with payments, active users or governance-token cash flows.\n\nGovernance and security required more precise stage labels. Polkadot Referendum 1966 moved into enactment, while Axelar Proposal 511 passed without independent confirmation of execution on every destination chain. ICP\u2019s GuestOS election remains open, and Render\u2019s Forth proposal is still in final voting. Bittensor\u2019s post-quantum wallet code is deployed but the reviewed documentation still gates spending, whereas Firelight\u2019s November 5 Lido integration is live under defined cover periods, exclusions and capital limits. Algorand\u2019s grants and community reset is the main negative operational change: staking commitments remain, but builder-support structures contract.\n\nMarket infrastructure remains the cross-watchlist caution. Binance continues staged restoration and still supplies only a conditional NEAR target, while Treasury\u2019s MEXC order introduces a future restriction on US financial-institution transfers. The Keplr / Web3Auth narrative also changed materially: recovery-wallet attribution means the observed $6.01 million cannot be reported as a verified theft. This recap is a source-verified slice of the week, not exhaustive coverage, and separates releases, approvals, execution and measured usage. It contains no trading recommendation or price forecast.",
+    "reviewedAt": "2026-11-08T16:37:25-06:00",
     "sources": [
-      "https://x.com/binance/status/2118541594358104469",
-      "https://firelight.finance/articles/lido-earn-integrates-firelight-onchain-cover",
+      "https://x.com/CoinbaseDev/status/2118810403740504305",
+      "https://chutes.ai/app/chute/chutes-tencent-hy4",
+      "https://www.sui.io/blog/samsung-collaborates-with-sui-to-bring-usdc-to-samsung-wallet-on-82-million-u-s-galaxy-devices",
+      "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+      "https://dune.com/stellar/rwas",
+      "https://polkadot.subsquare.io/referenda/1966",
+      "https://axelar.valopers.com/proposals/511",
+      "https://ic-api.internetcomputer.org/api/v3/proposals/144741",
+      "https://x.com/rendernetwork/status/2118757807709147538",
       "https://taostats.io/docs/concepts/protocol-changes/quantum-wallets",
-      "https://algorand.co/blog/algorand-community-update"
+      "https://blog.lido.fi/lido-earn-introducing-two-layers-of-loss-protection/",
+      "https://algorand.co/blog/algorand-community-update",
+      "https://x.com/binance/status/2119352231732580574",
+      "https://home.treasury.gov/news/press-releases/sb0685",
+      "https://bitquery.io/investigations/keplr-wallet-hack"
     ]
   },
   "sources": [

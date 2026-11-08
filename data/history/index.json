@@ -1,6 +1,16 @@
 {
- "generatedAt": "2026-11-08T10:36:28+00:00",
+ "generatedAt": "2026-11-08T22:46:39+00:00",
  "series": {
+  "AERO": {
+   "kind": "crypto",
+   "source": "CoinGecko market_chart (daily, USD) (365-day free limit)",
+   "sourceUrl": "https://www.coingecko.com/en/coins/aero",
+   "asOf": "2026-11-08",
+   "first": "2026-10-23",
+   "days": 17,
+   "ffill": false,
+   "dailyDays": 400
+  },
   "ALGO": {
    "kind": "crypto",
    "source": "Yahoo Finance ALGO-USD (daily close, USD)",
@@ -98,6 +108,16 @@
    "asOf": "2026-11-08",
    "first": "2019-09-22",
    "days": 716,
+   "ffill": false,
+   "dailyDays": 400
+  },
+  "HYPE": {
+   "kind": "crypto",
+   "source": "Yahoo Finance HYPE32196-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/HYPE32196-USD",
+   "asOf": "2026-11-08",
+   "first": "2024-12-01",
+   "days": 444,
    "ffill": false,
    "dailyDays": 400
   },
@@ -201,6 +221,26 @@
    "ffill": true,
    "dailyDays": 400
   },
+  "VET": {
+   "kind": "crypto",
+   "source": "Yahoo Finance VET-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/VET-USD",
+   "asOf": "2026-11-08",
+   "first": "2018-08-05",
+   "days": 775,
+   "ffill": false,
+   "dailyDays": 400
+  },
+  "XDC": {
+   "kind": "crypto",
+   "source": "Yahoo Finance XDC-USD (daily close, USD)",
+   "sourceUrl": "https://finance.yahoo.com/quote/XDC-USD",
+   "asOf": "2026-11-08",
+   "first": "2018-04-15",
+   "days": 791,
+   "ffill": false,
+   "dailyDays": 400
+  },
   "XLM": {
    "kind": "crypto",
    "source": "Yahoo Finance XLM-USD (daily close, USD)",
@@ -260,7 +300,7 @@
    "first": "2021-05-10",
    "source": "Yahoo Finance ICP-USD (daily close, USD)",
    "notes": [
-    "coingecko check unavailable: HTTP Error 429: Too Many Requests"
+    "Yahoo checked vs CoinGecko last year: median gap 2.19%"
    ]
   },
   "DOT": {
@@ -351,12 +391,20 @@
     "Yahoo checked vs CoinGecko last year: median gap 2.01%"
    ]
   },
-  "BTC": {
+  "HYPE": {
    "ok": true,
-   "first": "2014-09-17",
-   "source": "Yahoo Finance BTC-USD (daily close, USD)",
+   "first": "2024-11-29",
+   "source": "Yahoo Finance HYPE32196-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 1.09%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.57%"
+   ]
+  },
+  "AERO": {
+   "ok": true,
+   "first": "2026-10-23",
+   "source": "CoinGecko market_chart (daily, USD) (365-day free limit)",
+   "notes": [
+    "yahoo AERO29270-USD: Yahoo vs CoinGecko median gap None"
    ]
   },
   "ETH": {
@@ -365,6 +413,30 @@
    "source": "Yahoo Finance ETH-USD (daily close, USD)",
    "notes": [
     "Yahoo checked vs CoinGecko last year: median gap 1.32%"
+   ]
+  },
+  "VET": {
+   "ok": true,
+   "first": "2018-08-03",
+   "source": "Yahoo Finance VET-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.10%"
+   ]
+  },
+  "XDC": {
+   "ok": true,
+   "first": "2018-04-13",
+   "source": "Yahoo Finance XDC-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 2.00%"
+   ]
+  },
+  "BTC": {
+   "ok": true,
+   "first": "2014-09-17",
+   "source": "Yahoo Finance BTC-USD (daily close, USD)",
+   "notes": [
+    "Yahoo checked vs CoinGecko last year: median gap 1.09%"
    ]
   },
   "GOLD": {

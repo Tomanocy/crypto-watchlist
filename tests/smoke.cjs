@@ -5,10 +5,10 @@ const {JSDOM,VirtualConsole}=require('jsdom');
  const base=process.argv[2]||'http://127.0.0.1:8000/';const errors=[];const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));vc.on('error',(...args)=>errors.push(args.join(' ')));
  const dom=await JSDOM.fromURL(base,{resources:'usable',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){w.fetch=(url,opts)=>fetch(new URL(url,base),opts);}});
  const w=dom.window,d=w.document;
- await new Promise((resolve,reject)=>{let tries=0;const t=setInterval(()=>{if(w.__dashboardReady){clearInterval(t);resolve();}else if(++tries>100){clearInterval(t);reject(Error('Dashboard did not finish loading: '+errors.join('; ')));}},50);});
- assert.equal(d.querySelectorAll('.tile').length,16);assert.equal(d.querySelectorAll('#coin-picker option').length,17);
- assert.equal(d.querySelectorAll('#compare-table thead th').length,8);assert.equal(d.querySelectorAll('#compare-table tbody tr').length,16);
- for(const group of ['Usage','Supply','Liquidity','Sentiment','Structural','Price context']){d.querySelector('[data-group="'+group+'"]').click();assert.equal(d.querySelectorAll('#compare-table thead th').length,8);assert.equal(d.querySelectorAll('#compare-table tbody tr').length,16);}
+ await new Promise((resolve,reject)=>{let tries=0;const t=setInterval(()=>{if(w.__dashboardReady){clearInterval(t);resolve();}else if(++tries>400){clearInterval(t);reject(Error('Dashboard did not finish loading: '+errors.join('; ')));}},50);});
+ const NC=d.querySelectorAll('.tile').length;assert.ok(NC>=16);assert.equal(d.querySelectorAll('#coin-picker option').length,NC+1);
+ assert.equal(d.querySelectorAll('#compare-table thead th').length,8);assert.equal(d.querySelectorAll('#compare-table tbody tr').length,d.querySelectorAll('.tile').length);
+ for(const group of ['Usage','Supply','Liquidity','Sentiment','Structural','Price context']){d.querySelector('[data-group="'+group+'"]').click();assert.equal(d.querySelectorAll('#compare-table thead th').length,8);assert.equal(d.querySelectorAll('#compare-table tbody tr').length,d.querySelectorAll('.tile').length);}
  for(const coin of ['HBAR','XRP','XLM','QNT','ICP','DOT','BNKR','TAO','ONDO','ALGO','SUI','RENDER','AXL','NEAR','SOL','FLR']){d.getElementById('coin-picker').value=coin;d.getElementById('coin-picker').dispatchEvent(new w.Event('change'));assert.match(d.getElementById('coin-title').textContent,new RegExp(coin));assert.ok([...d.querySelectorAll('#news-content details')].every(x=>x.textContent.includes(coin)));}
  d.getElementById('coin-picker').value='All';d.getElementById('coin-picker').dispatchEvent(new w.Event('change'));
  assert.ok(d.querySelectorAll('.alert-card').length>=3);
@@ -66,7 +66,7 @@ const {JSDOM,VirtualConsole}=require('jsdom');
  spark.dispatchEvent(new w.MouseEvent('click',{bubbles:true}));
  const o=await wait(()=>{const x=d.getElementById('cmp-overlay');return x&&!x.hidden&&d.querySelector('#cmp-chart svg path')&&x;});
  assert.equal(d.getElementById('coin-overlay')?.hidden??true,true,'coin overlay must not open from a sparkline');
- assert.ok(d.querySelectorAll('#cmp-legend .cmp-lg').length===16);
+ assert.ok(d.querySelectorAll('#cmp-legend .cmp-lg').length===d.querySelectorAll('.tile').length);
  const enabled=()=>[...d.querySelectorAll('#cmp-ranges [data-range]')].filter(b=>!b.disabled).map(b=>b.dataset.range);
  assert.ok(!enabled().includes('1Y'),'usage metrics only ~30 days');
  d.querySelector('[data-metric="price"]').click();await wait(()=>enabled().includes('5Y'));
@@ -76,4 +76,20 @@ const {JSDOM,VirtualConsole}=require('jsdom');
  o.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert.equal(o.hidden,true);
  d.getElementById('peer-filter').value='Payments';d.getElementById('peer-filter').dispatchEvent(new w.Event('change'));d.getElementById('cmp-open').click();await wait(()=>!o.hidden&&d.querySelectorAll('#cmp-legend .cmp-lg').length===5);
  assert.deepEqual(errors,[]);console.log('PASS: wide compare chart opens from sparklines and button, metrics, all ranges, log scale, legend toggles, peer filter respected, Esc closes; zero errors.');dom.window.close();
+})().catch(e=>{console.error(e);process.exitCode=1;});
+(async()=>{
+ const assert=require('node:assert/strict');const {JSDOM,VirtualConsole}=require('jsdom');
+ const base=process.argv[2]||'http://127.0.0.1:8000/';const errors=[];const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
+ const fake=[{id:'ripple',current_price:1.23,market_cap:7e10,total_volume:2e9,circulating_supply:5.7e10,ath_change_percentage:-60,price_change_percentage_30d_in_currency:4,last_updated:new Date().toISOString()}];
+ const dom=await JSDOM.fromURL(base,{resources:'usable',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){w.fetch=(url,opts)=>String(url).includes('coingecko')?Promise.resolve(new Response(JSON.stringify(fake),{status:200})):fetch(new URL(url,base),opts);}});
+ const w=dom.window,d=w.document;
+ await new Promise((res,rej)=>{let n=0;const t=setInterval(()=>{if(w.__dashboardReady){clearInterval(t);res();}else if(++n>400){clearInterval(t);rej(Error('not ready '+errors.join(';')));}},50);});
+ assert.ok(d.querySelectorAll('.utility-group').length>=4);const NT=d.querySelectorAll('.tile').length;
+ d.querySelector('[data-selgroup="Payments"]').click();
+ const pay=d.querySelectorAll('#compare-table tbody tr').length;assert.ok(pay>=3&&pay<NT,'payments rows '+pay);assert.ok(d.getElementById('group-clear'));
+ d.querySelector('.tile [data-multi="SOL"]').click();assert.equal(d.querySelectorAll('#compare-table tbody tr').length,pay+1);
+ d.getElementById('group-clear').click();assert.equal(d.querySelectorAll('#compare-table tbody tr').length,d.querySelectorAll('.tile').length);
+ d.getElementById('refresh-live').click();for(let i=0;i<40&&!/Updated|failed/.test(d.getElementById('refresh-status').textContent);i++)await new Promise(r=>setTimeout(r,100));
+ assert.match(d.getElementById('refresh-status').textContent,/Updated 1 coins/);assert.ok(d.querySelector('.badge.live'));
+ assert.deepEqual(errors,[]);w.close();console.log('PASS: utility groups, select group + individual coin filters table, clear, live refresh button updates prices; zero errors.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

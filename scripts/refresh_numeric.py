@@ -4,7 +4,7 @@ import argparse, concurrent.futures, copy, datetime as dt, json, math, pathlib, 
 from zoneinfo import ZoneInfo
 TZ=ZoneInfo('America/Chicago')
 KINDS=['tvl','stables','fees','revenue']
-FEES={'HBAR':'hedera','XRP':'xrpl','XLM':'stellar','ICP':'internet-computer','DOT':'polkadot','BNKR':'bankr','ONDO':'ondo-finance','ALGO':'algorand','SUI':'sui','NEAR':'near','SOL':'solana','FLR':'flare','BTC':'bitcoin'}
+FEES={'HBAR':'hedera','XRP':'xrpl','XLM':'stellar','ICP':'internet-computer','DOT':'polkadot','BNKR':'bankr','ONDO':'ondo-finance','ALGO':'algorand','SUI':'sui','NEAR':'near','SOL':'solana','FLR':'flare','HYPE':'hyperliquid','AERO':'aero','ETH':'ethereum','XDC':'xdc','BTC':'bitcoin'}
 NUMERIC_KEYS=['symbol','id','peer','chain','market','turnover','tradingActivity','coverage','dataAvailable','metricFreshness','priceContext','gapObservations','tvl','stables','fees','revenue','visual']
 def finite(v):return isinstance(v,(int,float)) and not isinstance(v,bool) and math.isfinite(v)
 def get(url):

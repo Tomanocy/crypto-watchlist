@@ -2,9 +2,9 @@
 import json,pathlib,re
 root=pathlib.Path(__file__).resolve().parents[1]
 seed=json.loads((root/'data/page-data.json').read_text());numeric=json.loads((root/'data/numeric-data.json').read_text())
-focus=[a for a in seed['assets'] if a['symbol']!='BTC'];assert len(focus)==16
-assert len({a['symbol'] for a in focus})==16
-assert len(numeric['assets'])==17
+focus=[a for a in seed['assets'] if a['symbol']!='BTC'];assert len(focus)>=16
+assert len({a['symbol'] for a in focus})==len(focus)
+assert len(numeric['assets'])==len(seed['assets'])
 assert all(len(a['riskFlags']['flags'])==4 and a['thesis']['sources'] for a in focus)
 assert all(n['tag'] in ['Rocket','Steady','Yikes'] and n['tagReason'] for n in seed['news'])
 assert not any(k in numeric for k in ['news','events','catalysts','risks','thesis','alerts'])
@@ -26,4 +26,4 @@ for s in [a['symbol'] for a in seed['assets']]+['ETH','GOLD','TSLA','NVDA','GOOG
     assert all(c[i][0]<c[i+1][0] for i in range(len(c)-1)) and all(x[1]>0 for x in c)
 assert all(r in cj for r in ["['2Y',730]","['3Y',1095]","['5Y',1825]"])
 assert not re.search(r'\b(RSI|MACD|Bollinger|moving average|price target)\b',cj,re.I)
-print('Validated: 16 focus coins + BTC, curated/numeric separation, public-safe export, news tags, local asset paths and disclaimers.')
+print(f'Validated: {len(focus)} focus coins + BTC, curated/numeric separation, public-safe export, news tags, local asset paths and disclaimers.')
