@@ -821,10 +821,10 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "The current evidence is more concrete than a generic brand partnership: a live marketplace and a specific cross-chain configuration approval are visible. Neither establishes sustained activity or the value captured by HBAR.",
+      "researchSummary": "A strong institutional governance addition with an explicit tokenization angle. Evidence of Apex actually issuing or servicing assets on Hedera is the next proof point.",
       "tradingActivity": 1.2223501786167918,
       "tvl": {
         "current": 24839688.0,
@@ -1415,7 +1415,7 @@
         },
         "peerLabel": "Payments"
       },
-      "overview": "Hedera has a verified consumer-application update in the November 6 McLaren collectibles release and the live SentX secondary-market route. These sources show distribution and an accessible application surface, not enterprise payment volumes. Hedera also remains one of the named destinations in Axelar Proposal 511\u2019s approved ITS trust-configuration calls. That approval is not independent confirmation that destination execution or user transfers are live. The next useful evidence is retained collectors, successful integration execution and independent paid network use; the main risk is mistaking branded availability for broad adoption."
+      "overview": "Hedera's governance gained a major institutional member on Nov 11: Apex Group, a fund administrator servicing more than $3.5 trillion in assets, joined the Hedera Council and said it will explore the network for tokenization, compliance and settlement work, building on its majority-owned Tokeny unit's earlier Hedera integration. Council members vote on upgrades, pricing and treasury decisions and run mainnet nodes. HBAR is also among the assets named in coverage of the SEC's Nov 10 approval of Nasdaq ISE options on digital-commodity ETPs. Operationally, the Block Stream cutover targets Nov 25 on testnet and Dec 9 on mainnet under the current operator guide. The main risk is that council seats and exploration announcements keep outpacing measurable tokenized-asset activity on the network."
     },
     {
       "symbol": "XRP",
@@ -1576,10 +1576,10 @@
         },
         "storyCount": 3,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "Verified steps are security planning and regulatory plumbing, not new usage. Watch for the quantum migration study and any XRP-linked products that use the options framework.",
+      "researchSummary": "No new verified XRPL product release on Nov 11; the new item is a value-locked decline on the dashboard. Watch the quantum migration study and XRP-linked options products.",
       "tradingActivity": 2.175277853735078,
       "tvl": {
         "current": 36488124.0,
@@ -2170,7 +2170,7 @@
         },
         "peerLabel": "Payments"
       },
-      "overview": "XRP Ledger news this window is about long-term security and market structure rather than new payment volume. CoinDesk reported on Nov 10 on the XRPL Foundation's draft Quantum amendment, which would let owners add an ML-DSA-44 key and disable the old one without changing address or base fee; a migration study is scheduled for the first half of 2027 and no activation date is set. The SEC's Nov 10 approval of Nasdaq ISE options on qualifying digital-commodity ETPs names XRP among the eligible assets, though each product still needs its own listing. Ripple-linked exchange Uphold said withdrawal delays that began around Nov 4 were mostly cleared by Nov 10, blaming a third-party transaction-monitoring outage. The main risk is that community frustration over value capture, visible in a public open letter to Ripple's CEO on Nov 10, is not matched by measurable ledger usage growth."
+      "overview": "XRP Ledger news this window is about long-term security and market structure rather than new payment volume. The XRPL Foundation's draft Quantum amendment would let owners add an ML-DSA-44 key without changing address or base fee, with a migration study planned for the first half of 2027, and the SEC's Nov 10 options framework for digital-commodity ETPs names XRP among eligible assets. Ripple-linked Uphold said withdrawal delays were mostly cleared by Nov 10. The dashboard now flags XRPL value locked down 16.1% over 7 days, a new Medium alert whose cause is not verified, while XRPL stablecoins rose 3.2% day over day. The main risk is that ledger usage does not keep pace with Ripple's institutional announcements."
     },
     {
       "symbol": "XLM",
@@ -2296,10 +2296,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "Issued assets and a well-specified upgrade pipeline provide a concrete ecosystem picture. Bell remains conditional on validator approval, and the RWA milestone should not be read as a live balance or direct XLM-token cash flow.",
+      "researchSummary": "Hard data supports Stellar's tokenization and payments thesis. Watch the Bell vote and whether growth broadens beyond a few big issuers.",
       "tradingActivity": 1.7216710052330535,
       "tvl": {
         "current": 209359907.0,
@@ -2890,7 +2890,7 @@
         },
         "peerLabel": "Payments"
       },
-      "overview": "Stellar\u2019s November 6 RWA milestone is backed by an issuer-level dashboard whose latest displayed observation is November 5. Those balances indicate issued assets on the network, not the frequency or usefulness of their transfers. Bell, Protocol 30, is the next dated protocol catalyst, with a proposed November 23 mainnet vote. It adds muxed contract addresses, ML-DSA signature verification inside smart contracts and millisecond timing support if validators approve. Native transaction signatures remain Ed25519, and Bell does not itself accelerate ledger closes; execution, application readiness and practical adoption remain the main risks."
+      "overview": "Stellar published an Allium report on Nov 11 putting tokenized real-world assets on the network at $4.12 billion, up about 6.1 times over the 12 months to September, with Stellar's share of tokenized assets rising from 4.9% to 12.7%; Stellar says the total is now above $5 billion. Stablecoin supply rose 91% to $546 million over the period and stablecoin transfer volume 127%, and the dashboard still flags Stellar stablecoin value up 12.9% over 7 days. XLM is among the assets named in the SEC's Nov 10 options framework for digital-commodity ETPs. Next is the proposed Bell (Protocol 30) validator vote on Nov 23, which would add post-quantum signature verification and faster ledger timing. The main risk is concentration: a few large issuers account for most of the RWA total."
     },
     {
       "symbol": "QNT",
@@ -3003,7 +3003,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "No new verified QNT integration or release was established in the strict three-day window. The Clearing House commitment remains relevant background, but institutional availability is still forward-looking and the privacy article is commentary.",
@@ -3182,7 +3182,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "A confirmed product release this week is the key near-term event. Customer uptake, not the launch itself, will be the evidence.",
@@ -3651,7 +3651,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "A planned efficiency change executed on time, while a flagship parachain plans to exit. Net: consolidation rather than growth.",
@@ -4122,10 +4122,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "Distribution keeps expanding with Elysium now live, while measured fee and revenue intensity remains weak. Integration count is not the same as revenue.",
+      "researchSummary": "A meaningful product expansion arrives while measured fees are falling sharply. Index-token volume over the next few weeks is the test.",
       "tradingActivity": 3.0682437010424195,
       "tvl": {
         "current": null,
@@ -4466,7 +4466,7 @@
         },
         "peerLabel": "AI & compute"
       },
-      "overview": "Bankr is an AI agent that executes onchain actions from chat, and its distribution keeps widening. Elysium support went live on Nov 9, letting users launch, trade and track tokens on Kinetiq's HYPE-gas Layer 2 by prompt, following the Coinbase for Agents connection that Coinbase Developer Platform corroborated on Nov 6. Measured economics point the other way: the dashboard's DefiLlama feed shows 7-day fees and revenue sharply lower than the prior week. The next test is whether new integrations show up as sustained fee revenue. The main risk is that BNKR holders have no verified direct claim on Bankr's integration revenue."
+      "overview": "Bankr opened index-token creation to everyone on Nov 11: users can launch ERC-20 indexes of 2 to 20 tokens or tokenized stocks on Base or Robinhood Chain, starting with a $100 first buy and a creator-set fee of 0.25% to 1%, and Bankr published a guide for creating and rebalancing indexes from scripts or agents. Bankr also supported Kinetiq's Elysium L2 from its Nov 9 launch. The dashboard shows Bankr's 7-day fees down 71.9% and revenue down 73.0% versus the prior week, re-tripping the Medium alerts that cleared on Nov 10. The main risk is that new launch products bring low-quality tokens rather than durable fee volume."
     },
     {
       "symbol": "TAO",
@@ -4592,7 +4592,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "A real protocol-level payment rail that ties subnet demand to alpha burns, now live. First-day volume was negligible, so the open question is whether subnets and customers adopt it.",
@@ -4779,7 +4779,7 @@
         },
         "storyCount": 2,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "An institutional security upgrade with a Fidelity unit in the transfer path. It supports the infrastructure thesis; it is not new usage.",
@@ -5247,7 +5247,7 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "The support contraction is confirmed and operationally meaningful even though staking commitments remain intact. The security-export strategy is forward-looking, so its benefits should not be counted before implementation and customer evidence.",
@@ -5989,7 +5989,7 @@
         }
       ],
       "newsSentiment": {
-        "label": "Neutral",
+        "label": "Mixed",
         "counts": {
           "Rocket": 1,
           "Steady": 0,
@@ -5997,10 +5997,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "A minor ecosystem setback with full refunds; the Samsung Wallet USDC rollout remains the key near-term item.",
+      "researchSummary": "Two wallet exits are a minor setback with no protocol impact; stablecoin liquidity is rising. Samsung Wallet's USDC rollout is the next item to verify.",
       "tradingActivity": 4.633452341696068,
       "tvl": {
         "current": 438008652.0,
@@ -6591,7 +6591,7 @@
         },
         "peerLabel": "Smart-contract platforms"
       },
-      "overview": "Sui's most visible ecosystem news on Nov 10 was negative but small: Suiball, a Sui-native hardware wallet, said it is shutting down and refunding pre-orders in USDC after the Sui Foundation decided backing a hardware-wallet project was too risky given recent industry attacks. Mysten Labs and the Sui Foundation had not commented publicly. The planned Samsung Wallet USDC access for eligible US Galaxy users later in November remains the main expected distribution step, with the SUI token itself excluded at launch. Sui's official account focused on agent-payment controls. The main risk is that ecosystem projects lose foundation support before reaching users."
+      "overview": "Sui's ecosystem news this window is about wallets winding down. The Suiball hardware-wallet project shut down on Nov 10 with USDC refunds after the Sui Foundation withdrew support, and on Nov 11 Sui told Suiet wallet users to back up their keys before support ends after Nov 14. On the product side, Sui highlighted Aftermath's atomic multi-market trades. The dashboard flags Sui stablecoin value up 11.2% over 7 days, and the planned Samsung Wallet USDC access for eligible US Galaxy users later in November remains the main expected distribution step. The main risk is ecosystem attrition among wallets and apps."
     },
     {
       "symbol": "RENDER",
@@ -6726,10 +6726,10 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "Governance and token-economics steps are moving, but the official RNP-024 result and Forth adoption are still to come.",
+      "researchSummary": "Governance is settled and the AI-gateway program can proceed. Paid usage is the evidence still missing.",
       "tradingActivity": 2.6088222629009064,
       "tvl": {
         "current": null,
@@ -6775,7 +6775,7 @@
         },
         "peerLabel": "AI & compute"
       },
-      "overview": "Render's RNP-024 final vote, funding Forth, a privacy-first AI gateway with incentives tied to paid usage, RENDER payments and Render compute, closed on Nov 9 with only yes votes shown on NATION. Third-party trackers now report it as approved, but Render had not posted an official result announcement by early Nov 11. Salad began test RENDER burns, and Render's October Foundation report highlighted a redesigned web app and a new performance tier. Render is also showing immersive 3D art with Solana at Breakpoint on Nov 16. The main risk is that Forth needs real paid usage, and the very low turnout shown on NATION leaves the result open to questions."
+      "overview": "Render officially confirmed on Nov 11 that RNP-024 passed its Nov 9 final vote with 143.3K yes and no votes against, approving Forth, a privacy-first AI gateway whose incentives are tied to paid usage, RENDER payments and Render compute. Salad began test RENDER burns, and Render's October Foundation report highlighted a redesigned web app and a new performance tier. Render is showing immersive 3D art with Solana at Breakpoint on Nov 16. The main risk is that Forth needs real paid AI usage, and the vote passed on low turnout."
     },
     {
       "symbol": "AXL",
@@ -6905,7 +6905,7 @@
         },
         "storyCount": 2,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "The integration configuration advances, but it should not be described as fully executed on all chains. The Web3Auth recovery attribution also corrects the earlier assumption that all observed wallet sweeps represented stolen funds.",
@@ -7094,10 +7094,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "Institutional distribution keeps improving while security headlines around adjacent services pile up. Watch Intents volume and any exchange or compliance response to the laundering report.",
+      "researchSummary": "Product groundwork (post-quantum wallets, institutional Intents) continues alongside security headlines. Watch Intents volume and any compliance follow-up to the laundering report.",
       "tradingActivity": 5.478100095666671,
       "tvl": {
         "current": 172956530.0,
@@ -7688,7 +7688,7 @@
         },
         "peerLabel": "Smart-contract platforms"
       },
-      "overview": "NEAR Intents went live in Talos's institutional order and execution system on Nov 9, and NEAR is running hackathon tracks for agent economies and AI swarms ahead of submissions closing Nov 14, with an in-person NYC build day on Nov 11. Two negatives sit beside that: NEAR AI disclosed and contained an SGLang-based intrusion into its cloud service on Nov 8\u20139, and Elliptic reported on Nov 9 that Binance-hack launderers routed about 117,000 NEAR through six throwaway NEAR memecoins. NEAR also highlighted Paxos-issued USDG deposits from Robinhood Chain into its confidential account product. The main risk is reputational: NEAR's protocol was not compromised, but security and laundering headlines around adjacent services can slow institutional adoption."
+      "overview": "NEAR Mobile added post-quantum vaults on Nov 11, letting users send, receive and stake from accounts that sign with ML-DSA, the NIST scheme NEAR added to mainnet in July; rotatable access keys mean existing accounts can switch without changing address. NEAR Intents went live in Talos's institutional order system on Nov 9, and hackathon submissions close Nov 14. Two negatives remain in the window: Elliptic's Nov 9 report that Binance-hack launderers cycled about 117,000 NEAR through throwaway NEAR memecoins, and NEAR AI's contained cloud intrusion on Nov 8\u20139. The main risk is reputational, since adjacent security headlines can slow institutional adoption even though the protocol was not compromised."
     },
     {
       "symbol": "SOL",
@@ -7820,10 +7820,10 @@
         },
         "storyCount": 3,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "A strong run of verified launches: privacy infrastructure, a mass-market trading entry point and another live tokenized equity, on top of Nov 9's institutional news. Evidence is mostly distribution and design so far; usage will show over the coming weeks.",
+      "researchSummary": "Solana remains the busiest focus network for tokenized equities and new access routes. Measured usage gains, not announcements, will confirm the trend.",
       "tradingActivity": 2.2249776372879064,
       "tvl": {
         "current": 5260256983.0,
@@ -8414,7 +8414,7 @@
         },
         "peerLabel": "Smart-contract platforms"
       },
-      "overview": "Solana added a native privacy layer on Nov 10: Helius launched Solana Privacy Rings on mainnet, encrypting asset types and amounts while leaving addresses visible, with audits by Certora, OtterSec and ZK Security and day-one integrations from Decrypt, Ore and Aurora Intents. The same day X began letting users tap any Solana token's cashtag to trade it through fomo, and OpenWorld put its own Nasdaq-listed shares on Solana via Sunrise and Backpack Securities. That follows Nov 9's Formation SEC notice for a permissioned tokenized-securities venue targeting early 2027 and Schwab adding SOL for US retail clients. Next up is Breakpoint in London on Nov 15\u201317 and Helius's institutional Custom Rings, which are still in audit. The main risk is that much of the new distribution, such as cashtag trading, leans toward speculative tokens, while the regulated products are still months from live trading."
+      "overview": "Solana keeps adding regulated and mainstream distribution. On Nov 11 xStocks deployed 200+ tokenized UK and EU equities with Solana among its launch chains, and Decrypt launched perpetuals powered by Phoenix. That follows Helius's Privacy Rings mainnet launch and X cashtag trading through fomo on Nov 10, and Formation's SEC notice for a tokenized-securities venue plus Schwab adding SOL on Nov 9. The competitive backdrop shifted too: the NYSE picked an Avalanche-based chain to settle its planned tokenized-stock platform, though it will accept tokens issued on other networks. Breakpoint runs in London Nov 15\u201317. The main risk is that most new distribution is still setup or speculative trading, while regulated US venues are months from live trading."
     },
     {
       "symbol": "FLR",
@@ -8563,10 +8563,10 @@
         },
         "storyCount": 1,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "Constructive DeFi additions are overshadowed this week by an exploit attempt and an emergency fork. No losses are reported; a clean activation today is the key check.",
+      "researchSummary": "The security scare ended without losses and Firelight's cover terms are now explicit. A falling value-locked reading is the open question.",
       "tradingActivity": 0.3915797977011493,
       "tvl": {
         "current": 170015423.0,
@@ -9032,7 +9032,7 @@
         },
         "peerLabel": "Tokenization & interop"
       },
-      "overview": "Flare is running an emergency network upgrade: go-flare v1.15.1 patches a vulnerability in the upstream Avalanche-based node code, and Flare moved it forward after its monitoring flagged an exploit attempt. The hard fork activates on Flare mainnet on Nov 11 at 14:00 UTC (8:00 AM CST), after Songbird at 08:00 UTC; Flare says user funds and keys are unaffected and users need do nothing. The release was rebuilt on Nov 11 after the first build failed at the Songbird and Coston activation, a bug that did not affect Flare mainnet nodes. On the application side, the EarnFLR vault from SparkDEX and Upshift went live on Nov 10, and Firelight reports $51.2M of active cover across Kraken, Lido and Sentora vaults. The main near-term risk is a messy activation if too little stake upgrades on time."
+      "overview": "Flare's emergency go-flare v1.15.1 hard fork activated cleanly on mainnet at 8:00 AM CST on Nov 11, a day after Flare fast-tracked it because monitoring flagged an exploit attempt on upstream Avalanche-based node code; Flare says funds and keys were never affected. On the application side, Firelight published its cover limits on Nov 11: it can absorb eligible, approved losses of up to 5.7% of TVL on Lido's EarnETH vault and 8% on EarnUSD, paying first from a protocol-owned reserve and then from staked collateral, with claims assessed by a five-member risk consortium (Hypernative, Cyfrin, Credora, GFX Labs and Native). The dashboard shows Flare value locked down 17.1% over 7 days, a numeric alert whose cause is not verified. The main risks are the missing post-mortem on the exploit attempt and whether DeFi capital returns after the scare."
     },
     {
       "symbol": "HYPE",
@@ -9097,11 +9097,11 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
-      "researchSummary": "Two top Korean won listings plus a new HYPE-gas L2 widen distribution. Retained liquidity and Elysium usage are the evidence to watch.",
-      "overview": "Hyperliquid's Korean distribution went live on Nov 10: Upbit opened HYPE markets against KRW, BTC and USDT at 3:00 PM KST, with transfers only via HyperEVM, and Bithumb added a HYPE/KRW pair the same day. Kinetiq's Elysium Layer 2, which uses HYPE for gas and settles to HyperEVM, launched on Nov 9 with Bankr support on day one. Ondo's Nov 10 update also brings Fidelity's FCAT into verification for 35 Ondo Stocks bridged to HyperEVM. Next is Elysium's HyperCore hooks upgrade, roughly four weeks after mainnet with no fixed date. The main risk is that new listings and a launchpad-heavy L2 bring speculative flows rather than lasting liquidity."
+      "researchSummary": "Distribution and early L2 volume keep widening. Retained liquidity and Elysium usage beyond launch week are the evidence to watch.",
+      "overview": "Hyperliquid's Korean distribution went live on Nov 10 with HYPE won markets on Upbit (transfers via HyperEVM only) and Bithumb. Kinetiq's Elysium L2, which uses HYPE for gas, launched Nov 9 and Uniswap said on Nov 11 its Elysium deployment had passed $200 million in all-time volume; Alchemy also opened HyperCore market-data streaming to builders. Binance listed a USDC-margined HYPE perpetual on Nov 11. Next is Elysium's HyperCore hooks upgrade, roughly four weeks after mainnet with no fixed date. The main risk is that new listings and a launchpad-heavy L2 bring speculative flows rather than lasting liquidity."
     },
     {
       "symbol": "AERO",
@@ -9166,7 +9166,7 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": [
           "https://aero.xyz/aero-upgrade/",
           "https://aero.xyz/economics/",
@@ -9245,7 +9245,7 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": []
       },
       "researchSummary": "No protocol release this window; the notable items are a prudent Aave risk proposal and regulatory plumbing. Fee alerts are base effects.",
@@ -9316,7 +9316,7 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": [
           "https://vechain.org",
           "https://vechain.org/the-economics-of-staking-how-hayabusa-rewards-real-activity",
@@ -9391,7 +9391,7 @@
         },
         "storyCount": 0,
         "windowDays": 7,
-        "asOf": "2026-11-11T04:17:05-06:00",
+        "asOf": "2026-11-12T04:12:45-06:00",
         "sources": [
           "https://xdc.org",
           "https://www.keyban.io/en/blog/posts/xdc-network-partners-with-keyban-non-custodial-onchain-accounts-for-ai-agents/",
@@ -9988,6 +9988,46 @@
   ],
   "marketAlerts": [
     {
+      "id": "market:unocoin-server-breach-2026-11-09",
+      "asset": "Market-wide",
+      "scope": "market",
+      "rule": "market-event",
+      "severity": "Medium",
+      "time": "2026-11-09T12:00:00Z",
+      "change": "India's Unocoin still offline three days after a server breach; tracked wallets show zero balance",
+      "summary": "Unocoin, one of India's oldest crypto exchanges, said on Nov 9 that it had found unauthorized access to its servers and disabled user logins while it investigates, adding that no customer crypto funds were lost. As of Nov 12 the site was returning 504 errors and the exchange had published no further update or restoration timeline. Analytics account Onchain Lens pointed out that Arkham shows a $0 balance across about 81,000 addresses attributed to Unocoin, though that data alone cannot show whether funds are held elsewhere or lost. Unocoin has not described the attack vector, the systems affected or any loss figure.",
+      "why": "Customers have had no access for three days, and the empty tracked wallets raise reserve questions the exchange has not answered. No loss is confirmed, so it stays Medium; it is a reminder of counterparty risk at smaller custodial venues rather than a protocol issue.",
+      "source": "https://crypto.news/unocoin-hacked-website-remains-down-as-81000-wallets-show-zero-holdings/",
+      "new": true,
+      "updated": false,
+      "sources": [
+        {
+          "title": "Primary source",
+          "href": "https://crypto.news/unocoin-hacked-website-remains-down-as-81000-wallets-show-zero-holdings/"
+        }
+      ]
+    },
+    {
+      "id": "market:ios-worse-query-wallet-risk-2026-11-10",
+      "asset": "Market-wide",
+      "scope": "market",
+      "rule": "market-event",
+      "severity": "Medium",
+      "time": "2026-11-10T16:00:00Z",
+      "change": "Binance warns an iOS sandbox flaw (worse_query) could expose wallet seed phrases on iPhones",
+      "summary": "Binance warned on Nov 10 that an iOS vulnerability called worse_query lets a malicious app read other apps' local files, which could expose seed phrases, private keys and login credentials stored on the device; it named iOS 26.7.1, 27.0.1 and 27.2 as affected and stressed the issue is not specific to Binance. A researcher published the proof of concept on GitHub as a sandbox escape for iOS 26.0 through 26.7.2 and 27.2. Apple released iOS 27.2.1 on Nov 9, but its notes do not mention worse_query; SlowMist's security chief says the update blocks it, while other researchers say it does not. There are no confirmed thefts, and exploitation requires installing an untrusted or sideloaded app.",
+      "why": "Mobile self-custody wallets across every chain are exposed if they keep secrets in readable files, so this is a broad user-level risk rather than a protocol bug. Practical steps are to delete sideloaded apps, update iOS and wallet apps, and move funds from any wallet on a device that may be compromised.",
+      "source": "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys",
+      "new": true,
+      "updated": false,
+      "sources": [
+        {
+          "title": "Primary source",
+          "href": "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys"
+        }
+      ]
+    },
+    {
       "id": "market:across-domain-hijack-2026-11-10",
       "asset": "Market-wide",
       "scope": "market",
@@ -9998,7 +10038,7 @@
       "summary": "Across, a major cross-chain bridge, said an attacker took control of its across.to domain at about 18:45 UTC on Nov 10 (12:45 PM CST) through a social-engineering attack on its registrar, Namecheap, and replaced the site with a phishing page that asked visitors to sign token approvals and permits. Across said it was alerted within 15 minutes; SEAL911 got major wallets to flag the domain and Cloudflare later removed its DNS records. Across regained the domain at 01:16 UTC on Nov 11 (7:16 PM CST Nov 10), said smart contracts, API users and third-party integrations were unaffected, and promised to make affected users whole. Across has not published a loss total; security firm GoPlus estimated about $350,000 across six chains.",
       "why": "No contracts were exploited, but it is a clear reminder that a bridge's web front end and domain registrar are attack surfaces in their own right. Anyone who connected a wallet or signed on across.to on Nov 10 should revoke those approvals; the estimated loss is well below the High threshold.",
       "source": "https://cointelegraph.com/news/across-protocol-restores-website-after-hackers-hijack-domain",
-      "new": true,
+      "new": false,
       "updated": false,
       "sources": [
         {
@@ -10019,7 +10059,7 @@
       "why": "This is Initia's second exploit in about three weeks, and it shows how a single leaked cloud credential can reach bridge escrows across several rollups. Losses remain below the ~$10M High threshold and no focus network is directly involved, so it stays Medium; the restart plan and asset restoration are the next things to watch.",
       "source": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks",
       "new": false,
-      "updated": true,
+      "updated": false,
       "sources": [
         {
           "title": "Primary source",
@@ -10038,7 +10078,7 @@
       "summary": "Arcus, a perpetuals and tokenized-stock exchange on Robinhood Chain, said a newly created account exploited a subaccount-transfer accounting bug on Nov 9 that inflated its recorded balance, then withdrew $2,234,391 in USDG against it. Arcus paused withdrawals, patched the flaw and covered the shortfall from its treasury, and says a further ~$3 million in withdrawal requests was stopped by bridge rate limits and reversed. It reports other users' balances, positions and orders were unaffected and is working with investigators on recovery.",
       "why": "Robinhood Chain is one of the newer homes for tokenized equities, so an early accounting failure on a venue there is worth noting, as is the role of bridge rate limits in capping losses. The treasury backstop means no user losses are reported, and the size is below the High threshold.",
       "source": "https://arcus.xyz/blog/arcus-incident-report-november-9-2026",
-      "new": true,
+      "new": false,
       "updated": false,
       "sources": [
         {
@@ -10046,49 +10086,9 @@
           "href": "https://arcus.xyz/blog/arcus-incident-report-november-9-2026"
         }
       ]
-    },
-    {
-      "id": "market:ankr-eth-bridge-exploit-2026-11-09",
-      "asset": "Market-wide",
-      "scope": "market",
-      "rule": "market-event",
-      "severity": "Medium",
-      "time": "2026-11-09T08:42:00Z",
-      "change": "Ankr's Ethereum cross-chain bridge exploited for about $0.3M",
-      "summary": "Blockaid flagged an ongoing exploit of Ankr's Ethereum cross-chain bridge at 2:42 AM CST on Nov 9: five withdrawals, referencing one small Optimism deposit, drained about $292,000 of locked assets (ankrETH, ankrPOL, ANKR and others) to a new wallet. SlowMist later put losses near $304,500 and said all five forged receipts carried valid signatures from the bridge's trusted signers; whether signer keys were compromised is still under investigation. Blockaid also reported the attacker swept several Ankr operator wallets on Ethereum, Arbitrum and Linea hours earlier. Ankr had not published a post-mortem at review time.",
-      "why": "The dollar loss is below the High threshold, but valid-signature forged receipts point at signer or key compromise rather than a simple contract bug, which is the failure mode that matters for every multisig-verified bridge. Exchanges paused related deposits as a precaution.",
-      "source": "https://x.com/blockaid_/status/2119712260184527262",
-      "new": false,
-      "updated": false,
-      "sources": [
-        {
-          "title": "Primary source",
-          "href": "https://x.com/blockaid_/status/2119712260184527262"
-        }
-      ]
-    },
-    {
-      "id": "market:lnbits-server-shutdown-attacks-2026-11-08",
-      "asset": "Market-wide",
-      "scope": "market",
-      "rule": "market-event",
-      "severity": "Medium",
-      "time": "2026-11-08T13:56:00Z",
-      "change": "LNbits tells every operator to shut down servers after fund-draining attacks",
-      "summary": "LNbits, the open-source Lightning wallet and accounts layer, told all operators on Nov 8 (7:56 AM CST) to stop their servers immediately after a wave of attacks, about 80 minutes after first warning Paywall-extension users. It disabled every instance on its hosted my.lnbits.com service and said services would resume within 24 hours, with patches expected in 24 to 48 hours. One operator (BitTipBot) reported 2,285,545 sats (about 0.023 BTC) withdrawn by newly created accounts before shutdown. LNbits has not disclosed the vulnerability, affected versions or a total loss figure.",
-      "why": "This is an application-layer incident, not a flaw in Bitcoin or the Lightning protocol, but LNbits sits behind many tipping bots, point-of-sale setups and custodial Lightning wallets, so a shutdown order affects a broad slice of small Lightning services. Confirmed losses so far are small; it stays Medium until patches ship and a total is known.",
-      "source": "https://x.com/lnbits/status/2119428804951048237",
-      "new": false,
-      "updated": false,
-      "sources": [
-        {
-          "title": "Primary source",
-          "href": "https://x.com/lnbits/status/2119428804951048237"
-        }
-      ]
     }
   ],
-  "marketAlertsReviewedAt": "2026-11-11T04:17:05-06:00",
+  "marketAlertsReviewedAt": "2026-11-12T04:12:45-06:00",
   "resolvedAlerts": [],
   "events": [
     {
@@ -10805,6 +10805,16 @@
         "type": "ecosystem"
       },
       {
+        "id": "flr-2026-12-07-55",
+        "asset": "FLR",
+        "date": "2026-12-07",
+        "title": "Firelight FXRP contribution claims close (carried; recheck terms)",
+        "source": "https://x.com/Firelightfi",
+        "status": "Carried from digest",
+        "time": "",
+        "reviewedAt": "2026-11-12T04:12:45-06:00"
+      },
+      {
         "id": "stk-GOOGL-0",
         "asset": "GOOGL",
         "title": "Record date for $0.22 quarterly dividend on Class A, B and C shares",
@@ -10980,149 +10990,356 @@
   "news": [
     {
       "assets": [
-        "SOL"
+        "HBAR"
       ],
-      "title": "Helius launches Solana Privacy Rings on mainnet, bringing encrypted balances and private transfers",
-      "body": "Helius released Solana Privacy Rings on Solana mainnet on Nov 10, and the Solana account amplified the launch as breaking news. The permissionless Ring is a shielded pool that encrypts asset types and amounts while leaving wallet addresses visible; only the owner can decrypt balances with a viewing key, every transaction still needs the owner's signature, and it supports SOL, SPL and Token-2022 assets. Helius says the programs and zero-knowledge circuits were audited by Certora, OtterSec and ZK Security, with formal verification expected to finish by the end of 2026. Decrypt's money account, Ore and Aurora Intents shipped integrations on day one, Range, Chainalysis and Elliptic support compliance screening, and Helius says Backpack, DFlow, Jupiter, Squads and Titan are integrating. Custom Rings for institutions, with KYC allowlists, auditor visibility and freeze controls, are still in audit and targeted for later in Q4 2026.",
-      "why": "Confidentiality has been a gap for institutions and payments on public chains, and this adds it natively on Solana without moving funds to a separate network or slowing settlement. It is early: this release hides amounts rather than counterparties, the institutional version is not live yet, and real usage will show up only as integrators turn it on.",
+      "title": "Apex Group, which services $3.5 trillion in assets, joins the Hedera Council",
+      "body": "Hedera announced on Nov 11 that Apex Group, a fund administrator and financial-services provider servicing more than $3.5 trillion in assets, has joined the Hedera Council, the body that governs the network. Council members vote on software upgrades, network pricing and treasury decisions, sign governance transactions and run a mainnet node; membership is a governance role and does not entitle members to treasury HBAR. Apex says it will explore Hedera for its tokenization work, including asset-lifecycle management, compliance and settlement, and its digital-assets head stressed the ERC-3643 compliant-token standard. Apex already owns a majority of Tokeny, which integrated with Hedera in April 2025. The announcement describes exploration, not a committed product or volume on Hedera.",
+      "why": "A large regulated fund administrator taking a governance seat strengthens Hedera's institutional tokenization pitch and adds an operator with real asset-servicing scale. The value to the network depends on whether Apex actually issues or services funds on Hedera, which has not been announced yet.",
       "tag": "Rocket",
-      "tagReason": "A live, audited privacy layer on Solana mainnet with named day-one integrations.",
+      "tagReason": "A major fund administrator joins Hedera's governing council and plans tokenization work on the network.",
       "sources": [
         {
-          "title": "Helius \u00b7 Introducing Solana Privacy Rings",
-          "href": "https://www.helius.dev/blog/solana-privacy-rings"
+          "title": "Hedera \u00b7 Apex Group joins Hedera Council",
+          "href": "https://hedera.com/blog/apex-group-joins-hedera-council-to-advance-institutional-digital-assets/"
         },
         {
-          "title": "Solana \u00b7 launch article (Nov 10)",
-          "href": "https://solana.com/news/solana-privacy-rings-bring-programmable-privacy-onchain"
+          "title": "Hedera \u00b7 announcement post",
+          "href": "https://x.com/hedera/status/2120532577245122805"
         },
         {
-          "title": "Solana \u00b7 announcement post",
-          "href": "https://x.com/solana/status/2120167874182435145"
-        },
-        {
-          "title": "Decrypt \u00b7 Money Account integration",
-          "href": "https://decrypt.co/382806/decrypt-money-account-gets-confidential-transfers-with-solana-privacy-firm-helius"
+          "title": "The Block \u00b7 Apex joins council",
+          "href": "https://www.theblock.co/news/deals/2026-11-11-apex-group-joins-hedera-council-tokenization-437917"
         }
       ],
       "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-0",
-      "source": "https://www.helius.dev/blog/solana-privacy-rings",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "Helius released Solana Privacy Rings on Solana mainnet on Nov 10, and the Solana account amplified the launch as breaking news."
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-0",
+      "source": "https://hedera.com/blog/apex-group-joins-hedera-council-to-advance-institutional-digital-assets/",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Hedera announced on Nov 11 that Apex Group, a fund administrator and financial-services provider servicing more than $3.5 trillion in assets, has joined the Hedera Council, the body that governs the network."
     },
     {
       "assets": [
         "SOL"
       ],
-      "title": "X cashtags now open trades in any Solana token through fomo, and OpenWorld puts its Nasdaq shares on Solana",
-      "body": "From Nov 10, X users can tap a Solana token's cashtag to see live market data and open the fomo app to buy or sell it, with fomo handling execution from its self-custodial wallet; Solana's official account announced the feature at 8:15 AM CST. Reports say it covers all Solana tokens, including long-tail ones, but X does not run the exchange or hold funds, and availability by country and fees were not specified. Separately, Nasdaq-listed OpenWorld made its own shares (OPNW) available as tokens on Solana via the Sunrise platform, issued by Backpack Securities, without issuing new shares or raising capital. Solana's account posted both launches the same morning.",
-      "why": "Putting a trade button on cashtags in one of the largest social apps is a major distribution channel for Solana's onchain markets, though it will skew to speculative tokens. The OpenWorld listing adds another real company to Solana's tokenized-equity shelf, a smaller step than Formation's venue but live today.",
+      "title": "xStocks puts 200+ UK and EU equities onchain, with Solana among the launch chains",
+      "body": "Payward's xStocks framework deployed its first batch of tokenized UK- and EU-listed equities on Nov 11, covering 200+ of the most actively traded companies, with more to follow on a rolling basis. Each token is backed 1:1 by the underlying share held at a regulated custodian through Payward's partnership with GTN, and the tokens trade on Kraken and xStocks Alliance platforms and in DeFi on Solana, Ethereum, TON, Ink, X Layer and other chains. xStocks now spans more than 1,500 tokenized assets with over $1.1 billion under management; Hong Kong-listed equities are planned in the coming weeks. The tokens remain unavailable in the US and to UK investors, and the London Stock Exchange's plan to list xStocks in 2027 is subject to regulatory approval.",
+      "why": "Adding European blue chips widens the tokenized-equity shelf that trades on Solana, which has been the busiest venue for xStocks, and keeps Solana central in the tokenized-stock race. Distribution is still limited by geography, and Ethereum and other chains get the same assets.",
       "tag": "Rocket",
-      "tagReason": "A mass-market trading entry point and a new live tokenized equity on Solana.",
+      "tagReason": "Hundreds of new 1:1-backed tokenized equities live on Solana and other chains.",
       "sources": [
         {
-          "title": "Solana \u00b7 X cashtags on fomo",
-          "href": "https://x.com/solana/status/2120158301422055630"
+          "title": "Payward \u00b7 xStocks UK and EU equities (Nov 11)",
+          "href": "https://www.payward.com/press-release/xstocks-uk-eu-equities"
         },
         {
-          "title": "crypto.news \u00b7 cashtag trading details",
-          "href": "https://crypto.news/solana-tokens-can-now-be-traded-through-x-cashtags-using-fomo/"
-        },
-        {
-          "title": "Solana \u00b7 OPNW live via Sunrise",
-          "href": "https://x.com/solana/status/2120191418862059940"
+          "title": "Solana \u00b7 200+ UK and EU equities post",
+          "href": "https://x.com/solana/status/2120487448824406426"
         }
       ],
       "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-1",
-      "source": "https://x.com/solana/status/2120158301422055630",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "From Nov 10, X users can tap a Solana token's cashtag to see live market data and open the fomo app to buy or sell it, with fomo handling execution from its self-custodial wallet; Solana's official account announced the feature at 8:15 AM CST."
-    },
-    {
-      "assets": [
-        "TAO"
-      ],
-      "title": "Bittensor turns on Gamma Tokens, dollar-valued credits that let wallets and agents pay subnets directly",
-      "body": "The Opentensor Foundation announced Gamma Tokens on Nov 10 as a native payment system for Bittensor: users and AI agents can pay for subnet services with a Bittensor wallet instead of separate accounts and API keys for each subnet. Gamma is minted by paying TAO (the protocol buys and burns that subnet's alpha) or by burning alpha directly, and each Gamma is worth $1 of service credit, priced through an onchain TAO/USD feed. Credits are specific to one subnet, cannot be transferred or redeemed back into TAO or alpha, and are spent through signed requests with spending limits. The mechanism merged in Runtime 488 on Nov 5 and was switched on network-wide late on Nov 9; trackers show Attune (SN58), Engy (SN53) and Terza Inference (SN103) enabling it first on Nov 10, with only about $0.42 of Gamma minted and spent by that evening.",
-      "why": "Gamma gives Bittensor a direct link between paid demand for a subnet's product and its token, because every purchase burns alpha. It is a protocol-level step toward real revenue, but each subnet must opt in, and the first day's dollar volume was negligible.",
-      "tag": "Rocket",
-      "tagReason": "A live protocol payment layer tying subnet usage to alpha burns, though adoption is just starting.",
-      "sources": [
-        {
-          "title": "Opentensor Foundation \u00b7 Gamma announcement",
-          "href": "https://x.com/opentensor/status/2120270882811875419"
-        },
-        {
-          "title": "The TAO Daily \u00b7 how Gamma works",
-          "href": "https://taodaily.io/gamma-tokens-go-live-bringing-native-payments-to-bittensors-ai-economy/"
-        },
-        {
-          "title": "Bittensor Daily \u00b7 Runtime 488 context",
-          "href": "https://1t1b.ai/2026-11-11/"
-        }
-      ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-2",
-      "source": "https://x.com/opentensor/status/2120270882811875419",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "The Opentensor Foundation announced Gamma Tokens on Nov 10 as a native payment system for Bittensor: users and AI agents can pay for subnet services with a Bittensor wallet instead of separate accounts and API keys for each subnet."
-    },
-    {
-      "assets": [
-        "ONDO"
-      ],
-      "title": "Fidelity's FCAT becomes a required verifier for every Ondo Stocks cross-chain transfer",
-      "body": "Ondo Finance said on Nov 10 that the Fidelity Center for Applied Technology (FCAT) is now a required verifier for Ondo Stocks moving between Ethereum, HyperEVM and other supported chains through the Ondo Bridge. FCAT's Decentralized Verifier Network validates each transfer alongside a quorum of other verifiers before it settles on the destination chain, covering 35 Ondo Stocks bridged to HyperEVM and all 450+ Ondo Stocks on other networks. The Ondo Bridge first adopted FCAT's verifier through LayerZero in February 2026; this extends it to the tokenized-stock line. Ondo says tokenized stocks now top $3 billion across chains, and transfers remain open only to eligible investors outside the US.",
-      "why": "Having a Fidelity unit sign off on every cross-chain move adds institutional security to the bridge, which is the riskiest part of multichain tokenized assets. It strengthens Ondo's infrastructure story, but it is a security upgrade rather than new demand, and US investors still cannot use the product.",
-      "tag": "Rocket",
-      "tagReason": "A major TradFi institution now co-verifies every Ondo Stocks bridge transfer.",
-      "sources": [
-        {
-          "title": "Ondo Finance \u00b7 FCAT required verifier (Nov 10)",
-          "href": "https://ondo.finance/blog/ondo-bridge-adds-fcat-as-required-verifier"
-        }
-      ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-3",
-      "source": "https://ondo.finance/blog/ondo-bridge-adds-fcat-as-required-verifier",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "Ondo Finance said on Nov 10 that the Fidelity Center for Applied Technology (FCAT) is now a required verifier for Ondo Stocks moving between Ethereum, HyperEVM and other supported chains through the Ondo Bridge."
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-1",
+      "source": "https://www.payward.com/press-release/xstocks-uk-eu-equities",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Payward's xStocks framework deployed its first batch of tokenized UK- and EU-listed equities on Nov 11, covering 200+ of the most actively traded companies, with more to follow on a rolling basis."
     },
     {
       "assets": [
         "FLR"
       ],
-      "title": "Flare fast-tracks an emergency hard fork after spotting an exploit attempt on its node software",
-      "body": "Flare said on Nov 10 (1:49 PM CST) that it is rolling out go-flare v1.15.1, a mandatory hard fork that patches a vulnerability in the upstream Avalanche-based code its nodes run. The fix had been planned for later in November, but Flare brought it forward after its monitoring flagged an attempt to exploit the bug; Flare Devs called the attempt active and told all validators and node operators to upgrade first. The fork activates on Flare mainnet on Nov 11 at 14:00 UTC (8:00 AM CST), after Songbird at 08:00 UTC. Flare says user funds and keys are not affected and users need do nothing, while exchanges such as Poloniex are pausing FLR deposits and withdrawals around the upgrade. The GitHub release was rebuilt on Nov 11 after the first build failed at the Songbird and Coston activation; Flare-mainnet nodes were not affected by that bug.",
-      "why": "A detected exploit attempt plus a rushed hard fork is a real operational risk for a network that sits under FXRP and Firelight. The quick response is reassuring, but the test is whether enough stake upgrades in time for a clean activation, and the Songbird rebuild shows how fast emergency releases can stumble.",
+      "title": "Flare's emergency hard fork activates cleanly; network keeps processing transactions",
+      "body": "Flare said on Nov 11 that the go-flare v1.15.1 hard fork activated successfully on mainnet at 14:00 UTC (8:00 AM CST) and the network continued to process transactions normally. It warned confirmations could be slightly slower while remaining validators upgraded, and thanked node operators for coordinating on short notice. The fork patched a vulnerability in upstream Avalanche-based node code that Flare fast-tracked after its monitoring flagged an exploit attempt, covered in yesterday's edition. Flare has not published a post-mortem on the attempt itself.",
+      "why": "A clean activation closes the immediate operational risk for the network beneath FXRP and Firelight. What is still missing is a post-mortem on the exploit attempt and how much stake was upgraded at activation.",
+      "tag": "Steady",
+      "tagReason": "The emergency fix landed without disruption; it resolves a risk rather than adding new capability.",
+      "sources": [
+        {
+          "title": "Flare \u00b7 hard fork activated",
+          "href": "https://x.com/FlareNetworks/status/2120538974729175235"
+        },
+        {
+          "title": "GitHub \u00b7 go-flare releases",
+          "href": "https://github.com/flare-foundation/go-flare/releases"
+        }
+      ],
+      "section": "Yesterday",
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-2",
+      "source": "https://x.com/FlareNetworks/status/2120538974729175235",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Flare said on Nov 11 that the go-flare v1.15.1 hard fork activated successfully on mainnet at 14:00 UTC (8:00 AM CST) and the network continued to process transactions normally."
+    },
+    {
+      "assets": [
+        "XLM"
+      ],
+      "title": "Allium report puts Stellar at $4.1B of tokenized real-world assets and a 91% rise in stablecoin supply",
+      "body": "The Stellar Development Foundation published a report by data firm Allium on Nov 11 on institutional finance on Stellar. It says tokenized real-world assets on Stellar reached $4.12 billion, up about 6.1 times over the 12 months to September 2026, with Stellar's share of tokenized assets rising from 4.9% to 12.7%; Stellar's account says the figure is now above $5 billion. The report puts Stellar stablecoin supply up 91% to $546 million over the period, against roughly flat industry growth, and stablecoin transfer volume up 127%, plus $319 million of non-US debt issued. It includes case studies on MoneyGram, Spiko, FTDA_US and others. The figures cover the period to September and come from a report promoted by Stellar itself.",
+      "why": "It is a data-backed case that Stellar's payments-and-tokenization focus is turning into real assets on the ledger, which matters more than conference announcements. Most of the RWA total sits with a small number of large issuers, so concentration is the caveat.",
+      "tag": "Rocket",
+      "tagReason": "Independent data shows strong year-over-year growth in Stellar RWAs and stablecoins.",
+      "sources": [
+        {
+          "title": "Stellar \u00b7 Institutional finance report",
+          "href": "https://stellar.org/insights/institutional-finance-report"
+        },
+        {
+          "title": "Allium \u00b7 Stellar report",
+          "href": "https://www.allium.so/reports/stellar-institutional-finance-on-an-open-global-network"
+        },
+        {
+          "title": "Stellar \u00b7 report post",
+          "href": "https://x.com/StellarOrg/status/2120532505560588475"
+        }
+      ],
+      "section": "Yesterday",
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-3",
+      "source": "https://stellar.org/insights/institutional-finance-report",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "The Stellar Development Foundation published a report by data firm Allium on Nov 11 on institutional finance on Stellar."
+    },
+    {
+      "assets": [
+        "RENDER"
+      ],
+      "title": "Render confirms RNP-024 passed, approving Forth as its privacy-first AI gateway",
+      "body": "Render Network posted the official result on Nov 11: RNP-024 passed its final vote on Nov 9 with 143.3K yes and no votes against, approving Forth as a privacy-first AI gateway for the Render ecosystem. The program ties incentives to paid usage, RENDER payments and Render compute. Earlier editions noted that trackers reported approval but Render had not confirmed it; this closes that gap. Rollout timing and the size of incentives actually paid out will be set under the program's terms.",
+      "why": "Forth is Render's main route to AI inference demand beyond 3D rendering, and the official approval lets it proceed. Success depends on paid usage materializing; the vote itself was unanimous but on low turnout.",
+      "tag": "Steady",
+      "tagReason": "A confirmed governance outcome; the demand it targets is still to come.",
+      "sources": [
+        {
+          "title": "Render \u00b7 week recap and RNP-024 result",
+          "href": "https://x.com/rendernetwork/status/2120555813693509900"
+        },
+        {
+          "title": "NATION \u00b7 RNP-024 final vote",
+          "href": "https://nation.io/a/RenderNetwork/proposal/c7a58974-bf33-4f76-925f-1de530dc4887"
+        }
+      ],
+      "section": "Yesterday",
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-4",
+      "source": "https://x.com/rendernetwork/status/2120555813693509900",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Render Network posted the official result on Nov 11: RNP-024 passed its final vote on Nov 9 with 143.3K yes and no votes against, approving Forth as a privacy-first AI gateway for the Render ecosystem."
+    },
+    {
+      "assets": [
+        "BNKR"
+      ],
+      "title": "Bankr opens index-token creation to everyone on Base and Robinhood Chain",
+      "body": "Bankr said on Nov 11 that index tokens are now open to all users. Anyone can create an ERC-20 index holding 2 to 20 tokens or tokenized stocks with custom weights on Base or Robinhood Chain, starting with a $100 first buy, and set a trading fee between 0.25% and 1%; creators can also launch a coin paired with the index. Bankr's docs say the creator's initial tokens are locked for 24 hours and publish a developer guide for creating and rebalancing indexes programmatically or from an agent. Usage figures have not been published.",
+      "why": "It widens Bankr from a trading assistant into a product-launch platform, and creator fees give it a new revenue line at a time when its 7-day fees are down sharply on the dashboard. Open creation also invites low-quality launches, so retained volume is what to watch.",
+      "tag": "Rocket",
+      "tagReason": "A new, open product line with fee revenue on two chains.",
+      "sources": [
+        {
+          "title": "Bankr \u00b7 index tokens open to everyone",
+          "href": "https://x.com/bankrbot/status/2120531998657991008"
+        },
+        {
+          "title": "Bankr docs \u00b7 index tokens",
+          "href": "https://docs.bankr.bot/token-launching/index-tokens/"
+        }
+      ],
+      "section": "Yesterday",
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-5",
+      "source": "https://x.com/bankrbot/status/2120531998657991008",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Bankr said on Nov 11 that index tokens are now open to all users."
+    },
+    {
+      "assets": [
+        "NEAR"
+      ],
+      "title": "NEAR Mobile adds post-quantum vaults that sign every transaction with ML-DSA",
+      "body": "NEAR said on Nov 11 that NEAR Mobile users can now open post-quantum vaults, accounts that sign every transaction with ML-DSA, the NIST-standardized scheme NEAR added to mainnet in July. Users can send, receive and stake from these accounts on their phones. Because NEAR accounts support rotatable access keys, an existing account can switch signing scheme without changing its address. Algorand-ecosystem app Hay shipped a similar passkey-based post-quantum account the same day, a sign that wallets are starting to expose these features to ordinary users.",
+      "why": "It moves NEAR's protocol-level post-quantum support into a consumer wallet, which is where migration actually has to happen. Adoption is optional and early, so it is groundwork rather than a change in usage.",
+      "tag": "Steady",
+      "tagReason": "Useful security groundwork in a consumer wallet; adoption is voluntary.",
+      "sources": [
+        {
+          "title": "NEAR \u00b7 post-quantum vaults",
+          "href": "https://x.com/NEARProtocol/status/2120581069783339113"
+        },
+        {
+          "title": "BSC News \u00b7 NEAR Mobile vaults",
+          "href": "https://bsc.news/news/near-mobile-post-quantum-vaults-ml-dsa"
+        }
+      ],
+      "section": "Yesterday",
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-6",
+      "source": "https://x.com/NEARProtocol/status/2120581069783339113",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "NEAR said on Nov 11 that NEAR Mobile users can now open post-quantum vaults, accounts that sign every transaction with ML-DSA, the NIST-standardized scheme NEAR added to mainnet in July."
+    },
+    {
+      "assets": [
+        "SUI"
+      ],
+      "title": "Sui tells Suiet wallet users to back up keys before support ends after Nov 14",
+      "body": "Sui's official account said on Nov 11 that support for the Suiet wallet ends after Nov 14 and told users to back up each account's recovery phrase or private key now and import them into another Sui wallet. Assets stay on the Sui chain, but the app's API services will stop, so access through Suiet will break. It follows the Nov 10 shutdown of the Suiball hardware-wallet project after the Sui Foundation withdrew support.",
+      "why": "Two Sui wallet projects winding down in two days is a small but real ecosystem setback, and users who miss the deadline risk losing easy access to funds. Nothing changes at the protocol level.",
       "tag": "Yikes",
-      "tagReason": "An exploit attempt forced an emergency fork, though Flare says no funds or keys are affected.",
+      "tagReason": "A second Sui wallet exits; users must migrate by Nov 14.",
+      "sources": [
+        {
+          "title": "Sui \u00b7 Suiet support ends",
+          "href": "https://x.com/SuiNetwork/status/2120527276244943187"
+        }
+      ],
+      "section": "Yesterday",
+      "date": "Nov 11, 2026",
+      "id": "digest-20261112-7",
+      "source": "https://x.com/SuiNetwork/status/2120527276244943187",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Sui's official account said on Nov 11 that support for the Suiet wallet ends after Nov 14 and told users to back up each account's recovery phrase or private key now and import them into another Sui wallet."
+    },
+    {
+      "section": "Yesterday",
+      "date": "Nov 11, 2026",
+      "assets": [
+        "GOOGL"
+      ],
+      "title": "Google brings the Gemini app and Gemini Live to Apple CarPlay worldwide",
+      "body": "Google said on Nov 11 that the Gemini app is rolling out globally on Apple CarPlay to all Gemini users on iOS in every supported Gemini Live language, following earlier launches on Android Auto and cars with Google built-in. Drivers can hold hands-free conversations to check calendars, summarize Gmail threads, get a daily brief or rehearse presentations, and the chats sync back to the iPhone app. Some personalization features, including Daily Brief, are not available to users under 18, in the European Economic Area or in Nigeria.",
+      "why": "Getting Gemini onto Apple's in-car platform puts Google's assistant in front of iPhone users in a daily, high-frequency setting where Apple controls the screen. It is a distribution win for Gemini usage rather than a direct revenue line.",
+      "tag": "Rocket",
+      "tagReason": "Gemini gains a global distribution channel on Apple's in-car platform.",
+      "summary": "Google rolled out the Gemini app and Gemini Live on Apple CarPlay globally on Nov 11.",
+      "sources": [
+        {
+          "title": "Google \u00b7 Gemini on Apple CarPlay",
+          "href": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"
+        }
+      ],
+      "id": "stock-20261112-0",
+      "source": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
+    },
+    {
+      "assets": [
+        "SOL",
+        "ONDO",
+        "ETH"
+      ],
+      "date": "Nov 9\u201311, 2026",
+      "title": "Wall Street's tokenized-stock race accelerates: NYSE picks Avalanche to settle, while Solana and Ondo add venues and safeguards",
+      "body": "Three days brought the clearest signal yet that listed equities are moving onchain. On Nov 9 the NYSE said a custom chain built on Avalanche technology will be the core clearing and settlement ledger for its planned 24/7 tokenized-securities platform, pending regulatory approval, while still supporting tokens issued on other networks; the same day Formation told the SEC it will run a tokenized-securities venue on Solana under the Innovation Exemption, targeting early 2027. On Nov 10 Fidelity's FCAT became a required verifier for every Ondo Stocks bridge transfer, and on Nov 11 xStocks added 200+ UK and EU equities, with Solana among its launch chains. None of the US venues trades yet, and each depends on approvals.",
+      "why": "The NYSE choosing a non-watchlist chain for settlement is competitive context for SOL, ETH and ONDO, but its multichain design means tokens issued on Solana or Ethereum could still connect. The direction favors networks that already host tokenized equities; the timing remains regulatory.",
+      "tag": "Steady",
+      "tagReason": "Strong structural momentum, but the biggest new venue settles on a non-watchlist chain and none of the US venues is live.",
+      "sources": [
+        {
+          "title": "CoinDesk \u00b7 NYSE picks Avalanche (Nov 9)",
+          "href": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race"
+        },
+        {
+          "title": "Avalanche \u00b7 NYSE press release",
+          "href": "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html"
+        },
+        {
+          "title": "Formation \u00b7 notice to SEC",
+          "href": "https://www.prnewswire.com/news-releases/formation-securities-notifies-sec-of-intent-to-operate-first-tokenized-securities-venue-on-solana-302932902.html"
+        },
+        {
+          "title": "Ondo \u00b7 FCAT required verifier",
+          "href": "https://ondo.finance/blog/ondo-bridge-adds-fcat-as-required-verifier"
+        }
+      ],
+      "section": "Last 3 days",
+      "id": "digest-20261112-8",
+      "source": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Three days brought the clearest signal yet that listed equities are moving onchain."
+    },
+    {
+      "assets": [
+        "SOL"
+      ],
+      "date": "Nov 9\u201310, 2026",
+      "title": "Solana adds native privacy and one-tap social trading on top of Schwab access",
+      "body": "Helius launched Solana Privacy Rings on mainnet on Nov 10, encrypting asset types and amounts while addresses stay visible, with audits by Certora, OtterSec and ZK Security and institutional Custom Rings still in audit. The same day X began routing cashtag trades in any Solana token through fomo, and OpenWorld tokenized its own Nasdaq shares on Solana. That came a day after Schwab Crypto added SOL for eligible US retail clients.",
+      "why": "Privacy, mainstream brokerage access and a social-app trade button in one window make this the watchlist's strongest run of distribution news. Usage data will take weeks to show whether it sticks.",
+      "tag": "Rocket",
+      "tagReason": "Live privacy infrastructure and new mass-market access routes.",
+      "sources": [
+        {
+          "title": "Helius \u00b7 Privacy Rings",
+          "href": "https://www.helius.dev/blog/solana-privacy-rings"
+        },
+        {
+          "title": "Solana \u00b7 X cashtags on fomo",
+          "href": "https://x.com/solana/status/2120158301422055630"
+        },
+        {
+          "title": "Schwab \u00b7 SOL added",
+          "href": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Makes-Solana-Avalanche-and-Chainlink-Available-to-Trade-Through-Schwab-Crypto-Accounts/default.aspx"
+        }
+      ],
+      "section": "Last 3 days",
+      "id": "digest-20261112-9",
+      "source": "https://www.helius.dev/blog/solana-privacy-rings",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Helius launched Solana Privacy Rings on mainnet on Nov 10, encrypting asset types and amounts while addresses stay visible, with audits by Certora, OtterSec and ZK Security and institutional Custom Rings still in audit."
+    },
+    {
+      "assets": [
+        "FLR"
+      ],
+      "date": "Nov 10\u201311, 2026",
+      "title": "Flare: exploit attempt on node software, emergency fork, clean activation",
+      "body": "Flare spotted an attempt to exploit a vulnerability in upstream Avalanche-based node code and fast-tracked go-flare v1.15.1 on Nov 10, after the first build needed a rebuild for Songbird and Coston. The mainnet fork activated at 8:00 AM CST on Nov 11 without disruption, and Flare says user funds and keys were never affected. The dashboard's FLR value-locked alert (down 17.1% over 7 days) is a separate numeric signal whose cause is not verified.",
+      "why": "The quick, clean response limits damage to confidence in the network beneath FXRP and Firelight. A post-mortem on the attempt is the outstanding item.",
+      "tag": "Steady",
+      "tagReason": "A real security scare that ended without losses.",
       "sources": [
         {
           "title": "Flare \u00b7 v1.15.1 announcement",
           "href": "https://x.com/FlareNetworks/status/2120242585356972511"
         },
         {
-          "title": "GitHub \u00b7 go-flare v1.15.1 release",
-          "href": "https://github.com/flare-foundation/go-flare/releases"
-        },
-        {
-          "title": "BSC News \u00b7 fast-tracked fork",
-          "href": "https://bsc.news/news/flare-go-flare-v1-15-1-hard-fork"
+          "title": "Flare \u00b7 activation confirmed",
+          "href": "https://x.com/FlareNetworks/status/2120538974729175235"
         }
       ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-4",
+      "section": "Last 3 days",
+      "id": "digest-20261112-10",
       "source": "https://x.com/FlareNetworks/status/2120242585356972511",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "Flare said on Nov 10 (1:49 PM CST) that it is rolling out go-flare v1.15.1, a mandatory hard fork that patches a vulnerability in the upstream Avalanche-based code its nodes run."
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Flare spotted an attempt to exploit a vulnerability in upstream Avalanche-based node code and fast-tracked go-flare v1.15.1 on Nov 10, after the first build needed a rebuild for Songbird and Coston."
+    },
+    {
+      "assets": [
+        "TAO"
+      ],
+      "date": "Nov 10, 2026",
+      "title": "Bittensor's Gamma Tokens give subnets a native payment rail tied to alpha burns",
+      "body": "The Opentensor Foundation switched on Gamma Tokens, dollar-valued, subnet-specific credits minted by burning that subnet's alpha (directly or by paying TAO), so wallets and AI agents can pay for subnet services without separate accounts. Attune, Engy and Terza Inference enabled it first, but first-day use was about $0.42.",
+      "why": "It creates a direct link between paid subnet demand and token burns, the missing piece in Bittensor's economics; adoption is opt-in and just starting.",
+      "tag": "Rocket",
+      "tagReason": "A live protocol payment layer, though usage is negligible so far.",
+      "sources": [
+        {
+          "title": "Opentensor \u00b7 Gamma announcement",
+          "href": "https://x.com/opentensor/status/2120270882811875419"
+        },
+        {
+          "title": "The TAO Daily \u00b7 Gamma explainer",
+          "href": "https://taodaily.io/gamma-tokens-go-live-bringing-native-payments-to-bittensors-ai-economy/"
+        }
+      ],
+      "section": "Last 3 days",
+      "id": "digest-20261112-11",
+      "source": "https://x.com/opentensor/status/2120270882811875419",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "The Opentensor Foundation switched on Gamma Tokens, dollar-valued, subnet-specific credits minted by burning that subnet's alpha (directly or by paying TAO), so wallets and AI agents can pay for subnet services without separate accounts."
     },
     {
       "assets": [
@@ -11134,138 +11351,104 @@
         "SOL",
         "ETH"
       ],
-      "title": "SEC lets Nasdaq ISE list options on qualifying digital-commodity ETPs without case-by-case approval",
-      "body": "The SEC approved Nasdaq ISE's rule change SR-ISE-2026-42 on Nov 10, allowing the exchange to list options on commodity-based trusts that hold one or more digital commodities without a separate SEC approval for each product. A trust qualifies only if each asset averages at least $700 million in daily market value over 12 months and at least 85% of its net asset value sits in assets with surveillance-linked futures markets. Coverage of the order ties eligibility to the 19 assets the SEC and staff have identified as digital commodities, which include XRP, XLM, HBAR, DOT, ALGO, SOL and ETH. The order approves an options framework, not any new spot ETF; each underlying product still needs its own listing.",
-      "why": "Listed options are what institutions use to hedge and size positions, so a standing framework makes future products on several focus assets easier to support. It is plumbing, not demand: smaller assets may fail the liquidity tests, and nothing new trades until a qualifying trust lists.",
+      "date": "Nov 10, 2026",
+      "title": "SEC clears Nasdaq ISE to list options on qualifying digital-commodity ETPs",
+      "body": "The SEC approved SR-ISE-2026-42, letting Nasdaq ISE list options on commodity trusts holding digital commodities without case-by-case approval, provided each asset averages $700 million in daily market value over 12 months and 85% of assets have surveillance-linked futures. Coverage ties eligibility to the 19 assets the SEC treats as digital commodities, including seven on the watchlist. It is an options framework, not a new ETF.",
+      "why": "Standing rules for listed options make institutional products on several focus assets easier to build, though smaller assets may miss the liquidity tests.",
       "tag": "Steady",
-      "tagReason": "A constructive regulatory framework step, with no product launch yet.",
+      "tagReason": "Constructive market plumbing with no product launch yet.",
       "sources": [
         {
-          "title": "SEC \u00b7 SR-ISE-2026-42 filing page",
+          "title": "SEC \u00b7 SR-ISE-2026-42",
           "href": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-ise-2026-42"
-        },
-        {
-          "title": "Genfinity \u00b7 approval details",
-          "href": "https://genfinity.io/2026/11/10/sec-clears-nasdaq-ise-options-digital-commodity-etps/"
         }
       ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-5",
+      "section": "Last 3 days",
+      "id": "digest-20261112-12",
       "source": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-ise-2026-42",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "The SEC approved Nasdaq ISE's rule change SR-ISE-2026-42 on Nov 10, allowing the exchange to list options on commodity-based trusts that hold one or more digital commodities without a separate SEC approval for each product."
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "The SEC approved SR-ISE-2026-42, letting Nasdaq ISE list options on commodity trusts holding digital commodities without case-by-case approval, provided each asset averages $700 million in daily market value over 12 months and 85% of assets have surveillance-linked futures."
     },
     {
       "assets": [
-        "XRP"
+        "NEAR"
       ],
-      "title": "XRPL Foundation's roadmap maps quantum-safe accounts that keep the same address and base fee",
-      "body": "CoinDesk reported on Nov 10 on a design in the XRP Ledger Foundation's 2027 protocol roadmap, updated Nov 4, that would let account owners add a quantum-resistant ML-DSA-44 signing key (a NIST-approved scheme) and then disable the original key, with no new address, no moving funds and no higher base fee. The new signatures are bulky: about 3.6 KB extra per protected transaction, with the Foundation putting storage at 5,331 bytes per protected payment against a 1,704-byte baseline. The draft Quantum amendment has an implementation branch that has run on AlphaNet, but known issues remain, including a seed-derivation mismatch between implementations. The Foundation schedules a migration study in the first half of 2027, then development and audit in late 2027 or 2028, with a $215,000 to $255,000 review budget; Ripple targets a full transition by 2028 and no activation date is set.",
-      "why": "Every account that has sent a payment has exposed its public key, so a clean migration path matters for the ledger's long-term security. This is a draft that still needs a validator vote, and owners would have to rotate keys themselves, so it reduces future risk only if people actually migrate.",
-      "tag": "Steady",
-      "tagReason": "Concrete security planning, but a draft with no activation date.",
+      "date": "Nov 9, 2026",
+      "title": "Binance-hack launderers used throwaway NEAR memecoins to move about $430,000",
+      "body": "Elliptic reported that the North Korea-linked group behind Binance's Oct 29 breach created six memecoins on NEAR between Nov 5 and 7 and cycled about 117,000 NEAR of stolen funds through DEX pools to break wallet links. The tokens were abandoned and the flows remain traceable. NEAR AI separately contained a cloud intrusion on Nov 8\u20139; NEAR Protocol was unaffected by either.",
+      "why": "Neither touched the protocol, but laundering through NEAR liquidity and an AI-cloud breach weigh on NEAR's institutional and private-AI pitch.",
+      "tag": "Yikes",
+      "tagReason": "Stolen funds routed through NEAR DEX pools, plus an adjacent AI-cloud breach.",
       "sources": [
         {
-          "title": "CoinDesk \u00b7 XRPL quantum accounts (Nov 10)",
-          "href": "https://www.coindesk.com/tech/2026/11/10/xrp-ledger-maps-out-quantum-proof-accounts-with-no-extra-fees-for-users"
+          "title": "Elliptic \u00b7 North Korea memecoin laundering",
+          "href": "https://www.elliptic.co/insights/north-korea-meme-coins-binance-hack/"
         },
         {
-          "title": "XRPL Foundation \u00b7 quantum research page",
-          "href": "https://pages.xrpl.foundation/protocol-roadmap/research/quantum"
-        },
-        {
-          "title": "XRPL-Standards \u00b7 ML-DSA-44 draft",
-          "href": "https://github.com/XRPLF/XRPL-Standards/discussions/295"
+          "title": "NEAR AI \u00b7 incident report",
+          "href": "https://near.ai/blog/security-incident-report-sglang-vulnerability"
         }
       ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-6",
-      "source": "https://www.coindesk.com/tech/2026/11/10/xrp-ledger-maps-out-quantum-proof-accounts-with-no-extra-fees-for-users",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "CoinDesk reported on Nov 10 on a design in the XRP Ledger Foundation's 2027 protocol roadmap, updated Nov 4, that would let account owners add a quantum-resistant ML-DSA-44 signing key (a NIST-approved scheme) and then disable the original key, with no new address, no moving funds and no higher base fee."
+      "section": "Last 3 days",
+      "id": "digest-20261112-13",
+      "source": "https://www.elliptic.co/insights/north-korea-meme-coins-binance-hack/",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Elliptic reported that the North Korea-linked group behind Binance's Oct 29 breach created six memecoins on NEAR between Nov 5 and 7 and cycled about 117,000 NEAR of stolen funds through DEX pools to break wallet links."
     },
     {
       "assets": [
         "DOT"
       ],
-      "title": "Polkadot Referendum 1966 enacts, putting the 500-validator target into effect",
-      "body": "Polkadot's Referendum 1966 was enacted on Nov 10 at relay-chain block 33,814,400, a day earlier than the block-height estimate the dashboard carried. It sets a 500-validator target for the active set and trims the validator incentive budget proportionally; the new limit applies from the first era after enactment, so it was in force by about midday Nov 11. The referendum passed on Nov 7, so this is the execution step rather than a new decision.",
-      "why": "Fewer active validators cut what Polkadot spends on security incentives, but they also reduce the number of independent operators. Watch whether stake concentrates among the remaining validators.",
-      "tag": "Steady",
-      "tagReason": "A planned governance change executed on schedule.",
+      "date": "Nov 9\u201310, 2026",
+      "title": "Polkadot consolidates: Acala and Karura propose shutting down as the 500-validator target takes effect",
+      "body": "Acala proposed on Nov 9 to stop its Polkadot parachain and Kusama's Karura on Feb 10, 2027, with LDOT unbonding deadlines of Dec 16 and Jan 12 if its referendums pass, citing liquidity that never built up. On Nov 10 Referendum 1966 was enacted, cutting Polkadot's active-validator target to 500 with a proportionally smaller incentive budget.",
+      "why": "Polkadot's first flagship DeFi parachain leaving and a smaller validator set both point to consolidation around Asset Hub rather than growth, and Acala users face firm deadlines.",
+      "tag": "Yikes",
+      "tagReason": "A flagship parachain exit outweighs an efficiency change executed on time.",
       "sources": [
         {
-          "title": "Polkassembly \u00b7 Referendum 1966",
+          "title": "Acala \u00b7 sunset letter",
+          "href": "https://x.com/AcalaNetwork/status/2119724879616610647"
+        },
+        {
+          "title": "Polkassembly \u00b7 Ref 1966",
           "href": "https://polkadot.polkassembly.io/referenda/1966"
-        },
-        {
-          "title": "Subsquare \u00b7 Referendum 1966",
-          "href": "https://polkadot.subsquare.io/referenda/1966"
         }
       ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-7",
-      "source": "https://polkadot.polkassembly.io/referenda/1966",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "Polkadot's Referendum 1966 was enacted on Nov 10 at relay-chain block 33,814,400, a day earlier than the block-height estimate the dashboard carried."
+      "section": "Last 3 days",
+      "id": "digest-20261112-14",
+      "source": "https://x.com/AcalaNetwork/status/2119724879616610647",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Acala proposed on Nov 9 to stop its Polkadot parachain and Kusama's Karura on Feb 10, 2027, with LDOT unbonding deadlines of Dec 16 and Jan 12 if its referendums pass, citing liquidity that never built up."
     },
     {
       "assets": [
-        "ICP"
+        "HYPE"
       ],
-      "title": "DFINITY says Cloud Engines ship this week, with early-access coupons going out",
-      "body": "DFINITY posted on Nov 10 that Dominic Williams has confirmed the release of Cloud Engines this week and that early-access coupons are being issued. A cloud engine is a business's own private Internet Computer subnet built from nodes it selects in a market, with its choice of hardware, location and security settings; Williams called it 'going to be the biggest thing in the history of the Internet Computer.' DFINITY has not published an exact date or pricing.",
-      "why": "Cloud Engines are ICP's main attempt to sell sovereign cloud capacity to businesses, so a confirmed release turns a long-running pitch into a product. Until it ships and customers appear, it remains a launch promise.",
-      "tag": "Steady",
-      "tagReason": "A confirmed near-term product release, not yet shipped.",
+      "date": "Nov 9\u201311, 2026",
+      "title": "HYPE gains Korean won markets and its HYPE-gas L2 passes $200M of Uniswap volume",
+      "body": "Upbit and Bithumb opened HYPE won markets on Nov 10, with Upbit transfers only via HyperEVM. Kinetiq's Elysium L2, which uses HYPE for gas, launched Nov 9 with Bankr support, and Uniswap said on Nov 11 its deployment there had passed $200 million in all-time volume.",
+      "why": "Korean retail access plus early L2 volume widen HYPE's distribution; whether the activity is lasting or launch-week speculation will show in later data.",
+      "tag": "Rocket",
+      "tagReason": "New won listings and early measured L2 volume.",
       "sources": [
         {
-          "title": "DFINITY \u00b7 Cloud Engines update",
-          "href": "https://x.com/dfinity/status/2120070163806748931"
+          "title": "Bithumb \u00b7 HYPE listing",
+          "href": "https://feed.bithumb.com/notice/1655585"
         },
         {
-          "title": "DFINITY \u00b7 Williams on Cloud Engines",
-          "href": "https://x.com/dfinity/status/2120139900745929084"
+          "title": "Uniswap \u00b7 Elysium volume",
+          "href": "https://x.com/Uniswap/status/2120566567423386061"
         }
       ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-8",
-      "source": "https://x.com/dfinity/status/2120070163806748931",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "DFINITY posted on Nov 10 that Dominic Williams has confirmed the release of Cloud Engines this week and that early-access coupons are being issued."
+      "section": "Last 3 days",
+      "id": "digest-20261112-15",
+      "source": "https://feed.bithumb.com/notice/1655585",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "summary": "Upbit and Bithumb opened HYPE won markets on Nov 10, with Upbit transfers only via HyperEVM."
     },
     {
-      "assets": [
-        "ETH"
-      ],
-      "title": "LlamaRisk proposes narrowing Aave V3 Core to blue-chip collateral and moving restaking tokens to V4",
-      "body": "Risk provider LlamaRisk posted an Aave governance proposal (ARFC) on Nov 10 to reposition Aave V3's Ethereum Core market around established, liquid collateral. It would freeze new supply on reserves such as rsETH, osETH and LBTC and coordinate an orderly migration of existing positions to Aave V4 or repayment, without forced liquidations; coverage puts the affected collateral at roughly $1.3 billion to $1.5 billion. WETH, WBTC and major stablecoins would stay in Core, and LBTC is expected to continue on a dedicated V4 spoke. The proposal is not in effect and has no vote date yet.",
-      "why": "Aave is the largest lender on Ethereum, so tightening its main market reduces contagion risk from restaking and wrapped-BTC tokens. It could shrink demand for some ETH-based liquid restaking tokens in the near term, and the details depend on the vote and V4 timing.",
-      "tag": "Steady",
-      "tagReason": "A prudent risk proposal for Ethereum's biggest lending market, still at the discussion stage.",
-      "sources": [
-        {
-          "title": "Aave governance \u00b7 LlamaRisk ARFC",
-          "href": "https://governance.aave.com/t/arfc-repositioning-aave-v3-core-around-established-liquid-collateral/26191"
-        },
-        {
-          "title": "PANews \u00b7 proposal summary",
-          "href": "https://www.panews.io/articles/01a1c79b-f40c-708b-8cbe-3e986911e4e6"
-        }
-      ],
-      "section": "Yesterday",
-      "date": "Nov 10, 2026",
-      "id": "digest-20261111-9",
-      "source": "https://governance.aave.com/t/arfc-repositioning-aave-v3-core-around-established-liquid-collateral/26191",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "Risk provider LlamaRisk posted an Aave governance proposal (ARFC) on Nov 10 to reposition Aave V3's Ethereum Core market around established, liquid collateral."
-    },
-    {
-      "section": "Yesterday",
+      "section": "Last 3 days",
       "date": "Nov 10, 2026",
       "assets": [
         "AMD"
@@ -11287,12 +11470,12 @@
         }
       ],
       "source": "https://newsroom.amd.com/press-kits/6th-gen-epyc-venice/",
-      "kind": "stock",
-      "id": "stock-14",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
+      "id": "stock-20261112-1",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
     },
     {
-      "section": "Yesterday",
+      "section": "Last 3 days",
       "date": "Nov 10, 2026",
       "assets": [
         "GOOGL"
@@ -11310,12 +11493,12 @@
         }
       ],
       "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-      "kind": "stock",
-      "id": "stock-15",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
+      "id": "stock-20261112-2",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
     },
     {
-      "section": "Yesterday",
+      "section": "Last 3 days",
       "date": "Nov 10, 2026",
       "assets": [
         "NVDA"
@@ -11337,121 +11520,9 @@
         }
       ],
       "source": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/",
-      "kind": "stock",
-      "id": "stock-16",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
-    },
-    {
-      "assets": [
-        "NEAR"
-      ],
-      "date": "Nov 9, 2026",
-      "title": "Elliptic: Binance-hack launderers minted throwaway NEAR memecoins to move about $430,000",
-      "body": "Blockchain analytics firm Elliptic reported that the North Korea-linked group behind Binance's Oct 29 hot-wallet breach created six throwaway memecoins on NEAR between Nov 5 and 7. It says about 117,000 NEAR (roughly $430,000) of stolen funds was swapped into the tokens through decentralized-exchange pools and then sold back for NEAR from separate wallets, hiding direct wallet-to-wallet links. The tokens saw no real trading and were abandoned, and Elliptic says the flows remain traceable.",
-      "why": "NEAR's protocol was not attacked, but laundering through its DEX pools could invite more compliance scrutiny of NEAR liquidity and keep NEAR on exchanges' watchlists while Binance finishes reopening withdrawals.",
-      "tag": "Yikes",
-      "tagReason": "Stolen funds were routed through NEAR DEX pools, a reputational and compliance headache.",
-      "sources": [
-        {
-          "title": "Elliptic \u00b7 North Korea memecoin laundering",
-          "href": "https://www.elliptic.co/insights/north-korea-meme-coins-binance-hack/"
-        },
-        {
-          "title": "The Block \u00b7 coverage (Nov 9)",
-          "href": "https://www.theblock.co/news/ecosystems/2026-11-09-binance-hack-launderers-mint-homemade-elon-musk-animal-memecoins-move-stolen-funds-elliptic-436440"
-        }
-      ],
-      "section": "Last 3 days",
-      "id": "digest-20261111-10",
-      "source": "https://www.elliptic.co/insights/north-korea-meme-coins-binance-hack/",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "Blockchain analytics firm Elliptic reported that the North Korea-linked group behind Binance's Oct 29 hot-wallet breach created six throwaway memecoins on NEAR between Nov 5 and 7."
-    },
-    {
-      "assets": [
-        "HYPE"
-      ],
-      "date": "Nov 10, 2026",
-      "title": "Update: HYPE won markets are now live on both Upbit and Bithumb",
-      "body": "Following Upbit's listing notice covered in the last edition, Upbit opened HYPE trading against KRW, BTC and USDT at 3:00 PM KST on Nov 10 (12:00 AM CST), with deposits and withdrawals only via HyperEVM. Bithumb, Korea's second-largest exchange, added its own HYPE/KRW market later the same day. That gives Korean retail two domestic won routes into HYPE in one day.",
-      "why": "Korea is one of crypto's biggest retail markets, and won pairs at both major exchanges widen HYPE's distribution beyond offshore venues. Whether this adds lasting liquidity is something only later volume data will show.",
-      "tag": "Rocket",
-      "tagReason": "Both top Korean exchanges now list HYPE in won.",
-      "sources": [
-        {
-          "title": "Bithumb \u00b7 HYPE listing notice",
-          "href": "https://feed.bithumb.com/notice/1655585"
-        },
-        {
-          "title": "CoinMarketCap \u00b7 Upbit HYPE pairs",
-          "href": "https://coinmarketcap.com/academy/article/upbit-lists-hyperliquid-hype-krw"
-        }
-      ],
-      "section": "Last 3 days",
-      "id": "digest-20261111-11",
-      "source": "https://feed.bithumb.com/notice/1655585",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00",
-      "summary": "Following Upbit's listing notice covered in the last edition, Upbit opened HYPE trading against KRW, BTC and USDT at 3:00 PM KST on Nov 10 (12:00 AM CST), with deposits and withdrawals only via HyperEVM."
-    },
-    {
-      "assets": [
-        "DOT"
-      ],
-      "title": "Acala and Karura propose shutting down on Feb 10, 2027",
-      "body": "Acala announced on Nov 9 that it plans to wind down the Acala parachain on Polkadot and Karura on Kusama, and opened signalling referendums (Acala #195, Karura #137) to approve the plan. If they pass, withdrawals and XCM transfers stay open until Feb 10, 2027, when the chains stop producing blocks; LDOT must be unbonded by Jan 12 (Dec 16 for LDOT locked to specific validators) and LKSM by Feb 2. The team says it will try, as a last resort, to return leftover external assets to owners' Asset Hub accounts and donate treasury external assets to the Polkadot and Kusama treasuries. ACA and KAR cannot be withdrawn and stay on their chains. The team cites liquidity that never built up, fragmentation across parachains and usage that no longer covers running a dedicated chain.",
-      "why": "Acala held Polkadot's first parachain slot and was its flagship DeFi hub, so its exit is a clear signal about parachain-era economics and DeFi fragmentation on Polkadot. DOT, USDT and USDC holders on Acala have firm deadlines, while the ecosystem's shift toward Asset Hub as the main liquidity venue continues.",
-      "tag": "Yikes",
-      "tagReason": "A founding Polkadot DeFi parachain is planning to shut down for lack of liquidity and usage.",
-      "summary": "Acala and Karura propose a Feb 10, 2027 shutdown; LDOT unbonding deadlines start Dec 16.",
-      "sources": [
-        {
-          "title": "Acala \u00b7 sunset letter (Nov 9)",
-          "href": "https://x.com/AcalaNetwork/status/2119724879616610647"
-        },
-        {
-          "title": "Subsquare \u00b7 Acala Ref 195",
-          "href": "https://acala.subsquare.io/democracy/referenda/195"
-        },
-        {
-          "title": "Subsquare \u00b7 Karura Ref 137",
-          "href": "https://karura.subsquare.io/democracy/referenda/137"
-        }
-      ],
-      "section": "Last 3 days",
-      "date": "Nov 9, 2026",
-      "id": "digest-20261111-12",
-      "source": "https://x.com/AcalaNetwork/status/2119724879616610647",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
-    },
-    {
-      "assets": [
-        "NEAR"
-      ],
-      "title": "NEAR AI pauses and restores its cloud after an SGLang-based intrusion",
-      "body": "NEAR AI said on Nov 9 that it found unauthorized access to its internal systems and paused NEAR AI Cloud inference while it investigated. Its incident report says an attacker used a remote-code-execution flaw in SGLang, the open-source inference engine it runs, on Nov 8; about 100 users' account details were downloaded, 18 legacy agents' chat histories, settings and logs were accessed, and two Cloud API keys were exposed and revoked. NEAR AI patched every server, rotated credentials and brought the cloud back online late on Nov 9 CST. It says NEAR Protocol and other NEAR services were not affected.",
-      "why": "NEAR is positioning private, user-owned AI as a core use case, so a breach of its AI cloud tests that pitch even though the chain itself was untouched. The fast disclosure and restoration limit the damage; the follow-up to watch is whether the report shows the enclave design kept customer prompts private.",
-      "tag": "Yikes",
-      "tagReason": "A confirmed security incident at NEAR's flagship AI service, though the protocol was unaffected.",
-      "summary": "NEAR AI disclosed a Nov 8 intrusion via an SGLang flaw, paused NEAR AI Cloud and restored it; the protocol was unaffected.",
-      "sources": [
-        {
-          "title": "NEAR AI \u00b7 incident report",
-          "href": "https://near.ai/blog/security-incident-report-sglang-vulnerability"
-        },
-        {
-          "title": "NEAR AI \u00b7 initial notice (Nov 9)",
-          "href": "https://x.com/near_ai/status/2119931564960399737"
-        },
-        {
-          "title": "NEAR AI \u00b7 service restored",
-          "href": "https://x.com/near_ai/status/2119996627654197384"
-        }
-      ],
-      "section": "Last 3 days",
-      "date": "Nov 8\u20139, 2026",
-      "id": "digest-20261111-13",
-      "source": "https://near.ai/blog/security-incident-report-sglang-vulnerability",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
+      "id": "stock-20261112-3",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
     },
     {
       "section": "Last 3 days",
@@ -11472,9 +11543,9 @@
         }
       ],
       "source": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
-      "kind": "stock",
-      "id": "stock-17",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
+      "id": "stock-20261112-4",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
     },
     {
       "section": "Last 3 days",
@@ -11495,9 +11566,9 @@
         }
       ],
       "source": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-      "kind": "stock",
-      "id": "stock-18",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
+      "id": "stock-20261112-5",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
     },
     {
       "section": "Last 3 days",
@@ -11519,9 +11590,9 @@
         }
       ],
       "source": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
-      "kind": "stock",
-      "id": "stock-19",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
+      "id": "stock-20261112-6",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
     },
     {
       "section": "Last 3 days",
@@ -11542,40 +11613,13 @@
         }
       ],
       "source": "https://research.meta.ai/blog/muse-ember",
-      "kind": "stock",
-      "id": "stock-20",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
-    },
-    {
-      "section": "Last 3 days",
-      "date": "Nov 8, 2026",
-      "assets": [
-        "NVDA"
-      ],
-      "title": "Nvidia's board opens an independent investigation after reports Jensen Huang was targeted by a foreign intelligence effort",
-      "body": "Nvidia's board said on Nov 8 that independent directors, working with outside counsel, will oversee an independent investigation following reports that CEO Jensen Huang was targeted by a foreign intelligence operation. In a company-wide email published by CNBC, Huang apologized to his family and employees for a personal relationship, said he would cooperate fully and reaffirmed his commitment to Nvidia and US national security. The board said it continues to support Huang's leadership while the review proceeds. Republican lawmakers had earlier asked Huang for a closed-door briefing on the matter, and the review's scope and timing have not been published.",
-      "why": "This is a governance and policy-risk story for the most important AI-chip supplier, arriving days before Nvidia's Nov 17 results and amid tighter scrutiny of chip exports to China. Nvidia has no verified direct crypto exposure, so it matters here for the AI and compute backdrop rather than any watchlist network.",
-      "tag": "Yikes",
-      "tagReason": "A board-level investigation adds governance and regulatory uncertainty; no wrongdoing has been established.",
-      "summary": "Nvidia's board opened an independent investigation on Nov 8; Huang apologized to staff and said he will cooperate.",
-      "sources": [
-        {
-          "title": "NVIDIA Newsroom \u00b7 board statement",
-          "href": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
-        },
-        {
-          "title": "CNBC \u00b7 Huang email and board statement",
-          "href": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html"
-        }
-      ],
-      "source": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-      "kind": "stock",
-      "id": "stock-21",
-      "tagReviewedAt": "2026-11-11T05:30:00-06:00"
+      "id": "stock-20261112-7",
+      "tagReviewedAt": "2026-11-12T04:45:00-06:00",
+      "kind": "stock"
     }
   ],
   "researchSummary": {
-    "body": "The Nov 8\u201310 window leans constructive on product releases, with security cautions around the edges. Solana shipped a native privacy layer (Helius Privacy Rings) and a mass-market trading entry point through X cashtags, Bittensor switched on Gamma Tokens to tie subnet payments to alpha burns, and Fidelity's FCAT became a required verifier for Ondo's tokenized-stock bridge. Regulation moved in the background: the SEC cleared Nasdaq ISE to list options on qualifying digital-commodity ETPs, a framework that names XRP, XLM, HBAR, DOT, ALGO, SOL and ETH among eligible assets, and 21 banks committed about $270 million to Project Faro's dollar stablecoin for 2027. The cautions are Flare's emergency hard fork after an exploit attempt, laundering of Binance-hack funds through NEAR memecoins, and market-wide incidents at Across, Arcus, Initia and Ankr, none above the $10M High threshold. Nothing here implies a price outcome, and it is not financial advice.",
+    "body": "The Nov 9\u201311 window is constructive on institutional adoption, with security cautions around the edges. Apex Group, which services $3.5 trillion in assets, joined the Hedera Council to explore tokenization; xStocks added 200+ UK and EU equities on Solana and other chains; and a Stellar-published Allium report showed $4.1 billion of tokenized assets and 91% stablecoin growth on Stellar. The biggest structural signal came from outside the watchlist, as the NYSE chose an Avalanche-based chain to settle its planned tokenized-stock platform, while Solana kept adding privacy and mainstream access and Bittensor switched on Gamma payments. Flare's emergency hard fork activated cleanly after an exploit attempt, and Render confirmed its Forth program. The cautions are Binance-hack laundering through NEAR memecoins, two Sui wallet exits, falling value locked on XRPL and Flare on the dashboard, and market-wide incidents (Unocoin, an iOS wallet flaw, Across, Initia, Arcus, Ankr), none above the $10M High threshold. Nothing here implies a price outcome, and it is not financial advice.",
     "sentiment": "Mixed",
     "counts": {
       "Positive": 10,
@@ -11585,9 +11629,9 @@
       "Not enough data": 2
     },
     "windowDays": 7,
-    "asOf": "2026-11-11T04:17:05-06:00",
+    "asOf": "2026-11-12T04:12:45-06:00",
     "disclaimer": "Not financial advice. Editorial fundamentals news only, not measured social sentiment or a price signal.",
-    "title": "Research summary \u00b7 Nov 8\u201310, 2026"
+    "title": "Research summary \u00b7 Nov 9\u201311, 2026"
   },
   "brand": {
     "name": "Crypto Watchlist",
@@ -12753,7 +12797,7 @@
       "cryptoLink": "Tesla's Q3 2026 10-Q shows digital assets of $962 million at Sep 30, 2026, mostly 11,509 bitcoin acquired for $386 million, and the company booked a $288 million mark-to-market gain on its bitcoin in the quarter.",
       "newsSentiment": {
         "label": "Mixed",
-        "asOf": "2026-11-11T05:30:00-06:00"
+        "asOf": "2026-11-12T04:45:00-06:00"
       },
       "catalysts": [
         {
@@ -12813,7 +12857,7 @@
       "cryptoLink": "Since April 2026, Meta has paid select creators in Colombia and the Philippines in Circle's USDC on Solana or Polygon via Stripe. It is not issuing its own stablecoin.",
       "newsSentiment": {
         "label": "Mixed",
-        "asOf": "2026-11-11T05:30:00-06:00"
+        "asOf": "2026-11-12T04:45:00-06:00"
       },
       "catalysts": [],
       "riskFlags": {
@@ -12862,7 +12906,7 @@
       "cryptoLink": "Google Cloud offers Universal Ledger, a managed, permissioned distributed ledger for tokenizing commercial bank money and securities and for wholesale payments.",
       "newsSentiment": {
         "label": "Positive",
-        "asOf": "2026-11-11T05:30:00-06:00"
+        "asOf": "2026-11-12T04:45:00-06:00"
       },
       "catalysts": [
         {
@@ -12922,7 +12966,7 @@
       "cryptoLink": "No direct crypto exposure verified.",
       "newsSentiment": {
         "label": "Mixed",
-        "asOf": "2026-11-11T05:30:00-06:00"
+        "asOf": "2026-11-12T04:45:00-06:00"
       },
       "catalysts": [
         {
@@ -12982,7 +13026,7 @@
       "cryptoLink": "No direct crypto exposure verified.",
       "newsSentiment": {
         "label": "Positive",
-        "asOf": "2026-11-11T05:30:00-06:00"
+        "asOf": "2026-11-12T04:45:00-06:00"
       },
       "catalysts": [
         {
@@ -13039,7 +13083,7 @@
       "cryptoLink": "No direct crypto exposure verified.",
       "newsSentiment": {
         "label": "Mixed",
-        "asOf": "2026-11-11T05:30:00-06:00"
+        "asOf": "2026-11-12T04:45:00-06:00"
       },
       "catalysts": [],
       "riskFlags": {
@@ -13086,7 +13130,7 @@
       "cryptoLink": "AWS stopped accepting new customers for Amazon Managed Blockchain (Ethereum, Bitcoin, Polygon node access) on Oct 29, 2026, and will end the service on Sep 29, 2027, pointing users to self-managed Node Runners on AWS or partners such as Alchemy and QuickNode.",
       "newsSentiment": {
         "label": "Positive",
-        "asOf": "2026-11-11T05:30:00-06:00"
+        "asOf": "2026-11-12T04:45:00-06:00"
       },
       "catalysts": [
         {
