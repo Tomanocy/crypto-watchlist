@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-13T10:56:19+00:00",
+ "generatedAt": "2026-11-14T10:37:29+00:00",
  "series": {
   "AERO": {
    "kind": "crypto",
    "source": "CoinGecko market_chart (daily, USD) (365-day free limit)",
    "sourceUrl": "https://www.coingecko.com/en/coins/aero",
-   "asOf": "2026-11-13",
+   "asOf": "2026-11-14",
    "first": "2026-10-23",
-   "days": 22,
+   "days": 23,
    "ffill": false,
    "dailyDays": 400
   },
@@ -15,8 +15,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance ALGO-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/ALGO-USD",
-   "asOf": "2026-11-13",
-   "first": "2019-06-21",
+   "asOf": "2026-11-14",
+   "first": "2019-06-22",
    "days": 730,
    "ffill": false,
    "dailyDays": 400
@@ -25,8 +25,8 @@
    "kind": "traditional",
    "source": "AMD (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/AMD",
-   "asOf": "2026-11-13",
-   "first": "1980-03-21",
+   "asOf": "2026-11-14",
+   "first": "1980-03-22",
    "days": 2778,
    "ffill": true,
    "dailyDays": 400
@@ -35,8 +35,8 @@
    "kind": "traditional",
    "source": "Amazon (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/AMZN",
-   "asOf": "2026-11-13",
-   "first": "1997-05-16",
+   "asOf": "2026-11-14",
+   "first": "1997-05-17",
    "days": 1883,
    "ffill": true,
    "dailyDays": 400
@@ -45,8 +45,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance AXL17799-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/AXL17799-USD",
-   "asOf": "2026-11-13",
-   "first": "2022-09-30",
+   "asOf": "2026-11-14",
+   "first": "2022-10-01",
    "days": 559,
    "ffill": false,
    "dailyDays": 400
@@ -55,9 +55,9 @@
    "kind": "crypto",
    "source": "Yahoo Finance BNKR37545-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/BNKR37545-USD",
-   "asOf": "2026-11-13",
-   "first": "2025-08-15",
-   "days": 409,
+   "asOf": "2026-11-14",
+   "first": "2025-08-09",
+   "days": 410,
    "ffill": false,
    "dailyDays": 400
   },
@@ -65,8 +65,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance BTC-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/BTC-USD",
-   "asOf": "2026-11-13",
-   "first": "2014-09-19",
+   "asOf": "2026-11-14",
+   "first": "2014-09-20",
    "days": 978,
    "ffill": false,
    "dailyDays": 400
@@ -75,8 +75,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance DOT-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/DOT-USD",
-   "asOf": "2026-11-13",
-   "first": "2020-08-21",
+   "asOf": "2026-11-14",
+   "first": "2020-08-22",
    "days": 669,
    "ffill": false,
    "dailyDays": 400
@@ -85,8 +85,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance ETH-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/ETH-USD",
-   "asOf": "2026-11-13",
-   "first": "2017-11-10",
+   "asOf": "2026-11-14",
+   "first": "2017-11-11",
    "days": 814,
    "ffill": false,
    "dailyDays": 400
@@ -95,8 +95,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance FLR-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/FLR-USD",
-   "asOf": "2026-11-13",
-   "first": "2023-01-13",
+   "asOf": "2026-11-14",
+   "first": "2023-01-14",
    "days": 544,
    "ffill": false,
    "dailyDays": 400
@@ -105,8 +105,8 @@
    "kind": "traditional",
    "source": "Gold futures front month (Yahoo GC=F)",
    "sourceUrl": "https://finance.yahoo.com/quote/GC=F",
-   "asOf": "2026-11-13",
-   "first": "2000-09-01",
+   "asOf": "2026-11-14",
+   "first": "2000-09-02",
    "days": 1711,
    "ffill": true,
    "dailyDays": 400
@@ -115,8 +115,8 @@
    "kind": "traditional",
    "source": "Alphabet Class A (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/GOOGL",
-   "asOf": "2026-11-13",
-   "first": "2004-08-20",
+   "asOf": "2026-11-14",
+   "first": "2004-08-21",
    "days": 1504,
    "ffill": true,
    "dailyDays": 400
@@ -125,8 +125,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance HBAR-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/HBAR-USD",
-   "asOf": "2026-11-13",
-   "first": "2019-09-20",
+   "asOf": "2026-11-14",
+   "first": "2019-09-21",
    "days": 717,
    "ffill": false,
    "dailyDays": 400
@@ -135,8 +135,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance HYPE32196-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/HYPE32196-USD",
-   "asOf": "2026-11-13",
-   "first": "2024-11-29",
+   "asOf": "2026-11-14",
+   "first": "2024-11-30",
    "days": 445,
    "ffill": false,
    "dailyDays": 400
@@ -145,8 +145,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance ICP-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/ICP-USD",
-   "asOf": "2026-11-13",
-   "first": "2021-05-14",
+   "asOf": "2026-11-14",
+   "first": "2021-05-15",
    "days": 631,
    "ffill": false,
    "dailyDays": 400
@@ -155,8 +155,8 @@
    "kind": "traditional",
    "source": "Intel (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/INTC",
-   "asOf": "2026-11-13",
-   "first": "1980-03-21",
+   "asOf": "2026-11-14",
+   "first": "1980-03-22",
    "days": 2778,
    "ffill": true,
    "dailyDays": 400
@@ -165,8 +165,8 @@
    "kind": "traditional",
    "source": "Meta Platforms (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/META",
-   "asOf": "2026-11-13",
-   "first": "2012-05-18",
+   "asOf": "2026-11-14",
+   "first": "2012-05-19",
    "days": 1100,
    "ffill": true,
    "dailyDays": 400
@@ -175,8 +175,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance NEAR-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/NEAR-USD",
-   "asOf": "2026-11-13",
-   "first": "2020-10-16",
+   "asOf": "2026-11-14",
+   "first": "2020-10-17",
    "days": 661,
    "ffill": false,
    "dailyDays": 400
@@ -185,8 +185,8 @@
    "kind": "traditional",
    "source": "Nvidia (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/NVDA",
-   "asOf": "2026-11-13",
-   "first": "1999-01-22",
+   "asOf": "2026-11-14",
+   "first": "1999-01-23",
    "days": 1795,
    "ffill": true,
    "dailyDays": 400
@@ -195,8 +195,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance ONDO-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/ONDO-USD",
-   "asOf": "2026-11-13",
-   "first": "2024-01-19",
+   "asOf": "2026-11-14",
+   "first": "2024-01-20",
    "days": 491,
    "ffill": false,
    "dailyDays": 400
@@ -205,8 +205,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance QNT-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/QNT-USD",
-   "asOf": "2026-11-13",
-   "first": "2018-08-10",
+   "asOf": "2026-11-14",
+   "first": "2018-08-11",
    "days": 775,
    "ffill": false,
    "dailyDays": 400
@@ -215,8 +215,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance RENDER-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/RENDER-USD",
-   "asOf": "2026-11-13",
-   "first": "2020-06-12",
+   "asOf": "2026-11-14",
+   "first": "2020-06-13",
    "days": 679,
    "ffill": false,
    "dailyDays": 400
@@ -225,8 +225,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance SOL-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/SOL-USD",
-   "asOf": "2026-11-13",
-   "first": "2020-04-10",
+   "asOf": "2026-11-14",
+   "first": "2020-04-11",
    "days": 688,
    "ffill": false,
    "dailyDays": 400
@@ -235,8 +235,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance SUI20947-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/SUI20947-USD",
-   "asOf": "2026-11-13",
-   "first": "2023-05-05",
+   "asOf": "2026-11-14",
+   "first": "2023-05-06",
    "days": 528,
    "ffill": false,
    "dailyDays": 400
@@ -245,8 +245,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance TAO22974-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/TAO22974-USD",
-   "asOf": "2026-11-13",
-   "first": "2023-03-10",
+   "asOf": "2026-11-14",
+   "first": "2023-03-11",
    "days": 536,
    "ffill": false,
    "dailyDays": 400
@@ -255,8 +255,8 @@
    "kind": "traditional",
    "source": "Tesla (Yahoo Finance)",
    "sourceUrl": "https://finance.yahoo.com/quote/TSLA",
-   "asOf": "2026-11-13",
-   "first": "2010-07-02",
+   "asOf": "2026-11-14",
+   "first": "2010-07-03",
    "days": 1198,
    "ffill": true,
    "dailyDays": 400
@@ -265,8 +265,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance VET-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/VET-USD",
-   "asOf": "2026-11-13",
-   "first": "2018-08-03",
+   "asOf": "2026-11-14",
+   "first": "2018-08-04",
    "days": 776,
    "ffill": false,
    "dailyDays": 400
@@ -275,8 +275,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance XDC-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/XDC-USD",
-   "asOf": "2026-11-13",
-   "first": "2018-04-13",
+   "asOf": "2026-11-14",
+   "first": "2018-04-14",
    "days": 792,
    "ffill": false,
    "dailyDays": 400
@@ -285,8 +285,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance XLM-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/XLM-USD",
-   "asOf": "2026-11-13",
-   "first": "2017-11-10",
+   "asOf": "2026-11-14",
+   "first": "2017-11-11",
    "days": 814,
    "ffill": false,
    "dailyDays": 400
@@ -295,8 +295,8 @@
    "kind": "crypto",
    "source": "Yahoo Finance XRP-USD (daily close, USD)",
    "sourceUrl": "https://finance.yahoo.com/quote/XRP-USD",
-   "asOf": "2026-11-13",
-   "first": "2017-11-10",
+   "asOf": "2026-11-14",
+   "first": "2017-11-11",
    "days": 814,
    "ffill": false,
    "dailyDays": 400
@@ -388,7 +388,7 @@
    "first": "2023-05-03",
    "source": "Yahoo Finance SUI20947-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.47%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.45%"
    ]
   },
   "RENDER": {
@@ -396,7 +396,7 @@
    "first": "2020-06-11",
    "source": "Yahoo Finance RENDER-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.63%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.62%"
    ]
   },
   "AXL": {
@@ -404,7 +404,7 @@
    "first": "2022-09-28",
    "source": "Yahoo Finance AXL17799-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.74%"
+    "coingecko check unavailable: HTTP Error 429: Too Many Requests"
    ]
   },
   "NEAR": {
@@ -412,7 +412,7 @@
    "first": "2020-10-14",
    "source": "Yahoo Finance NEAR-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.54%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.53%"
    ]
   },
   "SOL": {
@@ -436,7 +436,7 @@
    "first": "2024-11-29",
    "source": "Yahoo Finance HYPE32196-USD (daily close, USD)",
    "notes": [
-    "Yahoo checked vs CoinGecko last year: median gap 2.57%"
+    "Yahoo checked vs CoinGecko last year: median gap 2.56%"
    ]
   },
   "AERO": {
